@@ -10,7 +10,7 @@ const N_exemplars_per_difficulty = 17;
 const N_trials_per_difficulty = 5;
 
 var is_time_out = false;
-var score = 0;
+var score = 10;
 
 var current_difficulty = 1;
 var current_stimulus = 0;
@@ -97,8 +97,7 @@ var intro_1 = {
             <br>You will not know in advance which category a specific shape belongs to.</p>
             <p>After you see an image, you will be asked to guess its category <b>(left arrow for category A, right arrow for category B)</b></p>
             <p>After you choose, the screen will show you whether you were correct or not.</p>
-            <p><b>You will receive a bonus payment of $0.05 for each correct answer!</b></p>
-            <p> So you can increase your bonus by guessing correctly, and by guessing as quickly as possible so you move on to the next image sooner.</p>
+            <p>Please try to respond as quickly and accurately as possible every time.</p>
             <p>Press any key to continue.</p>
             `,
   data: {task: 'introduction_1'}
@@ -108,13 +107,24 @@ timeline.push(intro_1)
 var intro_2 = {
     type: jsPsychHtmlKeyboardResponse,
     stimulus: `
+              <p><b>You will receive a bonus payment depending on your performance!</b></p>
+              <p><b>You start with a $10 bonus and each time you guess a shape's category incorrectly $0.05 will be subtracted from the bonus. <br> After the end of the experiment you will receive the remaining bonus as payment.</b></p>
+              <p>Press any key to continue.</p>
+              `,
+    data: {task: 'introduction_1'}
+  };
+  timeline.push(intro_2)
+
+var intro_3 = {
+    type: jsPsychHtmlKeyboardResponse,
+    stimulus: `
             <p> <b>The first 10 trials are a practice round that will not count towards your bonus payment.</b></p>
             <p> You will be notified when practice finishes and the test begins. </p>
             <p> Press any key to begin the practice round.</p>
             `,
     data: {task: 'introduction_2'}
   };
-timeline.push(intro_2)
+timeline.push(intro_3)
 
 var ITI = {
     type: jsPsychHtmlKeyboardResponse,
@@ -124,6 +134,7 @@ var ITI = {
             <div> Please press any key to continue to the next image.</div>
         `
     },
+    trial_duration: 5000,
     data: {task: 'ITI'}
 };
 
@@ -229,14 +240,16 @@ var feedback_test = {
         const last_trial = jsPsych.data.get().last(1).values()[0];
         if (last_trial.response) {
             if(last_trial.correct){
-                score += 0.05;
-                score = Math.round(score * 100) / 100;
-                return `<p> <font color="green" size="5vw"> Correct category! </font> <br> <br> <font color="green" size="8vw"> + $0.05 </font> </p>`;
+                return `<p> <font color="green" size="5vw"> Correct category! </font></p>`;
             } else {
-                return `<p> <font color="red" size="5vw"> Wrong category! </font> </p>`;
+                score -= 0.05;
+                score = Math.round(score * 100) / 100;
+                return `<p> <font size="4vw"> Wrong category! </font> <br> <br> <font color="red" size="7vw"> - $0.05 </font> </p>`;
             }
         } else {
-            return `<p> <font color="red" size="5vw"> Time out! </font> <br> Please try to respond as quickly as possible. </p>`
+            score -= 0.05;
+            score = Math.round(score * 100) / 100;
+            return `<p> <font color="red" size="5vw"> Time out! </font> <br> <font color="red" size="7vw"> - $0.05 points </font> <br> Please try to respond as quickly as possible. </p>`
         }
     },
     data: function(){
@@ -275,7 +288,7 @@ var intermission = {
     type: jsPsychHtmlKeyboardResponse,
     stimulus: `
             <b> <p> The practice round has finished.</p>
-            <b> For the rest of the experiment you will receive a $0.05 bonus for each correct answer!</b>
+            <b> For the rest of the experiment if you guess incorrectly $0.05 will be subtracted from your bonus!</b>
             <p> Press any key to begin the test. </p>
             `,
     data: {task: 'intermission'}
