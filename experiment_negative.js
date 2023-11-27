@@ -249,7 +249,7 @@ var feedback_test = {
         } else {
             score -= 0.05;
             score = Math.round(score * 100) / 100;
-            return `<p> <font color="red" size="5vw"> Time out! </font> <br> <font color="red" size="7vw"> - $0.05 points </font> <br> Please try to respond as quickly as possible. </p>`
+            return `<p> <font color="red" size="5vw"> Time out! </font> <br> <font color="red" size="7vw"> - $0.05 </font> <br> Please try to respond as quickly as possible. </p>`
         }
     },
     data: function(){
