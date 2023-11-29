@@ -17,7 +17,7 @@ var current_stimulus = 0;
 
 var timeline = []; 
 
-var pack_ID = "shapes_diff"
+var pack_ID = "shapes_1"
 var stim_path = "./stimuli/" ;
 
 if (IS_ONLINE){
