@@ -3,7 +3,9 @@ from scipy.spatial import distance_matrix
 import shutil
 import os
 
-SC = np.loadtxt("./shapes/SC.txt", dtype='f', delimiter=',')
+shape_set = 3
+path_src = f'./shapes_{shape_set}/'
+SC = np.loadtxt(path_src + 'SC.txt', dtype='f', delimiter=',')
 
 D = distance_matrix(SC, SC)
 
@@ -31,8 +33,7 @@ for r in cat_ranges:
         diffs[dj + c] = j
     c += len(r)    
 
-path_src = './shapes/'
-path_dest = './stimuli/pack_shapes_diff/'
+path_dest = f'./stimuli/pack_shapes_{shape_set}/'
 
 for i, r in enumerate(cat_ranges):
     for ex in r[::2]:
