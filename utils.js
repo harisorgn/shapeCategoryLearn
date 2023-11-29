@@ -46,6 +46,34 @@ function wrap_wrong_feedback_in_html(stimulus, category){
     return txt
 }
 
+function positive_feedback(){
+    return `<p> <font color="green" size="5vw"> Correct category! </font> <br> <br> <font color="green" size="8vw"> + $0.05 </font> </p>`;
+}
+
+function positive_feedback_no_bonus(){
+    return `<p><font color="green" size="5vw"> Correct category! </font></p>`;
+}
+
+function negative_feedback(is_score_zero){
+    if (is_score_zero){
+        return `<p> <font size="4vw"> Wrong category! </font> </p>`
+    }else{
+        return `<p> <font size="4vw"> Wrong category! </font> <br> <br> <font color="red" size="7vw"> - $0.05 </font> </p>`;
+    }
+}
+
+function negative_feedback_no_bonus(){
+    return `<p> <font size="4vw"> Wrong category! </font> </p>`
+}
+
+function timeout_feedback(){
+    return `<p> <font color="red" size="5vw"> Time out! </font> <br> <font color="red" size="7vw"> - $0.05 </font> <br> Please try to respond as quickly as possible. </p>`
+}
+
+function timeout_feedback_no_bonus(){
+    return `<p> <font color="red" size="5vw"> Time out! </font> <br> Please try to respond as quickly as possible. </p>`
+}
+
 function* range_iter(start, end) {
     for (let i = start; i <= end; i++) {
         yield i;
