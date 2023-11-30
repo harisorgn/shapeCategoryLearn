@@ -227,21 +227,29 @@ var feedback_test = {
     trial_duration: 1500,
     stimulus: function(){
         const last_trial = jsPsych.data.get().last(1).values()[0];
+        const is_score_zero = !(score > 0);
         if (last_trial.response) {
             if(last_trial.correct){
                 score += 0.05;
                 score = Math.round(score * 100) / 100;
                 return positive_feedback()
             } else {
-                is_score_zero = !(score > 0)
                 if (!is_score_zero){
                     score -= 0.05;
                     score = Math.round(score * 100) / 100;
+                    return negative_feedback()
+                }else{
+                    return negative_feedback_no_bonus()
                 }
-                return negative_feedback(is_score_zero)
             }
         } else {
-            return timeout_feedback()
+            if (!is_score_zero){
+                score -= 0.05;
+                score = Math.round(score * 100) / 100;
+                return timeout_feedback()
+            } else {
+                return timeout_feedback_no_bonus()
+            }
         }
     },
     data: function(){

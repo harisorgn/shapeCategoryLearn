@@ -54,16 +54,12 @@ function positive_feedback_no_bonus(){
     return `<p><font color="green" size="5vw"> Correct category! </font></p>`;
 }
 
-function negative_feedback(is_score_zero){
-    if (is_score_zero){
-        return `<p> <font size="4vw"> Wrong category! </font> </p>`
-    }else{
-        return `<p> <font size="4vw"> Wrong category! </font> <br> <br> <font color="red" size="7vw"> - $0.05 </font> </p>`;
-    }
+function negative_feedback(){
+    return `<p> <font color="red" size="4vw"> Wrong category! </font> <br> <br> <font color="red" size="7vw"> - $0.05 </font> </p>`;
 }
 
 function negative_feedback_no_bonus(){
-    return `<p> <font size="4vw"> Wrong category! </font> </p>`
+    return `<p> <font color="red" size="4vw"> Wrong category! </font> </p>`
 }
 
 function timeout_feedback(){
