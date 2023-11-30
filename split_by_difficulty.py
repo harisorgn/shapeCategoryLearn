@@ -1,37 +1,18 @@
 import numpy as np
-from scipy.spatial import distance_matrix
 import shutil
 import os
+
+from utils import *
 
 shape_set = 3
 path_src = f'./shapes_{shape_set}/'
 SC = np.loadtxt(path_src + 'SC.txt', dtype='f', delimiter=',')
 
-D = distance_matrix(SC, SC)
-
-N_stim, N_dims = SC.shape
 N_categories = 2
-N_diff_levels = 5
+N_stim = SC.shape[0]
 
-cat_bounds = np.linspace(0, N_stim, N_categories + 1, dtype='i') 
-cat_ranges = np.empty(N_categories, dtype=np.ndarray)
-for i in range(0, N_categories):
-    cat_ranges[i] = np.arange(cat_bounds[i], cat_bounds[i+1])
-
-avg_dists = np.zeros(N_stim)
-for i in range(0, N_stim):
-    other_cats = [r for r in cat_ranges if i not in r]
-    avg_dists[i] = np.mean(D[i, other_cats])
-
-diffs = np.zeros(N_stim, dtype='i')
-c = 0
-for r in cat_ranges:
-    cat_avgd = avg_dists[r]
-    idxs = cat_avgd.argsort()[::-1] # sort by maximum average distance across other categories 
-    idxs_diff = np.array_split(idxs, N_diff_levels)
-    for j, dj in enumerate(idxs_diff):
-        diffs[dj + c] = j
-    c += len(r)    
+diffs = split_diff(SC, N_categories)
+cat_ranges = category_ranges(N_stim, N_categories)
 
 path_dest = f'./stimuli/pack_shapes_{shape_set}/'
 
