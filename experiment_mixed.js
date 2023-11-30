@@ -269,7 +269,7 @@ var feedback_train = {
                 return negative_feedback_no_bonus()
             }
         } else {
-            return timeout_feedback_no_bonus
+            return timeout_feedback_no_bonus()
         }
     },
     data: function(){

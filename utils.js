@@ -55,19 +55,19 @@ function positive_feedback_no_bonus(){
 }
 
 function negative_feedback(){
-    return `<p> <font color="red" size="4vw"> Wrong category! </font> <br> <br> <font color="red" size="7vw"> - $0.05 </font> </p>`;
+    return `<p> <font color="red" size="5vw"> Wrong category! </font> <br> <br> <font color="red" size="8vw"> - $0.05 </font> </p>`;
 }
 
 function negative_feedback_no_bonus(){
-    return `<p> <font color="red" size="4vw"> Wrong category! </font> </p>`
+    return `<p> <font color="red" size="5vw"> Wrong category! </font> </p>`
 }
 
 function timeout_feedback(){
-    return `<p> <font color="red" size="5vw"> Time out! </font> <br> <font color="red" size="7vw"> - $0.05 </font> <br> Please try to respond as quickly as possible. </p>`
+    return `<p> <font color="red" size="5vw"> Time out! </font> <br> <br> <font color="red" size="8vw"> - $0.05 </font> <br> <br> Please try to respond as quickly as possible. </p>`
 }
 
 function timeout_feedback_no_bonus(){
-    return `<p> <font color="red" size="5vw"> Time out! </font> <br> Please try to respond as quickly as possible. </p>`
+    return `<p> <font color="red" size="5vw"> Time out! </font> <br> <br> Please try to respond as quickly as possible. </p>`
 }
 
 function* range_iter(start, end) {
