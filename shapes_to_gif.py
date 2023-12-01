@@ -22,4 +22,7 @@ avg_dists = avg_dist_to_other_categories(D, cat_ranges)
 
 prototype_IDs = category_prototypes(D, cat_ranges)
 
-print(prototype_IDs)
+p = prototype_IDs[0]+1
+s = cat_ranges[0][-1]+1
+
+write_shape_gif(s, p, path_src)

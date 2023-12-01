@@ -130,7 +130,6 @@ var ITI = {
 var stim_train = {
     type: jsPsychHtmlKeyboardResponse,
     stimulus: function (){
-        console.log(jsPsych.timelineVariable('stimulus'))
         return wrap_stim_in_html(jsPsych.timelineVariable('stimulus'), score)
     },
     choices: "NO_KEYS",

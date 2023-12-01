@@ -1,6 +1,8 @@
 import numpy as np
 from scipy.spatial import distance_matrix
 import imageio.v3 as iio
+import imageio.v2 as iiov2
+from pygifsicle import optimize
 
 def category_ranges(N_stim, N_categories):
     cat_bounds = np.linspace(0, N_stim, N_categories + 1, dtype='i') 
@@ -55,9 +57,15 @@ def split_diff(SC, N_categories):
     return diffs 
 
 def write_shape_gif(shape_start, shape_end, path_src):
-    filenames = [path_src + f'shape_{i}.png' for i in range(shape_start, shape_end+1)]
+    filenames = [path_src + f'shape_{i}.png' for i in range(shape_start, shape_end+1, np.sign(shape_end - shape_start))]
 
-    with iio.get_writer('./mov.gif', mode='I') as writer:
+    frames = np.stack([iio.imread(f) for f in filenames], axis=0)
+    iio.imwrite('./mov.gif', frames)
+    optimize('./mov.gif')
+
+    """
+    with iiov2.get_writer('./mov.gif', mode='I') as writer:
         for filename in filenames:
             image = iio.imread(filename)
             writer.append_data(image)
+    """
