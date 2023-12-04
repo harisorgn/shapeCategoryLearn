@@ -1,3 +1,6 @@
+import shutil
+import os
+
 import numpy as np
 from scipy.spatial import distance_matrix
 import imageio.v3 as iio
@@ -56,16 +59,24 @@ def split_diff(SC, N_categories):
 
     return diffs 
 
-def write_shape_gif(shape_start, shape_end, path_src):
-    filenames = [path_src + f'shape_{i}.png' for i in range(shape_start, shape_end+1, np.sign(shape_end - shape_start))]
+def write_shape(shape_ID, diff_level, category_ID, path_src, path_dest):
+    os.makedirs(path_dest, exist_ok=True)
+    c = len(os.listdir(path_dest))
 
-    frames = np.stack([iio.imread(f) for f in filenames], axis=0)
-    iio.imwrite('./mov.gif', frames)
-    optimize('./mov.gif')
+    file_src = path_src + f'shape_{shape_ID}.png'
+    file_dest =  path_dest + f'ex_{category_ID}_{diff_level}_{c+1}.png'
 
-    """
-    with iiov2.get_writer('./mov.gif', mode='I') as writer:
-        for filename in filenames:
-            image = iio.imread(filename)
-            writer.append_data(image)
-    """
+    shutil.copy(file_src, file_dest)
+
+def write_shape_gif(shape_ID, prototype_ID, diff_level, category_ID, path_src, path_dest):
+    s = np.sign(prototype_ID - shape_ID)
+    files_src = [path_src + f'shape_{i}.png' for i in range(shape_ID, prototype_ID + s, s)]
+
+    os.makedirs(path_dest, exist_ok=True)
+    c = len(os.listdir(path_dest))
+
+    frames = np.stack([iio.imread(f) for f in files_src], axis=0)
+    filename =  path_dest + f'ex_{category_ID}_{diff_level}_{c+1}.gif'
+
+    iio.imwrite(filename, frames, duration=150)
+    optimize(filename)

@@ -1,7 +1,4 @@
 import numpy as np
-import shutil
-import os
-
 from utils import *
 
 shape_set = 3
@@ -18,13 +15,11 @@ path_dest = f'./stimuli/pack_shapes_{shape_set}/'
 
 for i, r in enumerate(cat_ranges):
     for ex in r[::2]:
-        dir_dest = path_dest + f'cat_{i+1}/' + f'diff_{diffs[ex]+1}/'
-        os.makedirs(dir_dest, exist_ok=True)
-        c = len(os.listdir(dir_dest))
+        shape_ID = ex + 1
+        diff_level = diffs[ex] + 1
+        category_ID = i + 1
 
-        file_src = path_src + f'shape_{ex+1}.png'
-        file_dest =  dir_dest + f'ex_{i+1}_{diffs[ex]+1}_{c+1}.png'
-        shutil.copy(file_src, file_dest)
+        dir_dest = path_dest + f'cat_{category_ID}/' + f'diff_{diff_level}/'
 
-
-
+        write_shape(shape_ID, diff_level, category_ID, path_src, dir_dest)
+        
