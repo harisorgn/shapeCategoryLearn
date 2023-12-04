@@ -1,5 +1,5 @@
 const IS_DEBUG = false
-const IS_ONLINE = false
+const IS_ONLINE = true
 const time_experiment = 10; // minutes
 const T_exp = time_experiment * 60 * 1000; // ms 
 const N_training_trials = 10;
@@ -93,12 +93,12 @@ timeline.push(welcome)
 var intro_1 = {
   type: jsPsychHtmlKeyboardResponse,
   stimulus: `
-            <p>You will be shown images of black shapes. Some are category A, some are category B.
+            <p>You will be shown images of white shapes. Some are category A, some are category B.
             <br>You will not know in advance which category a specific shape belongs to.</p>
             <p>After you see an image, you will be asked to guess its category <b>(left arrow for category A, right arrow for category B)</b></p>
             <p>After you choose, the screen will show you whether you were correct or not.</p>
             <p><b>You will receive a bonus payment of $0.05 for each correct answer!</b></p>
-            <p> So you can increase your bonus by guessing correctly, and by guessing as quickly as possible so you move on to the next image sooner.</p>
+            <p><b>You will lose $0.05 from your bonus payment for each incorrect answer! The bonus can not become less that $0.</b></p>
             <p>Press any key to continue.</p>
             `,
   data: {task: 'introduction_1'}
@@ -287,7 +287,8 @@ var intermission = {
     type: jsPsychHtmlKeyboardResponse,
     stimulus: `
             <b> <p> The practice round has finished.</p>
-            <b> For the rest of the experiment you will receive a $0.05 bonus for each correct answer!</b>
+            <p> For the rest of the experiment you will receive a $0.05 bonus for each correct answer and lose $0.05 from your bonus for each incorrect answer!</p>
+            <p> The bonus can not become less than $0. </b>
             <p> Press any key to begin the test. </p>
             `,
     data: {task: 'intermission'}

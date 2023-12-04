@@ -93,7 +93,7 @@ timeline.push(welcome)
 var intro_1 = {
   type: jsPsychHtmlKeyboardResponse,
   stimulus: `
-            <p>You will be shown images of black shapes. Some are category A, some are category B.
+            <p>You will be shown images of white shapes. Some are category A, some are category B.
             <br>You will not know in advance which category a specific shape belongs to.</p>
             <p>After you see an image, you will be asked to guess its category <b>(left arrow for category A, right arrow for category B)</b></p>
             <p>After you choose, the screen will show you whether you were correct or not.</p>
