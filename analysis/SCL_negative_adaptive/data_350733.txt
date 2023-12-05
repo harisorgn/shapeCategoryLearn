@@ -1,0 +1,1968 @@
+"success","timeout","failed_images","failed_audio","failed_video","trial_type","trial_index","time_elapsed","internal_node_id","subject_id","study_id","session_id","rt","stimulus","response","task","correct_response","exemplar_ID","category","difficulty","phase","correct","bonus"
+"true","false","[]","[]","[]","preload","0","2","0.0-0.0","60e9645361b411f90370a970","655cb802637e0dbe2941dbc4","655cb8bec76174f27e375d25","","","","","","","","","","",""
+"","","","","","html-keyboard-response","1","9910","0.0-1.0","60e9645361b411f90370a970","655cb802637e0dbe2941dbc4","655cb8bec76174f27e375d25","9908","Welcome to the Category Learning experiment! Press any key to continue.","enter","welcome","","","","","","",""
+"","","","","","html-keyboard-response","2","35007","0.0-2.0","60e9645361b411f90370a970","655cb802637e0dbe2941dbc4","655cb8bec76174f27e375d25","25096","
+            <p>You will be shown images of black shapes. Some are category A, some are category B.
+            <br>You will not know in advance which category a specific shape belongs to.</p>
+            <p>After you see an image, you will be asked to guess its category <b>(left arrow for category A, right arrow for category B)</b></p>
+            <p>After you choose, the screen will show you whether you were correct or not.</p>
+            <p>Please try to respond as quickly and accurately as possible every time.</p>
+            <p>Press any key to continue.</p>
+            ","enter","introduction_1","","","","","","",""
+"","","","","","html-keyboard-response","3","47220","0.0-3.0","60e9645361b411f90370a970","655cb802637e0dbe2941dbc4","655cb8bec76174f27e375d25","12212","
+              <p><b>You will receive a bonus payment depending on your performance!</b></p>
+              <p><b>You start with a $10 bonus and each time you guess a shape's category incorrectly $0.05 will be subtracted from the bonus. <br> After the end of the experiment you will receive the remaining bonus as payment.</b></p>
+              <p>Press any key to continue.</p>
+              ","enter","introduction_1","","","","","","",""
+"","","","","","html-keyboard-response","4","52782","0.0-4.0","60e9645361b411f90370a970","655cb802637e0dbe2941dbc4","655cb8bec76174f27e375d25","5561","
+            <p> <b>The first 10 trials are a practice round that will not count towards your bonus payment.</b></p>
+            <p> You will be notified when practice finishes and the test begins. </p>
+            <p> Press any key to begin the practice round.</p>
+            ","enter","introduction_2","","","","","","",""
+"","","","","","html-keyboard-response","5","55747","0.0-5.0-0.0","60e9645361b411f90370a970","655cb802637e0dbe2941dbc4","655cb8bec76174f27e375d25","2964","
+            
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $10 </font>
+            </div>
+        </div>
+    
+            <div> Please press any key to continue to the next image.</div>
+        ","enter","ITI","","","","","","",""
+"","","","","","html-keyboard-response","6","56349","0.0-5.0-1.0","60e9645361b411f90370a970","655cb802637e0dbe2941dbc4","655cb8bec76174f27e375d25","null","
+        
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $10 </font>
+            </div>
+        </div>
+    
+        <img class=""stim"" src=./stimuli//pack_shapes_diff/cat_2/diff_2/ex_2_2_5.png></img>
+    ","null","stimulus","","","","","","",""
+"","","","","","html-keyboard-response","7","57351","0.0-5.0-2.0","60e9645361b411f90370a970","655cb802637e0dbe2941dbc4","655cb8bec76174f27e375d25","null","
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $10 </font>
+            </div>
+        </div>
+    ","null","","","","","","","",""
+"","","","","","html-keyboard-response","8","61353","0.0-5.0-3.0","60e9645361b411f90370a970","655cb802637e0dbe2941dbc4","655cb8bec76174f27e375d25","null","./stimuli//pack_shapes_diff/cat_2/diff_2/ex_2_2_5.png","null","response","ArrowRight","5","2","2","train","false",""
+"","","","","","html-keyboard-response","9","62855","0.0-5.0-4.0","60e9645361b411f90370a970","655cb802637e0dbe2941dbc4","655cb8bec76174f27e375d25","null","<p> <font color=""red"" size=""5vw""> Time out! </font> <br> Please try to respond as quickly as possible. </p>","null","feedback","","","","","","","10"
+"","","","","","html-keyboard-response","10","67857","0.0-5.0-0.1","60e9645361b411f90370a970","655cb802637e0dbe2941dbc4","655cb8bec76174f27e375d25","null","
+            
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $10 </font>
+            </div>
+        </div>
+    
+            <div> Please press any key to continue to the next image.</div>
+        ","null","ITI","","","","","","",""
+"","","","","","html-keyboard-response","11","68459","0.0-5.0-1.1","60e9645361b411f90370a970","655cb802637e0dbe2941dbc4","655cb8bec76174f27e375d25","null","
+        
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $10 </font>
+            </div>
+        </div>
+    
+        <img class=""stim"" src=./stimuli//pack_shapes_diff/cat_1/diff_1/ex_1_1_10.png></img>
+    ","null","stimulus","","","","","","",""
+"","","","","","html-keyboard-response","12","69460","0.0-5.0-2.1","60e9645361b411f90370a970","655cb802637e0dbe2941dbc4","655cb8bec76174f27e375d25","null","
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $10 </font>
+            </div>
+        </div>
+    ","null","","","","","","","",""
+"","","","","","html-keyboard-response","13","73461","0.0-5.0-3.1","60e9645361b411f90370a970","655cb802637e0dbe2941dbc4","655cb8bec76174f27e375d25","null","./stimuli//pack_shapes_diff/cat_1/diff_1/ex_1_1_10.png","null","response","ArrowLeft","10","1","1","train","false",""
+"","","","","","html-keyboard-response","14","74963","0.0-5.0-4.1","60e9645361b411f90370a970","655cb802637e0dbe2941dbc4","655cb8bec76174f27e375d25","null","<p> <font color=""red"" size=""5vw""> Time out! </font> <br> Please try to respond as quickly as possible. </p>","null","feedback","","","","","","","10"
+"","","","","","html-keyboard-response","15","79965","0.0-5.0-0.2","60e9645361b411f90370a970","655cb802637e0dbe2941dbc4","655cb8bec76174f27e375d25","null","
+            
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $10 </font>
+            </div>
+        </div>
+    
+            <div> Please press any key to continue to the next image.</div>
+        ","null","ITI","","","","","","",""
+"","","","","","html-keyboard-response","16","80566","0.0-5.0-1.2","60e9645361b411f90370a970","655cb802637e0dbe2941dbc4","655cb8bec76174f27e375d25","null","
+        
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $10 </font>
+            </div>
+        </div>
+    
+        <img class=""stim"" src=./stimuli//pack_shapes_diff/cat_2/diff_1/ex_2_1_17.png></img>
+    ","null","stimulus","","","","","","",""
+"","","","","","html-keyboard-response","17","81568","0.0-5.0-2.2","60e9645361b411f90370a970","655cb802637e0dbe2941dbc4","655cb8bec76174f27e375d25","null","
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $10 </font>
+            </div>
+        </div>
+    ","null","","","","","","","",""
+"","","","","","html-keyboard-response","18","85569","0.0-5.0-3.2","60e9645361b411f90370a970","655cb802637e0dbe2941dbc4","655cb8bec76174f27e375d25","null","./stimuli//pack_shapes_diff/cat_2/diff_1/ex_2_1_17.png","null","response","ArrowRight","17","2","1","train","false",""
+"","","","","","html-keyboard-response","19","86218","0.0-5.0-4.2","60e9645361b411f90370a970","655cb802637e0dbe2941dbc4","655cb8bec76174f27e375d25","649","<p> <font color=""red"" size=""5vw""> Time out! </font> <br> Please try to respond as quickly as possible. </p>","a","feedback","","","","","","","10"
+"","","","","","html-keyboard-response","20","88191","0.0-5.0-0.3","60e9645361b411f90370a970","655cb802637e0dbe2941dbc4","655cb8bec76174f27e375d25","1972","
+            
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $10 </font>
+            </div>
+        </div>
+    
+            <div> Please press any key to continue to the next image.</div>
+        ","a","ITI","","","","","","",""
+"","","","","","html-keyboard-response","21","88793","0.0-5.0-1.3","60e9645361b411f90370a970","655cb802637e0dbe2941dbc4","655cb8bec76174f27e375d25","null","
+        
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $10 </font>
+            </div>
+        </div>
+    
+        <img class=""stim"" src=./stimuli//pack_shapes_diff/cat_2/diff_1/ex_2_1_7.png></img>
+    ","null","stimulus","","","","","","",""
+"","","","","","html-keyboard-response","22","89794","0.0-5.0-2.3","60e9645361b411f90370a970","655cb802637e0dbe2941dbc4","655cb8bec76174f27e375d25","null","
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $10 </font>
+            </div>
+        </div>
+    ","null","","","","","","","",""
+"","","","","","html-keyboard-response","23","93796","0.0-5.0-3.3","60e9645361b411f90370a970","655cb802637e0dbe2941dbc4","655cb8bec76174f27e375d25","null","./stimuli//pack_shapes_diff/cat_2/diff_1/ex_2_1_7.png","null","response","ArrowRight","7","2","1","train","false",""
+"","","","","","html-keyboard-response","24","94883","0.0-5.0-4.3","60e9645361b411f90370a970","655cb802637e0dbe2941dbc4","655cb8bec76174f27e375d25","1086","<p> <font color=""red"" size=""5vw""> Time out! </font> <br> Please try to respond as quickly as possible. </p>","z","feedback","","","","","","","10"
+"","","","","","html-keyboard-response","25","95660","0.0-5.0-0.4","60e9645361b411f90370a970","655cb802637e0dbe2941dbc4","655cb8bec76174f27e375d25","776","
+            
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $10 </font>
+            </div>
+        </div>
+    
+            <div> Please press any key to continue to the next image.</div>
+        ","z","ITI","","","","","","",""
+"","","","","","html-keyboard-response","26","96261","0.0-5.0-1.4","60e9645361b411f90370a970","655cb802637e0dbe2941dbc4","655cb8bec76174f27e375d25","null","
+        
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $10 </font>
+            </div>
+        </div>
+    
+        <img class=""stim"" src=./stimuli//pack_shapes_diff/cat_2/diff_1/ex_2_1_3.png></img>
+    ","null","stimulus","","","","","","",""
+"","","","","","html-keyboard-response","27","97264","0.0-5.0-2.4","60e9645361b411f90370a970","655cb802637e0dbe2941dbc4","655cb8bec76174f27e375d25","null","
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $10 </font>
+            </div>
+        </div>
+    ","null","","","","","","","",""
+"","","","","","html-keyboard-response","28","102028","0.0-5.0-3.4","60e9645361b411f90370a970","655cb802637e0dbe2941dbc4","655cb8bec76174f27e375d25","null","./stimuli//pack_shapes_diff/cat_2/diff_1/ex_2_1_3.png","null","response","ArrowRight","3","2","1","train","false",""
+"","","","","","html-keyboard-response","29","104027","0.0-5.0-4.4","60e9645361b411f90370a970","655cb802637e0dbe2941dbc4","655cb8bec76174f27e375d25","null","<p> <font color=""red"" size=""5vw""> Time out! </font> <br> Please try to respond as quickly as possible. </p>","null","feedback","","","","","","","10"
+"","","","","","html-keyboard-response","30","110027","0.0-5.0-0.5","60e9645361b411f90370a970","655cb802637e0dbe2941dbc4","655cb8bec76174f27e375d25","null","
+            
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $10 </font>
+            </div>
+        </div>
+    
+            <div> Please press any key to continue to the next image.</div>
+        ","null","ITI","","","","","","",""
+"","","","","","html-keyboard-response","31","111026","0.0-5.0-1.5","60e9645361b411f90370a970","655cb802637e0dbe2941dbc4","655cb8bec76174f27e375d25","null","
+        
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $10 </font>
+            </div>
+        </div>
+    
+        <img class=""stim"" src=./stimuli//pack_shapes_diff/cat_1/diff_2/ex_1_2_3.png></img>
+    ","null","stimulus","","","","","","",""
+"","","","","","html-keyboard-response","32","112028","0.0-5.0-2.5","60e9645361b411f90370a970","655cb802637e0dbe2941dbc4","655cb8bec76174f27e375d25","null","
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $10 </font>
+            </div>
+        </div>
+    ","null","","","","","","","",""
+"","","","","","html-keyboard-response","33","116030","0.0-5.0-3.5","60e9645361b411f90370a970","655cb802637e0dbe2941dbc4","655cb8bec76174f27e375d25","null","./stimuli//pack_shapes_diff/cat_1/diff_2/ex_1_2_3.png","null","response","ArrowLeft","3","1","2","train","false",""
+"","","","","","html-keyboard-response","34","117532","0.0-5.0-4.5","60e9645361b411f90370a970","655cb802637e0dbe2941dbc4","655cb8bec76174f27e375d25","null","<p> <font color=""red"" size=""5vw""> Time out! </font> <br> Please try to respond as quickly as possible. </p>","null","feedback","","","","","","","10"
+"","","","","","html-keyboard-response","35","117678","0.0-5.0-0.6","60e9645361b411f90370a970","655cb802637e0dbe2941dbc4","655cb8bec76174f27e375d25","144","
+            
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $10 </font>
+            </div>
+        </div>
+    
+            <div> Please press any key to continue to the next image.</div>
+        ","1","ITI","","","","","","",""
+"","","","","","html-keyboard-response","36","118281","0.0-5.0-1.6","60e9645361b411f90370a970","655cb802637e0dbe2941dbc4","655cb8bec76174f27e375d25","null","
+        
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $10 </font>
+            </div>
+        </div>
+    
+        <img class=""stim"" src=./stimuli//pack_shapes_diff/cat_1/diff_1/ex_1_1_3.png></img>
+    ","null","stimulus","","","","","","",""
+"","","","","","html-keyboard-response","37","119282","0.0-5.0-2.6","60e9645361b411f90370a970","655cb802637e0dbe2941dbc4","655cb8bec76174f27e375d25","null","
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $10 </font>
+            </div>
+        </div>
+    ","null","","","","","","","",""
+"","","","","","html-keyboard-response","38","123284","0.0-5.0-3.6","60e9645361b411f90370a970","655cb802637e0dbe2941dbc4","655cb8bec76174f27e375d25","null","./stimuli//pack_shapes_diff/cat_1/diff_1/ex_1_1_3.png","null","response","ArrowLeft","3","1","1","train","false",""
+"","","","","","html-keyboard-response","39","123457","0.0-5.0-4.6","60e9645361b411f90370a970","655cb802637e0dbe2941dbc4","655cb8bec76174f27e375d25","173","<p> <font color=""red"" size=""5vw""> Time out! </font> <br> Please try to respond as quickly as possible. </p>","z","feedback","","","","","","","10"
+"","","","","","html-keyboard-response","40","123932","0.0-5.0-0.7","60e9645361b411f90370a970","655cb802637e0dbe2941dbc4","655cb8bec76174f27e375d25","474","
+            
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $10 </font>
+            </div>
+        </div>
+    
+            <div> Please press any key to continue to the next image.</div>
+        ","x","ITI","","","","","","",""
+"","","","","","html-keyboard-response","41","124533","0.0-5.0-1.7","60e9645361b411f90370a970","655cb802637e0dbe2941dbc4","655cb8bec76174f27e375d25","null","
+        
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $10 </font>
+            </div>
+        </div>
+    
+        <img class=""stim"" src=./stimuli//pack_shapes_diff/cat_1/diff_1/ex_1_1_5.png></img>
+    ","null","stimulus","","","","","","",""
+"","","","","","html-keyboard-response","42","125535","0.0-5.0-2.7","60e9645361b411f90370a970","655cb802637e0dbe2941dbc4","655cb8bec76174f27e375d25","null","
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $10 </font>
+            </div>
+        </div>
+    ","null","","","","","","","",""
+"","","","","","html-keyboard-response","43","129537","0.0-5.0-3.7","60e9645361b411f90370a970","655cb802637e0dbe2941dbc4","655cb8bec76174f27e375d25","null","./stimuli//pack_shapes_diff/cat_1/diff_1/ex_1_1_5.png","null","response","ArrowLeft","5","1","1","train","false",""
+"","","","","","html-keyboard-response","44","131038","0.0-5.0-4.7","60e9645361b411f90370a970","655cb802637e0dbe2941dbc4","655cb8bec76174f27e375d25","null","<p> <font color=""red"" size=""5vw""> Time out! </font> <br> Please try to respond as quickly as possible. </p>","null","feedback","","","","","","","10"
+"","","","","","html-keyboard-response","45","132227","0.0-5.0-0.8","60e9645361b411f90370a970","655cb802637e0dbe2941dbc4","655cb8bec76174f27e375d25","1188","
+            
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $10 </font>
+            </div>
+        </div>
+    
+            <div> Please press any key to continue to the next image.</div>
+        ","a","ITI","","","","","","",""
+"","","","","","html-keyboard-response","46","132830","0.0-5.0-1.8","60e9645361b411f90370a970","655cb802637e0dbe2941dbc4","655cb8bec76174f27e375d25","null","
+        
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $10 </font>
+            </div>
+        </div>
+    
+        <img class=""stim"" src=./stimuli//pack_shapes_diff/cat_1/diff_2/ex_1_2_2.png></img>
+    ","null","stimulus","","","","","","",""
+"","","","","","html-keyboard-response","47","133832","0.0-5.0-2.8","60e9645361b411f90370a970","655cb802637e0dbe2941dbc4","655cb8bec76174f27e375d25","null","
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $10 </font>
+            </div>
+        </div>
+    ","null","","","","","","","",""
+"","","","","","html-keyboard-response","48","137834","0.0-5.0-3.8","60e9645361b411f90370a970","655cb802637e0dbe2941dbc4","655cb8bec76174f27e375d25","null","./stimuli//pack_shapes_diff/cat_1/diff_2/ex_1_2_2.png","null","response","ArrowLeft","2","1","2","train","false",""
+"","","","","","html-keyboard-response","49","138119","0.0-5.0-4.8","60e9645361b411f90370a970","655cb802637e0dbe2941dbc4","655cb8bec76174f27e375d25","283","<p> <font color=""red"" size=""5vw""> Time out! </font> <br> Please try to respond as quickly as possible. </p>","l","feedback","","","","","","","10"
+"","","","","","html-keyboard-response","50","139738","0.0-5.0-0.9","60e9645361b411f90370a970","655cb802637e0dbe2941dbc4","655cb8bec76174f27e375d25","1618","
+            
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $10 </font>
+            </div>
+        </div>
+    
+            <div> Please press any key to continue to the next image.</div>
+        ","k","ITI","","","","","","",""
+"","","","","","html-keyboard-response","51","140340","0.0-5.0-1.9","60e9645361b411f90370a970","655cb802637e0dbe2941dbc4","655cb8bec76174f27e375d25","null","
+        
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $10 </font>
+            </div>
+        </div>
+    
+        <img class=""stim"" src=./stimuli//pack_shapes_diff/cat_2/diff_2/ex_2_2_14.png></img>
+    ","null","stimulus","","","","","","",""
+"","","","","","html-keyboard-response","52","141341","0.0-5.0-2.9","60e9645361b411f90370a970","655cb802637e0dbe2941dbc4","655cb8bec76174f27e375d25","null","
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $10 </font>
+            </div>
+        </div>
+    ","null","","","","","","","",""
+"","","","","","html-keyboard-response","53","145343","0.0-5.0-3.9","60e9645361b411f90370a970","655cb802637e0dbe2941dbc4","655cb8bec76174f27e375d25","null","./stimuli//pack_shapes_diff/cat_2/diff_2/ex_2_2_14.png","null","response","ArrowRight","14","2","2","train","false",""
+"","","","","","html-keyboard-response","54","146610","0.0-5.0-4.9","60e9645361b411f90370a970","655cb802637e0dbe2941dbc4","655cb8bec76174f27e375d25","1266","<p> <font color=""red"" size=""5vw""> Time out! </font> <br> Please try to respond as quickly as possible. </p>","i","feedback","","","","","","","10"
+"","","","","","html-keyboard-response","55","159541","0.0-6.0","60e9645361b411f90370a970","655cb802637e0dbe2941dbc4","655cb8bec76174f27e375d25","12929","
+            <b> <p> The practice round has finished.</p>
+            <b> For the rest of the experiment if you guess incorrectly $0.05 will be subtracted from your bonus!</b>
+            <p> Press any key to begin the test. </p>
+            ","i","intermission","","","","","","",""
+"","","","","","html-keyboard-response","56","162168","0.0-7.0-0.0","60e9645361b411f90370a970","655cb802637e0dbe2941dbc4","655cb8bec76174f27e375d25","2626","
+            
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $10 </font>
+            </div>
+        </div>
+    
+            <div> Please press any key to continue to the next image.</div>
+        ","i","ITI","","","","","","",""
+"","","","","","html-keyboard-response","57","162771","0.0-7.0-1.0","60e9645361b411f90370a970","655cb802637e0dbe2941dbc4","655cb8bec76174f27e375d25","null","
+        
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $10 </font>
+            </div>
+        </div>
+    
+        <img class=""stim"" src=./stimuli//pack_shapes_diff/cat_1/diff_1/ex_1_1_4.png></img>
+    ","null","stimulus","","","","","","",""
+"","","","","","html-keyboard-response","58","163773","0.0-7.0-2.0","60e9645361b411f90370a970","655cb802637e0dbe2941dbc4","655cb8bec76174f27e375d25","null","
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $10 </font>
+            </div>
+        </div>
+    ","null","","","","","","","",""
+"","","","","","html-keyboard-response","59","167775","0.0-7.0-3.0","60e9645361b411f90370a970","655cb802637e0dbe2941dbc4","655cb8bec76174f27e375d25","null","./stimuli//pack_shapes_diff/cat_1/diff_1/ex_1_1_4.png","null","response","ArrowLeft","4","1","1","test","false",""
+"","","","","","html-keyboard-response","60","169277","0.0-7.0-4.0","60e9645361b411f90370a970","655cb802637e0dbe2941dbc4","655cb8bec76174f27e375d25","null","<p> <font color=""red"" size=""5vw""> Time out! </font> <br> <font color=""red"" size=""7vw""> - $0.05 points </font> <br> Please try to respond as quickly as possible. </p>","null","feedback","","","","","","","9.95"
+"","","","","","html-keyboard-response","61","171878","0.0-7.1-0.1","60e9645361b411f90370a970","655cb802637e0dbe2941dbc4","655cb8bec76174f27e375d25","2599","
+            
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $9.95 </font>
+            </div>
+        </div>
+    
+            <div> Please press any key to continue to the next image.</div>
+        ","k","ITI","","","","","","",""
+"","","","","","html-keyboard-response","62","172480","0.0-7.1-1.1","60e9645361b411f90370a970","655cb802637e0dbe2941dbc4","655cb8bec76174f27e375d25","null","
+        
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $9.95 </font>
+            </div>
+        </div>
+    
+        <img class=""stim"" src=./stimuli//pack_shapes_diff/cat_1/diff_1/ex_1_1_15.png></img>
+    ","null","stimulus","","","","","","",""
+"","","","","","html-keyboard-response","63","173482","0.0-7.1-2.1","60e9645361b411f90370a970","655cb802637e0dbe2941dbc4","655cb8bec76174f27e375d25","null","
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $9.95 </font>
+            </div>
+        </div>
+    ","null","","","","","","","",""
+"","","","","","html-keyboard-response","64","177485","0.0-7.1-3.1","60e9645361b411f90370a970","655cb802637e0dbe2941dbc4","655cb8bec76174f27e375d25","null","./stimuli//pack_shapes_diff/cat_1/diff_1/ex_1_1_15.png","null","response","ArrowLeft","15","1","1","test","false",""
+"","","","","","html-keyboard-response","65","178986","0.0-7.1-4.1","60e9645361b411f90370a970","655cb802637e0dbe2941dbc4","655cb8bec76174f27e375d25","null","<p> <font color=""red"" size=""5vw""> Time out! </font> <br> <font color=""red"" size=""7vw""> - $0.05 points </font> <br> Please try to respond as quickly as possible. </p>","null","feedback","","","","","","","9.9"
+"","","","","","html-keyboard-response","66","179034","0.0-7.2-0.2","60e9645361b411f90370a970","655cb802637e0dbe2941dbc4","655cb8bec76174f27e375d25","47","
+            
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $9.9 </font>
+            </div>
+        </div>
+    
+            <div> Please press any key to continue to the next image.</div>
+        ","9","ITI","","","","","","",""
+"","","","","","html-keyboard-response","67","179636","0.0-7.2-1.2","60e9645361b411f90370a970","655cb802637e0dbe2941dbc4","655cb8bec76174f27e375d25","null","
+        
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $9.9 </font>
+            </div>
+        </div>
+    
+        <img class=""stim"" src=./stimuli//pack_shapes_diff/cat_1/diff_1/ex_1_1_12.png></img>
+    ","null","stimulus","","","","","","",""
+"","","","","","html-keyboard-response","68","180640","0.0-7.2-2.2","60e9645361b411f90370a970","655cb802637e0dbe2941dbc4","655cb8bec76174f27e375d25","null","
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $9.9 </font>
+            </div>
+        </div>
+    ","null","","","","","","","",""
+"","","","","","html-keyboard-response","69","184641","0.0-7.2-3.2","60e9645361b411f90370a970","655cb802637e0dbe2941dbc4","655cb8bec76174f27e375d25","null","./stimuli//pack_shapes_diff/cat_1/diff_1/ex_1_1_12.png","null","response","ArrowLeft","12","1","1","test","false",""
+"","","","","","html-keyboard-response","70","186143","0.0-7.2-4.2","60e9645361b411f90370a970","655cb802637e0dbe2941dbc4","655cb8bec76174f27e375d25","null","<p> <font color=""red"" size=""5vw""> Time out! </font> <br> <font color=""red"" size=""7vw""> - $0.05 points </font> <br> Please try to respond as quickly as possible. </p>","null","feedback","","","","","","","9.85"
+"","","","","","html-keyboard-response","71","191145","0.0-7.3-0.3","60e9645361b411f90370a970","655cb802637e0dbe2941dbc4","655cb8bec76174f27e375d25","null","
+            
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $9.85 </font>
+            </div>
+        </div>
+    
+            <div> Please press any key to continue to the next image.</div>
+        ","null","ITI","","","","","","",""
+"","","","","","html-keyboard-response","72","191747","0.0-7.3-1.3","60e9645361b411f90370a970","655cb802637e0dbe2941dbc4","655cb8bec76174f27e375d25","null","
+        
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $9.85 </font>
+            </div>
+        </div>
+    
+        <img class=""stim"" src=./stimuli//pack_shapes_diff/cat_2/diff_1/ex_2_1_9.png></img>
+    ","null","stimulus","","","","","","",""
+"","","","","","html-keyboard-response","73","192749","0.0-7.3-2.3","60e9645361b411f90370a970","655cb802637e0dbe2941dbc4","655cb8bec76174f27e375d25","null","
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $9.85 </font>
+            </div>
+        </div>
+    ","null","","","","","","","",""
+"","","","","","html-keyboard-response","74","196751","0.0-7.3-3.3","60e9645361b411f90370a970","655cb802637e0dbe2941dbc4","655cb8bec76174f27e375d25","null","./stimuli//pack_shapes_diff/cat_2/diff_1/ex_2_1_9.png","null","response","ArrowRight","9","2","1","test","false",""
+"","","","","","html-keyboard-response","75","198252","0.0-7.3-4.3","60e9645361b411f90370a970","655cb802637e0dbe2941dbc4","655cb8bec76174f27e375d25","null","<p> <font color=""red"" size=""5vw""> Time out! </font> <br> <font color=""red"" size=""7vw""> - $0.05 points </font> <br> Please try to respond as quickly as possible. </p>","null","feedback","","","","","","","9.8"
+"","","","","","html-keyboard-response","76","200357","0.0-7.4-0.4","60e9645361b411f90370a970","655cb802637e0dbe2941dbc4","655cb8bec76174f27e375d25","2104","
+            
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $9.8 </font>
+            </div>
+        </div>
+    
+            <div> Please press any key to continue to the next image.</div>
+        ","a","ITI","","","","","","",""
+"","","","","","html-keyboard-response","77","200957","0.0-7.4-1.4","60e9645361b411f90370a970","655cb802637e0dbe2941dbc4","655cb8bec76174f27e375d25","null","
+        
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $9.8 </font>
+            </div>
+        </div>
+    
+        <img class=""stim"" src=./stimuli//pack_shapes_diff/cat_1/diff_1/ex_1_1_2.png></img>
+    ","null","stimulus","","","","","","",""
+"","","","","","html-keyboard-response","78","201958","0.0-7.4-2.4","60e9645361b411f90370a970","655cb802637e0dbe2941dbc4","655cb8bec76174f27e375d25","null","
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $9.8 </font>
+            </div>
+        </div>
+    ","null","","","","","","","",""
+"","","","","","html-keyboard-response","79","205961","0.0-7.4-3.4","60e9645361b411f90370a970","655cb802637e0dbe2941dbc4","655cb8bec76174f27e375d25","null","./stimuli//pack_shapes_diff/cat_1/diff_1/ex_1_1_2.png","null","response","ArrowLeft","2","1","1","test","false",""
+"","","","","","html-keyboard-response","80","206918","0.0-7.4-4.4","60e9645361b411f90370a970","655cb802637e0dbe2941dbc4","655cb8bec76174f27e375d25","955","<p> <font color=""red"" size=""5vw""> Time out! </font> <br> <font color=""red"" size=""7vw""> - $0.05 points </font> <br> Please try to respond as quickly as possible. </p>"," ","feedback","","","","","","","9.75"
+"","","","","","html-keyboard-response","81","207716","0.0-7.5-0.5","60e9645361b411f90370a970","655cb802637e0dbe2941dbc4","655cb8bec76174f27e375d25","796","
+            
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $9.75 </font>
+            </div>
+        </div>
+    
+            <div> Please press any key to continue to the next image.</div>
+        "," ","ITI","","","","","","",""
+"","","","","","html-keyboard-response","82","208318","0.0-7.5-1.5","60e9645361b411f90370a970","655cb802637e0dbe2941dbc4","655cb8bec76174f27e375d25","null","
+        
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $9.75 </font>
+            </div>
+        </div>
+    
+        <img class=""stim"" src=./stimuli//pack_shapes_diff/cat_2/diff_1/ex_2_1_12.png></img>
+    ","null","stimulus","","","","","","",""
+"","","","","","html-keyboard-response","83","209319","0.0-7.5-2.5","60e9645361b411f90370a970","655cb802637e0dbe2941dbc4","655cb8bec76174f27e375d25","null","
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $9.75 </font>
+            </div>
+        </div>
+    ","null","","","","","","","",""
+"","","","","","html-keyboard-response","84","213320","0.0-7.5-3.5","60e9645361b411f90370a970","655cb802637e0dbe2941dbc4","655cb8bec76174f27e375d25","null","./stimuli//pack_shapes_diff/cat_2/diff_1/ex_2_1_12.png","null","response","ArrowRight","12","2","1","test","false",""
+"","","","","","html-keyboard-response","85","214821","0.0-7.5-4.5","60e9645361b411f90370a970","655cb802637e0dbe2941dbc4","655cb8bec76174f27e375d25","null","<p> <font color=""red"" size=""5vw""> Time out! </font> <br> <font color=""red"" size=""7vw""> - $0.05 points </font> <br> Please try to respond as quickly as possible. </p>","null","feedback","","","","","","","9.7"
+"","","","","","html-keyboard-response","86","215873","0.0-7.6-0.6","60e9645361b411f90370a970","655cb802637e0dbe2941dbc4","655cb8bec76174f27e375d25","1052","
+            
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $9.7 </font>
+            </div>
+        </div>
+    
+            <div> Please press any key to continue to the next image.</div>
+        ","0","ITI","","","","","","",""
+"","","","","","html-keyboard-response","87","216475","0.0-7.6-1.6","60e9645361b411f90370a970","655cb802637e0dbe2941dbc4","655cb8bec76174f27e375d25","null","
+        
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $9.7 </font>
+            </div>
+        </div>
+    
+        <img class=""stim"" src=./stimuli//pack_shapes_diff/cat_2/diff_1/ex_2_1_9.png></img>
+    ","null","stimulus","","","","","","",""
+"","","","","","html-keyboard-response","88","217476","0.0-7.6-2.6","60e9645361b411f90370a970","655cb802637e0dbe2941dbc4","655cb8bec76174f27e375d25","null","
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $9.7 </font>
+            </div>
+        </div>
+    ","null","","","","","","","",""
+"","","","","","html-keyboard-response","89","221479","0.0-7.6-3.6","60e9645361b411f90370a970","655cb802637e0dbe2941dbc4","655cb8bec76174f27e375d25","null","./stimuli//pack_shapes_diff/cat_2/diff_1/ex_2_1_9.png","null","response","ArrowRight","9","2","1","test","false",""
+"","","","","","html-keyboard-response","90","221671","0.0-7.6-4.6","60e9645361b411f90370a970","655cb802637e0dbe2941dbc4","655cb8bec76174f27e375d25","192","<p> <font color=""red"" size=""5vw""> Time out! </font> <br> <font color=""red"" size=""7vw""> - $0.05 points </font> <br> Please try to respond as quickly as possible. </p>","4","feedback","","","","","","","9.65"
+"","","","","","html-keyboard-response","91","222771","0.0-7.7-0.7","60e9645361b411f90370a970","655cb802637e0dbe2941dbc4","655cb8bec76174f27e375d25","1099","
+            
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $9.65 </font>
+            </div>
+        </div>
+    
+            <div> Please press any key to continue to the next image.</div>
+        ","5","ITI","","","","","","",""
+"","","","","","html-keyboard-response","92","223372","0.0-7.7-1.7","60e9645361b411f90370a970","655cb802637e0dbe2941dbc4","655cb8bec76174f27e375d25","null","
+        
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $9.65 </font>
+            </div>
+        </div>
+    
+        <img class=""stim"" src=./stimuli//pack_shapes_diff/cat_2/diff_1/ex_2_1_5.png></img>
+    ","null","stimulus","","","","","","",""
+"","","","","","html-keyboard-response","93","224374","0.0-7.7-2.7","60e9645361b411f90370a970","655cb802637e0dbe2941dbc4","655cb8bec76174f27e375d25","null","
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $9.65 </font>
+            </div>
+        </div>
+    ","null","","","","","","","",""
+"","","","","","html-keyboard-response","94","228376","0.0-7.7-3.7","60e9645361b411f90370a970","655cb802637e0dbe2941dbc4","655cb8bec76174f27e375d25","null","./stimuli//pack_shapes_diff/cat_2/diff_1/ex_2_1_5.png","null","response","ArrowRight","5","2","1","test","false",""
+"","","","","","html-keyboard-response","95","229878","0.0-7.7-4.7","60e9645361b411f90370a970","655cb802637e0dbe2941dbc4","655cb8bec76174f27e375d25","null","<p> <font color=""red"" size=""5vw""> Time out! </font> <br> <font color=""red"" size=""7vw""> - $0.05 points </font> <br> Please try to respond as quickly as possible. </p>","null","feedback","","","","","","","9.6"
+"","","","","","html-keyboard-response","96","233030","0.0-7.8-0.8","60e9645361b411f90370a970","655cb802637e0dbe2941dbc4","655cb8bec76174f27e375d25","3151","
+            
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $9.6 </font>
+            </div>
+        </div>
+    
+            <div> Please press any key to continue to the next image.</div>
+        ","5","ITI","","","","","","",""
+"","","","","","html-keyboard-response","97","233632","0.0-7.8-1.8","60e9645361b411f90370a970","655cb802637e0dbe2941dbc4","655cb8bec76174f27e375d25","null","
+        
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $9.6 </font>
+            </div>
+        </div>
+    
+        <img class=""stim"" src=./stimuli//pack_shapes_diff/cat_2/diff_1/ex_2_1_1.png></img>
+    ","null","stimulus","","","","","","",""
+"","","","","","html-keyboard-response","98","234633","0.0-7.8-2.8","60e9645361b411f90370a970","655cb802637e0dbe2941dbc4","655cb8bec76174f27e375d25","null","
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $9.6 </font>
+            </div>
+        </div>
+    ","null","","","","","","","",""
+"","","","","","html-keyboard-response","99","238637","0.0-7.8-3.8","60e9645361b411f90370a970","655cb802637e0dbe2941dbc4","655cb8bec76174f27e375d25","null","./stimuli//pack_shapes_diff/cat_2/diff_1/ex_2_1_1.png","null","response","ArrowRight","1","2","1","test","false",""
+"","","","","","html-keyboard-response","100","238659","0.0-7.8-4.8","60e9645361b411f90370a970","655cb802637e0dbe2941dbc4","655cb8bec76174f27e375d25","21","<p> <font color=""red"" size=""5vw""> Time out! </font> <br> <font color=""red"" size=""7vw""> - $0.05 points </font> <br> Please try to respond as quickly as possible. </p>","b","feedback","","","","","","","9.55"
+"","","","","","html-keyboard-response","101","238870","0.0-7.9-0.9","60e9645361b411f90370a970","655cb802637e0dbe2941dbc4","655cb8bec76174f27e375d25","211","
+            
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $9.55 </font>
+            </div>
+        </div>
+    
+            <div> Please press any key to continue to the next image.</div>
+        ","b","ITI","","","","","","",""
+"","","","","","html-keyboard-response","102","239472","0.0-7.9-1.9","60e9645361b411f90370a970","655cb802637e0dbe2941dbc4","655cb8bec76174f27e375d25","null","
+        
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $9.55 </font>
+            </div>
+        </div>
+    
+        <img class=""stim"" src=./stimuli//pack_shapes_diff/cat_1/diff_1/ex_1_1_6.png></img>
+    ","null","stimulus","","","","","","",""
+"","","","","","html-keyboard-response","103","240474","0.0-7.9-2.9","60e9645361b411f90370a970","655cb802637e0dbe2941dbc4","655cb8bec76174f27e375d25","null","
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $9.55 </font>
+            </div>
+        </div>
+    ","null","","","","","","","",""
+"","","","","","html-keyboard-response","104","244475","0.0-7.9-3.9","60e9645361b411f90370a970","655cb802637e0dbe2941dbc4","655cb8bec76174f27e375d25","null","./stimuli//pack_shapes_diff/cat_1/diff_1/ex_1_1_6.png","null","response","ArrowLeft","6","1","1","test","false",""
+"","","","","","html-keyboard-response","105","244966","0.0-7.9-4.9","60e9645361b411f90370a970","655cb802637e0dbe2941dbc4","655cb8bec76174f27e375d25","491","<p> <font color=""red"" size=""5vw""> Time out! </font> <br> <font color=""red"" size=""7vw""> - $0.05 points </font> <br> Please try to respond as quickly as possible. </p>","control","feedback","","","","","","","9.5"
+"","","","","","html-keyboard-response","106","245899","0.0-7.10-0.10","60e9645361b411f90370a970","655cb802637e0dbe2941dbc4","655cb8bec76174f27e375d25","932","
+            
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $9.5 </font>
+            </div>
+        </div>
+    
+            <div> Please press any key to continue to the next image.</div>
+        ","control","ITI","","","","","","",""
+"","","","","","html-keyboard-response","107","246501","0.0-7.10-1.10","60e9645361b411f90370a970","655cb802637e0dbe2941dbc4","655cb8bec76174f27e375d25","null","
+        
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $9.5 </font>
+            </div>
+        </div>
+    
+        <img class=""stim"" src=./stimuli//pack_shapes_diff/cat_1/diff_1/ex_1_1_4.png></img>
+    ","null","stimulus","","","","","","",""
+"","","","","","html-keyboard-response","108","247503","0.0-7.10-2.10","60e9645361b411f90370a970","655cb802637e0dbe2941dbc4","655cb8bec76174f27e375d25","null","
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $9.5 </font>
+            </div>
+        </div>
+    ","null","","","","","","","",""
+"","","","","","html-keyboard-response","109","251505","0.0-7.10-3.10","60e9645361b411f90370a970","655cb802637e0dbe2941dbc4","655cb8bec76174f27e375d25","null","./stimuli//pack_shapes_diff/cat_1/diff_1/ex_1_1_4.png","null","response","ArrowLeft","4","1","1","test","false",""
+"","","","","","html-keyboard-response","110","253007","0.0-7.10-4.10","60e9645361b411f90370a970","655cb802637e0dbe2941dbc4","655cb8bec76174f27e375d25","null","<p> <font color=""red"" size=""5vw""> Time out! </font> <br> <font color=""red"" size=""7vw""> - $0.05 points </font> <br> Please try to respond as quickly as possible. </p>","null","feedback","","","","","","","9.45"
+"","","","","","html-keyboard-response","111","254595","0.0-7.11-0.11","60e9645361b411f90370a970","655cb802637e0dbe2941dbc4","655cb8bec76174f27e375d25","1587","
+            
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $9.45 </font>
+            </div>
+        </div>
+    
+            <div> Please press any key to continue to the next image.</div>
+        ","a","ITI","","","","","","",""
+"","","","","","html-keyboard-response","112","255199","0.0-7.11-1.11","60e9645361b411f90370a970","655cb802637e0dbe2941dbc4","655cb8bec76174f27e375d25","null","
+        
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $9.45 </font>
+            </div>
+        </div>
+    
+        <img class=""stim"" src=./stimuli//pack_shapes_diff/cat_1/diff_1/ex_1_1_14.png></img>
+    ","null","stimulus","","","","","","",""
+"","","","","","html-keyboard-response","113","256202","0.0-7.11-2.11","60e9645361b411f90370a970","655cb802637e0dbe2941dbc4","655cb8bec76174f27e375d25","null","
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $9.45 </font>
+            </div>
+        </div>
+    ","null","","","","","","","",""
+"","","","","","html-keyboard-response","114","260204","0.0-7.11-3.11","60e9645361b411f90370a970","655cb802637e0dbe2941dbc4","655cb8bec76174f27e375d25","null","./stimuli//pack_shapes_diff/cat_1/diff_1/ex_1_1_14.png","null","response","ArrowLeft","14","1","1","test","false",""
+"","","","","","html-keyboard-response","115","261706","0.0-7.11-4.11","60e9645361b411f90370a970","655cb802637e0dbe2941dbc4","655cb8bec76174f27e375d25","null","<p> <font color=""red"" size=""5vw""> Time out! </font> <br> <font color=""red"" size=""7vw""> - $0.05 points </font> <br> Please try to respond as quickly as possible. </p>","null","feedback","","","","","","","9.4"
+"","","","","","html-keyboard-response","116","262445","0.0-7.12-0.12","60e9645361b411f90370a970","655cb802637e0dbe2941dbc4","655cb8bec76174f27e375d25","739","
+            
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $9.4 </font>
+            </div>
+        </div>
+    
+            <div> Please press any key to continue to the next image.</div>
+        ","a","ITI","","","","","","",""
+"","","","","","html-keyboard-response","117","263048","0.0-7.12-1.12","60e9645361b411f90370a970","655cb802637e0dbe2941dbc4","655cb8bec76174f27e375d25","null","
+        
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $9.4 </font>
+            </div>
+        </div>
+    
+        <img class=""stim"" src=./stimuli//pack_shapes_diff/cat_1/diff_1/ex_1_1_2.png></img>
+    ","null","stimulus","","","","","","",""
+"","","","","","html-keyboard-response","118","264050","0.0-7.12-2.12","60e9645361b411f90370a970","655cb802637e0dbe2941dbc4","655cb8bec76174f27e375d25","null","
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $9.4 </font>
+            </div>
+        </div>
+    ","null","","","","","","","",""
+"","","","","","html-keyboard-response","119","268052","0.0-7.12-3.12","60e9645361b411f90370a970","655cb802637e0dbe2941dbc4","655cb8bec76174f27e375d25","null","./stimuli//pack_shapes_diff/cat_1/diff_1/ex_1_1_2.png","null","response","ArrowLeft","2","1","1","test","false",""
+"","","","","","html-keyboard-response","120","268637","0.0-7.12-4.12","60e9645361b411f90370a970","655cb802637e0dbe2941dbc4","655cb8bec76174f27e375d25","585","<p> <font color=""red"" size=""5vw""> Time out! </font> <br> <font color=""red"" size=""7vw""> - $0.05 points </font> <br> Please try to respond as quickly as possible. </p>"," ","feedback","","","","","","","9.35"
+"","","","","","html-keyboard-response","121","269646","0.0-7.13-0.13","60e9645361b411f90370a970","655cb802637e0dbe2941dbc4","655cb8bec76174f27e375d25","1008","
+            
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $9.35 </font>
+            </div>
+        </div>
+    
+            <div> Please press any key to continue to the next image.</div>
+        ","alt","ITI","","","","","","",""
+"","","","","","html-keyboard-response","122","270247","0.0-7.13-1.13","60e9645361b411f90370a970","655cb802637e0dbe2941dbc4","655cb8bec76174f27e375d25","null","
+        
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $9.35 </font>
+            </div>
+        </div>
+    
+        <img class=""stim"" src=./stimuli//pack_shapes_diff/cat_1/diff_1/ex_1_1_16.png></img>
+    ","null","stimulus","","","","","","",""
+"","","","","","html-keyboard-response","123","271248","0.0-7.13-2.13","60e9645361b411f90370a970","655cb802637e0dbe2941dbc4","655cb8bec76174f27e375d25","null","
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $9.35 </font>
+            </div>
+        </div>
+    ","null","","","","","","","",""
+"","","","","","html-keyboard-response","124","275253","0.0-7.13-3.13","60e9645361b411f90370a970","655cb802637e0dbe2941dbc4","655cb8bec76174f27e375d25","null","./stimuli//pack_shapes_diff/cat_1/diff_1/ex_1_1_16.png","null","response","ArrowLeft","16","1","1","test","false",""
+"","","","","","html-keyboard-response","125","276755","0.0-7.13-4.13","60e9645361b411f90370a970","655cb802637e0dbe2941dbc4","655cb8bec76174f27e375d25","null","<p> <font color=""red"" size=""5vw""> Time out! </font> <br> <font color=""red"" size=""7vw""> - $0.05 points </font> <br> Please try to respond as quickly as possible. </p>","null","feedback","","","","","","","9.3"
+"","","","","","html-keyboard-response","126","282029","0.0-7.14-0.14","60e9645361b411f90370a970","655cb802637e0dbe2941dbc4","655cb8bec76174f27e375d25","null","
+            
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $9.3 </font>
+            </div>
+        </div>
+    
+            <div> Please press any key to continue to the next image.</div>
+        ","null","ITI","","","","","","",""
+"","","","","","html-keyboard-response","127","283028","0.0-7.14-1.14","60e9645361b411f90370a970","655cb802637e0dbe2941dbc4","655cb8bec76174f27e375d25","null","
+        
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $9.3 </font>
+            </div>
+        </div>
+    
+        <img class=""stim"" src=./stimuli//pack_shapes_diff/cat_2/diff_1/ex_2_1_2.png></img>
+    ","null","stimulus","","","","","","",""
+"","","","","","html-keyboard-response","128","284031","0.0-7.14-2.14","60e9645361b411f90370a970","655cb802637e0dbe2941dbc4","655cb8bec76174f27e375d25","null","
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $9.3 </font>
+            </div>
+        </div>
+    ","null","","","","","","","",""
+"","","","","","html-keyboard-response","129","288032","0.0-7.14-3.14","60e9645361b411f90370a970","655cb802637e0dbe2941dbc4","655cb8bec76174f27e375d25","null","./stimuli//pack_shapes_diff/cat_2/diff_1/ex_2_1_2.png","null","response","ArrowRight","2","2","1","test","false",""
+"","","","","","html-keyboard-response","130","289534","0.0-7.14-4.14","60e9645361b411f90370a970","655cb802637e0dbe2941dbc4","655cb8bec76174f27e375d25","null","<p> <font color=""red"" size=""5vw""> Time out! </font> <br> <font color=""red"" size=""7vw""> - $0.05 points </font> <br> Please try to respond as quickly as possible. </p>","null","feedback","","","","","","","9.25"
+"","","","","","html-keyboard-response","131","291567","0.0-7.15-0.15","60e9645361b411f90370a970","655cb802637e0dbe2941dbc4","655cb8bec76174f27e375d25","2032","
+            
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $9.25 </font>
+            </div>
+        </div>
+    
+            <div> Please press any key to continue to the next image.</div>
+        ","alt","ITI","","","","","","",""
+"","","","","","html-keyboard-response","132","292171","0.0-7.15-1.15","60e9645361b411f90370a970","655cb802637e0dbe2941dbc4","655cb8bec76174f27e375d25","null","
+        
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $9.25 </font>
+            </div>
+        </div>
+    
+        <img class=""stim"" src=./stimuli//pack_shapes_diff/cat_1/diff_1/ex_1_1_8.png></img>
+    ","null","stimulus","","","","","","",""
+"","","","","","html-keyboard-response","133","293172","0.0-7.15-2.15","60e9645361b411f90370a970","655cb802637e0dbe2941dbc4","655cb8bec76174f27e375d25","null","
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $9.25 </font>
+            </div>
+        </div>
+    ","null","","","","","","","",""
+"","","","","","html-keyboard-response","134","297173","0.0-7.15-3.15","60e9645361b411f90370a970","655cb802637e0dbe2941dbc4","655cb8bec76174f27e375d25","null","./stimuli//pack_shapes_diff/cat_1/diff_1/ex_1_1_8.png","null","response","ArrowLeft","8","1","1","test","false",""
+"","","","","","html-keyboard-response","135","298676","0.0-7.15-4.15","60e9645361b411f90370a970","655cb802637e0dbe2941dbc4","655cb8bec76174f27e375d25","null","<p> <font color=""red"" size=""5vw""> Time out! </font> <br> <font color=""red"" size=""7vw""> - $0.05 points </font> <br> Please try to respond as quickly as possible. </p>","null","feedback","","","","","","","9.2"
+"","","","","","html-keyboard-response","136","300035","0.0-7.16-0.16","60e9645361b411f90370a970","655cb802637e0dbe2941dbc4","655cb8bec76174f27e375d25","1359","
+            
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $9.2 </font>
+            </div>
+        </div>
+    
+            <div> Please press any key to continue to the next image.</div>
+        ","c","ITI","","","","","","",""
+"","","","","","html-keyboard-response","137","300636","0.0-7.16-1.16","60e9645361b411f90370a970","655cb802637e0dbe2941dbc4","655cb8bec76174f27e375d25","null","
+        
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $9.2 </font>
+            </div>
+        </div>
+    
+        <img class=""stim"" src=./stimuli//pack_shapes_diff/cat_1/diff_1/ex_1_1_7.png></img>
+    ","null","stimulus","","","","","","",""
+"","","","","","html-keyboard-response","138","301637","0.0-7.16-2.16","60e9645361b411f90370a970","655cb802637e0dbe2941dbc4","655cb8bec76174f27e375d25","null","
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $9.2 </font>
+            </div>
+        </div>
+    ","null","","","","","","","",""
+"","","","","","html-keyboard-response","139","305638","0.0-7.16-3.16","60e9645361b411f90370a970","655cb802637e0dbe2941dbc4","655cb8bec76174f27e375d25","null","./stimuli//pack_shapes_diff/cat_1/diff_1/ex_1_1_7.png","null","response","ArrowLeft","7","1","1","test","false",""
+"","","","","","html-keyboard-response","140","307141","0.0-7.16-4.16","60e9645361b411f90370a970","655cb802637e0dbe2941dbc4","655cb8bec76174f27e375d25","null","<p> <font color=""red"" size=""5vw""> Time out! </font> <br> <font color=""red"" size=""7vw""> - $0.05 points </font> <br> Please try to respond as quickly as possible. </p>","null","feedback","","","","","","","9.15"
+"","","","","","html-keyboard-response","141","307814","0.0-7.17-0.17","60e9645361b411f90370a970","655cb802637e0dbe2941dbc4","655cb8bec76174f27e375d25","672","
+            
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $9.15 </font>
+            </div>
+        </div>
+    
+            <div> Please press any key to continue to the next image.</div>
+        ","d","ITI","","","","","","",""
+"","","","","","html-keyboard-response","142","308415","0.0-7.17-1.17","60e9645361b411f90370a970","655cb802637e0dbe2941dbc4","655cb8bec76174f27e375d25","null","
+        
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $9.15 </font>
+            </div>
+        </div>
+    
+        <img class=""stim"" src=./stimuli//pack_shapes_diff/cat_1/diff_1/ex_1_1_4.png></img>
+    ","null","stimulus","","","","","","",""
+"","","","","","html-keyboard-response","143","309417","0.0-7.17-2.17","60e9645361b411f90370a970","655cb802637e0dbe2941dbc4","655cb8bec76174f27e375d25","null","
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $9.15 </font>
+            </div>
+        </div>
+    ","null","","","","","","","",""
+"","","","","","html-keyboard-response","144","313419","0.0-7.17-3.17","60e9645361b411f90370a970","655cb802637e0dbe2941dbc4","655cb8bec76174f27e375d25","null","./stimuli//pack_shapes_diff/cat_1/diff_1/ex_1_1_4.png","null","response","ArrowLeft","4","1","1","test","false",""
+"","","","","","html-keyboard-response","145","314485","0.0-7.17-4.17","60e9645361b411f90370a970","655cb802637e0dbe2941dbc4","655cb8bec76174f27e375d25","1066","<p> <font color=""red"" size=""5vw""> Time out! </font> <br> <font color=""red"" size=""7vw""> - $0.05 points </font> <br> Please try to respond as quickly as possible. </p>","g","feedback","","","","","","","9.1"
+"","","","","","html-keyboard-response","146","315375","0.0-7.18-0.18","60e9645361b411f90370a970","655cb802637e0dbe2941dbc4","655cb8bec76174f27e375d25","889","
+            
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $9.1 </font>
+            </div>
+        </div>
+    
+            <div> Please press any key to continue to the next image.</div>
+        ","d","ITI","","","","","","",""
+"","","","","","html-keyboard-response","147","315978","0.0-7.18-1.18","60e9645361b411f90370a970","655cb802637e0dbe2941dbc4","655cb8bec76174f27e375d25","null","
+        
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $9.1 </font>
+            </div>
+        </div>
+    
+        <img class=""stim"" src=./stimuli//pack_shapes_diff/cat_1/diff_1/ex_1_1_2.png></img>
+    ","null","stimulus","","","","","","",""
+"","","","","","html-keyboard-response","148","316981","0.0-7.18-2.18","60e9645361b411f90370a970","655cb802637e0dbe2941dbc4","655cb8bec76174f27e375d25","null","
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $9.1 </font>
+            </div>
+        </div>
+    ","null","","","","","","","",""
+"","","","","","html-keyboard-response","149","320984","0.0-7.18-3.18","60e9645361b411f90370a970","655cb802637e0dbe2941dbc4","655cb8bec76174f27e375d25","null","./stimuli//pack_shapes_diff/cat_1/diff_1/ex_1_1_2.png","null","response","ArrowLeft","2","1","1","test","false",""
+"","","","","","html-keyboard-response","150","322151","0.0-7.18-4.18","60e9645361b411f90370a970","655cb802637e0dbe2941dbc4","655cb8bec76174f27e375d25","1166","<p> <font color=""red"" size=""5vw""> Time out! </font> <br> <font color=""red"" size=""7vw""> - $0.05 points </font> <br> Please try to respond as quickly as possible. </p>","d","feedback","","","","","","","9.05"
+"","","","","","html-keyboard-response","151","322714","0.0-7.19-0.19","60e9645361b411f90370a970","655cb802637e0dbe2941dbc4","655cb8bec76174f27e375d25","562","
+            
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $9.05 </font>
+            </div>
+        </div>
+    
+            <div> Please press any key to continue to the next image.</div>
+        ","d","ITI","","","","","","",""
+"","","","","","html-keyboard-response","152","323318","0.0-7.19-1.19","60e9645361b411f90370a970","655cb802637e0dbe2941dbc4","655cb8bec76174f27e375d25","null","
+        
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $9.05 </font>
+            </div>
+        </div>
+    
+        <img class=""stim"" src=./stimuli//pack_shapes_diff/cat_1/diff_1/ex_1_1_17.png></img>
+    ","null","stimulus","","","","","","",""
+"","","","","","html-keyboard-response","153","324321","0.0-7.19-2.19","60e9645361b411f90370a970","655cb802637e0dbe2941dbc4","655cb8bec76174f27e375d25","null","
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $9.05 </font>
+            </div>
+        </div>
+    ","null","","","","","","","",""
+"","","","","","html-keyboard-response","154","328323","0.0-7.19-3.19","60e9645361b411f90370a970","655cb802637e0dbe2941dbc4","655cb8bec76174f27e375d25","null","./stimuli//pack_shapes_diff/cat_1/diff_1/ex_1_1_17.png","null","response","ArrowLeft","17","1","1","test","false",""
+"","","","","","html-keyboard-response","155","329824","0.0-7.19-4.19","60e9645361b411f90370a970","655cb802637e0dbe2941dbc4","655cb8bec76174f27e375d25","null","<p> <font color=""red"" size=""5vw""> Time out! </font> <br> <font color=""red"" size=""7vw""> - $0.05 points </font> <br> Please try to respond as quickly as possible. </p>","null","feedback","","","","","","","9"
+"","","","","","html-keyboard-response","156","330103","0.0-7.20-0.20","60e9645361b411f90370a970","655cb802637e0dbe2941dbc4","655cb8bec76174f27e375d25","278","
+            
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $9 </font>
+            </div>
+        </div>
+    
+            <div> Please press any key to continue to the next image.</div>
+        ","a","ITI","","","","","","",""
+"","","","","","html-keyboard-response","157","330706","0.0-7.20-1.20","60e9645361b411f90370a970","655cb802637e0dbe2941dbc4","655cb8bec76174f27e375d25","null","
+        
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $9 </font>
+            </div>
+        </div>
+    
+        <img class=""stim"" src=./stimuli//pack_shapes_diff/cat_2/diff_1/ex_2_1_14.png></img>
+    ","null","stimulus","","","","","","",""
+"","","","","","html-keyboard-response","158","331710","0.0-7.20-2.20","60e9645361b411f90370a970","655cb802637e0dbe2941dbc4","655cb8bec76174f27e375d25","null","
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $9 </font>
+            </div>
+        </div>
+    ","null","","","","","","","",""
+"","","","","","html-keyboard-response","159","335713","0.0-7.20-3.20","60e9645361b411f90370a970","655cb802637e0dbe2941dbc4","655cb8bec76174f27e375d25","null","./stimuli//pack_shapes_diff/cat_2/diff_1/ex_2_1_14.png","null","response","ArrowRight","14","2","1","test","false",""
+"","","","","","html-keyboard-response","160","337216","0.0-7.20-4.20","60e9645361b411f90370a970","655cb802637e0dbe2941dbc4","655cb8bec76174f27e375d25","null","<p> <font color=""red"" size=""5vw""> Time out! </font> <br> <font color=""red"" size=""7vw""> - $0.05 points </font> <br> Please try to respond as quickly as possible. </p>","null","feedback","","","","","","","8.95"
+"","","","","","html-keyboard-response","161","338207","0.0-7.21-0.21","60e9645361b411f90370a970","655cb802637e0dbe2941dbc4","655cb8bec76174f27e375d25","989","
+            
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $8.95 </font>
+            </div>
+        </div>
+    
+            <div> Please press any key to continue to the next image.</div>
+        ","f","ITI","","","","","","",""
+"","","","","","html-keyboard-response","162","338809","0.0-7.21-1.21","60e9645361b411f90370a970","655cb802637e0dbe2941dbc4","655cb8bec76174f27e375d25","null","
+        
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $8.95 </font>
+            </div>
+        </div>
+    
+        <img class=""stim"" src=./stimuli//pack_shapes_diff/cat_1/diff_1/ex_1_1_8.png></img>
+    ","null","stimulus","","","","","","",""
+"","","","","","html-keyboard-response","163","339812","0.0-7.21-2.21","60e9645361b411f90370a970","655cb802637e0dbe2941dbc4","655cb8bec76174f27e375d25","null","
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $8.95 </font>
+            </div>
+        </div>
+    ","null","","","","","","","",""
+"","","","","","html-keyboard-response","164","343814","0.0-7.21-3.21","60e9645361b411f90370a970","655cb802637e0dbe2941dbc4","655cb8bec76174f27e375d25","null","./stimuli//pack_shapes_diff/cat_1/diff_1/ex_1_1_8.png","null","response","ArrowLeft","8","1","1","test","false",""
+"","","","","","html-keyboard-response","165","345316","0.0-7.21-4.21","60e9645361b411f90370a970","655cb802637e0dbe2941dbc4","655cb8bec76174f27e375d25","null","<p> <font color=""red"" size=""5vw""> Time out! </font> <br> <font color=""red"" size=""7vw""> - $0.05 points </font> <br> Please try to respond as quickly as possible. </p>","null","feedback","","","","","","","8.9"
+"","","","","","html-keyboard-response","166","346853","0.0-7.22-0.22","60e9645361b411f90370a970","655cb802637e0dbe2941dbc4","655cb8bec76174f27e375d25","1537","
+            
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $8.9 </font>
+            </div>
+        </div>
+    
+            <div> Please press any key to continue to the next image.</div>
+        ","j","ITI","","","","","","",""
+"","","","","","html-keyboard-response","167","347454","0.0-7.22-1.22","60e9645361b411f90370a970","655cb802637e0dbe2941dbc4","655cb8bec76174f27e375d25","null","
+        
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $8.9 </font>
+            </div>
+        </div>
+    
+        <img class=""stim"" src=./stimuli//pack_shapes_diff/cat_1/diff_1/ex_1_1_14.png></img>
+    ","null","stimulus","","","","","","",""
+"","","","","","html-keyboard-response","168","348456","0.0-7.22-2.22","60e9645361b411f90370a970","655cb802637e0dbe2941dbc4","655cb8bec76174f27e375d25","null","
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $8.9 </font>
+            </div>
+        </div>
+    ","null","","","","","","","",""
+"","","","","","html-keyboard-response","169","352457","0.0-7.22-3.22","60e9645361b411f90370a970","655cb802637e0dbe2941dbc4","655cb8bec76174f27e375d25","null","./stimuli//pack_shapes_diff/cat_1/diff_1/ex_1_1_14.png","null","response","ArrowLeft","14","1","1","test","false",""
+"","","","","","html-keyboard-response","170","353959","0.0-7.22-4.22","60e9645361b411f90370a970","655cb802637e0dbe2941dbc4","655cb8bec76174f27e375d25","null","<p> <font color=""red"" size=""5vw""> Time out! </font> <br> <font color=""red"" size=""7vw""> - $0.05 points </font> <br> Please try to respond as quickly as possible. </p>","null","feedback","","","","","","","8.85"
+"","","","","","html-keyboard-response","171","356865","0.0-7.23-0.23","60e9645361b411f90370a970","655cb802637e0dbe2941dbc4","655cb8bec76174f27e375d25","2906","
+            
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $8.85 </font>
+            </div>
+        </div>
+    
+            <div> Please press any key to continue to the next image.</div>
+        ","j","ITI","","","","","","",""
+"","","","","","html-keyboard-response","172","357467","0.0-7.23-1.23","60e9645361b411f90370a970","655cb802637e0dbe2941dbc4","655cb8bec76174f27e375d25","null","
+        
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $8.85 </font>
+            </div>
+        </div>
+    
+        <img class=""stim"" src=./stimuli//pack_shapes_diff/cat_2/diff_1/ex_2_1_11.png></img>
+    ","null","stimulus","","","","","","",""
+"","","","","","html-keyboard-response","173","358468","0.0-7.23-2.23","60e9645361b411f90370a970","655cb802637e0dbe2941dbc4","655cb8bec76174f27e375d25","null","
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $8.85 </font>
+            </div>
+        </div>
+    ","null","","","","","","","",""
+"","","","","","html-keyboard-response","174","362470","0.0-7.23-3.23","60e9645361b411f90370a970","655cb802637e0dbe2941dbc4","655cb8bec76174f27e375d25","null","./stimuli//pack_shapes_diff/cat_2/diff_1/ex_2_1_11.png","null","response","ArrowRight","11","2","1","test","false",""
+"","","","","","html-keyboard-response","175","363225","0.0-7.23-4.23","60e9645361b411f90370a970","655cb802637e0dbe2941dbc4","655cb8bec76174f27e375d25","755","<p> <font color=""red"" size=""5vw""> Time out! </font> <br> <font color=""red"" size=""7vw""> - $0.05 points </font> <br> Please try to respond as quickly as possible. </p>","f","feedback","","","","","","","8.8"
+"","","","","","html-keyboard-response","176","364035","0.0-7.24-0.24","60e9645361b411f90370a970","655cb802637e0dbe2941dbc4","655cb8bec76174f27e375d25","808","
+            
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $8.8 </font>
+            </div>
+        </div>
+    
+            <div> Please press any key to continue to the next image.</div>
+        ","f","ITI","","","","","","",""
+"","","","","","html-keyboard-response","177","364637","0.0-7.24-1.24","60e9645361b411f90370a970","655cb802637e0dbe2941dbc4","655cb8bec76174f27e375d25","null","
+        
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $8.8 </font>
+            </div>
+        </div>
+    
+        <img class=""stim"" src=./stimuli//pack_shapes_diff/cat_1/diff_1/ex_1_1_13.png></img>
+    ","null","stimulus","","","","","","",""
+"","","","","","html-keyboard-response","178","365641","0.0-7.24-2.24","60e9645361b411f90370a970","655cb802637e0dbe2941dbc4","655cb8bec76174f27e375d25","null","
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $8.8 </font>
+            </div>
+        </div>
+    ","null","","","","","","","",""
+"","","","","","html-keyboard-response","179","369642","0.0-7.24-3.24","60e9645361b411f90370a970","655cb802637e0dbe2941dbc4","655cb8bec76174f27e375d25","null","./stimuli//pack_shapes_diff/cat_1/diff_1/ex_1_1_13.png","null","response","ArrowLeft","13","1","1","test","false",""
+"","","","","","html-keyboard-response","180","371145","0.0-7.24-4.24","60e9645361b411f90370a970","655cb802637e0dbe2941dbc4","655cb8bec76174f27e375d25","null","<p> <font color=""red"" size=""5vw""> Time out! </font> <br> <font color=""red"" size=""7vw""> - $0.05 points </font> <br> Please try to respond as quickly as possible. </p>","null","feedback","","","","","","","8.75"
+"","","","","","html-keyboard-response","181","371629","0.0-7.25-0.25","60e9645361b411f90370a970","655cb802637e0dbe2941dbc4","655cb8bec76174f27e375d25","482","
+            
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $8.75 </font>
+            </div>
+        </div>
+    
+            <div> Please press any key to continue to the next image.</div>
+        ","f","ITI","","","","","","",""
+"","","","","","html-keyboard-response","182","372231","0.0-7.25-1.25","60e9645361b411f90370a970","655cb802637e0dbe2941dbc4","655cb8bec76174f27e375d25","null","
+        
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $8.75 </font>
+            </div>
+        </div>
+    
+        <img class=""stim"" src=./stimuli//pack_shapes_diff/cat_2/diff_1/ex_2_1_16.png></img>
+    ","null","stimulus","","","","","","",""
+"","","","","","html-keyboard-response","183","373233","0.0-7.25-2.25","60e9645361b411f90370a970","655cb802637e0dbe2941dbc4","655cb8bec76174f27e375d25","null","
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $8.75 </font>
+            </div>
+        </div>
+    ","null","","","","","","","",""
+"","","","","","html-keyboard-response","184","377236","0.0-7.25-3.25","60e9645361b411f90370a970","655cb802637e0dbe2941dbc4","655cb8bec76174f27e375d25","null","./stimuli//pack_shapes_diff/cat_2/diff_1/ex_2_1_16.png","null","response","ArrowRight","16","2","1","test","false",""
+"","","","","","html-keyboard-response","185","378737","0.0-7.25-4.25","60e9645361b411f90370a970","655cb802637e0dbe2941dbc4","655cb8bec76174f27e375d25","null","<p> <font color=""red"" size=""5vw""> Time out! </font> <br> <font color=""red"" size=""7vw""> - $0.05 points </font> <br> Please try to respond as quickly as possible. </p>","null","feedback","","","","","","","8.7"
+"","","","","","html-keyboard-response","186","383738","0.0-7.26-0.26","60e9645361b411f90370a970","655cb802637e0dbe2941dbc4","655cb8bec76174f27e375d25","null","
+            
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $8.7 </font>
+            </div>
+        </div>
+    
+            <div> Please press any key to continue to the next image.</div>
+        ","null","ITI","","","","","","",""
+"","","","","","html-keyboard-response","187","384339","0.0-7.26-1.26","60e9645361b411f90370a970","655cb802637e0dbe2941dbc4","655cb8bec76174f27e375d25","null","
+        
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $8.7 </font>
+            </div>
+        </div>
+    
+        <img class=""stim"" src=./stimuli//pack_shapes_diff/cat_1/diff_1/ex_1_1_15.png></img>
+    ","null","stimulus","","","","","","",""
+"","","","","","html-keyboard-response","188","385341","0.0-7.26-2.26","60e9645361b411f90370a970","655cb802637e0dbe2941dbc4","655cb8bec76174f27e375d25","null","
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $8.7 </font>
+            </div>
+        </div>
+    ","null","","","","","","","",""
+"","","","","","html-keyboard-response","189","389343","0.0-7.26-3.26","60e9645361b411f90370a970","655cb802637e0dbe2941dbc4","655cb8bec76174f27e375d25","null","./stimuli//pack_shapes_diff/cat_1/diff_1/ex_1_1_15.png","null","response","ArrowLeft","15","1","1","test","false",""
+"","","","","","html-keyboard-response","190","390847","0.0-7.26-4.26","60e9645361b411f90370a970","655cb802637e0dbe2941dbc4","655cb8bec76174f27e375d25","null","<p> <font color=""red"" size=""5vw""> Time out! </font> <br> <font color=""red"" size=""7vw""> - $0.05 points </font> <br> Please try to respond as quickly as possible. </p>","null","feedback","","","","","","","8.65"
+"","","","","","html-keyboard-response","191","391435","0.0-7.27-0.27","60e9645361b411f90370a970","655cb802637e0dbe2941dbc4","655cb8bec76174f27e375d25","586","
+            
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $8.65 </font>
+            </div>
+        </div>
+    
+            <div> Please press any key to continue to the next image.</div>
+        ","e","ITI","","","","","","",""
+"","","","","","html-keyboard-response","192","392042","0.0-7.27-1.27","60e9645361b411f90370a970","655cb802637e0dbe2941dbc4","655cb8bec76174f27e375d25","null","
+        
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $8.65 </font>
+            </div>
+        </div>
+    
+        <img class=""stim"" src=./stimuli//pack_shapes_diff/cat_2/diff_1/ex_2_1_15.png></img>
+    ","null","stimulus","","","","","","",""
+"","","","","","html-keyboard-response","193","393046","0.0-7.27-2.27","60e9645361b411f90370a970","655cb802637e0dbe2941dbc4","655cb8bec76174f27e375d25","null","
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $8.65 </font>
+            </div>
+        </div>
+    ","null","","","","","","","",""
+"","","","","","html-keyboard-response","194","397049","0.0-7.27-3.27","60e9645361b411f90370a970","655cb802637e0dbe2941dbc4","655cb8bec76174f27e375d25","null","./stimuli//pack_shapes_diff/cat_2/diff_1/ex_2_1_15.png","null","response","ArrowRight","15","2","1","test","false",""
+"","","","","","html-keyboard-response","195","398371","0.0-7.27-4.27","60e9645361b411f90370a970","655cb802637e0dbe2941dbc4","655cb8bec76174f27e375d25","1322","<p> <font color=""red"" size=""5vw""> Time out! </font> <br> <font color=""red"" size=""7vw""> - $0.05 points </font> <br> Please try to respond as quickly as possible. </p>","e","feedback","","","","","","","8.6"
+"","","","","","html-keyboard-response","196","404031","0.0-7.28-0.28","60e9645361b411f90370a970","655cb802637e0dbe2941dbc4","655cb8bec76174f27e375d25","null","
+            
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $8.6 </font>
+            </div>
+        </div>
+    
+            <div> Please press any key to continue to the next image.</div>
+        ","null","ITI","","","","","","",""
+"","","","","","html-keyboard-response","197","404970","0.0-7.28-1.28","60e9645361b411f90370a970","655cb802637e0dbe2941dbc4","655cb8bec76174f27e375d25","null","
+        
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $8.6 </font>
+            </div>
+        </div>
+    
+        <img class=""stim"" src=./stimuli//pack_shapes_diff/cat_1/diff_1/ex_1_1_8.png></img>
+    ","null","stimulus","","","","","","",""
+"","","","","","html-keyboard-response","198","405971","0.0-7.28-2.28","60e9645361b411f90370a970","655cb802637e0dbe2941dbc4","655cb8bec76174f27e375d25","null","
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $8.6 </font>
+            </div>
+        </div>
+    ","null","","","","","","","",""
+"","","","","","html-keyboard-response","199","409977","0.0-7.28-3.28","60e9645361b411f90370a970","655cb802637e0dbe2941dbc4","655cb8bec76174f27e375d25","null","./stimuli//pack_shapes_diff/cat_1/diff_1/ex_1_1_8.png","null","response","ArrowLeft","8","1","1","test","false",""
+"","","","","","html-keyboard-response","200","411225","0.0-7.28-4.28","60e9645361b411f90370a970","655cb802637e0dbe2941dbc4","655cb8bec76174f27e375d25","1248","<p> <font color=""red"" size=""5vw""> Time out! </font> <br> <font color=""red"" size=""7vw""> - $0.05 points </font> <br> Please try to respond as quickly as possible. </p>","w","feedback","","","","","","","8.55"
+"","","","","","html-keyboard-response","201","411906","0.0-7.29-0.29","60e9645361b411f90370a970","655cb802637e0dbe2941dbc4","655cb8bec76174f27e375d25","680","
+            
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $8.55 </font>
+            </div>
+        </div>
+    
+            <div> Please press any key to continue to the next image.</div>
+        ","w","ITI","","","","","","",""
+"","","","","","html-keyboard-response","202","412512","0.0-7.29-1.29","60e9645361b411f90370a970","655cb802637e0dbe2941dbc4","655cb8bec76174f27e375d25","null","
+        
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $8.55 </font>
+            </div>
+        </div>
+    
+        <img class=""stim"" src=./stimuli//pack_shapes_diff/cat_1/diff_1/ex_1_1_16.png></img>
+    ","null","stimulus","","","","","","",""
+"","","","","","html-keyboard-response","203","413515","0.0-7.29-2.29","60e9645361b411f90370a970","655cb802637e0dbe2941dbc4","655cb8bec76174f27e375d25","null","
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $8.55 </font>
+            </div>
+        </div>
+    ","null","","","","","","","",""
+"","","","","","html-keyboard-response","204","417518","0.0-7.29-3.29","60e9645361b411f90370a970","655cb802637e0dbe2941dbc4","655cb8bec76174f27e375d25","null","./stimuli//pack_shapes_diff/cat_1/diff_1/ex_1_1_16.png","null","response","ArrowLeft","16","1","1","test","false",""
+"","","","","","html-keyboard-response","205","418206","0.0-7.29-4.29","60e9645361b411f90370a970","655cb802637e0dbe2941dbc4","655cb8bec76174f27e375d25","688","<p> <font color=""red"" size=""5vw""> Time out! </font> <br> <font color=""red"" size=""7vw""> - $0.05 points </font> <br> Please try to respond as quickly as possible. </p>","w","feedback","","","","","","","8.5"
+"","","","","","html-keyboard-response","206","418222","0.0-7.30-0.30","60e9645361b411f90370a970","655cb802637e0dbe2941dbc4","655cb8bec76174f27e375d25","15","
+            
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $8.5 </font>
+            </div>
+        </div>
+    
+            <div> Please press any key to continue to the next image.</div>
+        ","r","ITI","","","","","","",""
+"","","","","","html-keyboard-response","207","418828","0.0-7.30-1.30","60e9645361b411f90370a970","655cb802637e0dbe2941dbc4","655cb8bec76174f27e375d25","null","
+        
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $8.5 </font>
+            </div>
+        </div>
+    
+        <img class=""stim"" src=./stimuli//pack_shapes_diff/cat_1/diff_1/ex_1_1_8.png></img>
+    ","null","stimulus","","","","","","",""
+"","","","","","html-keyboard-response","208","419830","0.0-7.30-2.30","60e9645361b411f90370a970","655cb802637e0dbe2941dbc4","655cb8bec76174f27e375d25","null","
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $8.5 </font>
+            </div>
+        </div>
+    ","null","","","","","","","",""
+"","","","","","html-keyboard-response","209","423833","0.0-7.30-3.30","60e9645361b411f90370a970","655cb802637e0dbe2941dbc4","655cb8bec76174f27e375d25","null","./stimuli//pack_shapes_diff/cat_1/diff_1/ex_1_1_8.png","null","response","ArrowLeft","8","1","1","test","false",""
+"","","","","","html-keyboard-response","210","423840","0.0-7.30-4.30","60e9645361b411f90370a970","655cb802637e0dbe2941dbc4","655cb8bec76174f27e375d25","5","<p> <font color=""red"" size=""5vw""> Time out! </font> <br> <font color=""red"" size=""7vw""> - $0.05 points </font> <br> Please try to respond as quickly as possible. </p>","r","feedback","","","","","","","8.45"
+"","","","","","html-keyboard-response","211","424573","0.0-7.31-0.31","60e9645361b411f90370a970","655cb802637e0dbe2941dbc4","655cb8bec76174f27e375d25","731","
+            
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $8.45 </font>
+            </div>
+        </div>
+    
+            <div> Please press any key to continue to the next image.</div>
+        ","e","ITI","","","","","","",""
+"","","","","","html-keyboard-response","212","425177","0.0-7.31-1.31","60e9645361b411f90370a970","655cb802637e0dbe2941dbc4","655cb8bec76174f27e375d25","null","
+        
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $8.45 </font>
+            </div>
+        </div>
+    
+        <img class=""stim"" src=./stimuli//pack_shapes_diff/cat_1/diff_1/ex_1_1_2.png></img>
+    ","null","stimulus","","","","","","",""
+"","","","","","html-keyboard-response","213","426182","0.0-7.31-2.31","60e9645361b411f90370a970","655cb802637e0dbe2941dbc4","655cb8bec76174f27e375d25","null","
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $8.45 </font>
+            </div>
+        </div>
+    ","null","","","","","","","",""
+"","","","","","html-keyboard-response","214","430184","0.0-7.31-3.31","60e9645361b411f90370a970","655cb802637e0dbe2941dbc4","655cb8bec76174f27e375d25","null","./stimuli//pack_shapes_diff/cat_1/diff_1/ex_1_1_2.png","null","response","ArrowLeft","2","1","1","test","false",""
+"","","","","","html-keyboard-response","215","430270","0.0-7.31-4.31","60e9645361b411f90370a970","655cb802637e0dbe2941dbc4","655cb8bec76174f27e375d25","85","<p> <font color=""red"" size=""5vw""> Time out! </font> <br> <font color=""red"" size=""7vw""> - $0.05 points </font> <br> Please try to respond as quickly as possible. </p>","d","feedback","","","","","","","8.4"
+"","","","","","html-keyboard-response","216","430409","0.0-7.32-0.32","60e9645361b411f90370a970","655cb802637e0dbe2941dbc4","655cb8bec76174f27e375d25","139","
+            
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $8.4 </font>
+            </div>
+        </div>
+    
+            <div> Please press any key to continue to the next image.</div>
+        ","f","ITI","","","","","","",""
+"","","","","","html-keyboard-response","217","431013","0.0-7.32-1.32","60e9645361b411f90370a970","655cb802637e0dbe2941dbc4","655cb8bec76174f27e375d25","null","
+        
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $8.4 </font>
+            </div>
+        </div>
+    
+        <img class=""stim"" src=./stimuli//pack_shapes_diff/cat_2/diff_1/ex_2_1_13.png></img>
+    ","null","stimulus","","","","","","",""
+"","","","","","html-keyboard-response","218","432014","0.0-7.32-2.32","60e9645361b411f90370a970","655cb802637e0dbe2941dbc4","655cb8bec76174f27e375d25","null","
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $8.4 </font>
+            </div>
+        </div>
+    ","null","","","","","","","",""
+"","","","","","html-keyboard-response","219","436016","0.0-7.32-3.32","60e9645361b411f90370a970","655cb802637e0dbe2941dbc4","655cb8bec76174f27e375d25","null","./stimuli//pack_shapes_diff/cat_2/diff_1/ex_2_1_13.png","null","response","ArrowRight","13","2","1","test","false",""
+"","","","","","html-keyboard-response","220","436143","0.0-7.32-4.32","60e9645361b411f90370a970","655cb802637e0dbe2941dbc4","655cb8bec76174f27e375d25","125","<p> <font color=""red"" size=""5vw""> Time out! </font> <br> <font color=""red"" size=""7vw""> - $0.05 points </font> <br> Please try to respond as quickly as possible. </p>","r","feedback","","","","","","","8.35"
+"","","","","","html-keyboard-response","221","436381","0.0-7.33-0.33","60e9645361b411f90370a970","655cb802637e0dbe2941dbc4","655cb8bec76174f27e375d25","238","
+            
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $8.35 </font>
+            </div>
+        </div>
+    
+            <div> Please press any key to continue to the next image.</div>
+        ","f","ITI","","","","","","",""
+"","","","","","html-keyboard-response","222","436992","0.0-7.33-1.33","60e9645361b411f90370a970","655cb802637e0dbe2941dbc4","655cb8bec76174f27e375d25","null","
+        
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $8.35 </font>
+            </div>
+        </div>
+    
+        <img class=""stim"" src=./stimuli//pack_shapes_diff/cat_2/diff_1/ex_2_1_2.png></img>
+    ","null","stimulus","","","","","","",""
+"","","","","","html-keyboard-response","223","437999","0.0-7.33-2.33","60e9645361b411f90370a970","655cb802637e0dbe2941dbc4","655cb8bec76174f27e375d25","null","
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $8.35 </font>
+            </div>
+        </div>
+    ","null","","","","","","","",""
+"","","","","","html-keyboard-response","224","442002","0.0-7.33-3.33","60e9645361b411f90370a970","655cb802637e0dbe2941dbc4","655cb8bec76174f27e375d25","null","./stimuli//pack_shapes_diff/cat_2/diff_1/ex_2_1_2.png","null","response","ArrowRight","2","2","1","test","false",""
+"","","","","","html-keyboard-response","225","442083","0.0-7.33-4.33","60e9645361b411f90370a970","655cb802637e0dbe2941dbc4","655cb8bec76174f27e375d25","80","<p> <font color=""red"" size=""5vw""> Time out! </font> <br> <font color=""red"" size=""7vw""> - $0.05 points </font> <br> Please try to respond as quickly as possible. </p>","v","feedback","","","","","","","8.3"
+"","","","","","html-keyboard-response","226","442094","0.0-7.34-0.34","60e9645361b411f90370a970","655cb802637e0dbe2941dbc4","655cb8bec76174f27e375d25","10","
+            
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $8.3 </font>
+            </div>
+        </div>
+    
+            <div> Please press any key to continue to the next image.</div>
+        ","c","ITI","","","","","","",""
+"","","","","","html-keyboard-response","227","442695","0.0-7.34-1.34","60e9645361b411f90370a970","655cb802637e0dbe2941dbc4","655cb8bec76174f27e375d25","null","
+        
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $8.3 </font>
+            </div>
+        </div>
+    
+        <img class=""stim"" src=./stimuli//pack_shapes_diff/cat_1/diff_1/ex_1_1_13.png></img>
+    ","null","stimulus","","","","","","",""
+"","","","","","html-keyboard-response","228","443697","0.0-7.34-2.34","60e9645361b411f90370a970","655cb802637e0dbe2941dbc4","655cb8bec76174f27e375d25","null","
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $8.3 </font>
+            </div>
+        </div>
+    ","null","","","","","","","",""
+"","","","","","html-keyboard-response","229","447701","0.0-7.34-3.34","60e9645361b411f90370a970","655cb802637e0dbe2941dbc4","655cb8bec76174f27e375d25","null","./stimuli//pack_shapes_diff/cat_1/diff_1/ex_1_1_13.png","null","response","ArrowLeft","13","1","1","test","false",""
+"","","","","","html-keyboard-response","230","448974","0.0-7.34-4.34","60e9645361b411f90370a970","655cb802637e0dbe2941dbc4","655cb8bec76174f27e375d25","1272","<p> <font color=""red"" size=""5vw""> Time out! </font> <br> <font color=""red"" size=""7vw""> - $0.05 points </font> <br> Please try to respond as quickly as possible. </p>","c","feedback","","","","","","","8.25"
+"","","","","","html-keyboard-response","231","451835","0.0-7.35-0.35","60e9645361b411f90370a970","655cb802637e0dbe2941dbc4","655cb8bec76174f27e375d25","2860","
+            
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $8.25 </font>
+            </div>
+        </div>
+    
+            <div> Please press any key to continue to the next image.</div>
+        ","c","ITI","","","","","","",""
+"","","","","","html-keyboard-response","232","452443","0.0-7.35-1.35","60e9645361b411f90370a970","655cb802637e0dbe2941dbc4","655cb8bec76174f27e375d25","null","
+        
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $8.25 </font>
+            </div>
+        </div>
+    
+        <img class=""stim"" src=./stimuli//pack_shapes_diff/cat_1/diff_1/ex_1_1_11.png></img>
+    ","null","stimulus","","","","","","",""
+"","","","","","html-keyboard-response","233","453448","0.0-7.35-2.35","60e9645361b411f90370a970","655cb802637e0dbe2941dbc4","655cb8bec76174f27e375d25","null","
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $8.25 </font>
+            </div>
+        </div>
+    ","null","","","","","","","",""
+"","","","","","html-keyboard-response","234","457452","0.0-7.35-3.35","60e9645361b411f90370a970","655cb802637e0dbe2941dbc4","655cb8bec76174f27e375d25","null","./stimuli//pack_shapes_diff/cat_1/diff_1/ex_1_1_11.png","null","response","ArrowLeft","11","1","1","test","false",""
+"","","","","","html-keyboard-response","235","458107","0.0-7.35-4.35","60e9645361b411f90370a970","655cb802637e0dbe2941dbc4","655cb8bec76174f27e375d25","654","<p> <font color=""red"" size=""5vw""> Time out! </font> <br> <font color=""red"" size=""7vw""> - $0.05 points </font> <br> Please try to respond as quickly as possible. </p>","f","feedback","","","","","","","8.2"
+"","","","","","html-keyboard-response","236","458112","0.0-7.36-0.36","60e9645361b411f90370a970","655cb802637e0dbe2941dbc4","655cb8bec76174f27e375d25","5","
+            
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $8.2 </font>
+            </div>
+        </div>
+    
+            <div> Please press any key to continue to the next image.</div>
+        ","d","ITI","","","","","","",""
+"","","","","","html-keyboard-response","237","458714","0.0-7.36-1.36","60e9645361b411f90370a970","655cb802637e0dbe2941dbc4","655cb8bec76174f27e375d25","null","
+        
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $8.2 </font>
+            </div>
+        </div>
+    
+        <img class=""stim"" src=./stimuli//pack_shapes_diff/cat_1/diff_1/ex_1_1_4.png></img>
+    ","null","stimulus","","","","","","",""
+"","","","","","html-keyboard-response","238","459718","0.0-7.36-2.36","60e9645361b411f90370a970","655cb802637e0dbe2941dbc4","655cb8bec76174f27e375d25","null","
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $8.2 </font>
+            </div>
+        </div>
+    ","null","","","","","","","",""
+"","","","","","html-keyboard-response","239","463722","0.0-7.36-3.36","60e9645361b411f90370a970","655cb802637e0dbe2941dbc4","655cb8bec76174f27e375d25","null","./stimuli//pack_shapes_diff/cat_1/diff_1/ex_1_1_4.png","null","response","ArrowLeft","4","1","1","test","false",""
+"","","","","","html-keyboard-response","240","463863","0.0-7.36-4.36","60e9645361b411f90370a970","655cb802637e0dbe2941dbc4","655cb8bec76174f27e375d25","141","<p> <font color=""red"" size=""5vw""> Time out! </font> <br> <font color=""red"" size=""7vw""> - $0.05 points </font> <br> Please try to respond as quickly as possible. </p>","f","feedback","","","","","","","8.15"
+"","","","","","html-keyboard-response","241","464759","0.0-7.37-0.37","60e9645361b411f90370a970","655cb802637e0dbe2941dbc4","655cb8bec76174f27e375d25","895","
+            
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $8.15 </font>
+            </div>
+        </div>
+    
+            <div> Please press any key to continue to the next image.</div>
+        ","f","ITI","","","","","","",""
+"","","","","","html-keyboard-response","242","465363","0.0-7.37-1.37","60e9645361b411f90370a970","655cb802637e0dbe2941dbc4","655cb8bec76174f27e375d25","null","
+        
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $8.15 </font>
+            </div>
+        </div>
+    
+        <img class=""stim"" src=./stimuli//pack_shapes_diff/cat_1/diff_1/ex_1_1_4.png></img>
+    ","null","stimulus","","","","","","",""
+"","","","","","html-keyboard-response","243","466364","0.0-7.37-2.37","60e9645361b411f90370a970","655cb802637e0dbe2941dbc4","655cb8bec76174f27e375d25","null","
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $8.15 </font>
+            </div>
+        </div>
+    ","null","","","","","","","",""
+"","","","","","html-keyboard-response","244","470370","0.0-7.37-3.37","60e9645361b411f90370a970","655cb802637e0dbe2941dbc4","655cb8bec76174f27e375d25","null","./stimuli//pack_shapes_diff/cat_1/diff_1/ex_1_1_4.png","null","response","ArrowLeft","4","1","1","test","false",""
+"","","","","","html-keyboard-response","245","470573","0.0-7.37-4.37","60e9645361b411f90370a970","655cb802637e0dbe2941dbc4","655cb8bec76174f27e375d25","202","<p> <font color=""red"" size=""5vw""> Time out! </font> <br> <font color=""red"" size=""7vw""> - $0.05 points </font> <br> Please try to respond as quickly as possible. </p>","r","feedback","","","","","","","8.1"
+"","","","","","html-keyboard-response","246","471791","0.0-7.38-0.38","60e9645361b411f90370a970","655cb802637e0dbe2941dbc4","655cb8bec76174f27e375d25","1217","
+            
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $8.1 </font>
+            </div>
+        </div>
+    
+            <div> Please press any key to continue to the next image.</div>
+        ","s","ITI","","","","","","",""
+"","","","","","html-keyboard-response","247","472393","0.0-7.38-1.38","60e9645361b411f90370a970","655cb802637e0dbe2941dbc4","655cb8bec76174f27e375d25","null","
+        
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $8.1 </font>
+            </div>
+        </div>
+    
+        <img class=""stim"" src=./stimuli//pack_shapes_diff/cat_1/diff_1/ex_1_1_2.png></img>
+    ","null","stimulus","","","","","","",""
+"","","","","","html-keyboard-response","248","473395","0.0-7.38-2.38","60e9645361b411f90370a970","655cb802637e0dbe2941dbc4","655cb8bec76174f27e375d25","null","
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $8.1 </font>
+            </div>
+        </div>
+    ","null","","","","","","","",""
+"","","","","","html-keyboard-response","249","478028","0.0-7.38-3.38","60e9645361b411f90370a970","655cb802637e0dbe2941dbc4","655cb8bec76174f27e375d25","null","./stimuli//pack_shapes_diff/cat_1/diff_1/ex_1_1_2.png","null","response","ArrowLeft","2","1","1","test","false",""
+"","","","","","html-keyboard-response","250","479408","0.0-7.38-4.38","60e9645361b411f90370a970","655cb802637e0dbe2941dbc4","655cb8bec76174f27e375d25","1380","<p> <font color=""red"" size=""5vw""> Time out! </font> <br> <font color=""red"" size=""7vw""> - $0.05 points </font> <br> Please try to respond as quickly as possible. </p>","g","feedback","","","","","","","8.05"
+"","","","","","html-keyboard-response","251","480034","0.0-7.39-0.39","60e9645361b411f90370a970","655cb802637e0dbe2941dbc4","655cb8bec76174f27e375d25","625","
+            
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $8.05 </font>
+            </div>
+        </div>
+    
+            <div> Please press any key to continue to the next image.</div>
+        ","g","ITI","","","","","","",""
+"","","","","","html-keyboard-response","252","480636","0.0-7.39-1.39","60e9645361b411f90370a970","655cb802637e0dbe2941dbc4","655cb8bec76174f27e375d25","null","
+        
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $8.05 </font>
+            </div>
+        </div>
+    
+        <img class=""stim"" src=./stimuli//pack_shapes_diff/cat_1/diff_1/ex_1_1_2.png></img>
+    ","null","stimulus","","","","","","",""
+"","","","","","html-keyboard-response","253","481639","0.0-7.39-2.39","60e9645361b411f90370a970","655cb802637e0dbe2941dbc4","655cb8bec76174f27e375d25","null","
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $8.05 </font>
+            </div>
+        </div>
+    ","null","","","","","","","",""
+"","","","","","html-keyboard-response","254","485647","0.0-7.39-3.39","60e9645361b411f90370a970","655cb802637e0dbe2941dbc4","655cb8bec76174f27e375d25","null","./stimuli//pack_shapes_diff/cat_1/diff_1/ex_1_1_2.png","null","response","ArrowLeft","2","1","1","test","false",""
+"","","","","","html-keyboard-response","255","487151","0.0-7.39-4.39","60e9645361b411f90370a970","655cb802637e0dbe2941dbc4","655cb8bec76174f27e375d25","null","<p> <font color=""red"" size=""5vw""> Time out! </font> <br> <font color=""red"" size=""7vw""> - $0.05 points </font> <br> Please try to respond as quickly as possible. </p>","null","feedback","","","","","","","8"
+"","","","","","html-keyboard-response","256","488430","0.0-7.40-0.40","60e9645361b411f90370a970","655cb802637e0dbe2941dbc4","655cb8bec76174f27e375d25","1278","
+            
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $8 </font>
+            </div>
+        </div>
+    
+            <div> Please press any key to continue to the next image.</div>
+        ","f","ITI","","","","","","",""
+"","","","","","html-keyboard-response","257","489033","0.0-7.40-1.40","60e9645361b411f90370a970","655cb802637e0dbe2941dbc4","655cb8bec76174f27e375d25","null","
+        
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $8 </font>
+            </div>
+        </div>
+    
+        <img class=""stim"" src=./stimuli//pack_shapes_diff/cat_2/diff_1/ex_2_1_15.png></img>
+    ","null","stimulus","","","","","","",""
+"","","","","","html-keyboard-response","258","490039","0.0-7.40-2.40","60e9645361b411f90370a970","655cb802637e0dbe2941dbc4","655cb8bec76174f27e375d25","null","
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $8 </font>
+            </div>
+        </div>
+    ","null","","","","","","","",""
+"","","","","","html-keyboard-response","259","494043","0.0-7.40-3.40","60e9645361b411f90370a970","655cb802637e0dbe2941dbc4","655cb8bec76174f27e375d25","null","./stimuli//pack_shapes_diff/cat_2/diff_1/ex_2_1_15.png","null","response","ArrowRight","15","2","1","test","false",""
+"","","","","","html-keyboard-response","260","495544","0.0-7.40-4.40","60e9645361b411f90370a970","655cb802637e0dbe2941dbc4","655cb8bec76174f27e375d25","null","<p> <font color=""red"" size=""5vw""> Time out! </font> <br> <font color=""red"" size=""7vw""> - $0.05 points </font> <br> Please try to respond as quickly as possible. </p>","null","feedback","","","","","","","7.95"
+"","","","","","html-keyboard-response","261","497037","0.0-7.41-0.41","60e9645361b411f90370a970","655cb802637e0dbe2941dbc4","655cb8bec76174f27e375d25","1493","
+            
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $7.95 </font>
+            </div>
+        </div>
+    
+            <div> Please press any key to continue to the next image.</div>
+        ","h","ITI","","","","","","",""
+"","","","","","html-keyboard-response","262","497640","0.0-7.41-1.41","60e9645361b411f90370a970","655cb802637e0dbe2941dbc4","655cb8bec76174f27e375d25","null","
+        
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $7.95 </font>
+            </div>
+        </div>
+    
+        <img class=""stim"" src=./stimuli//pack_shapes_diff/cat_1/diff_1/ex_1_1_14.png></img>
+    ","null","stimulus","","","","","","",""
+"","","","","","html-keyboard-response","263","498641","0.0-7.41-2.41","60e9645361b411f90370a970","655cb802637e0dbe2941dbc4","655cb8bec76174f27e375d25","null","
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $7.95 </font>
+            </div>
+        </div>
+    ","null","","","","","","","",""
+"","","","","","html-keyboard-response","264","502644","0.0-7.41-3.41","60e9645361b411f90370a970","655cb802637e0dbe2941dbc4","655cb8bec76174f27e375d25","null","./stimuli//pack_shapes_diff/cat_1/diff_1/ex_1_1_14.png","null","response","ArrowLeft","14","1","1","test","false",""
+"","","","","","html-keyboard-response","265","502993","0.0-7.41-4.41","60e9645361b411f90370a970","655cb802637e0dbe2941dbc4","655cb8bec76174f27e375d25","349","<p> <font color=""red"" size=""5vw""> Time out! </font> <br> <font color=""red"" size=""7vw""> - $0.05 points </font> <br> Please try to respond as quickly as possible. </p>","t","feedback","","","","","","","7.9"
+"","","","","","html-keyboard-response","266","504732","0.0-7.42-0.42","60e9645361b411f90370a970","655cb802637e0dbe2941dbc4","655cb8bec76174f27e375d25","1738","
+            
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $7.9 </font>
+            </div>
+        </div>
+    
+            <div> Please press any key to continue to the next image.</div>
+        ","f","ITI","","","","","","",""
+"","","","","","html-keyboard-response","267","505333","0.0-7.42-1.42","60e9645361b411f90370a970","655cb802637e0dbe2941dbc4","655cb8bec76174f27e375d25","null","
+        
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $7.9 </font>
+            </div>
+        </div>
+    
+        <img class=""stim"" src=./stimuli//pack_shapes_diff/cat_2/diff_1/ex_2_1_15.png></img>
+    ","null","stimulus","","","","","","",""
+"","","","","","html-keyboard-response","268","506334","0.0-7.42-2.42","60e9645361b411f90370a970","655cb802637e0dbe2941dbc4","655cb8bec76174f27e375d25","null","
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $7.9 </font>
+            </div>
+        </div>
+    ","null","","","","","","","",""
+"","","","","","html-keyboard-response","269","510335","0.0-7.42-3.42","60e9645361b411f90370a970","655cb802637e0dbe2941dbc4","655cb8bec76174f27e375d25","null","./stimuli//pack_shapes_diff/cat_2/diff_1/ex_2_1_15.png","null","response","ArrowRight","15","2","1","test","false",""
+"","","","","","html-keyboard-response","270","510715","0.0-7.42-4.42","60e9645361b411f90370a970","655cb802637e0dbe2941dbc4","655cb8bec76174f27e375d25","378","<p> <font color=""red"" size=""5vw""> Time out! </font> <br> <font color=""red"" size=""7vw""> - $0.05 points </font> <br> Please try to respond as quickly as possible. </p>","t","feedback","","","","","","","7.85"
+"","","","","","html-keyboard-response","271","511496","0.0-7.43-0.43","60e9645361b411f90370a970","655cb802637e0dbe2941dbc4","655cb8bec76174f27e375d25","780","
+            
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $7.85 </font>
+            </div>
+        </div>
+    
+            <div> Please press any key to continue to the next image.</div>
+        ","d","ITI","","","","","","",""
+"","","","","","html-keyboard-response","272","512100","0.0-7.43-1.43","60e9645361b411f90370a970","655cb802637e0dbe2941dbc4","655cb8bec76174f27e375d25","null","
+        
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $7.85 </font>
+            </div>
+        </div>
+    
+        <img class=""stim"" src=./stimuli//pack_shapes_diff/cat_2/diff_1/ex_2_1_10.png></img>
+    ","null","stimulus","","","","","","",""
+"","","","","","html-keyboard-response","273","513101","0.0-7.43-2.43","60e9645361b411f90370a970","655cb802637e0dbe2941dbc4","655cb8bec76174f27e375d25","null","
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $7.85 </font>
+            </div>
+        </div>
+    ","null","","","","","","","",""
+"","","","","","html-keyboard-response","274","517102","0.0-7.43-3.43","60e9645361b411f90370a970","655cb802637e0dbe2941dbc4","655cb8bec76174f27e375d25","null","./stimuli//pack_shapes_diff/cat_2/diff_1/ex_2_1_10.png","null","response","ArrowRight","10","2","1","test","false",""
+"","","","","","html-keyboard-response","275","517412","0.0-7.43-4.43","60e9645361b411f90370a970","655cb802637e0dbe2941dbc4","655cb8bec76174f27e375d25","310","<p> <font color=""red"" size=""5vw""> Time out! </font> <br> <font color=""red"" size=""7vw""> - $0.05 points </font> <br> Please try to respond as quickly as possible. </p>","r","feedback","","","","","","","7.8"
+"","","","","","html-keyboard-response","276","517954","0.0-7.44-0.44","60e9645361b411f90370a970","655cb802637e0dbe2941dbc4","655cb8bec76174f27e375d25","542","
+            
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $7.8 </font>
+            </div>
+        </div>
+    
+            <div> Please press any key to continue to the next image.</div>
+        ","t","ITI","","","","","","",""
+"","","","","","html-keyboard-response","277","518556","0.0-7.44-1.44","60e9645361b411f90370a970","655cb802637e0dbe2941dbc4","655cb8bec76174f27e375d25","null","
+        
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $7.8 </font>
+            </div>
+        </div>
+    
+        <img class=""stim"" src=./stimuli//pack_shapes_diff/cat_1/diff_1/ex_1_1_11.png></img>
+    ","null","stimulus","","","","","","",""
+"","","","","","html-keyboard-response","278","519559","0.0-7.44-2.44","60e9645361b411f90370a970","655cb802637e0dbe2941dbc4","655cb8bec76174f27e375d25","null","
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $7.8 </font>
+            </div>
+        </div>
+    ","null","","","","","","","",""
+"","","","","","html-keyboard-response","279","523561","0.0-7.44-3.44","60e9645361b411f90370a970","655cb802637e0dbe2941dbc4","655cb8bec76174f27e375d25","null","./stimuli//pack_shapes_diff/cat_1/diff_1/ex_1_1_11.png","null","response","ArrowLeft","11","1","1","test","false",""
+"","","","","","html-keyboard-response","280","523864","0.0-7.44-4.44","60e9645361b411f90370a970","655cb802637e0dbe2941dbc4","655cb8bec76174f27e375d25","302","<p> <font color=""red"" size=""5vw""> Time out! </font> <br> <font color=""red"" size=""7vw""> - $0.05 points </font> <br> Please try to respond as quickly as possible. </p>","g","feedback","","","","","","","7.75"
+"","","","","","html-keyboard-response","281","523869","0.0-7.45-0.45","60e9645361b411f90370a970","655cb802637e0dbe2941dbc4","655cb8bec76174f27e375d25","5","
+            
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $7.75 </font>
+            </div>
+        </div>
+    
+            <div> Please press any key to continue to the next image.</div>
+        ","d","ITI","","","","","","",""
+"","","","","","html-keyboard-response","282","524472","0.0-7.45-1.45","60e9645361b411f90370a970","655cb802637e0dbe2941dbc4","655cb8bec76174f27e375d25","null","
+        
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $7.75 </font>
+            </div>
+        </div>
+    
+        <img class=""stim"" src=./stimuli//pack_shapes_diff/cat_2/diff_1/ex_2_1_5.png></img>
+    ","null","stimulus","","","","","","",""
+"","","","","","html-keyboard-response","283","525473","0.0-7.45-2.45","60e9645361b411f90370a970","655cb802637e0dbe2941dbc4","655cb8bec76174f27e375d25","null","
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $7.75 </font>
+            </div>
+        </div>
+    ","null","","","","","","","",""
+"","","","","","html-keyboard-response","284","529474","0.0-7.45-3.45","60e9645361b411f90370a970","655cb802637e0dbe2941dbc4","655cb8bec76174f27e375d25","null","./stimuli//pack_shapes_diff/cat_2/diff_1/ex_2_1_5.png","null","response","ArrowRight","5","2","1","test","false",""
+"","","","","","html-keyboard-response","285","529489","0.0-7.45-4.45","60e9645361b411f90370a970","655cb802637e0dbe2941dbc4","655cb8bec76174f27e375d25","15","<p> <font color=""red"" size=""5vw""> Time out! </font> <br> <font color=""red"" size=""7vw""> - $0.05 points </font> <br> Please try to respond as quickly as possible. </p>","g","feedback","","","","","","","7.7"
+"","","","","","html-keyboard-response","286","529494","0.0-7.46-0.46","60e9645361b411f90370a970","655cb802637e0dbe2941dbc4","655cb8bec76174f27e375d25","5","
+            
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $7.7 </font>
+            </div>
+        </div>
+    
+            <div> Please press any key to continue to the next image.</div>
+        ","t","ITI","","","","","","",""
+"","","","","","html-keyboard-response","287","530095","0.0-7.46-1.46","60e9645361b411f90370a970","655cb802637e0dbe2941dbc4","655cb8bec76174f27e375d25","null","
+        
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $7.7 </font>
+            </div>
+        </div>
+    
+        <img class=""stim"" src=./stimuli//pack_shapes_diff/cat_1/diff_1/ex_1_1_11.png></img>
+    ","null","stimulus","","","","","","",""
+"","","","","","html-keyboard-response","288","531096","0.0-7.46-2.46","60e9645361b411f90370a970","655cb802637e0dbe2941dbc4","655cb8bec76174f27e375d25","null","
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $7.7 </font>
+            </div>
+        </div>
+    ","null","","","","","","","",""
+"","","","","","html-keyboard-response","289","535103","0.0-7.46-3.46","60e9645361b411f90370a970","655cb802637e0dbe2941dbc4","655cb8bec76174f27e375d25","null","./stimuli//pack_shapes_diff/cat_1/diff_1/ex_1_1_11.png","null","response","ArrowLeft","11","1","1","test","false",""
+"","","","","","html-keyboard-response","290","535336","0.0-7.46-4.46","60e9645361b411f90370a970","655cb802637e0dbe2941dbc4","655cb8bec76174f27e375d25","232","<p> <font color=""red"" size=""5vw""> Time out! </font> <br> <font color=""red"" size=""7vw""> - $0.05 points </font> <br> Please try to respond as quickly as possible. </p>","h","feedback","","","","","","","7.65"
+"","","","","","html-keyboard-response","291","535382","0.0-7.47-0.47","60e9645361b411f90370a970","655cb802637e0dbe2941dbc4","655cb8bec76174f27e375d25","43","
+            
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $7.65 </font>
+            </div>
+        </div>
+    
+            <div> Please press any key to continue to the next image.</div>
+        ","j","ITI","","","","","","",""
+"","","","","","html-keyboard-response","292","535987","0.0-7.47-1.47","60e9645361b411f90370a970","655cb802637e0dbe2941dbc4","655cb8bec76174f27e375d25","null","
+        
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $7.65 </font>
+            </div>
+        </div>
+    
+        <img class=""stim"" src=./stimuli//pack_shapes_diff/cat_1/diff_1/ex_1_1_4.png></img>
+    ","null","stimulus","","","","","","",""
+"","","","","","html-keyboard-response","293","536994","0.0-7.47-2.47","60e9645361b411f90370a970","655cb802637e0dbe2941dbc4","655cb8bec76174f27e375d25","null","
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $7.65 </font>
+            </div>
+        </div>
+    ","null","","","","","","","",""
+"","","","","","html-keyboard-response","294","541000","0.0-7.47-3.47","60e9645361b411f90370a970","655cb802637e0dbe2941dbc4","655cb8bec76174f27e375d25","null","./stimuli//pack_shapes_diff/cat_1/diff_1/ex_1_1_4.png","null","response","ArrowLeft","4","1","1","test","false",""
+"","","","","","html-keyboard-response","295","541524","0.0-7.47-4.47","60e9645361b411f90370a970","655cb802637e0dbe2941dbc4","655cb8bec76174f27e375d25","523","<p> <font color=""red"" size=""5vw""> Time out! </font> <br> <font color=""red"" size=""7vw""> - $0.05 points </font> <br> Please try to respond as quickly as possible. </p>","j","feedback","","","","","","","7.6"
+"","","","","","html-keyboard-response","296","542144","0.0-7.48-0.48","60e9645361b411f90370a970","655cb802637e0dbe2941dbc4","655cb8bec76174f27e375d25","620","
+            
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $7.6 </font>
+            </div>
+        </div>
+    
+            <div> Please press any key to continue to the next image.</div>
+        ","h","ITI","","","","","","",""
+"","","","","","html-keyboard-response","297","542751","0.0-7.48-1.48","60e9645361b411f90370a970","655cb802637e0dbe2941dbc4","655cb8bec76174f27e375d25","null","
+        
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $7.6 </font>
+            </div>
+        </div>
+    
+        <img class=""stim"" src=./stimuli//pack_shapes_diff/cat_1/diff_1/ex_1_1_11.png></img>
+    ","null","stimulus","","","","","","",""
+"","","","","","html-keyboard-response","298","543753","0.0-7.48-2.48","60e9645361b411f90370a970","655cb802637e0dbe2941dbc4","655cb8bec76174f27e375d25","null","
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $7.6 </font>
+            </div>
+        </div>
+    ","null","","","","","","","",""
+"","","","","","html-keyboard-response","299","547759","0.0-7.48-3.48","60e9645361b411f90370a970","655cb802637e0dbe2941dbc4","655cb8bec76174f27e375d25","null","./stimuli//pack_shapes_diff/cat_1/diff_1/ex_1_1_11.png","null","response","ArrowLeft","11","1","1","test","false",""
+"","","","","","html-keyboard-response","300","547778","0.0-7.48-4.48","60e9645361b411f90370a970","655cb802637e0dbe2941dbc4","655cb8bec76174f27e375d25","18","<p> <font color=""red"" size=""5vw""> Time out! </font> <br> <font color=""red"" size=""7vw""> - $0.05 points </font> <br> Please try to respond as quickly as possible. </p>","h","feedback","","","","","","","7.55"
+"","","","","","html-keyboard-response","301","549106","0.0-7.49-0.49","60e9645361b411f90370a970","655cb802637e0dbe2941dbc4","655cb8bec76174f27e375d25","1327","
+            
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $7.55 </font>
+            </div>
+        </div>
+    
+            <div> Please press any key to continue to the next image.</div>
+        ","h","ITI","","","","","","",""
+"","","","","","html-keyboard-response","302","549713","0.0-7.49-1.49","60e9645361b411f90370a970","655cb802637e0dbe2941dbc4","655cb8bec76174f27e375d25","null","
+        
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $7.55 </font>
+            </div>
+        </div>
+    
+        <img class=""stim"" src=./stimuli//pack_shapes_diff/cat_2/diff_1/ex_2_1_14.png></img>
+    ","null","stimulus","","","","","","",""
+"","","","","","html-keyboard-response","303","550717","0.0-7.49-2.49","60e9645361b411f90370a970","655cb802637e0dbe2941dbc4","655cb8bec76174f27e375d25","null","
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $7.55 </font>
+            </div>
+        </div>
+    ","null","","","","","","","",""
+"","","","","","html-keyboard-response","304","554723","0.0-7.49-3.49","60e9645361b411f90370a970","655cb802637e0dbe2941dbc4","655cb8bec76174f27e375d25","null","./stimuli//pack_shapes_diff/cat_2/diff_1/ex_2_1_14.png","null","response","ArrowRight","14","2","1","test","false",""
+"","","","","","html-keyboard-response","305","555684","0.0-7.49-4.49","60e9645361b411f90370a970","655cb802637e0dbe2941dbc4","655cb8bec76174f27e375d25","960","<p> <font color=""red"" size=""5vw""> Time out! </font> <br> <font color=""red"" size=""7vw""> - $0.05 points </font> <br> Please try to respond as quickly as possible. </p>","k","feedback","","","","","","","7.5"
+"","","","","","html-keyboard-response","306","556157","0.0-7.50-0.50","60e9645361b411f90370a970","655cb802637e0dbe2941dbc4","655cb8bec76174f27e375d25","471","
+            
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $7.5 </font>
+            </div>
+        </div>
+    
+            <div> Please press any key to continue to the next image.</div>
+        ","g","ITI","","","","","","",""
+"","","","","","html-keyboard-response","307","556760","0.0-7.50-1.50","60e9645361b411f90370a970","655cb802637e0dbe2941dbc4","655cb8bec76174f27e375d25","null","
+        
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $7.5 </font>
+            </div>
+        </div>
+    
+        <img class=""stim"" src=./stimuli//pack_shapes_diff/cat_2/diff_1/ex_2_1_13.png></img>
+    ","null","stimulus","","","","","","",""
+"","","","","","html-keyboard-response","308","557762","0.0-7.50-2.50","60e9645361b411f90370a970","655cb802637e0dbe2941dbc4","655cb8bec76174f27e375d25","null","
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $7.5 </font>
+            </div>
+        </div>
+    ","null","","","","","","","",""
+"","","","","","html-keyboard-response","309","561764","0.0-7.50-3.50","60e9645361b411f90370a970","655cb802637e0dbe2941dbc4","655cb8bec76174f27e375d25","null","./stimuli//pack_shapes_diff/cat_2/diff_1/ex_2_1_13.png","null","response","ArrowRight","13","2","1","test","false",""
+"","","","","","html-keyboard-response","310","562758","0.0-7.50-4.50","60e9645361b411f90370a970","655cb802637e0dbe2941dbc4","655cb8bec76174f27e375d25","994","<p> <font color=""red"" size=""5vw""> Time out! </font> <br> <font color=""red"" size=""7vw""> - $0.05 points </font> <br> Please try to respond as quickly as possible. </p>","h","feedback","","","","","","","7.45"
+"","","","","","html-keyboard-response","311","563329","0.0-7.51-0.51","60e9645361b411f90370a970","655cb802637e0dbe2941dbc4","655cb8bec76174f27e375d25","570","
+            
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $7.45 </font>
+            </div>
+        </div>
+    
+            <div> Please press any key to continue to the next image.</div>
+        ","h","ITI","","","","","","",""
+"","","","","","html-keyboard-response","312","563932","0.0-7.51-1.51","60e9645361b411f90370a970","655cb802637e0dbe2941dbc4","655cb8bec76174f27e375d25","null","
+        
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $7.45 </font>
+            </div>
+        </div>
+    
+        <img class=""stim"" src=./stimuli//pack_shapes_diff/cat_2/diff_1/ex_2_1_11.png></img>
+    ","null","stimulus","","","","","","",""
+"","","","","","html-keyboard-response","313","564937","0.0-7.51-2.51","60e9645361b411f90370a970","655cb802637e0dbe2941dbc4","655cb8bec76174f27e375d25","null","
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $7.45 </font>
+            </div>
+        </div>
+    ","null","","","","","","","",""
+"","","","","","html-keyboard-response","314","568938","0.0-7.51-3.51","60e9645361b411f90370a970","655cb802637e0dbe2941dbc4","655cb8bec76174f27e375d25","null","./stimuli//pack_shapes_diff/cat_2/diff_1/ex_2_1_11.png","null","response","ArrowRight","11","2","1","test","false",""
+"","","","","","html-keyboard-response","315","569618","0.0-7.51-4.51","60e9645361b411f90370a970","655cb802637e0dbe2941dbc4","655cb8bec76174f27e375d25","680","<p> <font color=""red"" size=""5vw""> Time out! </font> <br> <font color=""red"" size=""7vw""> - $0.05 points </font> <br> Please try to respond as quickly as possible. </p>","h","feedback","","","","","","","7.4"
+"","","","","","html-keyboard-response","316","570154","0.0-7.52-0.52","60e9645361b411f90370a970","655cb802637e0dbe2941dbc4","655cb8bec76174f27e375d25","534","
+            
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $7.4 </font>
+            </div>
+        </div>
+    
+            <div> Please press any key to continue to the next image.</div>
+        ","h","ITI","","","","","","",""
+"","","","","","html-keyboard-response","317","570759","0.0-7.52-1.52","60e9645361b411f90370a970","655cb802637e0dbe2941dbc4","655cb8bec76174f27e375d25","null","
+        
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $7.4 </font>
+            </div>
+        </div>
+    
+        <img class=""stim"" src=./stimuli//pack_shapes_diff/cat_1/diff_1/ex_1_1_13.png></img>
+    ","null","stimulus","","","","","","",""
+"","","","","","html-keyboard-response","318","571760","0.0-7.52-2.52","60e9645361b411f90370a970","655cb802637e0dbe2941dbc4","655cb8bec76174f27e375d25","null","
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $7.4 </font>
+            </div>
+        </div>
+    ","null","","","","","","","",""
+"","","","","","html-keyboard-response","319","575763","0.0-7.52-3.52","60e9645361b411f90370a970","655cb802637e0dbe2941dbc4","655cb8bec76174f27e375d25","null","./stimuli//pack_shapes_diff/cat_1/diff_1/ex_1_1_13.png","null","response","ArrowLeft","13","1","1","test","false",""
+"","","","","","html-keyboard-response","320","576299","0.0-7.52-4.52","60e9645361b411f90370a970","655cb802637e0dbe2941dbc4","655cb8bec76174f27e375d25","535","<p> <font color=""red"" size=""5vw""> Time out! </font> <br> <font color=""red"" size=""7vw""> - $0.05 points </font> <br> Please try to respond as quickly as possible. </p>","g","feedback","","","","","","","7.35"
+"","","","","","html-keyboard-response","321","576789","0.0-7.53-0.53","60e9645361b411f90370a970","655cb802637e0dbe2941dbc4","655cb8bec76174f27e375d25","489","
+            
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $7.35 </font>
+            </div>
+        </div>
+    
+            <div> Please press any key to continue to the next image.</div>
+        ","g","ITI","","","","","","",""
+"","","","","","html-keyboard-response","322","577393","0.0-7.53-1.53","60e9645361b411f90370a970","655cb802637e0dbe2941dbc4","655cb8bec76174f27e375d25","null","
+        
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $7.35 </font>
+            </div>
+        </div>
+    
+        <img class=""stim"" src=./stimuli//pack_shapes_diff/cat_1/diff_1/ex_1_1_6.png></img>
+    ","null","stimulus","","","","","","",""
+"","","","","","html-keyboard-response","323","578396","0.0-7.53-2.53","60e9645361b411f90370a970","655cb802637e0dbe2941dbc4","655cb8bec76174f27e375d25","null","
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $7.35 </font>
+            </div>
+        </div>
+    ","null","","","","","","","",""
+"","","","","","html-keyboard-response","324","582401","0.0-7.53-3.53","60e9645361b411f90370a970","655cb802637e0dbe2941dbc4","655cb8bec76174f27e375d25","null","./stimuli//pack_shapes_diff/cat_1/diff_1/ex_1_1_6.png","null","response","ArrowLeft","6","1","1","test","false",""
+"","","","","","html-keyboard-response","325","582922","0.0-7.53-4.53","60e9645361b411f90370a970","655cb802637e0dbe2941dbc4","655cb8bec76174f27e375d25","519","<p> <font color=""red"" size=""5vw""> Time out! </font> <br> <font color=""red"" size=""7vw""> - $0.05 points </font> <br> Please try to respond as quickly as possible. </p>","g","feedback","","","","","","","7.3"
+"","","","","","html-keyboard-response","326","583519","0.0-7.54-0.54","60e9645361b411f90370a970","655cb802637e0dbe2941dbc4","655cb8bec76174f27e375d25","597","
+            
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $7.3 </font>
+            </div>
+        </div>
+    
+            <div> Please press any key to continue to the next image.</div>
+        ","g","ITI","","","","","","",""
+"","","","","","html-keyboard-response","327","584123","0.0-7.54-1.54","60e9645361b411f90370a970","655cb802637e0dbe2941dbc4","655cb8bec76174f27e375d25","null","
+        
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $7.3 </font>
+            </div>
+        </div>
+    
+        <img class=""stim"" src=./stimuli//pack_shapes_diff/cat_2/diff_1/ex_2_1_4.png></img>
+    ","null","stimulus","","","","","","",""
+"","","","","","html-keyboard-response","328","585127","0.0-7.54-2.54","60e9645361b411f90370a970","655cb802637e0dbe2941dbc4","655cb8bec76174f27e375d25","null","
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $7.3 </font>
+            </div>
+        </div>
+    ","null","","","","","","","",""
+"","","","","","html-keyboard-response","329","589131","0.0-7.54-3.54","60e9645361b411f90370a970","655cb802637e0dbe2941dbc4","655cb8bec76174f27e375d25","null","./stimuli//pack_shapes_diff/cat_2/diff_1/ex_2_1_4.png","null","response","ArrowRight","4","2","1","test","false",""
+"","","","","","html-keyboard-response","330","589703","0.0-7.54-4.54","60e9645361b411f90370a970","655cb802637e0dbe2941dbc4","655cb8bec76174f27e375d25","571","<p> <font color=""red"" size=""5vw""> Time out! </font> <br> <font color=""red"" size=""7vw""> - $0.05 points </font> <br> Please try to respond as quickly as possible. </p>","h","feedback","","","","","","","7.25"
+"","","","","","html-keyboard-response","331","589817","0.0-7.55-0.55","60e9645361b411f90370a970","655cb802637e0dbe2941dbc4","655cb8bec76174f27e375d25","113","
+            
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $7.25 </font>
+            </div>
+        </div>
+    
+            <div> Please press any key to continue to the next image.</div>
+        ","k","ITI","","","","","","",""
+"","","","","","html-keyboard-response","332","590423","0.0-7.55-1.55","60e9645361b411f90370a970","655cb802637e0dbe2941dbc4","655cb8bec76174f27e375d25","null","
+        
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $7.25 </font>
+            </div>
+        </div>
+    
+        <img class=""stim"" src=./stimuli//pack_shapes_diff/cat_2/diff_1/ex_2_1_9.png></img>
+    ","null","stimulus","","","","","","",""
+"","","","","","html-keyboard-response","333","591430","0.0-7.55-2.55","60e9645361b411f90370a970","655cb802637e0dbe2941dbc4","655cb8bec76174f27e375d25","null","
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $7.25 </font>
+            </div>
+        </div>
+    ","null","","","","","","","",""
+"","","","","","html-keyboard-response","334","595431","0.0-7.55-3.55","60e9645361b411f90370a970","655cb802637e0dbe2941dbc4","655cb8bec76174f27e375d25","null","./stimuli//pack_shapes_diff/cat_2/diff_1/ex_2_1_9.png","null","response","ArrowRight","9","2","1","test","false",""
+"","","","","","html-keyboard-response","335","595471","0.0-7.55-4.55","60e9645361b411f90370a970","655cb802637e0dbe2941dbc4","655cb8bec76174f27e375d25","39","<p> <font color=""red"" size=""5vw""> Time out! </font> <br> <font color=""red"" size=""7vw""> - $0.05 points </font> <br> Please try to respond as quickly as possible. </p>","j","feedback","","","","","","","7.2"
+"","","","","","html-keyboard-response","336","596330","0.0-7.56-0.56","60e9645361b411f90370a970","655cb802637e0dbe2941dbc4","655cb8bec76174f27e375d25","858","
+            
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $7.2 </font>
+            </div>
+        </div>
+    
+            <div> Please press any key to continue to the next image.</div>
+        ","h","ITI","","","","","","",""
+"","","","","","html-keyboard-response","337","596934","0.0-7.56-1.56","60e9645361b411f90370a970","655cb802637e0dbe2941dbc4","655cb8bec76174f27e375d25","null","
+        
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $7.2 </font>
+            </div>
+        </div>
+    
+        <img class=""stim"" src=./stimuli//pack_shapes_diff/cat_2/diff_1/ex_2_1_9.png></img>
+    ","null","stimulus","","","","","","",""
+"","","","","","html-keyboard-response","338","597938","0.0-7.56-2.56","60e9645361b411f90370a970","655cb802637e0dbe2941dbc4","655cb8bec76174f27e375d25","null","
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $7.2 </font>
+            </div>
+        </div>
+    ","null","","","","","","","",""
+"","","","","","html-keyboard-response","339","599196","0.0-7.56-3.56","60e9645361b411f90370a970","655cb802637e0dbe2941dbc4","655cb8bec76174f27e375d25","","./stimuli//pack_shapes_diff/cat_2/diff_1/ex_2_1_9.png","","response","ArrowRight","9","2","1","test","",""

@@ -1,0 +1,2544 @@
+success,timeout,failed_images,failed_audio,failed_video,trial_type,trial_index,time_elapsed,internal_node_id,rt,stimulus,response,task,correct_response,exemplar_ID,category,difficulty,phase,correct,bonus,subject_id
+TRUE,FALSE,[],[],[],preload,0,4,0.0-0.0,,,,,,,,,,,,1
+,,,,,html-keyboard-response,1,3546,0.0-1.0,3539,Welcome to the Category Learning experiment! Press any key to continue.,arrowup,welcome,,,,,,,,1
+,,,,,html-keyboard-response,2,31924,0.0-2.0,28375,"<p>You will be shown images of black shapes. Some are category A, some are category B.
+            <br>You will not know in advance which category a specific shape belongs to.</p>
+            <p>After you see an image, you will be asked to guess its category <b>(left arrow for category A, right arrow for category B)</b></p>
+            <p>After you choose, the screen will show you whether you were correct or not.</p>
+            <p><b>You will receive a bonus payment of $0.05 for each correct answer!</b></p>
+            <p> So you can increase your bonus by guessing correctly, and by guessing as quickly as possible so you move on to the next image sooner.</p>
+            <p>Press any key to continue.</p>",arrowright,introduction_1,,,,,,,,1
+,,,,,html-keyboard-response,3,38719,0.0-3.0,6794,"<p> <b>The first 10 trials are a practice round that will not count towards your bonus payment.</b></p>
+            <p> You will be notified when practice finishes and the test begins. </p>
+            <p> Press any key to begin the practice round.</p>",arrowright,introduction_2,,,,,,,,1
+,,,,,html-keyboard-response,4,41005,0.0-4.0-0.0,2284,"<div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $0 </font>
+            </div>
+        </div>
+    
+            <div> Please press any button to continue to the next trial.</div>",arrowright,ITI,,,,,,,,1
+,,,,,html-keyboard-response,5,41624,0.0-4.0-1.0,null,"<div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $0 </font>
+            </div>
+        </div>
+    
+        <img class=""stim"" src=./stimuli//pack_shapes_diff/cat_2/diff_2/ex_2_2_3.png></img>",null,stimulus,,,,,,,,1
+,,,,,html-keyboard-response,6,42641,0.0-4.0-2.0,null,"<div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $0 </font>
+            </div>
+        </div>",null,,,,,,,,,1
+,,,,,html-keyboard-response,7,44197,0.0-4.0-3.0,1553,./stimuli//pack_shapes_diff/cat_2/diff_2/ex_2_2_3.png,arrowright,response,ArrowRight,3,2,2,train,TRUE,,1
+,,,,,html-keyboard-response,8,45701,0.0-4.0-4.0,null,"<p> <font color=""green"" size=""5vw""> Correct category! </font> </p>",null,feedback,,,,,,,0,1
+,,,,,html-keyboard-response,9,47982,0.0-4.0-0.1,2279,"<div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $0 </font>
+            </div>
+        </div>
+    
+            <div> Please press any button to continue to the next trial.</div>",arrowright,ITI,,,,,,,,1
+,,,,,html-keyboard-response,10,48588,0.0-4.0-1.1,null,"<div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $0 </font>
+            </div>
+        </div>
+    
+        <img class=""stim"" src=./stimuli//pack_shapes_diff/cat_1/diff_1/ex_1_1_3.png></img>",null,stimulus,,,,,,,,1
+,,,,,html-keyboard-response,11,49619,0.0-4.0-2.1,null,"<div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $0 </font>
+            </div>
+        </div>",null,,,,,,,,,1
+,,,,,html-keyboard-response,12,50195,0.0-4.0-3.1,574,./stimuli//pack_shapes_diff/cat_1/diff_1/ex_1_1_3.png,arrowleft,response,ArrowLeft,3,1,1,train,TRUE,,1
+,,,,,html-keyboard-response,13,51698,0.0-4.0-4.1,null,"<p> <font color=""green"" size=""5vw""> Correct category! </font> </p>",null,feedback,,,,,,,0,1
+,,,,,html-keyboard-response,14,54083,0.0-4.0-0.2,2383,"<div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $0 </font>
+            </div>
+        </div>
+    
+            <div> Please press any button to continue to the next trial.</div>",arrowleft,ITI,,,,,,,,1
+,,,,,html-keyboard-response,15,54687,0.0-4.0-1.2,null,"<div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $0 </font>
+            </div>
+        </div>
+    
+        <img class=""stim"" src=./stimuli//pack_shapes_diff/cat_1/diff_2/ex_1_2_12.png></img>",null,stimulus,,,,,,,,1
+,,,,,html-keyboard-response,16,55729,0.0-4.0-2.2,null,"<div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $0 </font>
+            </div>
+        </div>",null,,,,,,,,,1
+,,,,,html-keyboard-response,17,57050,0.0-4.0-3.2,1319,./stimuli//pack_shapes_diff/cat_1/diff_2/ex_1_2_12.png,arrowright,response,ArrowLeft,12,1,2,train,FALSE,,1
+,,,,,html-keyboard-response,18,58560,0.0-4.0-4.2,null,"<p> <font color=""red"" size=""5vw""> Wrong category! </font> </p>",null,feedback,,,,,,,0,1
+,,,,,html-keyboard-response,19,59879,0.0-4.0-0.3,1318,"<div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $0 </font>
+            </div>
+        </div>
+    
+            <div> Please press any button to continue to the next trial.</div>",arrowleft,ITI,,,,,,,,1
+,,,,,html-keyboard-response,20,60496,0.0-4.0-1.3,null,"<div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $0 </font>
+            </div>
+        </div>
+    
+        <img class=""stim"" src=./stimuli//pack_shapes_diff/cat_1/diff_1/ex_1_1_12.png></img>",null,stimulus,,,,,,,,1
+,,,,,html-keyboard-response,21,61498,0.0-4.0-2.3,null,"<div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $0 </font>
+            </div>
+        </div>",null,,,,,,,,,1
+,,,,,html-keyboard-response,22,61810,0.0-4.0-3.3,310,./stimuli//pack_shapes_diff/cat_1/diff_1/ex_1_1_12.png,arrowleft,response,ArrowLeft,12,1,1,train,TRUE,,1
+,,,,,html-keyboard-response,23,63333,0.0-4.0-4.3,null,"<p> <font color=""green"" size=""5vw""> Correct category! </font> </p>",null,feedback,,,,,,,0,1
+,,,,,html-keyboard-response,24,65231,0.0-4.0-0.4,1897,"<div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $0 </font>
+            </div>
+        </div>
+    
+            <div> Please press any button to continue to the next trial.</div>",arrowright,ITI,,,,,,,,1
+,,,,,html-keyboard-response,25,65845,0.0-4.0-1.4,null,"<div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $0 </font>
+            </div>
+        </div>
+    
+        <img class=""stim"" src=./stimuli//pack_shapes_diff/cat_1/diff_1/ex_1_1_15.png></img>",null,stimulus,,,,,,,,1
+,,,,,html-keyboard-response,26,66848,0.0-4.0-2.4,null,"<div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $0 </font>
+            </div>
+        </div>",null,,,,,,,,,1
+,,,,,html-keyboard-response,27,69904,0.0-4.0-3.4,3055,./stimuli//pack_shapes_diff/cat_1/diff_1/ex_1_1_15.png,arrowleft,response,ArrowLeft,15,1,1,train,TRUE,,1
+,,,,,html-keyboard-response,28,71426,0.0-4.0-4.4,null,"<p> <font color=""green"" size=""5vw""> Correct category! </font> </p>",null,feedback,,,,,,,0,1
+,,,,,html-keyboard-response,29,77299,0.0-4.0-0.5,5871,"<div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $0 </font>
+            </div>
+        </div>
+    
+            <div> Please press any button to continue to the next trial.</div>",arrowright,ITI,,,,,,,,1
+,,,,,html-keyboard-response,30,77915,0.0-4.0-1.5,null,"<div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $0 </font>
+            </div>
+        </div>
+    
+        <img class=""stim"" src=./stimuli//pack_shapes_diff/cat_2/diff_1/ex_2_1_17.png></img>",null,stimulus,,,,,,,,1
+,,,,,html-keyboard-response,31,78921,0.0-4.0-2.5,null,"<div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $0 </font>
+            </div>
+        </div>",null,,,,,,,,,1
+,,,,,html-keyboard-response,32,79526,0.0-4.0-3.5,604,./stimuli//pack_shapes_diff/cat_2/diff_1/ex_2_1_17.png,arrowright,response,ArrowRight,17,2,1,train,TRUE,,1
+,,,,,html-keyboard-response,33,81041,0.0-4.0-4.5,null,"<p> <font color=""green"" size=""5vw""> Correct category! </font> </p>",null,feedback,,,,,,,0,1
+,,,,,html-keyboard-response,34,82535,0.0-4.0-0.6,1493,"<div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $0 </font>
+            </div>
+        </div>
+    
+            <div> Please press any button to continue to the next trial.</div>",arrowleft,ITI,,,,,,,,1
+,,,,,html-keyboard-response,35,83149,0.0-4.0-1.6,null,"<div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $0 </font>
+            </div>
+        </div>
+    
+        <img class=""stim"" src=./stimuli//pack_shapes_diff/cat_2/diff_1/ex_2_1_7.png></img>",null,stimulus,,,,,,,,1
+,,,,,html-keyboard-response,36,84152,0.0-4.0-2.6,null,"<div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $0 </font>
+            </div>
+        </div>",null,,,,,,,,,1
+,,,,,html-keyboard-response,37,84602,0.0-4.0-3.6,448,./stimuli//pack_shapes_diff/cat_2/diff_1/ex_2_1_7.png,arrowleft,response,ArrowRight,7,2,1,train,FALSE,,1
+,,,,,html-keyboard-response,38,86114,0.0-4.0-4.6,null,"<p> <font color=""red"" size=""5vw""> Wrong category! </font> </p>",null,feedback,,,,,,,0,1
+,,,,,html-keyboard-response,39,87351,0.0-4.0-0.7,1235,"<div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $0 </font>
+            </div>
+        </div>
+    
+            <div> Please press any button to continue to the next trial.</div>",arrowright,ITI,,,,,,,,1
+,,,,,html-keyboard-response,40,87969,0.0-4.0-1.7,null,"<div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $0 </font>
+            </div>
+        </div>
+    
+        <img class=""stim"" src=./stimuli//pack_shapes_diff/cat_2/diff_1/ex_2_1_3.png></img>",null,stimulus,,,,,,,,1
+,,,,,html-keyboard-response,41,88989,0.0-4.0-2.7,null,"<div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $0 </font>
+            </div>
+        </div>",null,,,,,,,,,1
+,,,,,html-keyboard-response,42,89335,0.0-4.0-3.7,345,./stimuli//pack_shapes_diff/cat_2/diff_1/ex_2_1_3.png,arrowleft,response,ArrowRight,3,2,1,train,FALSE,,1
+,,,,,html-keyboard-response,43,90847,0.0-4.0-4.7,null,"<p> <font color=""red"" size=""5vw""> Wrong category! </font> </p>",null,feedback,,,,,,,0,1
+,,,,,html-keyboard-response,44,91561,0.0-4.0-0.8,712,"<div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $0 </font>
+            </div>
+        </div>
+    
+            <div> Please press any button to continue to the next trial.</div>",arrowright,ITI,,,,,,,,1
+,,,,,html-keyboard-response,45,92169,0.0-4.0-1.8,null,"<div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $0 </font>
+            </div>
+        </div>
+    
+        <img class=""stim"" src=./stimuli//pack_shapes_diff/cat_2/diff_2/ex_2_2_11.png></img>",null,stimulus,,,,,,,,1
+,,,,,html-keyboard-response,46,93184,0.0-4.0-2.8,null,"<div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $0 </font>
+            </div>
+        </div>",null,,,,,,,,,1
+,,,,,html-keyboard-response,47,93942,0.0-4.0-3.8,756,./stimuli//pack_shapes_diff/cat_2/diff_2/ex_2_2_11.png,arrowright,response,ArrowRight,11,2,2,train,TRUE,,1
+,,,,,html-keyboard-response,48,95459,0.0-4.0-4.8,null,"<p> <font color=""green"" size=""5vw""> Correct category! </font> </p>",null,feedback,,,,,,,0,1
+,,,,,html-keyboard-response,49,96229,0.0-4.0-0.9,769,"<div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $0 </font>
+            </div>
+        </div>
+    
+            <div> Please press any button to continue to the next trial.</div>",arrowright,ITI,,,,,,,,1
+,,,,,html-keyboard-response,50,96834,0.0-4.0-1.9,null,"<div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $0 </font>
+            </div>
+        </div>
+    
+        <img class=""stim"" src=./stimuli//pack_shapes_diff/cat_1/diff_2/ex_1_2_8.png></img>",null,stimulus,,,,,,,,1
+,,,,,html-keyboard-response,51,97847,0.0-4.0-2.9,null,"<div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $0 </font>
+            </div>
+        </div>",null,,,,,,,,,1
+,,,,,html-keyboard-response,52,98150,0.0-4.0-3.9,300,./stimuli//pack_shapes_diff/cat_1/diff_2/ex_1_2_8.png,arrowleft,response,ArrowLeft,8,1,2,train,TRUE,,1
+,,,,,html-keyboard-response,53,99659,0.0-4.0-4.9,null,"<p> <font color=""green"" size=""5vw""> Correct category! </font> </p>",null,feedback,,,,,,,0,1
+,,,,,html-keyboard-response,54,105756,0.0-5.0,6096,"<b> <p> The practice round has finished.</p>
+            <b> For the rest of the experiment you will receive a $0.05 bonus for each correct answer!</b>
+            <p> Press any key to begin the test. </p>",arrowright,intermission,,,,,,,,1
+,,,,,html-keyboard-response,55,107135,0.0-6.0-0.0,1377,"<div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $0 </font>
+            </div>
+        </div>
+    
+            <div> Please press any button to continue to the next trial.</div>",arrowright,ITI,,,,,,,,1
+,,,,,html-keyboard-response,56,107746,0.0-6.0-1.0,null,"<div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $0 </font>
+            </div>
+        </div>
+    
+        <img class=""stim"" src=./stimuli//pack_shapes_diff/cat_1/diff_1/ex_1_1_4.png></img>",null,stimulus,,,,,,,,1
+,,,,,html-keyboard-response,57,108752,0.0-6.0-2.0,null,"<div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $0 </font>
+            </div>
+        </div>",null,,,,,,,,,1
+,,,,,html-keyboard-response,58,109600,0.0-6.0-3.0,846,./stimuli//pack_shapes_diff/cat_1/diff_1/ex_1_1_4.png,arrowright,response,ArrowLeft,4,1,1,test,FALSE,,1
+,,,,,html-keyboard-response,59,111128,0.0-6.0-4.0,null,"<p> <font color=""red"" size=""5vw""> Wrong category! </font> </p>",null,feedback,,,,,,,0,1
+,,,,,html-keyboard-response,60,112141,0.0-6.1-0.1,1011,"<div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $0 </font>
+            </div>
+        </div>
+    
+            <div> Please press any button to continue to the next trial.</div>",arrowleft,ITI,,,,,,,,1
+,,,,,html-keyboard-response,61,112754,0.0-6.1-1.1,null,"<div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $0 </font>
+            </div>
+        </div>
+    
+        <img class=""stim"" src=./stimuli//pack_shapes_diff/cat_2/diff_1/ex_2_1_8.png></img>",null,stimulus,,,,,,,,1
+,,,,,html-keyboard-response,62,113764,0.0-6.1-2.1,null,"<div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $0 </font>
+            </div>
+        </div>",null,,,,,,,,,1
+,,,,,html-keyboard-response,63,114140,0.0-6.1-3.1,375,./stimuli//pack_shapes_diff/cat_2/diff_1/ex_2_1_8.png,arrowleft,response,ArrowRight,8,2,1,test,FALSE,,1
+,,,,,html-keyboard-response,64,115646,0.0-6.1-4.1,null,"<p> <font color=""red"" size=""5vw""> Wrong category! </font> </p>",null,feedback,,,,,,,0,1
+,,,,,html-keyboard-response,65,116428,0.0-6.2-0.2,779,"<div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $0 </font>
+            </div>
+        </div>
+    
+            <div> Please press any button to continue to the next trial.</div>",arrowright,ITI,,,,,,,,1
+,,,,,html-keyboard-response,66,117040,0.0-6.2-1.2,null,"<div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $0 </font>
+            </div>
+        </div>
+    
+        <img class=""stim"" src=./stimuli//pack_shapes_diff/cat_1/diff_1/ex_1_1_11.png></img>",null,stimulus,,,,,,,,1
+,,,,,html-keyboard-response,67,118060,0.0-6.2-2.2,null,"<div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $0 </font>
+            </div>
+        </div>",null,,,,,,,,,1
+,,,,,html-keyboard-response,68,118485,0.0-6.2-3.2,424,./stimuli//pack_shapes_diff/cat_1/diff_1/ex_1_1_11.png,arrowleft,response,ArrowLeft,11,1,1,test,TRUE,,1
+,,,,,html-keyboard-response,69,119999,0.0-6.2-4.2,null,"<p> <font color=""green"" size=""5vw""> Correct category! </font> <br> <br> <font color=""green"" size=""8vw""> + $0.05 </font> </p>",null,feedback,,,,,,,0.05,1
+,,,,,html-keyboard-response,70,120816,0.0-6.3-0.3,815,"<div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $0.05 </font>
+            </div>
+        </div>
+    
+            <div> Please press any button to continue to the next trial.</div>",arrowleft,ITI,,,,,,,,1
+,,,,,html-keyboard-response,71,121423,0.0-6.3-1.3,null,"<div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $0.05 </font>
+            </div>
+        </div>
+    
+        <img class=""stim"" src=./stimuli//pack_shapes_diff/cat_2/diff_1/ex_2_1_13.png></img>",null,stimulus,,,,,,,,1
+,,,,,html-keyboard-response,72,122426,0.0-6.3-2.3,null,"<div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $0.05 </font>
+            </div>
+        </div>",null,,,,,,,,,1
+,,,,,html-keyboard-response,73,122857,0.0-6.3-3.3,429,./stimuli//pack_shapes_diff/cat_2/diff_1/ex_2_1_13.png,arrowleft,response,ArrowRight,13,2,1,test,FALSE,,1
+,,,,,html-keyboard-response,74,124379,0.0-6.3-4.3,null,"<p> <font color=""red"" size=""5vw""> Wrong category! </font> </p>",null,feedback,,,,,,,0.05,1
+,,,,,html-keyboard-response,75,125445,0.0-6.4-0.4,1064,"<div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $0.05 </font>
+            </div>
+        </div>
+    
+            <div> Please press any button to continue to the next trial.</div>",arrowright,ITI,,,,,,,,1
+,,,,,html-keyboard-response,76,126060,0.0-6.4-1.4,null,"<div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $0.05 </font>
+            </div>
+        </div>
+    
+        <img class=""stim"" src=./stimuli//pack_shapes_diff/cat_2/diff_1/ex_2_1_10.png></img>",null,stimulus,,,,,,,,1
+,,,,,html-keyboard-response,77,127063,0.0-6.4-2.4,null,"<div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $0.05 </font>
+            </div>
+        </div>",null,,,,,,,,,1
+,,,,,html-keyboard-response,78,127907,0.0-6.4-3.4,842,./stimuli//pack_shapes_diff/cat_2/diff_1/ex_2_1_10.png,arrowright,response,ArrowRight,10,2,1,test,TRUE,,1
+,,,,,html-keyboard-response,79,129422,0.0-6.4-4.4,null,"<p> <font color=""green"" size=""5vw""> Correct category! </font> <br> <br> <font color=""green"" size=""8vw""> + $0.05 </font> </p>",null,feedback,,,,,,,0.1,1
+,,,,,html-keyboard-response,80,130422,0.0-6.5-0.5,998,"<div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $0.1 </font>
+            </div>
+        </div>
+    
+            <div> Please press any button to continue to the next trial.</div>",arrowleft,ITI,,,,,,,,1
+,,,,,html-keyboard-response,81,131036,0.0-6.5-1.5,null,"<div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $0.1 </font>
+            </div>
+        </div>
+    
+        <img class=""stim"" src=./stimuli//pack_shapes_diff/cat_2/diff_1/ex_2_1_13.png></img>",null,stimulus,,,,,,,,1
+,,,,,html-keyboard-response,82,132045,0.0-6.5-2.5,null,"<div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $0.1 </font>
+            </div>
+        </div>",null,,,,,,,,,1
+,,,,,html-keyboard-response,83,132341,0.0-6.5-3.5,294,./stimuli//pack_shapes_diff/cat_2/diff_1/ex_2_1_13.png,arrowleft,response,ArrowRight,13,2,1,test,FALSE,,1
+,,,,,html-keyboard-response,84,133857,0.0-6.5-4.5,null,"<p> <font color=""red"" size=""5vw""> Wrong category! </font> </p>",null,feedback,,,,,,,0.1,1
+,,,,,html-keyboard-response,85,135076,0.0-6.6-0.6,1218,"<div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $0.1 </font>
+            </div>
+        </div>
+    
+            <div> Please press any button to continue to the next trial.</div>",arrowright,ITI,,,,,,,,1
+,,,,,html-keyboard-response,86,135692,0.0-6.6-1.6,null,"<div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $0.1 </font>
+            </div>
+        </div>
+    
+        <img class=""stim"" src=./stimuli//pack_shapes_diff/cat_2/diff_1/ex_2_1_11.png></img>",null,stimulus,,,,,,,,1
+,,,,,html-keyboard-response,87,136713,0.0-6.6-2.6,null,"<div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $0.1 </font>
+            </div>
+        </div>",null,,,,,,,,,1
+,,,,,html-keyboard-response,88,137309,0.0-6.6-3.6,595,./stimuli//pack_shapes_diff/cat_2/diff_1/ex_2_1_11.png,arrowright,response,ArrowRight,11,2,1,test,TRUE,,1
+,,,,,html-keyboard-response,89,138826,0.0-6.6-4.6,null,"<p> <font color=""green"" size=""5vw""> Correct category! </font> <br> <br> <font color=""green"" size=""8vw""> + $0.05 </font> </p>",null,feedback,,,,,,,0.15,1
+,,,,,html-keyboard-response,90,139803,0.0-6.7-0.7,975,"<div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $0.15 </font>
+            </div>
+        </div>
+    
+            <div> Please press any button to continue to the next trial.</div>",arrowright,ITI,,,,,,,,1
+,,,,,html-keyboard-response,91,140409,0.0-6.7-1.7,null,"<div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $0.15 </font>
+            </div>
+        </div>
+    
+        <img class=""stim"" src=./stimuli//pack_shapes_diff/cat_1/diff_1/ex_1_1_13.png></img>",null,stimulus,,,,,,,,1
+,,,,,html-keyboard-response,92,141416,0.0-6.7-2.7,null,"<div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $0.15 </font>
+            </div>
+        </div>",null,,,,,,,,,1
+,,,,,html-keyboard-response,93,141640,0.0-6.7-3.7,223,./stimuli//pack_shapes_diff/cat_1/diff_1/ex_1_1_13.png,arrowleft,response,ArrowLeft,13,1,1,test,TRUE,,1
+,,,,,html-keyboard-response,94,143162,0.0-6.7-4.7,null,"<p> <font color=""green"" size=""5vw""> Correct category! </font> <br> <br> <font color=""green"" size=""8vw""> + $0.05 </font> </p>",null,feedback,,,,,,,0.2,1
+,,,,,html-keyboard-response,95,145454,0.0-6.8-0.8,2290,"<div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $0.2 </font>
+            </div>
+        </div>
+    
+            <div> Please press any button to continue to the next trial.</div>",arrowright,ITI,,,,,,,,1
+,,,,,html-keyboard-response,96,146059,0.0-6.8-1.8,null,"<div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $0.2 </font>
+            </div>
+        </div>
+    
+        <img class=""stim"" src=./stimuli//pack_shapes_diff/cat_1/diff_1/ex_1_1_13.png></img>",null,stimulus,,,,,,,,1
+,,,,,html-keyboard-response,97,147067,0.0-6.8-2.8,null,"<div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $0.2 </font>
+            </div>
+        </div>",null,,,,,,,,,1
+,,,,,html-keyboard-response,98,147489,0.0-6.8-3.8,420,./stimuli//pack_shapes_diff/cat_1/diff_1/ex_1_1_13.png,arrowright,response,ArrowLeft,13,1,1,test,FALSE,,1
+,,,,,html-keyboard-response,99,148990,0.0-6.8-4.8,null,"<p> <font color=""red"" size=""5vw""> Wrong category! </font> </p>",null,feedback,,,,,,,0.2,1
+,,,,,html-keyboard-response,100,149836,0.0-6.9-0.9,844,"<div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $0.2 </font>
+            </div>
+        </div>
+    
+            <div> Please press any button to continue to the next trial.</div>",arrowright,ITI,,,,,,,,1
+,,,,,html-keyboard-response,101,150443,0.0-6.9-1.9,null,"<div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $0.2 </font>
+            </div>
+        </div>
+    
+        <img class=""stim"" src=./stimuli//pack_shapes_diff/cat_1/diff_1/ex_1_1_1.png></img>",null,stimulus,,,,,,,,1
+,,,,,html-keyboard-response,102,151477,0.0-6.9-2.9,null,"<div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $0.2 </font>
+            </div>
+        </div>",null,,,,,,,,,1
+,,,,,html-keyboard-response,103,151939,0.0-6.9-3.9,460,./stimuli//pack_shapes_diff/cat_1/diff_1/ex_1_1_1.png,arrowleft,response,ArrowLeft,1,1,1,test,TRUE,,1
+,,,,,html-keyboard-response,104,153441,0.0-6.9-4.9,null,"<p> <font color=""green"" size=""5vw""> Correct category! </font> <br> <br> <font color=""green"" size=""8vw""> + $0.05 </font> </p>",null,feedback,,,,,,,0.25,1
+,,,,,html-keyboard-response,105,154989,0.0-6.10-0.10,1547,"<div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $0.25 </font>
+            </div>
+        </div>
+    
+            <div> Please press any button to continue to the next trial.</div>",arrowright,ITI,,,,,,,,1
+,,,,,html-keyboard-response,106,155602,0.0-6.10-1.10,null,"<div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $0.25 </font>
+            </div>
+        </div>
+    
+        <img class=""stim"" src=./stimuli//pack_shapes_diff/cat_1/diff_1/ex_1_1_5.png></img>",null,stimulus,,,,,,,,1
+,,,,,html-keyboard-response,107,156615,0.0-6.10-2.10,null,"<div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $0.25 </font>
+            </div>
+        </div>",null,,,,,,,,,1
+,,,,,html-keyboard-response,108,157040,0.0-6.10-3.10,424,./stimuli//pack_shapes_diff/cat_1/diff_1/ex_1_1_5.png,arrowleft,response,ArrowLeft,5,1,1,test,TRUE,,1
+,,,,,html-keyboard-response,109,158552,0.0-6.10-4.10,null,"<p> <font color=""green"" size=""5vw""> Correct category! </font> <br> <br> <font color=""green"" size=""8vw""> + $0.05 </font> </p>",null,feedback,,,,,,,0.3,1
+,,,,,html-keyboard-response,110,161228,0.0-6.11-0.11,2674,"<div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $0.3 </font>
+            </div>
+        </div>
+    
+            <div> Please press any button to continue to the next trial.</div>",arrowright,ITI,,,,,,,,1
+,,,,,html-keyboard-response,111,161833,0.0-6.11-1.11,null,"<div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $0.3 </font>
+            </div>
+        </div>
+    
+        <img class=""stim"" src=./stimuli//pack_shapes_diff/cat_2/diff_2/ex_2_2_16.png></img>",null,stimulus,,,,,,,,1
+,,,,,html-keyboard-response,112,162851,0.0-6.11-2.11,null,"<div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $0.3 </font>
+            </div>
+        </div>",null,,,,,,,,,1
+,,,,,html-keyboard-response,113,162882,0.0-6.11-3.11,29,./stimuli//pack_shapes_diff/cat_2/diff_2/ex_2_2_16.png,arrowleft,response,ArrowRight,16,2,2,test,FALSE,,1
+,,,,,html-keyboard-response,114,164392,0.0-6.11-4.11,null,"<p> <font color=""red"" size=""5vw""> Wrong category! </font> </p>",null,feedback,,,,,,,0.3,1
+,,,,,html-keyboard-response,115,165031,0.0-6.12-0.12,637,"<div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $0.3 </font>
+            </div>
+        </div>
+    
+            <div> Please press any button to continue to the next trial.</div>",arrowright,ITI,,,,,,,,1
+,,,,,html-keyboard-response,116,165644,0.0-6.12-1.12,null,"<div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $0.3 </font>
+            </div>
+        </div>
+    
+        <img class=""stim"" src=./stimuli//pack_shapes_diff/cat_2/diff_2/ex_2_2_10.png></img>",null,stimulus,,,,,,,,1
+,,,,,html-keyboard-response,117,166647,0.0-6.12-2.12,null,"<div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $0.3 </font>
+            </div>
+        </div>",null,,,,,,,,,1
+,,,,,html-keyboard-response,118,167067,0.0-6.12-3.12,419,./stimuli//pack_shapes_diff/cat_2/diff_2/ex_2_2_10.png,arrowright,response,ArrowRight,10,2,2,test,TRUE,,1
+,,,,,html-keyboard-response,119,168604,0.0-6.12-4.12,null,"<p> <font color=""green"" size=""5vw""> Correct category! </font> <br> <br> <font color=""green"" size=""8vw""> + $0.05 </font> </p>",null,feedback,,,,,,,0.35,1
+,,,,,html-keyboard-response,120,169311,0.0-6.13-0.13,706,"<div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $0.35 </font>
+            </div>
+        </div>
+    
+            <div> Please press any button to continue to the next trial.</div>",arrowright,ITI,,,,,,,,1
+,,,,,html-keyboard-response,121,169920,0.0-6.13-1.13,null,"<div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $0.35 </font>
+            </div>
+        </div>
+    
+        <img class=""stim"" src=./stimuli//pack_shapes_diff/cat_1/diff_2/ex_1_2_15.png></img>",null,stimulus,,,,,,,,1
+,,,,,html-keyboard-response,122,170924,0.0-6.13-2.13,null,"<div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $0.35 </font>
+            </div>
+        </div>",null,,,,,,,,,1
+,,,,,html-keyboard-response,123,171212,0.0-6.13-3.13,286,./stimuli//pack_shapes_diff/cat_1/diff_2/ex_1_2_15.png,arrowright,response,ArrowLeft,15,1,2,test,FALSE,,1
+,,,,,html-keyboard-response,124,172722,0.0-6.13-4.13,null,"<p> <font color=""red"" size=""5vw""> Wrong category! </font> </p>",null,feedback,,,,,,,0.35,1
+,,,,,html-keyboard-response,125,173422,0.0-6.14-0.14,698,"<div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $0.35 </font>
+            </div>
+        </div>
+    
+            <div> Please press any button to continue to the next trial.</div>",arrowright,ITI,,,,,,,,1
+,,,,,html-keyboard-response,126,174036,0.0-6.14-1.14,null,"<div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $0.35 </font>
+            </div>
+        </div>
+    
+        <img class=""stim"" src=./stimuli//pack_shapes_diff/cat_1/diff_2/ex_1_2_4.png></img>",null,stimulus,,,,,,,,1
+,,,,,html-keyboard-response,127,175047,0.0-6.14-2.14,null,"<div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $0.35 </font>
+            </div>
+        </div>",null,,,,,,,,,1
+,,,,,html-keyboard-response,128,175557,0.0-6.14-3.14,508,./stimuli//pack_shapes_diff/cat_1/diff_2/ex_1_2_4.png,arrowright,response,ArrowLeft,4,1,2,test,FALSE,,1
+,,,,,html-keyboard-response,129,177076,0.0-6.14-4.14,null,"<p> <font color=""red"" size=""5vw""> Wrong category! </font> </p>",null,feedback,,,,,,,0.35,1
+,,,,,html-keyboard-response,130,177832,0.0-6.15-0.15,754,"<div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $0.35 </font>
+            </div>
+        </div>
+    
+            <div> Please press any button to continue to the next trial.</div>",arrowright,ITI,,,,,,,,1
+,,,,,html-keyboard-response,131,178449,0.0-6.15-1.15,null,"<div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $0.35 </font>
+            </div>
+        </div>
+    
+        <img class=""stim"" src=./stimuli//pack_shapes_diff/cat_1/diff_2/ex_1_2_14.png></img>",null,stimulus,,,,,,,,1
+,,,,,html-keyboard-response,132,179459,0.0-6.15-2.15,null,"<div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $0.35 </font>
+            </div>
+        </div>",null,,,,,,,,,1
+,,,,,html-keyboard-response,133,179758,0.0-6.15-3.15,298,./stimuli//pack_shapes_diff/cat_1/diff_2/ex_1_2_14.png,arrowleft,response,ArrowLeft,14,1,2,test,TRUE,,1
+,,,,,html-keyboard-response,134,181307,0.0-6.15-4.15,null,"<p> <font color=""green"" size=""5vw""> Correct category! </font> <br> <br> <font color=""green"" size=""8vw""> + $0.05 </font> </p>",null,feedback,,,,,,,0.4,1
+,,,,,html-keyboard-response,135,182370,0.0-6.16-0.16,1061,"<div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $0.4 </font>
+            </div>
+        </div>
+    
+            <div> Please press any button to continue to the next trial.</div>",arrowright,ITI,,,,,,,,1
+,,,,,html-keyboard-response,136,182980,0.0-6.16-1.16,null,"<div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $0.4 </font>
+            </div>
+        </div>
+    
+        <img class=""stim"" src=./stimuli//pack_shapes_diff/cat_1/diff_1/ex_1_1_14.png></img>",null,stimulus,,,,,,,,1
+,,,,,html-keyboard-response,137,183990,0.0-6.16-2.16,null,"<div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $0.4 </font>
+            </div>
+        </div>",null,,,,,,,,,1
+,,,,,html-keyboard-response,138,184279,0.0-6.16-3.16,288,./stimuli//pack_shapes_diff/cat_1/diff_1/ex_1_1_14.png,arrowright,response,ArrowLeft,14,1,1,test,FALSE,,1
+,,,,,html-keyboard-response,139,185786,0.0-6.16-4.16,null,"<p> <font color=""red"" size=""5vw""> Wrong category! </font> </p>",null,feedback,,,,,,,0.4,1
+,,,,,html-keyboard-response,140,186261,0.0-6.17-0.17,474,"<div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $0.4 </font>
+            </div>
+        </div>
+    
+            <div> Please press any button to continue to the next trial.</div>",arrowright,ITI,,,,,,,,1
+,,,,,html-keyboard-response,141,186874,0.0-6.17-1.17,null,"<div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $0.4 </font>
+            </div>
+        </div>
+    
+        <img class=""stim"" src=./stimuli//pack_shapes_diff/cat_1/diff_1/ex_1_1_5.png></img>",null,stimulus,,,,,,,,1
+,,,,,html-keyboard-response,142,187892,0.0-6.17-2.17,null,"<div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $0.4 </font>
+            </div>
+        </div>",null,,,,,,,,,1
+,,,,,html-keyboard-response,143,188690,0.0-6.17-3.17,796,./stimuli//pack_shapes_diff/cat_1/diff_1/ex_1_1_5.png,arrowleft,response,ArrowLeft,5,1,1,test,TRUE,,1
+,,,,,html-keyboard-response,144,190208,0.0-6.17-4.17,null,"<p> <font color=""green"" size=""5vw""> Correct category! </font> <br> <br> <font color=""green"" size=""8vw""> + $0.05 </font> </p>",null,feedback,,,,,,,0.45,1
+,,,,,html-keyboard-response,145,191733,0.0-6.18-0.18,1524,"<div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $0.45 </font>
+            </div>
+        </div>
+    
+            <div> Please press any button to continue to the next trial.</div>",arrowright,ITI,,,,,,,,1
+,,,,,html-keyboard-response,146,192340,0.0-6.18-1.18,null,"<div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $0.45 </font>
+            </div>
+        </div>
+    
+        <img class=""stim"" src=./stimuli//pack_shapes_diff/cat_2/diff_1/ex_2_1_15.png></img>",null,stimulus,,,,,,,,1
+,,,,,html-keyboard-response,147,193348,0.0-6.18-2.18,null,"<div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $0.45 </font>
+            </div>
+        </div>",null,,,,,,,,,1
+,,,,,html-keyboard-response,148,194203,0.0-6.18-3.18,854,./stimuli//pack_shapes_diff/cat_2/diff_1/ex_2_1_15.png,arrowright,response,ArrowRight,15,2,1,test,TRUE,,1
+,,,,,html-keyboard-response,149,195705,0.0-6.18-4.18,null,"<p> <font color=""green"" size=""5vw""> Correct category! </font> <br> <br> <font color=""green"" size=""8vw""> + $0.05 </font> </p>",null,feedback,,,,,,,0.5,1
+,,,,,html-keyboard-response,150,197082,0.0-6.19-0.19,1376,"<div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $0.5 </font>
+            </div>
+        </div>
+    
+            <div> Please press any button to continue to the next trial.</div>",arrowright,ITI,,,,,,,,1
+,,,,,html-keyboard-response,151,197695,0.0-6.19-1.19,null,"<div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $0.5 </font>
+            </div>
+        </div>
+    
+        <img class=""stim"" src=./stimuli//pack_shapes_diff/cat_1/diff_1/ex_1_1_17.png></img>",null,stimulus,,,,,,,,1
+,,,,,html-keyboard-response,152,198709,0.0-6.19-2.19,null,"<div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $0.5 </font>
+            </div>
+        </div>",null,,,,,,,,,1
+,,,,,html-keyboard-response,153,199132,0.0-6.19-3.19,421,./stimuli//pack_shapes_diff/cat_1/diff_1/ex_1_1_17.png,arrowleft,response,ArrowLeft,17,1,1,test,TRUE,,1
+,,,,,html-keyboard-response,154,200648,0.0-6.19-4.19,null,"<p> <font color=""green"" size=""5vw""> Correct category! </font> <br> <br> <font color=""green"" size=""8vw""> + $0.05 </font> </p>",null,feedback,,,,,,,0.55,1
+,,,,,html-keyboard-response,155,201829,0.0-6.20-0.20,1179,"<div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $0.55 </font>
+            </div>
+        </div>
+    
+            <div> Please press any button to continue to the next trial.</div>",arrowright,ITI,,,,,,,,1
+,,,,,html-keyboard-response,156,202457,0.0-6.20-1.20,null,"<div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $0.55 </font>
+            </div>
+        </div>
+    
+        <img class=""stim"" src=./stimuli//pack_shapes_diff/cat_2/diff_1/ex_2_1_12.png></img>",null,stimulus,,,,,,,,1
+,,,,,html-keyboard-response,157,203465,0.0-6.20-2.20,null,"<div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $0.55 </font>
+            </div>
+        </div>",null,,,,,,,,,1
+,,,,,html-keyboard-response,158,203899,0.0-6.20-3.20,433,./stimuli//pack_shapes_diff/cat_2/diff_1/ex_2_1_12.png,arrowright,response,ArrowRight,12,2,1,test,TRUE,,1
+,,,,,html-keyboard-response,159,205409,0.0-6.20-4.20,null,"<p> <font color=""green"" size=""5vw""> Correct category! </font> <br> <br> <font color=""green"" size=""8vw""> + $0.05 </font> </p>",null,feedback,,,,,,,0.6,1
+,,,,,html-keyboard-response,160,206282,0.0-6.21-0.21,871,"<div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $0.6 </font>
+            </div>
+        </div>
+    
+            <div> Please press any button to continue to the next trial.</div>",arrowright,ITI,,,,,,,,1
+,,,,,html-keyboard-response,161,206901,0.0-6.21-1.21,null,"<div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $0.6 </font>
+            </div>
+        </div>
+    
+        <img class=""stim"" src=./stimuli//pack_shapes_diff/cat_1/diff_2/ex_1_2_4.png></img>",null,stimulus,,,,,,,,1
+,,,,,html-keyboard-response,162,207904,0.0-6.21-2.21,null,"<div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $0.6 </font>
+            </div>
+        </div>",null,,,,,,,,,1
+,,,,,html-keyboard-response,163,208237,0.0-6.21-3.21,331,./stimuli//pack_shapes_diff/cat_1/diff_2/ex_1_2_4.png,arrowleft,response,ArrowLeft,4,1,2,test,TRUE,,1
+,,,,,html-keyboard-response,164,209746,0.0-6.21-4.21,null,"<p> <font color=""green"" size=""5vw""> Correct category! </font> <br> <br> <font color=""green"" size=""8vw""> + $0.05 </font> </p>",null,feedback,,,,,,,0.65,1
+,,,,,html-keyboard-response,165,210489,0.0-6.22-0.22,742,"<div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $0.65 </font>
+            </div>
+        </div>
+    
+            <div> Please press any button to continue to the next trial.</div>",arrowright,ITI,,,,,,,,1
+,,,,,html-keyboard-response,166,211094,0.0-6.22-1.22,null,"<div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $0.65 </font>
+            </div>
+        </div>
+    
+        <img class=""stim"" src=./stimuli//pack_shapes_diff/cat_2/diff_2/ex_2_2_4.png></img>",null,stimulus,,,,,,,,1
+,,,,,html-keyboard-response,167,212103,0.0-6.22-2.22,null,"<div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $0.65 </font>
+            </div>
+        </div>",null,,,,,,,,,1
+,,,,,html-keyboard-response,168,212375,0.0-6.22-3.22,270,./stimuli//pack_shapes_diff/cat_2/diff_2/ex_2_2_4.png,arrowright,response,ArrowRight,4,2,2,test,TRUE,,1
+,,,,,html-keyboard-response,169,213878,0.0-6.22-4.22,null,"<p> <font color=""green"" size=""5vw""> Correct category! </font> <br> <br> <font color=""green"" size=""8vw""> + $0.05 </font> </p>",null,feedback,,,,,,,0.7,1
+,,,,,html-keyboard-response,170,215591,0.0-6.23-0.23,1713,"<div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $0.7 </font>
+            </div>
+        </div>
+    
+            <div> Please press any button to continue to the next trial.</div>",arrowright,ITI,,,,,,,,1
+,,,,,html-keyboard-response,171,216205,0.0-6.23-1.23,null,"<div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $0.7 </font>
+            </div>
+        </div>
+    
+        <img class=""stim"" src=./stimuli//pack_shapes_diff/cat_1/diff_2/ex_1_2_10.png></img>",null,stimulus,,,,,,,,1
+,,,,,html-keyboard-response,172,217213,0.0-6.23-2.23,null,"<div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $0.7 </font>
+            </div>
+        </div>",null,,,,,,,,,1
+,,,,,html-keyboard-response,173,217495,0.0-6.23-3.23,280,./stimuli//pack_shapes_diff/cat_1/diff_2/ex_1_2_10.png,arrowleft,response,ArrowLeft,10,1,2,test,TRUE,,1
+,,,,,html-keyboard-response,174,218999,0.0-6.23-4.23,null,"<p> <font color=""green"" size=""5vw""> Correct category! </font> <br> <br> <font color=""green"" size=""8vw""> + $0.05 </font> </p>",null,feedback,,,,,,,0.75,1
+,,,,,html-keyboard-response,175,220387,0.0-6.24-0.24,1386,"<div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $0.75 </font>
+            </div>
+        </div>
+    
+            <div> Please press any button to continue to the next trial.</div>",arrowright,ITI,,,,,,,,1
+,,,,,html-keyboard-response,176,220993,0.0-6.24-1.24,null,"<div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $0.75 </font>
+            </div>
+        </div>
+    
+        <img class=""stim"" src=./stimuli//pack_shapes_diff/cat_2/diff_2/ex_2_2_5.png></img>",null,stimulus,,,,,,,,1
+,,,,,html-keyboard-response,177,222017,0.0-6.24-2.24,null,"<div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $0.75 </font>
+            </div>
+        </div>",null,,,,,,,,,1
+,,,,,html-keyboard-response,178,222355,0.0-6.24-3.24,336,./stimuli//pack_shapes_diff/cat_2/diff_2/ex_2_2_5.png,arrowleft,response,ArrowRight,5,2,2,test,FALSE,,1
+,,,,,html-keyboard-response,179,223869,0.0-6.24-4.24,null,"<p> <font color=""red"" size=""5vw""> Wrong category! </font> </p>",null,feedback,,,,,,,0.75,1
+,,,,,html-keyboard-response,180,224445,0.0-6.25-0.25,575,"<div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $0.75 </font>
+            </div>
+        </div>
+    
+            <div> Please press any button to continue to the next trial.</div>",arrowright,ITI,,,,,,,,1
+,,,,,html-keyboard-response,181,225062,0.0-6.25-1.25,null,"<div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $0.75 </font>
+            </div>
+        </div>
+    
+        <img class=""stim"" src=./stimuli//pack_shapes_diff/cat_2/diff_2/ex_2_2_4.png></img>",null,stimulus,,,,,,,,1
+,,,,,html-keyboard-response,182,226064,0.0-6.25-2.25,null,"<div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $0.75 </font>
+            </div>
+        </div>",null,,,,,,,,,1
+,,,,,html-keyboard-response,183,226190,0.0-6.25-3.25,124,./stimuli//pack_shapes_diff/cat_2/diff_2/ex_2_2_4.png,arrowright,response,ArrowRight,4,2,2,test,TRUE,,1
+,,,,,html-keyboard-response,184,227705,0.0-6.25-4.25,null,"<p> <font color=""green"" size=""5vw""> Correct category! </font> <br> <br> <font color=""green"" size=""8vw""> + $0.05 </font> </p>",null,feedback,,,,,,,0.8,1
+,,,,,html-keyboard-response,185,229746,0.0-6.26-0.26,2039,"<div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $0.8 </font>
+            </div>
+        </div>
+    
+            <div> Please press any button to continue to the next trial.</div>",arrowright,ITI,,,,,,,,1
+,,,,,html-keyboard-response,186,230361,0.0-6.26-1.26,null,"<div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $0.8 </font>
+            </div>
+        </div>
+    
+        <img class=""stim"" src=./stimuli//pack_shapes_diff/cat_1/diff_3/ex_1_3_3.png></img>",null,stimulus,,,,,,,,1
+,,,,,html-keyboard-response,187,231370,0.0-6.26-2.26,null,"<div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $0.8 </font>
+            </div>
+        </div>",null,,,,,,,,,1
+,,,,,html-keyboard-response,188,231758,0.0-6.26-3.26,386,./stimuli//pack_shapes_diff/cat_1/diff_3/ex_1_3_3.png,arrowleft,response,ArrowLeft,3,1,3,test,TRUE,,1
+,,,,,html-keyboard-response,189,233276,0.0-6.26-4.26,null,"<p> <font color=""green"" size=""5vw""> Correct category! </font> <br> <br> <font color=""green"" size=""8vw""> + $0.05 </font> </p>",null,feedback,,,,,,,0.85,1
+,,,,,html-keyboard-response,190,234912,0.0-6.27-0.27,1635,"<div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $0.85 </font>
+            </div>
+        </div>
+    
+            <div> Please press any button to continue to the next trial.</div>",arrowright,ITI,,,,,,,,1
+,,,,,html-keyboard-response,191,235522,0.0-6.27-1.27,null,"<div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $0.85 </font>
+            </div>
+        </div>
+    
+        <img class=""stim"" src=./stimuli//pack_shapes_diff/cat_2/diff_3/ex_2_3_8.png></img>",null,stimulus,,,,,,,,1
+,,,,,html-keyboard-response,192,236525,0.0-6.27-2.27,null,"<div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $0.85 </font>
+            </div>
+        </div>",null,,,,,,,,,1
+,,,,,html-keyboard-response,193,236827,0.0-6.27-3.27,301,./stimuli//pack_shapes_diff/cat_2/diff_3/ex_2_3_8.png,arrowleft,response,ArrowRight,8,2,3,test,FALSE,,1
+,,,,,html-keyboard-response,194,238331,0.0-6.27-4.27,null,"<p> <font color=""red"" size=""5vw""> Wrong category! </font> </p>",null,feedback,,,,,,,0.85,1
+,,,,,html-keyboard-response,195,239080,0.0-6.28-0.28,747,"<div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $0.85 </font>
+            </div>
+        </div>
+    
+            <div> Please press any button to continue to the next trial.</div>",arrowright,ITI,,,,,,,,1
+,,,,,html-keyboard-response,196,239695,0.0-6.28-1.28,null,"<div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $0.85 </font>
+            </div>
+        </div>
+    
+        <img class=""stim"" src=./stimuli//pack_shapes_diff/cat_1/diff_3/ex_1_3_14.png></img>",null,stimulus,,,,,,,,1
+,,,,,html-keyboard-response,197,240719,0.0-6.28-2.28,null,"<div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $0.85 </font>
+            </div>
+        </div>",null,,,,,,,,,1
+,,,,,html-keyboard-response,198,240960,0.0-6.28-3.28,239,./stimuli//pack_shapes_diff/cat_1/diff_3/ex_1_3_14.png,arrowleft,response,ArrowLeft,14,1,3,test,TRUE,,1
+,,,,,html-keyboard-response,199,242471,0.0-6.28-4.28,null,"<p> <font color=""green"" size=""5vw""> Correct category! </font> <br> <br> <font color=""green"" size=""8vw""> + $0.05 </font> </p>",null,feedback,,,,,,,0.9,1
+,,,,,html-keyboard-response,200,243184,0.0-6.29-0.29,712,"<div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $0.9 </font>
+            </div>
+        </div>
+    
+            <div> Please press any button to continue to the next trial.</div>",arrowright,ITI,,,,,,,,1
+,,,,,html-keyboard-response,201,243793,0.0-6.29-1.29,null,"<div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $0.9 </font>
+            </div>
+        </div>
+    
+        <img class=""stim"" src=./stimuli//pack_shapes_diff/cat_1/diff_3/ex_1_3_9.png></img>",null,stimulus,,,,,,,,1
+,,,,,html-keyboard-response,202,244801,0.0-6.29-2.29,null,"<div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $0.9 </font>
+            </div>
+        </div>",null,,,,,,,,,1
+,,,,,html-keyboard-response,203,245109,0.0-6.29-3.29,306,./stimuli//pack_shapes_diff/cat_1/diff_3/ex_1_3_9.png,arrowright,response,ArrowLeft,9,1,3,test,FALSE,,1
+,,,,,html-keyboard-response,204,246630,0.0-6.29-4.29,null,"<p> <font color=""red"" size=""5vw""> Wrong category! </font> </p>",null,feedback,,,,,,,0.9,1
+,,,,,html-keyboard-response,205,247978,0.0-6.30-0.30,1346,"<div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $0.9 </font>
+            </div>
+        </div>
+    
+            <div> Please press any button to continue to the next trial.</div>",arrowright,ITI,,,,,,,,1
+,,,,,html-keyboard-response,206,248589,0.0-6.30-1.30,null,"<div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $0.9 </font>
+            </div>
+        </div>
+    
+        <img class=""stim"" src=./stimuli//pack_shapes_diff/cat_2/diff_3/ex_2_3_12.png></img>",null,stimulus,,,,,,,,1
+,,,,,html-keyboard-response,207,249598,0.0-6.30-2.30,null,"<div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $0.9 </font>
+            </div>
+        </div>",null,,,,,,,,,1
+,,,,,html-keyboard-response,208,250458,0.0-6.30-3.30,859,./stimuli//pack_shapes_diff/cat_2/diff_3/ex_2_3_12.png,arrowleft,response,ArrowRight,12,2,3,test,FALSE,,1
+,,,,,html-keyboard-response,209,251975,0.0-6.30-4.30,null,"<p> <font color=""red"" size=""5vw""> Wrong category! </font> </p>",null,feedback,,,,,,,0.9,1
+,,,,,html-keyboard-response,210,253564,0.0-6.31-0.31,1587,"<div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $0.9 </font>
+            </div>
+        </div>
+    
+            <div> Please press any button to continue to the next trial.</div>",arrowright,ITI,,,,,,,,1
+,,,,,html-keyboard-response,211,254173,0.0-6.31-1.31,null,"<div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $0.9 </font>
+            </div>
+        </div>
+    
+        <img class=""stim"" src=./stimuli//pack_shapes_diff/cat_1/diff_2/ex_1_2_15.png></img>",null,stimulus,,,,,,,,1
+,,,,,html-keyboard-response,212,255198,0.0-6.31-2.31,null,"<div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $0.9 </font>
+            </div>
+        </div>",null,,,,,,,,,1
+,,,,,html-keyboard-response,213,255705,0.0-6.31-3.31,507,./stimuli//pack_shapes_diff/cat_1/diff_2/ex_1_2_15.png,arrowleft,response,ArrowLeft,15,1,2,test,TRUE,,1
+,,,,,html-keyboard-response,214,257209,0.0-6.31-4.31,null,"<p> <font color=""green"" size=""5vw""> Correct category! </font> <br> <br> <font color=""green"" size=""8vw""> + $0.05 </font> </p>",null,feedback,,,,,,,0.95,1
+,,,,,html-keyboard-response,215,258187,0.0-6.32-0.32,977,"<div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $0.95 </font>
+            </div>
+        </div>
+    
+            <div> Please press any button to continue to the next trial.</div>",arrowright,ITI,,,,,,,,1
+,,,,,html-keyboard-response,216,258816,0.0-6.32-1.32,null,"<div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $0.95 </font>
+            </div>
+        </div>
+    
+        <img class=""stim"" src=./stimuli//pack_shapes_diff/cat_1/diff_2/ex_1_2_4.png></img>",null,stimulus,,,,,,,,1
+,,,,,html-keyboard-response,217,259834,0.0-6.32-2.32,null,"<div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $0.95 </font>
+            </div>
+        </div>",null,,,,,,,,,1
+,,,,,html-keyboard-response,218,259875,0.0-6.32-3.32,40,./stimuli//pack_shapes_diff/cat_1/diff_2/ex_1_2_4.png,arrowright,response,ArrowLeft,4,1,2,test,FALSE,,1
+,,,,,html-keyboard-response,219,261378,0.0-6.32-4.32,null,"<p> <font color=""red"" size=""5vw""> Wrong category! </font> </p>",null,feedback,,,,,,,0.95,1
+,,,,,html-keyboard-response,220,262834,0.0-6.33-0.33,1454,"<div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $0.95 </font>
+            </div>
+        </div>
+    
+            <div> Please press any button to continue to the next trial.</div>",arrowright,ITI,,,,,,,,1
+,,,,,html-keyboard-response,221,263437,0.0-6.33-1.33,null,"<div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $0.95 </font>
+            </div>
+        </div>
+    
+        <img class=""stim"" src=./stimuli//pack_shapes_diff/cat_1/diff_2/ex_1_2_2.png></img>",null,stimulus,,,,,,,,1
+,,,,,html-keyboard-response,222,264450,0.0-6.33-2.33,null,"<div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $0.95 </font>
+            </div>
+        </div>",null,,,,,,,,,1
+,,,,,html-keyboard-response,223,264941,0.0-6.33-3.33,490,./stimuli//pack_shapes_diff/cat_1/diff_2/ex_1_2_2.png,arrowleft,response,ArrowLeft,2,1,2,test,TRUE,,1
+,,,,,html-keyboard-response,224,266454,0.0-6.33-4.33,null,"<p> <font color=""green"" size=""5vw""> Correct category! </font> <br> <br> <font color=""green"" size=""8vw""> + $0.05 </font> </p>",null,feedback,,,,,,,1,1
+,,,,,html-keyboard-response,225,267793,0.0-6.34-0.34,1338,"<div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $1 </font>
+            </div>
+        </div>
+    
+            <div> Please press any button to continue to the next trial.</div>",arrowleft,ITI,,,,,,,,1
+,,,,,html-keyboard-response,226,268396,0.0-6.34-1.34,null,"<div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $1 </font>
+            </div>
+        </div>
+    
+        <img class=""stim"" src=./stimuli//pack_shapes_diff/cat_2/diff_2/ex_2_2_6.png></img>",null,stimulus,,,,,,,,1
+,,,,,html-keyboard-response,227,269413,0.0-6.34-2.34,null,"<div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $1 </font>
+            </div>
+        </div>",null,,,,,,,,,1
+,,,,,html-keyboard-response,228,269783,0.0-6.34-3.34,369,./stimuli//pack_shapes_diff/cat_2/diff_2/ex_2_2_6.png,arrowright,response,ArrowRight,6,2,2,test,TRUE,,1
+,,,,,html-keyboard-response,229,271296,0.0-6.34-4.34,null,"<p> <font color=""green"" size=""5vw""> Correct category! </font> <br> <br> <font color=""green"" size=""8vw""> + $0.05 </font> </p>",null,feedback,,,,,,,1.05,1
+,,,,,html-keyboard-response,230,272315,0.0-6.35-0.35,1018,"<div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $1.05 </font>
+            </div>
+        </div>
+    
+            <div> Please press any button to continue to the next trial.</div>",arrowright,ITI,,,,,,,,1
+,,,,,html-keyboard-response,231,272927,0.0-6.35-1.35,null,"<div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $1.05 </font>
+            </div>
+        </div>
+    
+        <img class=""stim"" src=./stimuli//pack_shapes_diff/cat_2/diff_2/ex_2_2_17.png></img>",null,stimulus,,,,,,,,1
+,,,,,html-keyboard-response,232,273940,0.0-6.35-2.35,null,"<div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $1.05 </font>
+            </div>
+        </div>",null,,,,,,,,,1
+,,,,,html-keyboard-response,233,274983,0.0-6.35-3.35,1041,./stimuli//pack_shapes_diff/cat_2/diff_2/ex_2_2_17.png,arrowleft,response,ArrowRight,17,2,2,test,FALSE,,1
+,,,,,html-keyboard-response,234,276488,0.0-6.35-4.35,null,"<p> <font color=""red"" size=""5vw""> Wrong category! </font> </p>",null,feedback,,,,,,,1.05,1
+,,,,,html-keyboard-response,235,278609,0.0-6.36-0.36,2120,"<div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $1.05 </font>
+            </div>
+        </div>
+    
+            <div> Please press any button to continue to the next trial.</div>",arrowright,ITI,,,,,,,,1
+,,,,,html-keyboard-response,236,279222,0.0-6.36-1.36,null,"<div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $1.05 </font>
+            </div>
+        </div>
+    
+        <img class=""stim"" src=./stimuli//pack_shapes_diff/cat_2/diff_1/ex_2_1_11.png></img>",null,stimulus,,,,,,,,1
+,,,,,html-keyboard-response,237,280232,0.0-6.36-2.36,null,"<div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $1.05 </font>
+            </div>
+        </div>",null,,,,,,,,,1
+,,,,,html-keyboard-response,238,280238,0.0-6.36-3.36,4,./stimuli//pack_shapes_diff/cat_2/diff_1/ex_2_1_11.png,arrowleft,response,ArrowRight,11,2,1,test,FALSE,,1
+,,,,,html-keyboard-response,239,281746,0.0-6.36-4.36,null,"<p> <font color=""red"" size=""5vw""> Wrong category! </font> </p>",null,feedback,,,,,,,1.05,1
+,,,,,html-keyboard-response,240,282271,0.0-6.37-0.37,523,"<div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $1.05 </font>
+            </div>
+        </div>
+    
+            <div> Please press any button to continue to the next trial.</div>",arrowright,ITI,,,,,,,,1
+,,,,,html-keyboard-response,241,282881,0.0-6.37-1.37,null,"<div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $1.05 </font>
+            </div>
+        </div>
+    
+        <img class=""stim"" src=./stimuli//pack_shapes_diff/cat_1/diff_1/ex_1_1_7.png></img>",null,stimulus,,,,,,,,1
+,,,,,html-keyboard-response,242,283896,0.0-6.37-2.37,null,"<div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $1.05 </font>
+            </div>
+        </div>",null,,,,,,,,,1
+,,,,,html-keyboard-response,243,284198,0.0-6.37-3.37,300,./stimuli//pack_shapes_diff/cat_1/diff_1/ex_1_1_7.png,arrowright,response,ArrowLeft,7,1,1,test,FALSE,,1
+,,,,,html-keyboard-response,244,285731,0.0-6.37-4.37,null,"<p> <font color=""red"" size=""5vw""> Wrong category! </font> </p>",null,feedback,,,,,,,1.05,1
+,,,,,html-keyboard-response,245,286141,0.0-6.38-0.38,409,"<div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $1.05 </font>
+            </div>
+        </div>
+    
+            <div> Please press any button to continue to the next trial.</div>",arrowright,ITI,,,,,,,,1
+,,,,,html-keyboard-response,246,286753,0.0-6.38-1.38,null,"<div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $1.05 </font>
+            </div>
+        </div>
+    
+        <img class=""stim"" src=./stimuli//pack_shapes_diff/cat_2/diff_1/ex_2_1_14.png></img>",null,stimulus,,,,,,,,1
+,,,,,html-keyboard-response,247,287760,0.0-6.38-2.38,null,"<div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $1.05 </font>
+            </div>
+        </div>",null,,,,,,,,,1
+,,,,,html-keyboard-response,248,288190,0.0-6.38-3.38,428,./stimuli//pack_shapes_diff/cat_2/diff_1/ex_2_1_14.png,arrowleft,response,ArrowRight,14,2,1,test,FALSE,,1
+,,,,,html-keyboard-response,249,289704,0.0-6.38-4.38,null,"<p> <font color=""red"" size=""5vw""> Wrong category! </font> </p>",null,feedback,,,,,,,1.05,1
+,,,,,html-keyboard-response,250,290420,0.0-6.39-0.39,714,"<div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $1.05 </font>
+            </div>
+        </div>
+    
+            <div> Please press any button to continue to the next trial.</div>",arrowright,ITI,,,,,,,,1
+,,,,,html-keyboard-response,251,291036,0.0-6.39-1.39,null,"<div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $1.05 </font>
+            </div>
+        </div>
+    
+        <img class=""stim"" src=./stimuli//pack_shapes_diff/cat_2/diff_1/ex_2_1_9.png></img>",null,stimulus,,,,,,,,1
+,,,,,html-keyboard-response,252,292047,0.0-6.39-2.39,null,"<div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $1.05 </font>
+            </div>
+        </div>",null,,,,,,,,,1
+,,,,,html-keyboard-response,253,292445,0.0-6.39-3.39,397,./stimuli//pack_shapes_diff/cat_2/diff_1/ex_2_1_9.png,arrowright,response,ArrowRight,9,2,1,test,TRUE,,1
+,,,,,html-keyboard-response,254,293953,0.0-6.39-4.39,null,"<p> <font color=""green"" size=""5vw""> Correct category! </font> <br> <br> <font color=""green"" size=""8vw""> + $0.05 </font> </p>",null,feedback,,,,,,,1.1,1
+,,,,,html-keyboard-response,255,295350,0.0-6.40-0.40,1396,"<div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $1.1 </font>
+            </div>
+        </div>
+    
+            <div> Please press any button to continue to the next trial.</div>",arrowright,ITI,,,,,,,,1
+,,,,,html-keyboard-response,256,295954,0.0-6.40-1.40,null,"<div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $1.1 </font>
+            </div>
+        </div>
+    
+        <img class=""stim"" src=./stimuli//pack_shapes_diff/cat_1/diff_1/ex_1_1_14.png></img>",null,stimulus,,,,,,,,1
+,,,,,html-keyboard-response,257,296980,0.0-6.40-2.40,null,"<div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $1.1 </font>
+            </div>
+        </div>",null,,,,,,,,,1
+,,,,,html-keyboard-response,258,297299,0.0-6.40-3.40,317,./stimuli//pack_shapes_diff/cat_1/diff_1/ex_1_1_14.png,arrowleft,response,ArrowLeft,14,1,1,test,TRUE,,1
+,,,,,html-keyboard-response,259,298806,0.0-6.40-4.40,null,"<p> <font color=""green"" size=""5vw""> Correct category! </font> <br> <br> <font color=""green"" size=""8vw""> + $0.05 </font> </p>",null,feedback,,,,,,,1.15,1
+,,,,,html-keyboard-response,260,301349,0.0-6.41-0.41,2541,"<div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $1.15 </font>
+            </div>
+        </div>
+    
+            <div> Please press any button to continue to the next trial.</div>",arrowright,ITI,,,,,,,,1
+,,,,,html-keyboard-response,261,301964,0.0-6.41-1.41,null,"<div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $1.15 </font>
+            </div>
+        </div>
+    
+        <img class=""stim"" src=./stimuli//pack_shapes_diff/cat_2/diff_1/ex_2_1_9.png></img>",null,stimulus,,,,,,,,1
+,,,,,html-keyboard-response,262,303007,0.0-6.41-2.41,null,"<div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $1.15 </font>
+            </div>
+        </div>",null,,,,,,,,,1
+,,,,,html-keyboard-response,263,303312,0.0-6.41-3.41,304,./stimuli//pack_shapes_diff/cat_2/diff_1/ex_2_1_9.png,arrowleft,response,ArrowRight,9,2,1,test,FALSE,,1
+,,,,,html-keyboard-response,264,304821,0.0-6.41-4.41,null,"<p> <font color=""red"" size=""5vw""> Wrong category! </font> </p>",null,feedback,,,,,,,1.15,1
+,,,,,html-keyboard-response,265,305753,0.0-6.42-0.42,930,"<div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $1.15 </font>
+            </div>
+        </div>
+    
+            <div> Please press any button to continue to the next trial.</div>",arrowright,ITI,,,,,,,,1
+,,,,,html-keyboard-response,266,306362,0.0-6.42-1.42,null,"<div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $1.15 </font>
+            </div>
+        </div>
+    
+        <img class=""stim"" src=./stimuli//pack_shapes_diff/cat_2/diff_1/ex_2_1_4.png></img>",null,stimulus,,,,,,,,1
+,,,,,html-keyboard-response,267,307366,0.0-6.42-2.42,null,"<div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $1.15 </font>
+            </div>
+        </div>",null,,,,,,,,,1
+,,,,,html-keyboard-response,268,307891,0.0-6.42-3.42,524,./stimuli//pack_shapes_diff/cat_2/diff_1/ex_2_1_4.png,arrowright,response,ArrowRight,4,2,1,test,TRUE,,1
+,,,,,html-keyboard-response,269,309424,0.0-6.42-4.42,null,"<p> <font color=""green"" size=""5vw""> Correct category! </font> <br> <br> <font color=""green"" size=""8vw""> + $0.05 </font> </p>",null,feedback,,,,,,,1.2,1
+,,,,,html-keyboard-response,270,311522,0.0-6.43-0.43,2095,"<div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $1.2 </font>
+            </div>
+        </div>
+    
+            <div> Please press any button to continue to the next trial.</div>",arrowleft,ITI,,,,,,,,1
+,,,,,html-keyboard-response,271,312139,0.0-6.43-1.43,null,"<div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $1.2 </font>
+            </div>
+        </div>
+    
+        <img class=""stim"" src=./stimuli//pack_shapes_diff/cat_1/diff_1/ex_1_1_10.png></img>",null,stimulus,,,,,,,,1
+,,,,,html-keyboard-response,272,313146,0.0-6.43-2.43,null,"<div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $1.2 </font>
+            </div>
+        </div>",null,,,,,,,,,1
+,,,,,html-keyboard-response,273,313515,0.0-6.43-3.43,368,./stimuli//pack_shapes_diff/cat_1/diff_1/ex_1_1_10.png,arrowleft,response,ArrowLeft,10,1,1,test,TRUE,,1
+,,,,,html-keyboard-response,274,315029,0.0-6.43-4.43,null,"<p> <font color=""green"" size=""5vw""> Correct category! </font> <br> <br> <font color=""green"" size=""8vw""> + $0.05 </font> </p>",null,feedback,,,,,,,1.25,1
+,,,,,html-keyboard-response,275,316505,0.0-6.44-0.44,1475,"<div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $1.25 </font>
+            </div>
+        </div>
+    
+            <div> Please press any button to continue to the next trial.</div>",arrowleft,ITI,,,,,,,,1
+,,,,,html-keyboard-response,276,317115,0.0-6.44-1.44,null,"<div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $1.25 </font>
+            </div>
+        </div>
+    
+        <img class=""stim"" src=./stimuli//pack_shapes_diff/cat_2/diff_2/ex_2_2_15.png></img>",null,stimulus,,,,,,,,1
+,,,,,html-keyboard-response,277,318129,0.0-6.44-2.44,null,"<div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $1.25 </font>
+            </div>
+        </div>",null,,,,,,,,,1
+,,,,,html-keyboard-response,278,318502,0.0-6.44-3.44,371,./stimuli//pack_shapes_diff/cat_2/diff_2/ex_2_2_15.png,arrowright,response,ArrowRight,15,2,2,test,TRUE,,1
+,,,,,html-keyboard-response,279,320008,0.0-6.44-4.44,null,"<p> <font color=""green"" size=""5vw""> Correct category! </font> <br> <br> <font color=""green"" size=""8vw""> + $0.05 </font> </p>",null,feedback,,,,,,,1.3,1
+,,,,,html-keyboard-response,280,321050,0.0-6.45-0.45,1041,"<div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $1.3 </font>
+            </div>
+        </div>
+    
+            <div> Please press any button to continue to the next trial.</div>",arrowleft,ITI,,,,,,,,1
+,,,,,html-keyboard-response,281,321653,0.0-6.45-1.45,null,"<div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $1.3 </font>
+            </div>
+        </div>
+    
+        <img class=""stim"" src=./stimuli//pack_shapes_diff/cat_2/diff_2/ex_2_2_8.png></img>",null,stimulus,,,,,,,,1
+,,,,,html-keyboard-response,282,322680,0.0-6.45-2.45,null,"<div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $1.3 </font>
+            </div>
+        </div>",null,,,,,,,,,1
+,,,,,html-keyboard-response,283,322965,0.0-6.45-3.45,284,./stimuli//pack_shapes_diff/cat_2/diff_2/ex_2_2_8.png,arrowleft,response,ArrowRight,8,2,2,test,FALSE,,1
+,,,,,html-keyboard-response,284,324480,0.0-6.45-4.45,null,"<p> <font color=""red"" size=""5vw""> Wrong category! </font> </p>",null,feedback,,,,,,,1.3,1
+,,,,,html-keyboard-response,285,325160,0.0-6.46-0.46,679,"<div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $1.3 </font>
+            </div>
+        </div>
+    
+            <div> Please press any button to continue to the next trial.</div>",arrowright,ITI,,,,,,,,1
+,,,,,html-keyboard-response,286,325785,0.0-6.46-1.46,null,"<div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $1.3 </font>
+            </div>
+        </div>
+    
+        <img class=""stim"" src=./stimuli//pack_shapes_diff/cat_1/diff_2/ex_1_2_4.png></img>",null,stimulus,,,,,,,,1
+,,,,,html-keyboard-response,287,326792,0.0-6.46-2.46,null,"<div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $1.3 </font>
+            </div>
+        </div>",null,,,,,,,,,1
+,,,,,html-keyboard-response,288,327045,0.0-6.46-3.46,251,./stimuli//pack_shapes_diff/cat_1/diff_2/ex_1_2_4.png,arrowleft,response,ArrowLeft,4,1,2,test,TRUE,,1
+,,,,,html-keyboard-response,289,328569,0.0-6.46-4.46,null,"<p> <font color=""green"" size=""5vw""> Correct category! </font> <br> <br> <font color=""green"" size=""8vw""> + $0.05 </font> </p>",null,feedback,,,,,,,1.35,1
+,,,,,html-keyboard-response,290,329324,0.0-6.47-0.47,754,"<div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $1.35 </font>
+            </div>
+        </div>
+    
+            <div> Please press any button to continue to the next trial.</div>",arrowright,ITI,,,,,,,,1
+,,,,,html-keyboard-response,291,329929,0.0-6.47-1.47,null,"<div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $1.35 </font>
+            </div>
+        </div>
+    
+        <img class=""stim"" src=./stimuli//pack_shapes_diff/cat_1/diff_2/ex_1_2_13.png></img>",null,stimulus,,,,,,,,1
+,,,,,html-keyboard-response,292,330940,0.0-6.47-2.47,null,"<div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $1.35 </font>
+            </div>
+        </div>",null,,,,,,,,,1
+,,,,,html-keyboard-response,293,331945,0.0-6.47-3.47,1003,./stimuli//pack_shapes_diff/cat_1/diff_2/ex_1_2_13.png,arrowright,response,ArrowLeft,13,1,2,test,FALSE,,1
+,,,,,html-keyboard-response,294,333463,0.0-6.47-4.47,null,"<p> <font color=""red"" size=""5vw""> Wrong category! </font> </p>",null,feedback,,,,,,,1.35,1
+,,,,,html-keyboard-response,295,334718,0.0-6.48-0.48,1254,"<div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $1.35 </font>
+            </div>
+        </div>
+    
+            <div> Please press any button to continue to the next trial.</div>",arrowleft,ITI,,,,,,,,1
+,,,,,html-keyboard-response,296,335334,0.0-6.48-1.48,null,"<div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $1.35 </font>
+            </div>
+        </div>
+    
+        <img class=""stim"" src=./stimuli//pack_shapes_diff/cat_2/diff_2/ex_2_2_17.png></img>",null,stimulus,,,,,,,,1
+,,,,,html-keyboard-response,297,336342,0.0-6.48-2.48,null,"<div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $1.35 </font>
+            </div>
+        </div>",null,,,,,,,,,1
+,,,,,html-keyboard-response,298,336597,0.0-6.48-3.48,255,./stimuli//pack_shapes_diff/cat_2/diff_2/ex_2_2_17.png,arrowleft,response,ArrowRight,17,2,2,test,FALSE,,1
+,,,,,html-keyboard-response,299,338107,0.0-6.48-4.48,null,"<p> <font color=""red"" size=""5vw""> Wrong category! </font> </p>",null,feedback,,,,,,,1.35,1
+,,,,,html-keyboard-response,300,338497,0.0-6.49-0.49,388,"<div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $1.35 </font>
+            </div>
+        </div>
+    
+            <div> Please press any button to continue to the next trial.</div>",arrowright,ITI,,,,,,,,1
+,,,,,html-keyboard-response,301,339105,0.0-6.49-1.49,null,"<div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $1.35 </font>
+            </div>
+        </div>
+    
+        <img class=""stim"" src=./stimuli//pack_shapes_diff/cat_1/diff_1/ex_1_1_17.png></img>",null,stimulus,,,,,,,,1
+,,,,,html-keyboard-response,302,340147,0.0-6.49-2.49,null,"<div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $1.35 </font>
+            </div>
+        </div>",null,,,,,,,,,1
+,,,,,html-keyboard-response,303,340445,0.0-6.49-3.49,296,./stimuli//pack_shapes_diff/cat_1/diff_1/ex_1_1_17.png,arrowleft,response,ArrowLeft,17,1,1,test,TRUE,,1
+,,,,,html-keyboard-response,304,341953,0.0-6.49-4.49,null,"<p> <font color=""green"" size=""5vw""> Correct category! </font> <br> <br> <font color=""green"" size=""8vw""> + $0.05 </font> </p>",null,feedback,,,,,,,1.4,1
+,,,,,html-keyboard-response,305,342554,0.0-6.50-0.50,599,"<div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $1.4 </font>
+            </div>
+        </div>
+    
+            <div> Please press any button to continue to the next trial.</div>",arrowright,ITI,,,,,,,,1
+,,,,,html-keyboard-response,306,343163,0.0-6.50-1.50,null,"<div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $1.4 </font>
+            </div>
+        </div>
+    
+        <img class=""stim"" src=./stimuli//pack_shapes_diff/cat_1/diff_1/ex_1_1_7.png></img>",null,stimulus,,,,,,,,1
+,,,,,html-keyboard-response,307,344173,0.0-6.50-2.50,null,"<div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $1.4 </font>
+            </div>
+        </div>",null,,,,,,,,,1
+,,,,,html-keyboard-response,308,344587,0.0-6.50-3.50,412,./stimuli//pack_shapes_diff/cat_1/diff_1/ex_1_1_7.png,arrowleft,response,ArrowLeft,7,1,1,test,TRUE,,1
+,,,,,html-keyboard-response,309,346114,0.0-6.50-4.50,null,"<p> <font color=""green"" size=""5vw""> Correct category! </font> <br> <br> <font color=""green"" size=""8vw""> + $0.05 </font> </p>",null,feedback,,,,,,,1.45,1
+,,,,,html-keyboard-response,310,346665,0.0-6.51-0.51,550,"<div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $1.45 </font>
+            </div>
+        </div>
+    
+            <div> Please press any button to continue to the next trial.</div>",arrowright,ITI,,,,,,,,1
+,,,,,html-keyboard-response,311,347271,0.0-6.51-1.51,null,"<div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $1.45 </font>
+            </div>
+        </div>
+    
+        <img class=""stim"" src=./stimuli//pack_shapes_diff/cat_1/diff_1/ex_1_1_14.png></img>",null,stimulus,,,,,,,,1
+,,,,,html-keyboard-response,312,348291,0.0-6.51-2.51,null,"<div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $1.45 </font>
+            </div>
+        </div>",null,,,,,,,,,1
+,,,,,html-keyboard-response,313,348562,0.0-6.51-3.51,269,./stimuli//pack_shapes_diff/cat_1/diff_1/ex_1_1_14.png,arrowleft,response,ArrowLeft,14,1,1,test,TRUE,,1
+,,,,,html-keyboard-response,314,350069,0.0-6.51-4.51,null,"<p> <font color=""green"" size=""5vw""> Correct category! </font> <br> <br> <font color=""green"" size=""8vw""> + $0.05 </font> </p>",null,feedback,,,,,,,1.5,1
+,,,,,html-keyboard-response,315,350721,0.0-6.52-0.52,651,"<div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $1.5 </font>
+            </div>
+        </div>
+    
+            <div> Please press any button to continue to the next trial.</div>",arrowright,ITI,,,,,,,,1
+,,,,,html-keyboard-response,316,351325,0.0-6.52-1.52,null,"<div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $1.5 </font>
+            </div>
+        </div>
+    
+        <img class=""stim"" src=./stimuli//pack_shapes_diff/cat_1/diff_1/ex_1_1_8.png></img>",null,stimulus,,,,,,,,1
+,,,,,html-keyboard-response,317,352350,0.0-6.52-2.52,null,"<div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $1.5 </font>
+            </div>
+        </div>",null,,,,,,,,,1
+,,,,,html-keyboard-response,318,352601,0.0-6.52-3.52,249,./stimuli//pack_shapes_diff/cat_1/diff_1/ex_1_1_8.png,arrowright,response,ArrowLeft,8,1,1,test,FALSE,,1
+,,,,,html-keyboard-response,319,354114,0.0-6.52-4.52,null,"<p> <font color=""red"" size=""5vw""> Wrong category! </font> </p>",null,feedback,,,,,,,1.5,1
+,,,,,html-keyboard-response,320,354533,0.0-6.53-0.53,417,"<div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $1.5 </font>
+            </div>
+        </div>
+    
+            <div> Please press any button to continue to the next trial.</div>",arrowleft,ITI,,,,,,,,1
+,,,,,html-keyboard-response,321,355151,0.0-6.53-1.53,null,"<div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $1.5 </font>
+            </div>
+        </div>
+    
+        <img class=""stim"" src=./stimuli//pack_shapes_diff/cat_2/diff_1/ex_2_1_13.png></img>",null,stimulus,,,,,,,,1
+,,,,,html-keyboard-response,322,356161,0.0-6.53-2.53,null,"<div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $1.5 </font>
+            </div>
+        </div>",null,,,,,,,,,1
+,,,,,html-keyboard-response,323,356395,0.0-6.53-3.53,233,./stimuli//pack_shapes_diff/cat_2/diff_1/ex_2_1_13.png,arrowright,response,ArrowRight,13,2,1,test,TRUE,,1
+,,,,,html-keyboard-response,324,357936,0.0-6.53-4.53,null,"<p> <font color=""green"" size=""5vw""> Correct category! </font> <br> <br> <font color=""green"" size=""8vw""> + $0.05 </font> </p>",null,feedback,,,,,,,1.55,1
+,,,,,html-keyboard-response,325,359809,0.0-6.54-0.54,1871,"<div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $1.55 </font>
+            </div>
+        </div>
+    
+            <div> Please press any button to continue to the next trial.</div>",arrowleft,ITI,,,,,,,,1
+,,,,,html-keyboard-response,326,360426,0.0-6.54-1.54,null,"<div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $1.55 </font>
+            </div>
+        </div>
+    
+        <img class=""stim"" src=./stimuli//pack_shapes_diff/cat_2/diff_2/ex_2_2_14.png></img>",null,stimulus,,,,,,,,1
+,,,,,html-keyboard-response,327,361443,0.0-6.54-2.54,null,"<div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $1.55 </font>
+            </div>
+        </div>",null,,,,,,,,,1
+,,,,,html-keyboard-response,328,361696,0.0-6.54-3.54,252,./stimuli//pack_shapes_diff/cat_2/diff_2/ex_2_2_14.png,arrowright,response,ArrowRight,14,2,2,test,TRUE,,1
+,,,,,html-keyboard-response,329,363205,0.0-6.54-4.54,null,"<p> <font color=""green"" size=""5vw""> Correct category! </font> <br> <br> <font color=""green"" size=""8vw""> + $0.05 </font> </p>",null,feedback,,,,,,,1.6,1
+,,,,,html-keyboard-response,330,364323,0.0-6.55-0.55,1116,"<div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $1.6 </font>
+            </div>
+        </div>
+    
+            <div> Please press any button to continue to the next trial.</div>",arrowleft,ITI,,,,,,,,1
+,,,,,html-keyboard-response,331,364959,0.0-6.55-1.55,null,"<div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $1.6 </font>
+            </div>
+        </div>
+    
+        <img class=""stim"" src=./stimuli//pack_shapes_diff/cat_2/diff_2/ex_2_2_6.png></img>",null,stimulus,,,,,,,,1
+,,,,,html-keyboard-response,332,365968,0.0-6.55-2.55,null,"<div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $1.6 </font>
+            </div>
+        </div>",null,,,,,,,,,1
+,,,,,html-keyboard-response,333,366282,0.0-6.55-3.55,312,./stimuli//pack_shapes_diff/cat_2/diff_2/ex_2_2_6.png,arrowleft,response,ArrowRight,6,2,2,test,FALSE,,1
+,,,,,html-keyboard-response,334,367804,0.0-6.55-4.55,null,"<p> <font color=""red"" size=""5vw""> Wrong category! </font> </p>",null,feedback,,,,,,,1.6,1
+,,,,,html-keyboard-response,335,368210,0.0-6.56-0.56,404,"<div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $1.6 </font>
+            </div>
+        </div>
+    
+            <div> Please press any button to continue to the next trial.</div>",arrowright,ITI,,,,,,,,1
+,,,,,html-keyboard-response,336,368823,0.0-6.56-1.56,null,"<div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $1.6 </font>
+            </div>
+        </div>
+    
+        <img class=""stim"" src=./stimuli//pack_shapes_diff/cat_2/diff_2/ex_2_2_1.png></img>",null,stimulus,,,,,,,,1
+,,,,,html-keyboard-response,337,369837,0.0-6.56-2.56,null,"<div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $1.6 </font>
+            </div>
+        </div>",null,,,,,,,,,1
+,,,,,html-keyboard-response,338,370082,0.0-6.56-3.56,243,./stimuli//pack_shapes_diff/cat_2/diff_2/ex_2_2_1.png,arrowleft,response,ArrowRight,1,2,2,test,FALSE,,1
+,,,,,html-keyboard-response,339,371607,0.0-6.56-4.56,null,"<p> <font color=""red"" size=""5vw""> Wrong category! </font> </p>",null,feedback,,,,,,,1.6,1
+,,,,,html-keyboard-response,340,372154,0.0-6.57-0.57,545,"<div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $1.6 </font>
+            </div>
+        </div>
+    
+            <div> Please press any button to continue to the next trial.</div>",arrowright,ITI,,,,,,,,1
+,,,,,html-keyboard-response,341,372766,0.0-6.57-1.57,null,"<div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $1.6 </font>
+            </div>
+        </div>
+    
+        <img class=""stim"" src=./stimuli//pack_shapes_diff/cat_2/diff_2/ex_2_2_9.png></img>",null,stimulus,,,,,,,,1
+,,,,,html-keyboard-response,342,373772,0.0-6.57-2.57,null,"<div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $1.6 </font>
+            </div>
+        </div>",null,,,,,,,,,1
+,,,,,html-keyboard-response,343,374201,0.0-6.57-3.57,428,./stimuli//pack_shapes_diff/cat_2/diff_2/ex_2_2_9.png,arrowleft,response,ArrowRight,9,2,2,test,FALSE,,1
+,,,,,html-keyboard-response,344,375713,0.0-6.57-4.57,null,"<p> <font color=""red"" size=""5vw""> Wrong category! </font> </p>",null,feedback,,,,,,,1.6,1
+,,,,,html-keyboard-response,345,376015,0.0-6.58-0.58,300,"<div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $1.6 </font>
+            </div>
+        </div>
+    
+            <div> Please press any button to continue to the next trial.</div>",arrowright,ITI,,,,,,,,1
+,,,,,html-keyboard-response,346,376630,0.0-6.58-1.58,null,"<div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $1.6 </font>
+            </div>
+        </div>
+    
+        <img class=""stim"" src=./stimuli//pack_shapes_diff/cat_1/diff_2/ex_1_2_7.png></img>",null,stimulus,,,,,,,,1
+,,,,,html-keyboard-response,347,377637,0.0-6.58-2.58,null,"<div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $1.6 </font>
+            </div>
+        </div>",null,,,,,,,,,1
+,,,,,html-keyboard-response,348,377931,0.0-6.58-3.58,292,./stimuli//pack_shapes_diff/cat_1/diff_2/ex_1_2_7.png,arrowleft,response,ArrowLeft,7,1,2,test,TRUE,,1
+,,,,,html-keyboard-response,349,379443,0.0-6.58-4.58,null,"<p> <font color=""green"" size=""5vw""> Correct category! </font> <br> <br> <font color=""green"" size=""8vw""> + $0.05 </font> </p>",null,feedback,,,,,,,1.65,1
+,,,,,html-keyboard-response,350,381307,0.0-6.59-0.59,1863,"<div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $1.65 </font>
+            </div>
+        </div>
+    
+            <div> Please press any button to continue to the next trial.</div>",arrowright,ITI,,,,,,,,1
+,,,,,html-keyboard-response,351,381918,0.0-6.59-1.59,null,"<div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $1.65 </font>
+            </div>
+        </div>
+    
+        <img class=""stim"" src=./stimuli//pack_shapes_diff/cat_1/diff_1/ex_1_1_13.png></img>",null,stimulus,,,,,,,,1
+,,,,,html-keyboard-response,352,382931,0.0-6.59-2.59,null,"<div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $1.65 </font>
+            </div>
+        </div>",null,,,,,,,,,1
+,,,,,html-keyboard-response,353,383137,0.0-6.59-3.59,204,./stimuli//pack_shapes_diff/cat_1/diff_1/ex_1_1_13.png,arrowright,response,ArrowLeft,13,1,1,test,FALSE,,1
+,,,,,html-keyboard-response,354,384652,0.0-6.59-4.59,null,"<p> <font color=""red"" size=""5vw""> Wrong category! </font> </p>",null,feedback,,,,,,,1.65,1
+,,,,,html-keyboard-response,355,385436,0.0-6.60-0.60,782,"<div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $1.65 </font>
+            </div>
+        </div>
+    
+            <div> Please press any button to continue to the next trial.</div>",arrowleft,ITI,,,,,,,,1
+,,,,,html-keyboard-response,356,386050,0.0-6.60-1.60,null,"<div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $1.65 </font>
+            </div>
+        </div>
+    
+        <img class=""stim"" src=./stimuli//pack_shapes_diff/cat_1/diff_1/ex_1_1_2.png></img>",null,stimulus,,,,,,,,1
+,,,,,html-keyboard-response,357,387055,0.0-6.60-2.60,null,"<div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $1.65 </font>
+            </div>
+        </div>",null,,,,,,,,,1
+,,,,,html-keyboard-response,358,388027,0.0-6.60-3.60,970,./stimuli//pack_shapes_diff/cat_1/diff_1/ex_1_1_2.png,arrowleft,response,ArrowLeft,2,1,1,test,TRUE,,1
+,,,,,html-keyboard-response,359,389550,0.0-6.60-4.60,null,"<p> <font color=""green"" size=""5vw""> Correct category! </font> <br> <br> <font color=""green"" size=""8vw""> + $0.05 </font> </p>",null,feedback,,,,,,,1.7,1
+,,,,,html-keyboard-response,360,390515,0.0-6.61-0.61,963,"<div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $1.7 </font>
+            </div>
+        </div>
+    
+            <div> Please press any button to continue to the next trial.</div>",arrowleft,ITI,,,,,,,,1
+,,,,,html-keyboard-response,361,391126,0.0-6.61-1.61,null,"<div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $1.7 </font>
+            </div>
+        </div>
+    
+        <img class=""stim"" src=./stimuli//pack_shapes_diff/cat_2/diff_1/ex_2_1_14.png></img>",null,stimulus,,,,,,,,1
+,,,,,html-keyboard-response,362,392131,0.0-6.61-2.61,null,"<div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $1.7 </font>
+            </div>
+        </div>",null,,,,,,,,,1
+,,,,,html-keyboard-response,363,392321,0.0-6.61-3.61,189,./stimuli//pack_shapes_diff/cat_2/diff_1/ex_2_1_14.png,arrowright,response,ArrowRight,14,2,1,test,TRUE,,1
+,,,,,html-keyboard-response,364,393838,0.0-6.61-4.61,null,"<p> <font color=""green"" size=""5vw""> Correct category! </font> <br> <br> <font color=""green"" size=""8vw""> + $0.05 </font> </p>",null,feedback,,,,,,,1.75,1
+,,,,,html-keyboard-response,365,395004,0.0-6.62-0.62,1165,"<div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $1.75 </font>
+            </div>
+        </div>
+    
+            <div> Please press any button to continue to the next trial.</div>",arrowright,ITI,,,,,,,,1
+,,,,,html-keyboard-response,366,395620,0.0-6.62-1.62,null,"<div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $1.75 </font>
+            </div>
+        </div>
+    
+        <img class=""stim"" src=./stimuli//pack_shapes_diff/cat_2/diff_1/ex_2_1_11.png></img>",null,stimulus,,,,,,,,1
+,,,,,html-keyboard-response,367,396632,0.0-6.62-2.62,null,"<div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $1.75 </font>
+            </div>
+        </div>",null,,,,,,,,,1
+,,,,,html-keyboard-response,368,396745,0.0-6.62-3.62,112,./stimuli//pack_shapes_diff/cat_2/diff_1/ex_2_1_11.png,arrowleft,response,ArrowRight,11,2,1,test,FALSE,,1
+,,,,,html-keyboard-response,369,398259,0.0-6.62-4.62,null,"<p> <font color=""red"" size=""5vw""> Wrong category! </font> </p>",null,feedback,,,,,,,1.75,1
+,,,,,html-keyboard-response,370,398951,0.0-6.63-0.63,691,"<div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $1.75 </font>
+            </div>
+        </div>
+    
+            <div> Please press any button to continue to the next trial.</div>",arrowright,ITI,,,,,,,,1
+,,,,,html-keyboard-response,371,399559,0.0-6.63-1.63,null,"<div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $1.75 </font>
+            </div>
+        </div>
+    
+        <img class=""stim"" src=./stimuli//pack_shapes_diff/cat_1/diff_1/ex_1_1_5.png></img>",null,stimulus,,,,,,,,1
+,,,,,html-keyboard-response,372,400602,0.0-6.63-2.63,null,"<div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $1.75 </font>
+            </div>
+        </div>",null,,,,,,,,,1
+,,,,,html-keyboard-response,373,400650,0.0-6.63-3.63,47,./stimuli//pack_shapes_diff/cat_1/diff_1/ex_1_1_5.png,arrowright,response,ArrowLeft,5,1,1,test,FALSE,,1
+,,,,,html-keyboard-response,374,402156,0.0-6.63-4.63,null,"<p> <font color=""red"" size=""5vw""> Wrong category! </font> </p>",null,feedback,,,,,,,1.75,1
+,,,,,html-keyboard-response,375,402706,0.0-6.64-0.64,548,"<div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $1.75 </font>
+            </div>
+        </div>
+    
+            <div> Please press any button to continue to the next trial.</div>",arrowright,ITI,,,,,,,,1
+,,,,,html-keyboard-response,376,403310,0.0-6.64-1.64,null,"<div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $1.75 </font>
+            </div>
+        </div>
+    
+        <img class=""stim"" src=./stimuli//pack_shapes_diff/cat_2/diff_1/ex_2_1_12.png></img>",null,stimulus,,,,,,,,1
+,,,,,html-keyboard-response,377,404323,0.0-6.64-2.64,null,"<div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $1.75 </font>
+            </div>
+        </div>",null,,,,,,,,,1
+,,,,,html-keyboard-response,378,404559,0.0-6.64-3.64,234,./stimuli//pack_shapes_diff/cat_2/diff_1/ex_2_1_12.png,arrowleft,response,ArrowRight,12,2,1,test,FALSE,,1
+,,,,,html-keyboard-response,379,406083,0.0-6.64-4.64,null,"<p> <font color=""red"" size=""5vw""> Wrong category! </font> </p>",null,feedback,,,,,,,1.75,1
+,,,,,html-keyboard-response,380,406473,0.0-6.65-0.65,388,"<div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $1.75 </font>
+            </div>
+        </div>
+    
+            <div> Please press any button to continue to the next trial.</div>",arrowright,ITI,,,,,,,,1
+,,,,,html-keyboard-response,381,407076,0.0-6.65-1.65,null,"<div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $1.75 </font>
+            </div>
+        </div>
+    
+        <img class=""stim"" src=./stimuli//pack_shapes_diff/cat_1/diff_1/ex_1_1_16.png></img>",null,stimulus,,,,,,,,1
+,,,,,html-keyboard-response,382,408084,0.0-6.65-2.65,null,"<div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $1.75 </font>
+            </div>
+        </div>",null,,,,,,,,,1
+,,,,,html-keyboard-response,383,408341,0.0-6.65-3.65,255,./stimuli//pack_shapes_diff/cat_1/diff_1/ex_1_1_16.png,arrowright,response,ArrowLeft,16,1,1,test,FALSE,,1
+,,,,,html-keyboard-response,384,409849,0.0-6.65-4.65,null,"<p> <font color=""red"" size=""5vw""> Wrong category! </font> </p>",null,feedback,,,,,,,1.75,1
+,,,,,html-keyboard-response,385,410222,0.0-6.66-0.66,371,"<div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $1.75 </font>
+            </div>
+        </div>
+    
+            <div> Please press any button to continue to the next trial.</div>",arrowright,ITI,,,,,,,,1
+,,,,,html-keyboard-response,386,410829,0.0-6.66-1.66,null,"<div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $1.75 </font>
+            </div>
+        </div>
+    
+        <img class=""stim"" src=./stimuli//pack_shapes_diff/cat_1/diff_1/ex_1_1_2.png></img>",null,stimulus,,,,,,,,1
+,,,,,html-keyboard-response,387,411843,0.0-6.66-2.66,null,"<div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $1.75 </font>
+            </div>
+        </div>",null,,,,,,,,,1
+,,,,,html-keyboard-response,388,412328,0.0-6.66-3.66,483,./stimuli//pack_shapes_diff/cat_1/diff_1/ex_1_1_2.png,arrowright,response,ArrowLeft,2,1,1,test,FALSE,,1
+,,,,,html-keyboard-response,389,413843,0.0-6.66-4.66,null,"<p> <font color=""red"" size=""5vw""> Wrong category! </font> </p>",null,feedback,,,,,,,1.75,1
+,,,,,html-keyboard-response,390,414231,0.0-6.67-0.67,387,"<div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $1.75 </font>
+            </div>
+        </div>
+    
+            <div> Please press any button to continue to the next trial.</div>",arrowright,ITI,,,,,,,,1
+,,,,,html-keyboard-response,391,414846,0.0-6.67-1.67,null,"<div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $1.75 </font>
+            </div>
+        </div>
+    
+        <img class=""stim"" src=./stimuli//pack_shapes_diff/cat_1/diff_1/ex_1_1_10.png></img>",null,stimulus,,,,,,,,1
+,,,,,html-keyboard-response,392,415871,0.0-6.67-2.67,null,"<div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $1.75 </font>
+            </div>
+        </div>",null,,,,,,,,,1
+,,,,,html-keyboard-response,393,416147,0.0-6.67-3.67,274,./stimuli//pack_shapes_diff/cat_1/diff_1/ex_1_1_10.png,arrowleft,response,ArrowLeft,10,1,1,test,TRUE,,1
+,,,,,html-keyboard-response,394,417661,0.0-6.67-4.67,null,"<p> <font color=""green"" size=""5vw""> Correct category! </font> <br> <br> <font color=""green"" size=""8vw""> + $0.05 </font> </p>",null,feedback,,,,,,,1.8,1
+,,,,,html-keyboard-response,395,418273,0.0-6.68-0.68,610,"<div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $1.8 </font>
+            </div>
+        </div>
+    
+            <div> Please press any button to continue to the next trial.</div>",arrowright,ITI,,,,,,,,1
+,,,,,html-keyboard-response,396,418880,0.0-6.68-1.68,null,"<div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $1.8 </font>
+            </div>
+        </div>
+    
+        <img class=""stim"" src=./stimuli//pack_shapes_diff/cat_1/diff_1/ex_1_1_5.png></img>",null,stimulus,,,,,,,,1
+,,,,,html-keyboard-response,397,419888,0.0-6.68-2.68,null,"<div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $1.8 </font>
+            </div>
+        </div>",null,,,,,,,,,1
+,,,,,html-keyboard-response,398,420113,0.0-6.68-3.68,223,./stimuli//pack_shapes_diff/cat_1/diff_1/ex_1_1_5.png,arrowleft,response,ArrowLeft,5,1,1,test,TRUE,,1
+,,,,,html-keyboard-response,399,421617,0.0-6.68-4.68,null,"<p> <font color=""green"" size=""5vw""> Correct category! </font> <br> <br> <font color=""green"" size=""8vw""> + $0.05 </font> </p>",null,feedback,,,,,,,1.85,1
+,,,,,html-keyboard-response,400,422453,0.0-6.69-0.69,834,"<div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $1.85 </font>
+            </div>
+        </div>
+    
+            <div> Please press any button to continue to the next trial.</div>",arrowright,ITI,,,,,,,,1
+,,,,,html-keyboard-response,401,423070,0.0-6.69-1.69,null,"<div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $1.85 </font>
+            </div>
+        </div>
+    
+        <img class=""stim"" src=./stimuli//pack_shapes_diff/cat_2/diff_1/ex_2_1_5.png></img>",null,stimulus,,,,,,,,1
+,,,,,html-keyboard-response,402,424072,0.0-6.69-2.69,null,"<div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $1.85 </font>
+            </div>
+        </div>",null,,,,,,,,,1
+,,,,,html-keyboard-response,403,424349,0.0-6.69-3.69,275,./stimuli//pack_shapes_diff/cat_2/diff_1/ex_2_1_5.png,arrowright,response,ArrowRight,5,2,1,test,TRUE,,1
+,,,,,html-keyboard-response,404,425863,0.0-6.69-4.69,null,"<p> <font color=""green"" size=""5vw""> Correct category! </font> <br> <br> <font color=""green"" size=""8vw""> + $0.05 </font> </p>",null,feedback,,,,,,,1.9,1
+,,,,,html-keyboard-response,405,426782,0.0-6.70-0.70,918,"<div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $1.9 </font>
+            </div>
+        </div>
+    
+            <div> Please press any button to continue to the next trial.</div>",arrowright,ITI,,,,,,,,1
+,,,,,html-keyboard-response,406,427385,0.0-6.70-1.70,null,"<div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $1.9 </font>
+            </div>
+        </div>
+    
+        <img class=""stim"" src=./stimuli//pack_shapes_diff/cat_1/diff_1/ex_1_1_8.png></img>",null,stimulus,,,,,,,,1
+,,,,,html-keyboard-response,407,428405,0.0-6.70-2.70,null,"<div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $1.9 </font>
+            </div>
+        </div>",null,,,,,,,,,1
+,,,,,html-keyboard-response,408,428721,0.0-6.70-3.70,315,./stimuli//pack_shapes_diff/cat_1/diff_1/ex_1_1_8.png,arrowleft,response,ArrowLeft,8,1,1,test,TRUE,,1
+,,,,,html-keyboard-response,409,430251,0.0-6.70-4.70,null,"<p> <font color=""green"" size=""5vw""> Correct category! </font> <br> <br> <font color=""green"" size=""8vw""> + $0.05 </font> </p>",null,feedback,,,,,,,1.95,1
+,,,,,html-keyboard-response,410,431066,0.0-6.71-0.71,813,"<div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $1.95 </font>
+            </div>
+        </div>
+    
+            <div> Please press any button to continue to the next trial.</div>",arrowright,ITI,,,,,,,,1
+,,,,,html-keyboard-response,411,431670,0.0-6.71-1.71,null,"<div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $1.95 </font>
+            </div>
+        </div>
+    
+        <img class=""stim"" src=./stimuli//pack_shapes_diff/cat_2/diff_2/ex_2_2_13.png></img>",null,stimulus,,,,,,,,1
+,,,,,html-keyboard-response,412,432681,0.0-6.71-2.71,null,"<div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $1.95 </font>
+            </div>
+        </div>",null,,,,,,,,,1
+,,,,,html-keyboard-response,413,432987,0.0-6.71-3.71,306,./stimuli//pack_shapes_diff/cat_2/diff_2/ex_2_2_13.png,arrowright,response,ArrowRight,13,2,2,test,TRUE,,1
+,,,,,html-keyboard-response,414,434494,0.0-6.71-4.71,null,"<p> <font color=""green"" size=""5vw""> Correct category! </font> <br> <br> <font color=""green"" size=""8vw""> + $0.05 </font> </p>",null,feedback,,,,,,,2,1
+,,,,,html-keyboard-response,415,435870,0.0-6.72-0.72,1375,"<div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $2 </font>
+            </div>
+        </div>
+    
+            <div> Please press any button to continue to the next trial.</div>",arrowleft,ITI,,,,,,,,1
+,,,,,html-keyboard-response,416,436478,0.0-6.72-1.72,null,"<div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $2 </font>
+            </div>
+        </div>
+    
+        <img class=""stim"" src=./stimuli//pack_shapes_diff/cat_2/diff_2/ex_2_2_1.png></img>",null,stimulus,,,,,,,,1
+,,,,,html-keyboard-response,417,437480,0.0-6.72-2.72,null,"<div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $2 </font>
+            </div>
+        </div>",null,,,,,,,,,1
+,,,,,html-keyboard-response,418,437541,0.0-6.72-3.72,59,./stimuli//pack_shapes_diff/cat_2/diff_2/ex_2_2_1.png,arrowleft,response,ArrowRight,1,2,2,test,FALSE,,1
+,,,,,html-keyboard-response,419,439052,0.0-6.72-4.72,null,"<p> <font color=""red"" size=""5vw""> Wrong category! </font> </p>",null,feedback,,,,,,,2,1
+,,,,,html-keyboard-response,420,439829,0.0-6.73-0.73,775,"<div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $2 </font>
+            </div>
+        </div>
+    
+            <div> Please press any button to continue to the next trial.</div>",arrowright,ITI,,,,,,,,1
+,,,,,html-keyboard-response,421,440447,0.0-6.73-1.73,null,"<div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $2 </font>
+            </div>
+        </div>
+    
+        <img class=""stim"" src=./stimuli//pack_shapes_diff/cat_1/diff_2/ex_1_2_7.png></img>",null,stimulus,,,,,,,,1
+,,,,,html-keyboard-response,422,441466,0.0-6.73-2.73,null,"<div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $2 </font>
+            </div>
+        </div>",null,,,,,,,,,1
+,,,,,html-keyboard-response,423,441781,0.0-6.73-3.73,314,./stimuli//pack_shapes_diff/cat_1/diff_2/ex_1_2_7.png,arrowright,response,ArrowLeft,7,1,2,test,FALSE,,1
+,,,,,html-keyboard-response,424,443285,0.0-6.73-4.73,null,"<p> <font color=""red"" size=""5vw""> Wrong category! </font> </p>",null,feedback,,,,,,,2,1
+,,,,,html-keyboard-response,425,444023,0.0-6.74-0.74,736,"<div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $2 </font>
+            </div>
+        </div>
+    
+            <div> Please press any button to continue to the next trial.</div>",arrowleft,ITI,,,,,,,,1
+,,,,,html-keyboard-response,426,444630,0.0-6.74-1.74,null,"<div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $2 </font>
+            </div>
+        </div>
+    
+        <img class=""stim"" src=./stimuli//pack_shapes_diff/cat_1/diff_2/ex_1_2_9.png></img>",null,stimulus,,,,,,,,1
+,,,,,html-keyboard-response,427,445642,0.0-6.74-2.74,null,"<div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $2 </font>
+            </div>
+        </div>",null,,,,,,,,,1
+,,,,,html-keyboard-response,428,446222,0.0-6.74-3.74,578,./stimuli//pack_shapes_diff/cat_1/diff_2/ex_1_2_9.png,arrowleft,response,ArrowLeft,9,1,2,test,TRUE,,1
+,,,,,html-keyboard-response,429,447743,0.0-6.74-4.74,null,"<p> <font color=""green"" size=""5vw""> Correct category! </font> <br> <br> <font color=""green"" size=""8vw""> + $0.05 </font> </p>",null,feedback,,,,,,,2.05,1
+,,,,,html-keyboard-response,430,448465,0.0-6.75-0.75,721,"<div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $2.05 </font>
+            </div>
+        </div>
+    
+            <div> Please press any button to continue to the next trial.</div>",arrowleft,ITI,,,,,,,,1
+,,,,,html-keyboard-response,431,449070,0.0-6.75-1.75,null,"<div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $2.05 </font>
+            </div>
+        </div>
+    
+        <img class=""stim"" src=./stimuli//pack_shapes_diff/cat_1/diff_2/ex_1_2_3.png></img>",null,stimulus,,,,,,,,1
+,,,,,html-keyboard-response,432,450073,0.0-6.75-2.75,null,"<div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $2.05 </font>
+            </div>
+        </div>",null,,,,,,,,,1
+,,,,,html-keyboard-response,433,450115,0.0-6.75-3.75,40,./stimuli//pack_shapes_diff/cat_1/diff_2/ex_1_2_3.png,arrowright,response,ArrowLeft,3,1,2,test,FALSE,,1
+,,,,,html-keyboard-response,434,451630,0.0-6.75-4.75,null,"<p> <font color=""red"" size=""5vw""> Wrong category! </font> </p>",null,feedback,,,,,,,2.05,1
+,,,,,html-keyboard-response,435,452381,0.0-6.76-0.76,749,"<div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $2.05 </font>
+            </div>
+        </div>
+    
+            <div> Please press any button to continue to the next trial.</div>",arrowleft,ITI,,,,,,,,1
+,,,,,html-keyboard-response,436,452987,0.0-6.76-1.76,null,"<div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $2.05 </font>
+            </div>
+        </div>
+    
+        <img class=""stim"" src=./stimuli//pack_shapes_diff/cat_1/diff_1/ex_1_1_6.png></img>",null,stimulus,,,,,,,,1
+,,,,,html-keyboard-response,437,454010,0.0-6.76-2.76,null,"<div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $2.05 </font>
+            </div>
+        </div>",null,,,,,,,,,1
+,,,,,html-keyboard-response,438,454654,0.0-6.76-3.76,642,./stimuli//pack_shapes_diff/cat_1/diff_1/ex_1_1_6.png,arrowleft,response,ArrowLeft,6,1,1,test,TRUE,,1
+,,,,,html-keyboard-response,439,456161,0.0-6.76-4.76,null,"<p> <font color=""green"" size=""5vw""> Correct category! </font> <br> <br> <font color=""green"" size=""8vw""> + $0.05 </font> </p>",null,feedback,,,,,,,2.1,1
+,,,,,html-keyboard-response,440,457255,0.0-6.77-0.77,1092,"<div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $2.1 </font>
+            </div>
+        </div>
+    
+            <div> Please press any button to continue to the next trial.</div>",arrowright,ITI,,,,,,,,1
+,,,,,html-keyboard-response,441,457873,0.0-6.77-1.77,null,"<div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $2.1 </font>
+            </div>
+        </div>
+    
+        <img class=""stim"" src=./stimuli//pack_shapes_diff/cat_2/diff_1/ex_2_1_2.png></img>",null,stimulus,,,,,,,,1
+,,,,,html-keyboard-response,442,458876,0.0-6.77-2.77,null,"<div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $2.1 </font>
+            </div>
+        </div>",null,,,,,,,,,1
+,,,,,html-keyboard-response,443,459038,0.0-6.77-3.77,161,./stimuli//pack_shapes_diff/cat_2/diff_1/ex_2_1_2.png,arrowright,response,ArrowRight,2,2,1,test,TRUE,,1
+,,,,,html-keyboard-response,444,460545,0.0-6.77-4.77,null,"<p> <font color=""green"" size=""5vw""> Correct category! </font> <br> <br> <font color=""green"" size=""8vw""> + $0.05 </font> </p>",null,feedback,,,,,,,2.15,1
+,,,,,html-keyboard-response,445,461998,0.0-6.78-0.78,1451,"<div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $2.15 </font>
+            </div>
+        </div>
+    
+            <div> Please press any button to continue to the next trial.</div>",arrowleft,ITI,,,,,,,,1
+,,,,,html-keyboard-response,446,462603,0.0-6.78-1.78,null,"<div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $2.15 </font>
+            </div>
+        </div>
+    
+        <img class=""stim"" src=./stimuli//pack_shapes_diff/cat_1/diff_1/ex_1_1_7.png></img>",null,stimulus,,,,,,,,1
+,,,,,html-keyboard-response,447,463611,0.0-6.78-2.78,null,"<div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $2.15 </font>
+            </div>
+        </div>",null,,,,,,,,,1
+,,,,,html-keyboard-response,448,464094,0.0-6.78-3.78,481,./stimuli//pack_shapes_diff/cat_1/diff_1/ex_1_1_7.png,arrowleft,response,ArrowLeft,7,1,1,test,TRUE,,1
+,,,,,html-keyboard-response,449,465602,0.0-6.78-4.78,null,"<p> <font color=""green"" size=""5vw""> Correct category! </font> <br> <br> <font color=""green"" size=""8vw""> + $0.05 </font> </p>",null,feedback,,,,,,,2.2,1
+,,,,,html-keyboard-response,450,467163,0.0-6.79-0.79,1560,"<div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $2.2 </font>
+            </div>
+        </div>
+    
+            <div> Please press any button to continue to the next trial.</div>",arrowright,ITI,,,,,,,,1
+,,,,,html-keyboard-response,451,467768,0.0-6.79-1.79,null,"<div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $2.2 </font>
+            </div>
+        </div>
+    
+        <img class=""stim"" src=./stimuli//pack_shapes_diff/cat_2/diff_1/ex_2_1_5.png></img>",null,stimulus,,,,,,,,1
+,,,,,html-keyboard-response,452,468779,0.0-6.79-2.79,null,"<div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $2.2 </font>
+            </div>
+        </div>",null,,,,,,,,,1
+,,,,,html-keyboard-response,453,469062,0.0-6.79-3.79,282,./stimuli//pack_shapes_diff/cat_2/diff_1/ex_2_1_5.png,arrowright,response,ArrowRight,5,2,1,test,TRUE,,1
+,,,,,html-keyboard-response,454,470572,0.0-6.79-4.79,null,"<p> <font color=""green"" size=""5vw""> Correct category! </font> <br> <br> <font color=""green"" size=""8vw""> + $0.05 </font> </p>",null,feedback,,,,,,,2.25,1
+,,,,,html-keyboard-response,455,472853,0.0-6.80-0.80,2280,"<div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $2.25 </font>
+            </div>
+        </div>
+    
+            <div> Please press any button to continue to the next trial.</div>",arrowright,ITI,,,,,,,,1
+,,,,,html-keyboard-response,456,473465,0.0-6.80-1.80,null,"<div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $2.25 </font>
+            </div>
+        </div>
+    
+        <img class=""stim"" src=./stimuli//pack_shapes_diff/cat_1/diff_1/ex_1_1_9.png></img>",null,stimulus,,,,,,,,1
+,,,,,html-keyboard-response,457,474475,0.0-6.80-2.80,null,"<div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $2.25 </font>
+            </div>
+        </div>",null,,,,,,,,,1
+,,,,,html-keyboard-response,458,475715,0.0-6.80-3.80,1238,./stimuli//pack_shapes_diff/cat_1/diff_1/ex_1_1_9.png,arrowright,response,ArrowLeft,9,1,1,test,FALSE,,1
+,,,,,html-keyboard-response,459,477229,0.0-6.80-4.80,null,"<p> <font color=""red"" size=""5vw""> Wrong category! </font> </p>",null,feedback,,,,,,,2.25,1
+,,,,,html-keyboard-response,460,477800,0.0-6.81-0.81,569,"<div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $2.25 </font>
+            </div>
+        </div>
+    
+            <div> Please press any button to continue to the next trial.</div>",arrowright,ITI,,,,,,,,1
+,,,,,html-keyboard-response,461,478417,0.0-6.81-1.81,null,"<div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $2.25 </font>
+            </div>
+        </div>
+    
+        <img class=""stim"" src=./stimuli//pack_shapes_diff/cat_2/diff_2/ex_2_2_15.png></img>",null,stimulus,,,,,,,,1
+,,,,,html-keyboard-response,462,479431,0.0-6.81-2.81,null,"<div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $2.25 </font>
+            </div>
+        </div>",null,,,,,,,,,1
+,,,,,html-keyboard-response,463,479760,0.0-6.81-3.81,328,./stimuli//pack_shapes_diff/cat_2/diff_2/ex_2_2_15.png,arrowleft,response,ArrowRight,15,2,2,test,FALSE,,1
+,,,,,html-keyboard-response,464,481269,0.0-6.81-4.81,null,"<p> <font color=""red"" size=""5vw""> Wrong category! </font> </p>",null,feedback,,,,,,,2.25,1
+,,,,,html-keyboard-response,465,481676,0.0-6.82-0.82,406,"<div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $2.25 </font>
+            </div>
+        </div>
+    
+            <div> Please press any button to continue to the next trial.</div>",arrowright,ITI,,,,,,,,1
+,,,,,html-keyboard-response,466,482284,0.0-6.82-1.82,null,"<div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $2.25 </font>
+            </div>
+        </div>
+    
+        <img class=""stim"" src=./stimuli//pack_shapes_diff/cat_1/diff_2/ex_1_2_10.png></img>",null,stimulus,,,,,,,,1
+,,,,,html-keyboard-response,467,483335,0.0-6.82-2.82,null,"<div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $2.25 </font>
+            </div>
+        </div>",null,,,,,,,,,1
+,,,,,html-keyboard-response,468,483603,0.0-6.82-3.82,266,./stimuli//pack_shapes_diff/cat_1/diff_2/ex_1_2_10.png,arrowright,response,ArrowLeft,10,1,2,test,FALSE,,1
+,,,,,html-keyboard-response,469,485114,0.0-6.82-4.82,null,"<p> <font color=""red"" size=""5vw""> Wrong category! </font> </p>",null,feedback,,,,,,,2.25,1
+,,,,,html-keyboard-response,470,485500,0.0-6.83-0.83,384,"<div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $2.25 </font>
+            </div>
+        </div>
+    
+            <div> Please press any button to continue to the next trial.</div>",arrowright,ITI,,,,,,,,1
+,,,,,html-keyboard-response,471,486105,0.0-6.83-1.83,null,"<div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $2.25 </font>
+            </div>
+        </div>
+    
+        <img class=""stim"" src=./stimuli//pack_shapes_diff/cat_2/diff_2/ex_2_2_7.png></img>",null,stimulus,,,,,,,,1
+,,,,,html-keyboard-response,472,487118,0.0-6.83-2.83,null,"<div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $2.25 </font>
+            </div>
+        </div>",null,,,,,,,,,1
+,,,,,html-keyboard-response,473,487211,0.0-6.83-3.83,91,./stimuli//pack_shapes_diff/cat_2/diff_2/ex_2_2_7.png,arrowleft,response,ArrowRight,7,2,2,test,FALSE,,1
+,,,,,html-keyboard-response,474,488747,0.0-6.83-4.83,null,"<p> <font color=""red"" size=""5vw""> Wrong category! </font> </p>",null,feedback,,,,,,,2.25,1
+,,,,,html-keyboard-response,475,489104,0.0-6.84-0.84,355,"<div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $2.25 </font>
+            </div>
+        </div>
+    
+            <div> Please press any button to continue to the next trial.</div>",arrowright,ITI,,,,,,,,1
+,,,,,html-keyboard-response,476,489709,0.0-6.84-1.84,null,"<div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $2.25 </font>
+            </div>
+        </div>
+    
+        <img class=""stim"" src=./stimuli//pack_shapes_diff/cat_1/diff_2/ex_1_2_2.png></img>",null,stimulus,,,,,,,,1
+,,,,,html-keyboard-response,477,490724,0.0-6.84-2.84,null,"<div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $2.25 </font>
+            </div>
+        </div>",null,,,,,,,,,1
+,,,,,html-keyboard-response,478,490958,0.0-6.84-3.84,232,./stimuli//pack_shapes_diff/cat_1/diff_2/ex_1_2_2.png,arrowleft,response,ArrowLeft,2,1,2,test,TRUE,,1
+,,,,,html-keyboard-response,479,492469,0.0-6.84-4.84,null,"<p> <font color=""green"" size=""5vw""> Correct category! </font> <br> <br> <font color=""green"" size=""8vw""> + $0.05 </font> </p>",null,feedback,,,,,,,2.3,1
+,,,,,html-keyboard-response,480,493487,0.0-6.85-0.85,1017,"<div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $2.3 </font>
+            </div>
+        </div>
+    
+            <div> Please press any button to continue to the next trial.</div>",arrowright,ITI,,,,,,,,1
+,,,,,html-keyboard-response,481,494090,0.0-6.85-1.85,null,"<div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $2.3 </font>
+            </div>
+        </div>
+    
+        <img class=""stim"" src=./stimuli//pack_shapes_diff/cat_1/diff_2/ex_1_2_15.png></img>",null,stimulus,,,,,,,,1
+,,,,,html-keyboard-response,482,495124,0.0-6.85-2.85,null,"<div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $2.3 </font>
+            </div>
+        </div>",null,,,,,,,,,1
+,,,,,html-keyboard-response,483,495359,0.0-6.85-3.85,233,./stimuli//pack_shapes_diff/cat_1/diff_2/ex_1_2_15.png,arrowright,response,ArrowLeft,15,1,2,test,FALSE,,1
+,,,,,html-keyboard-response,484,496882,0.0-6.85-4.85,null,"<p> <font color=""red"" size=""5vw""> Wrong category! </font> </p>",null,feedback,,,,,,,2.3,1
+,,,,,html-keyboard-response,485,497534,0.0-6.86-0.86,650,"<div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $2.3 </font>
+            </div>
+        </div>
+    
+            <div> Please press any button to continue to the next trial.</div>",arrowleft,ITI,,,,,,,,1
+,,,,,html-keyboard-response,486,498153,0.0-6.86-1.86,null,"<div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $2.3 </font>
+            </div>
+        </div>
+    
+        <img class=""stim"" src=./stimuli//pack_shapes_diff/cat_2/diff_1/ex_2_1_8.png></img>",null,stimulus,,,,,,,,1
+,,,,,html-keyboard-response,487,499157,0.0-6.86-2.86,null,"<div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $2.3 </font>
+            </div>
+        </div>",null,,,,,,,,,1
+,,,,,html-keyboard-response,488,499329,0.0-6.86-3.86,171,./stimuli//pack_shapes_diff/cat_2/diff_1/ex_2_1_8.png,arrowright,response,ArrowRight,8,2,1,test,TRUE,,1
+,,,,,html-keyboard-response,489,500855,0.0-6.86-4.86,null,"<p> <font color=""green"" size=""5vw""> Correct category! </font> <br> <br> <font color=""green"" size=""8vw""> + $0.05 </font> </p>",null,feedback,,,,,,,2.35,1
+,,,,,html-keyboard-response,490,501511,0.0-6.87-0.87,655,"<div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $2.35 </font>
+            </div>
+        </div>
+    
+            <div> Please press any button to continue to the next trial.</div>",arrowright,ITI,,,,,,,,1
+,,,,,html-keyboard-response,491,502120,0.0-6.87-1.87,null,"<div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $2.35 </font>
+            </div>
+        </div>
+    
+        <img class=""stim"" src=./stimuli//pack_shapes_diff/cat_1/diff_1/ex_1_1_4.png></img>",null,stimulus,,,,,,,,1
+,,,,,html-keyboard-response,492,503132,0.0-6.87-2.87,null,"<div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $2.35 </font>
+            </div>
+        </div>",null,,,,,,,,,1
+,,,,,html-keyboard-response,493,503395,0.0-6.87-3.87,262,./stimuli//pack_shapes_diff/cat_1/diff_1/ex_1_1_4.png,arrowleft,response,ArrowLeft,4,1,1,test,TRUE,,1
+,,,,,html-keyboard-response,494,504898,0.0-6.87-4.87,null,"<p> <font color=""green"" size=""5vw""> Correct category! </font> <br> <br> <font color=""green"" size=""8vw""> + $0.05 </font> </p>",null,feedback,,,,,,,2.4,1
+,,,,,html-keyboard-response,495,506190,0.0-6.88-0.88,1290,"<div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $2.4 </font>
+            </div>
+        </div>
+    
+            <div> Please press any button to continue to the next trial.</div>",arrowleft,ITI,,,,,,,,1
+,,,,,html-keyboard-response,496,506831,0.0-6.88-1.88,null,"<div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $2.4 </font>
+            </div>
+        </div>
+    
+        <img class=""stim"" src=./stimuli//pack_shapes_diff/cat_2/diff_1/ex_2_1_10.png></img>",null,stimulus,,,,,,,,1
+,,,,,html-keyboard-response,497,507838,0.0-6.88-2.88,null,"<div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $2.4 </font>
+            </div>
+        </div>",null,,,,,,,,,1
+,,,,,html-keyboard-response,498,508133,0.0-6.88-3.88,293,./stimuli//pack_shapes_diff/cat_2/diff_1/ex_2_1_10.png,arrowleft,response,ArrowRight,10,2,1,test,FALSE,,1
+,,,,,html-keyboard-response,499,509645,0.0-6.88-4.88,null,"<p> <font color=""red"" size=""5vw""> Wrong category! </font> </p>",null,feedback,,,,,,,2.4,1
+,,,,,html-keyboard-response,500,510378,0.0-6.89-0.89,730,"<div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $2.4 </font>
+            </div>
+        </div>
+    
+            <div> Please press any button to continue to the next trial.</div>",arrowright,ITI,,,,,,,,1
+,,,,,html-keyboard-response,501,510999,0.0-6.89-1.89,null,"<div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $2.4 </font>
+            </div>
+        </div>
+    
+        <img class=""stim"" src=./stimuli//pack_shapes_diff/cat_1/diff_1/ex_1_1_17.png></img>",null,stimulus,,,,,,,,1
+,,,,,html-keyboard-response,502,512007,0.0-6.89-2.89,null,"<div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $2.4 </font>
+            </div>
+        </div>",null,,,,,,,,,1
+,,,,,html-keyboard-response,503,512635,0.0-6.89-3.89,626,./stimuli//pack_shapes_diff/cat_1/diff_1/ex_1_1_17.png,arrowright,response,ArrowLeft,17,1,1,test,FALSE,,1
+,,,,,html-keyboard-response,504,514170,0.0-6.89-4.89,null,"<p> <font color=""red"" size=""5vw""> Wrong category! </font> </p>",null,feedback,,,,,,,2.4,1
+,,,,,html-keyboard-response,505,514995,0.0-6.90-0.90,824,"<div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $2.4 </font>
+            </div>
+        </div>
+    
+            <div> Please press any button to continue to the next trial.</div>",arrowleft,ITI,,,,,,,,1
+,,,,,html-keyboard-response,506,515611,0.0-6.90-1.90,null,"<div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $2.4 </font>
+            </div>
+        </div>
+    
+        <img class=""stim"" src=./stimuli//pack_shapes_diff/cat_1/diff_1/ex_1_1_11.png></img>",null,stimulus,,,,,,,,1
+,,,,,html-keyboard-response,507,516615,0.0-6.90-2.90,null,"<div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $2.4 </font>
+            </div>
+        </div>",null,,,,,,,,,1
+,,,,,html-keyboard-response,508,517100,0.0-6.90-3.90,483,./stimuli//pack_shapes_diff/cat_1/diff_1/ex_1_1_11.png,arrowleft,response,ArrowLeft,11,1,1,test,TRUE,,1
+,,,,,html-keyboard-response,509,518606,0.0-6.90-4.90,null,"<p> <font color=""green"" size=""5vw""> Correct category! </font> <br> <br> <font color=""green"" size=""8vw""> + $0.05 </font> </p>",null,feedback,,,,,,,2.45,1
+,,,,,html-keyboard-response,510,519661,0.0-6.91-0.91,1053,"<div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $2.45 </font>
+            </div>
+        </div>
+    
+            <div> Please press any button to continue to the next trial.</div>",arrowleft,ITI,,,,,,,,1
+,,,,,html-keyboard-response,511,520295,0.0-6.91-1.91,null,"<div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $2.45 </font>
+            </div>
+        </div>
+    
+        <img class=""stim"" src=./stimuli//pack_shapes_diff/cat_2/diff_1/ex_2_1_16.png></img>",null,stimulus,,,,,,,,1
+,,,,,html-keyboard-response,512,521308,0.0-6.91-2.91,null,"<div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $2.45 </font>
+            </div>
+        </div>",null,,,,,,,,,1
+,,,,,html-keyboard-response,513,521715,0.0-6.91-3.91,406,./stimuli//pack_shapes_diff/cat_2/diff_1/ex_2_1_16.png,arrowright,response,ArrowRight,16,2,1,test,TRUE,,1
+,,,,,html-keyboard-response,514,523232,0.0-6.91-4.91,null,"<p> <font color=""green"" size=""5vw""> Correct category! </font> <br> <br> <font color=""green"" size=""8vw""> + $0.05 </font> </p>",null,feedback,,,,,,,2.5,1
+,,,,,html-keyboard-response,515,524327,0.0-6.92-0.92,1093,"<div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $2.5 </font>
+            </div>
+        </div>
+    
+            <div> Please press any button to continue to the next trial.</div>",arrowleft,ITI,,,,,,,,1
+,,,,,html-keyboard-response,516,524944,0.0-6.92-1.92,null,"<div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $2.5 </font>
+            </div>
+        </div>
+    
+        <img class=""stim"" src=./stimuli//pack_shapes_diff/cat_1/diff_1/ex_1_1_9.png></img>",null,stimulus,,,,,,,,1
+,,,,,html-keyboard-response,517,525958,0.0-6.92-2.92,null,"<div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $2.5 </font>
+            </div>
+        </div>",null,,,,,,,,,1
+,,,,,html-keyboard-response,518,526292,0.0-6.92-3.92,332,./stimuli//pack_shapes_diff/cat_1/diff_1/ex_1_1_9.png,arrowleft,response,ArrowLeft,9,1,1,test,TRUE,,1
+,,,,,html-keyboard-response,519,527828,0.0-6.92-4.92,null,"<p> <font color=""green"" size=""5vw""> Correct category! </font> <br> <br> <font color=""green"" size=""8vw""> + $0.05 </font> </p>",null,feedback,,,,,,,2.55,1
+,,,,,html-keyboard-response,520,528478,0.0-6.93-0.93,649,"<div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $2.55 </font>
+            </div>
+        </div>
+    
+            <div> Please press any button to continue to the next trial.</div>",arrowleft,ITI,,,,,,,,1
+,,,,,html-keyboard-response,521,529095,0.0-6.93-1.93,null,"<div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $2.55 </font>
+            </div>
+        </div>
+    
+        <img class=""stim"" src=./stimuli//pack_shapes_diff/cat_1/diff_1/ex_1_1_10.png></img>",null,stimulus,,,,,,,,1
+,,,,,html-keyboard-response,522,530098,0.0-6.93-2.93,null,"<div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $2.55 </font>
+            </div>
+        </div>",null,,,,,,,,,1
+,,,,,html-keyboard-response,523,530759,0.0-6.93-3.93,660,./stimuli//pack_shapes_diff/cat_1/diff_1/ex_1_1_10.png,arrowright,response,ArrowLeft,10,1,1,test,FALSE,,1
+,,,,,html-keyboard-response,524,532264,0.0-6.93-4.93,null,"<p> <font color=""red"" size=""5vw""> Wrong category! </font> </p>",null,feedback,,,,,,,2.55,1
+,,,,,html-keyboard-response,525,532891,0.0-6.94-0.94,626,"<div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $2.55 </font>
+            </div>
+        </div>
+    
+            <div> Please press any button to continue to the next trial.</div>",arrowleft,ITI,,,,,,,,1
+,,,,,html-keyboard-response,526,533521,0.0-6.94-1.94,null,"<div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $2.55 </font>
+            </div>
+        </div>
+    
+        <img class=""stim"" src=./stimuli//pack_shapes_diff/cat_1/diff_1/ex_1_1_5.png></img>",null,stimulus,,,,,,,,1
+,,,,,html-keyboard-response,527,534540,0.0-6.94-2.94,null,"<div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $2.55 </font>
+            </div>
+        </div>",null,,,,,,,,,1
+,,,,,html-keyboard-response,528,534976,0.0-6.94-3.94,435,./stimuli//pack_shapes_diff/cat_1/diff_1/ex_1_1_5.png,arrowleft,response,ArrowLeft,5,1,1,test,TRUE,,1
+,,,,,html-keyboard-response,529,536490,0.0-6.94-4.94,null,"<p> <font color=""green"" size=""5vw""> Correct category! </font> <br> <br> <font color=""green"" size=""8vw""> + $0.05 </font> </p>",null,feedback,,,,,,,2.6,1
+,,,,,html-keyboard-response,530,537165,0.0-6.95-0.95,674,"<div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $2.6 </font>
+            </div>
+        </div>
+    
+            <div> Please press any button to continue to the next trial.</div>",arrowleft,ITI,,,,,,,,1
+,,,,,html-keyboard-response,531,537773,0.0-6.95-1.95,null,"<div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $2.6 </font>
+            </div>
+        </div>
+    
+        <img class=""stim"" src=./stimuli//pack_shapes_diff/cat_1/diff_2/ex_1_2_16.png></img>",null,stimulus,,,,,,,,1
+,,,,,html-keyboard-response,532,538787,0.0-6.95-2.95,null,"<div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $2.6 </font>
+            </div>
+        </div>",null,,,,,,,,,1
+,,,,,html-keyboard-response,533,539066,0.0-6.95-3.95,278,./stimuli//pack_shapes_diff/cat_1/diff_2/ex_1_2_16.png,arrowright,response,ArrowLeft,16,1,2,test,FALSE,,1
+,,,,,html-keyboard-response,534,540597,0.0-6.95-4.95,null,"<p> <font color=""red"" size=""5vw""> Wrong category! </font> </p>",null,feedback,,,,,,,2.6,1
+,,,,,html-keyboard-response,535,541107,0.0-6.96-0.96,509,"<div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $2.6 </font>
+            </div>
+        </div>
+    
+            <div> Please press any button to continue to the next trial.</div>",arrowleft,ITI,,,,,,,,1
+,,,,,html-keyboard-response,536,541714,0.0-6.96-1.96,null,"<div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $2.6 </font>
+            </div>
+        </div>
+    
+        <img class=""stim"" src=./stimuli//pack_shapes_diff/cat_1/diff_2/ex_1_2_13.png></img>",null,stimulus,,,,,,,,1
+,,,,,html-keyboard-response,537,542729,0.0-6.96-2.96,null,"<div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $2.6 </font>
+            </div>
+        </div>",null,,,,,,,,,1
+,,,,,html-keyboard-response,538,542892,0.0-6.96-3.96,162,./stimuli//pack_shapes_diff/cat_1/diff_2/ex_1_2_13.png,arrowleft,response,ArrowLeft,13,1,2,test,TRUE,,1
+,,,,,html-keyboard-response,539,544405,0.0-6.96-4.96,null,"<p> <font color=""green"" size=""5vw""> Correct category! </font> <br> <br> <font color=""green"" size=""8vw""> + $0.05 </font> </p>",null,feedback,,,,,,,2.65,1
+,,,,,html-keyboard-response,540,544972,0.0-6.97-0.97,565,"<div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $2.65 </font>
+            </div>
+        </div>
+    
+            <div> Please press any button to continue to the next trial.</div>",arrowleft,ITI,,,,,,,,1
+,,,,,html-keyboard-response,541,545583,0.0-6.97-1.97,null,"<div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $2.65 </font>
+            </div>
+        </div>
+    
+        <img class=""stim"" src=./stimuli//pack_shapes_diff/cat_1/diff_2/ex_1_2_7.png></img>",null,stimulus,,,,,,,,1
+,,,,,html-keyboard-response,542,546599,0.0-6.97-2.97,null,"<div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $2.65 </font>
+            </div>
+        </div>",null,,,,,,,,,1
+,,,,,html-keyboard-response,543,546846,0.0-6.97-3.97,245,./stimuli//pack_shapes_diff/cat_1/diff_2/ex_1_2_7.png,arrowleft,response,ArrowLeft,7,1,2,test,TRUE,,1
+,,,,,html-keyboard-response,544,548353,0.0-6.97-4.97,null,"<p> <font color=""green"" size=""5vw""> Correct category! </font> <br> <br> <font color=""green"" size=""8vw""> + $0.05 </font> </p>",null,feedback,,,,,,,2.7,1
+,,,,,html-keyboard-response,545,549054,0.0-6.98-0.98,699,"<div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $2.7 </font>
+            </div>
+        </div>
+    
+            <div> Please press any button to continue to the next trial.</div>",arrowleft,ITI,,,,,,,,1
+,,,,,html-keyboard-response,546,549657,0.0-6.98-1.98,null,"<div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $2.7 </font>
+            </div>
+        </div>
+    
+        <img class=""stim"" src=./stimuli//pack_shapes_diff/cat_1/diff_2/ex_1_2_16.png></img>",null,stimulus,,,,,,,,1
+,,,,,html-keyboard-response,547,550664,0.0-6.98-2.98,null,"<div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $2.7 </font>
+            </div>
+        </div>",null,,,,,,,,,1
+,,,,,html-keyboard-response,548,550900,0.0-6.98-3.98,234,./stimuli//pack_shapes_diff/cat_1/diff_2/ex_1_2_16.png,arrowright,response,ArrowLeft,16,1,2,test,FALSE,,1
+,,,,,html-keyboard-response,549,552429,0.0-6.98-4.98,null,"<p> <font color=""red"" size=""5vw""> Wrong category! </font> </p>",null,feedback,,,,,,,2.7,1
+,,,,,html-keyboard-response,550,553225,0.0-6.99-0.99,794,"<div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $2.7 </font>
+            </div>
+        </div>
+    
+            <div> Please press any button to continue to the next trial.</div>",arrowleft,ITI,,,,,,,,1
+,,,,,html-keyboard-response,551,553833,0.0-6.99-1.99,null,"<div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $2.7 </font>
+            </div>
+        </div>
+    
+        <img class=""stim"" src=./stimuli//pack_shapes_diff/cat_1/diff_2/ex_1_2_1.png></img>",null,stimulus,,,,,,,,1
+,,,,,html-keyboard-response,552,554841,0.0-6.99-2.99,null,"<div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $2.7 </font>
+            </div>
+        </div>",null,,,,,,,,,1
+,,,,,html-keyboard-response,553,555379,0.0-6.99-3.99,537,./stimuli//pack_shapes_diff/cat_1/diff_2/ex_1_2_1.png,arrowleft,response,ArrowLeft,1,1,2,test,TRUE,,1
+,,,,,html-keyboard-response,554,556888,0.0-6.99-4.99,null,"<p> <font color=""green"" size=""5vw""> Correct category! </font> <br> <br> <font color=""green"" size=""8vw""> + $0.05 </font> </p>",null,feedback,,,,,,,2.75,1
+,,,,,html-keyboard-response,555,557861,0.0-6.100-0.100,972,"<div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $2.75 </font>
+            </div>
+        </div>
+    
+            <div> Please press any button to continue to the next trial.</div>",arrowleft,ITI,,,,,,,,1
+,,,,,html-keyboard-response,556,558484,0.0-6.100-1.100,null,"<div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $2.75 </font>
+            </div>
+        </div>
+    
+        <img class=""stim"" src=./stimuli//pack_shapes_diff/cat_2/diff_1/ex_2_1_10.png></img>",null,stimulus,,,,,,,,1
+,,,,,html-keyboard-response,557,559506,0.0-6.100-2.100,null,"<div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $2.75 </font>
+            </div>
+        </div>",null,,,,,,,,,1
+,,,,,html-keyboard-response,558,559685,0.0-6.100-3.100,177,./stimuli//pack_shapes_diff/cat_2/diff_1/ex_2_1_10.png,arrowright,response,ArrowRight,10,2,1,test,TRUE,,1
+,,,,,html-keyboard-response,559,561197,0.0-6.100-4.100,null,"<p> <font color=""green"" size=""5vw""> Correct category! </font> <br> <br> <font color=""green"" size=""8vw""> + $0.05 </font> </p>",null,feedback,,,,,,,2.8,1
+,,,,,html-keyboard-response,560,562030,0.0-6.101-0.101,831,"<div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $2.8 </font>
+            </div>
+        </div>
+    
+            <div> Please press any button to continue to the next trial.</div>",arrowleft,ITI,,,,,,,,1
+,,,,,html-keyboard-response,561,562640,0.0-6.101-1.101,null,"<div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $2.8 </font>
+            </div>
+        </div>
+    
+        <img class=""stim"" src=./stimuli//pack_shapes_diff/cat_1/diff_1/ex_1_1_16.png></img>",null,stimulus,,,,,,,,1
+,,,,,html-keyboard-response,562,563647,0.0-6.101-2.101,null,"<div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $2.8 </font>
+            </div>
+        </div>",null,,,,,,,,,1
+,,,,,html-keyboard-response,563,564100,0.0-6.101-3.101,451,./stimuli//pack_shapes_diff/cat_1/diff_1/ex_1_1_16.png,arrowright,response,ArrowLeft,16,1,1,test,FALSE,,1
+,,,,,html-keyboard-response,564,565616,0.0-6.101-4.101,null,"<p> <font color=""red"" size=""5vw""> Wrong category! </font> </p>",null,feedback,,,,,,,2.8,1
+,,,,,html-keyboard-response,565,566055,0.0-6.102-0.102,438,"<div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $2.8 </font>
+            </div>
+        </div>
+    
+            <div> Please press any button to continue to the next trial.</div>",arrowleft,ITI,,,,,,,,1
+,,,,,html-keyboard-response,566,566673,0.0-6.102-1.102,null,"<div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $2.8 </font>
+            </div>
+        </div>
+    
+        <img class=""stim"" src=./stimuli//pack_shapes_diff/cat_2/diff_1/ex_2_1_5.png></img>",null,stimulus,,,,,,,,1
+,,,,,html-keyboard-response,567,567677,0.0-6.102-2.102,null,"<div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $2.8 </font>
+            </div>
+        </div>",null,,,,,,,,,1
+,,,,,html-keyboard-response,568,568096,0.0-6.102-3.102,418,./stimuli//pack_shapes_diff/cat_2/diff_1/ex_2_1_5.png,arrowleft,response,ArrowRight,5,2,1,test,FALSE,,1
+,,,,,html-keyboard-response,569,569600,0.0-6.102-4.102,null,"<p> <font color=""red"" size=""5vw""> Wrong category! </font> </p>",null,feedback,,,,,,,2.8,1
+,,,,,html-keyboard-response,570,570704,0.0-6.103-0.103,1102,"<div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $2.8 </font>
+            </div>
+        </div>
+    
+            <div> Please press any button to continue to the next trial.</div>",arrowright,ITI,,,,,,,,1
+,,,,,html-keyboard-response,571,571333,0.0-6.103-1.103,null,"<div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $2.8 </font>
+            </div>
+        </div>
+    
+        <img class=""stim"" src=./stimuli//pack_shapes_diff/cat_2/diff_1/ex_2_1_11.png></img>",null,stimulus,,,,,,,,1
+,,,,,html-keyboard-response,572,572350,0.0-6.103-2.103,null,"<div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $2.8 </font>
+            </div>
+        </div>",null,,,,,,,,,1
+,,,,,html-keyboard-response,573,572496,0.0-6.103-3.103,144,./stimuli//pack_shapes_diff/cat_2/diff_1/ex_2_1_11.png,arrowleft,response,ArrowRight,11,2,1,test,FALSE,,1
+,,,,,html-keyboard-response,574,573997,0.0-6.103-4.103,null,"<p> <font color=""red"" size=""5vw""> Wrong category! </font> </p>",null,feedback,,,,,,,2.8,1
+,,,,,html-keyboard-response,575,574539,0.0-6.104-0.104,540,"<div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $2.8 </font>
+            </div>
+        </div>
+    
+            <div> Please press any button to continue to the next trial.</div>",arrowleft,ITI,,,,,,,,1
+,,,,,html-keyboard-response,576,575158,0.0-6.104-1.104,null,"<div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $2.8 </font>
+            </div>
+        </div>
+    
+        <img class=""stim"" src=./stimuli//pack_shapes_diff/cat_1/diff_1/ex_1_1_5.png></img>",null,stimulus,,,,,,,,1
+,,,,,html-keyboard-response,577,576162,0.0-6.104-2.104,null,"<div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $2.8 </font>
+            </div>
+        </div>",null,,,,,,,,,1
+,,,,,html-keyboard-response,578,576351,0.0-6.104-3.104,188,./stimuli//pack_shapes_diff/cat_1/diff_1/ex_1_1_5.png,arrowleft,response,ArrowLeft,5,1,1,test,TRUE,,1
+,,,,,html-keyboard-response,579,577866,0.0-6.104-4.104,null,"<p> <font color=""green"" size=""5vw""> Correct category! </font> <br> <br> <font color=""green"" size=""8vw""> + $0.05 </font> </p>",null,feedback,,,,,,,2.85,1
+,,,,,html-keyboard-response,580,578404,0.0-6.105-0.105,537,"<div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $2.85 </font>
+            </div>
+        </div>
+    
+            <div> Please press any button to continue to the next trial.</div>",arrowleft,ITI,,,,,,,,1
+,,,,,html-keyboard-response,581,579020,0.0-6.105-1.105,null,"<div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $2.85 </font>
+            </div>
+        </div>
+    
+        <img class=""stim"" src=./stimuli//pack_shapes_diff/cat_1/diff_1/ex_1_1_7.png></img>",null,stimulus,,,,,,,,1
+,,,,,html-keyboard-response,582,580023,0.0-6.105-2.105,null,"<div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $2.85 </font>
+            </div>
+        </div>",null,,,,,,,,,1
+,,,,,html-keyboard-response,583,580259,0.0-6.105-3.105,234,./stimuli//pack_shapes_diff/cat_1/diff_1/ex_1_1_7.png,arrowleft,response,ArrowLeft,7,1,1,test,TRUE,,1
+,,,,,html-keyboard-response,584,581776,0.0-6.105-4.105,null,"<p> <font color=""green"" size=""5vw""> Correct category! </font> <br> <br> <font color=""green"" size=""8vw""> + $0.05 </font> </p>",null,feedback,,,,,,,2.9,1
+,,,,,html-keyboard-response,585,582711,0.0-6.106-0.106,935,"<div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $2.9 </font>
+            </div>
+        </div>
+    
+            <div> Please press any button to continue to the next trial.</div>",arrowleft,ITI,,,,,,,,1
+,,,,,html-keyboard-response,586,583313,0.0-6.106-1.106,null,"<div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $2.9 </font>
+            </div>
+        </div>
+    
+        <img class=""stim"" src=./stimuli//pack_shapes_diff/cat_2/diff_1/ex_2_1_12.png></img>",null,stimulus,,,,,,,,1
+,,,,,html-keyboard-response,587,584347,0.0-6.106-2.106,null,"<div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $2.9 </font>
+            </div>
+        </div>",null,,,,,,,,,1
+,,,,,html-keyboard-response,588,584599,0.0-6.106-3.106,251,./stimuli//pack_shapes_diff/cat_2/diff_1/ex_2_1_12.png,arrowright,response,ArrowRight,12,2,1,test,TRUE,,1
+,,,,,html-keyboard-response,589,585788,0.0-6.106-4.106,1188,"<p> <font color=""green"" size=""5vw""> Correct category! </font> <br> <br> <font color=""green"" size=""8vw""> + $0.05 </font> </p>",arrowright,feedback,,,,,,,2.95,1
+,,,,,html-keyboard-response,590,586971,0.0-6.107-0.107,1181,"<div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $2.95 </font>
+            </div>
+        </div>
+    
+            <div> Please press any button to continue to the next trial.</div>",arrowright,ITI,,,,,,,,1
+,,,,,html-keyboard-response,591,587591,0.0-6.107-1.107,null,"<div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $2.95 </font>
+            </div>
+        </div>
+    
+        <img class=""stim"" src=./stimuli//pack_shapes_diff/cat_1/diff_1/ex_1_1_9.png></img>",null,stimulus,,,,,,,,1
+,,,,,html-keyboard-response,592,588594,0.0-6.107-2.107,null,"<div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $2.95 </font>
+            </div>
+        </div>",null,,,,,,,,,1
+,,,,,html-keyboard-response,593,588943,0.0-6.107-3.107,347,./stimuli//pack_shapes_diff/cat_1/diff_1/ex_1_1_9.png,arrowleft,response,ArrowLeft,9,1,1,test,TRUE,,1
+,,,,,html-keyboard-response,594,590463,0.0-6.107-4.107,null,"<p> <font color=""green"" size=""5vw""> Correct category! </font> <br> <br> <font color=""green"" size=""8vw""> + $0.05 </font> </p>",null,feedback,,,,,,,3,1
+,,,,,html-keyboard-response,595,591033,0.0-6.108-0.108,569,"<div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $3 </font>
+            </div>
+        </div>
+    
+            <div> Please press any button to continue to the next trial.</div>",arrowright,ITI,,,,,,,,1
+,,,,,html-keyboard-response,596,591638,0.0-6.108-1.108,null,"<div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $3 </font>
+            </div>
+        </div>
+    
+        <img class=""stim"" src=./stimuli//pack_shapes_diff/cat_1/diff_2/ex_1_2_4.png></img>",null,stimulus,,,,,,,,1
+,,,,,html-keyboard-response,597,592642,0.0-6.108-2.108,null,"<div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $3 </font>
+            </div>
+        </div>",null,,,,,,,,,1
+,,,,,html-keyboard-response,598,592917,0.0-6.108-3.108,274,./stimuli//pack_shapes_diff/cat_1/diff_2/ex_1_2_4.png,arrowleft,response,ArrowLeft,4,1,2,test,TRUE,,1
+,,,,,html-keyboard-response,599,594422,0.0-6.108-4.108,null,"<p> <font color=""green"" size=""5vw""> Correct category! </font> <br> <br> <font color=""green"" size=""8vw""> + $0.05 </font> </p>",null,feedback,,,,,,,3.05,1
+,,,,,html-keyboard-response,600,595087,0.0-6.109-0.109,663,"<div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $3.05 </font>
+            </div>
+        </div>
+    
+            <div> Please press any button to continue to the next trial.</div>",arrowright,ITI,,,,,,,,1
+,,,,,html-keyboard-response,601,595693,0.0-6.109-1.109,null,"<div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $3.05 </font>
+            </div>
+        </div>
+    
+        <img class=""stim"" src=./stimuli//pack_shapes_diff/cat_2/diff_2/ex_2_2_4.png></img>",null,stimulus,,,,,,,,1
+,,,,,html-keyboard-response,602,596701,0.0-6.109-2.109,null,"<div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $3.05 </font>
+            </div>
+        </div>",null,,,,,,,,,1
+,,,,,html-keyboard-response,603,596977,0.0-6.109-3.109,274,./stimuli//pack_shapes_diff/cat_2/diff_2/ex_2_2_4.png,arrowright,response,ArrowRight,4,2,2,test,TRUE,,1
+,,,,,html-keyboard-response,604,598489,0.0-6.109-4.109,null,"<p> <font color=""green"" size=""5vw""> Correct category! </font> <br> <br> <font color=""green"" size=""8vw""> + $0.05 </font> </p>",null,feedback,,,,,,,3.1,1
+,,,,,html-keyboard-response,605,599118,0.0-6.110-0.110,627,"<div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $3.1 </font>
+            </div>
+        </div>
+    
+            <div> Please press any button to continue to the next trial.</div>",arrowright,ITI,,,,,,,,1
+,,,,,html-keyboard-response,606,599366,0.0-6.110-1.110,,,,stimulus,,,,,,,,1

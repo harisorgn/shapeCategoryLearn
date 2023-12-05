@@ -1,0 +1,1634 @@
+"success","timeout","failed_images","failed_audio","failed_video","trial_type","trial_index","time_elapsed","internal_node_id","subject_id","study_id","session_id","rt","stimulus","response","task","correct_response","exemplar_ID","category","correct"
+"true","false","[]","[]","[]","preload","0","3","0.0-0.0","","","","","","","","","","",""
+"","","","","","html-keyboard-response","1","173410","0.0-1.0","","","","173408","Welcome to the Category Learning experiment! Press any key to continue.",".","welcome","","","",""
+"","","","","","html-keyboard-response","2","359105","0.0-2.0","","","","185695","<p>You will be shown images and each image will contain a set of black dots. Each image will belong to one of two categories: category A or category B.
+            <br>You will not know in advance which category the given collection of dots belongs to.</p>
+            <p>After you see an image you will be asked to categorize it into <b>category A (by pressing the left arrow key)</b> or <b>category B (by pressing the right arrow key)</b>
+            as quickly as possible.</p>
+            <p>After you make a choice you will receive feedback telling you whether you matched the image to the correct category or not.</p>
+            <p>Your goal is to categorize as many sets of dots correctly as possible.</p>
+            <p>Press any key to begin.</p>","/","introduction","","","",""
+"","","","","","html-keyboard-response","3","359460","0.0-3.0-0.0","","","","null","
+            
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 1vw""> 
+                Current score : <font color=""green""> 0 points </font>
+            </div>
+        </div>
+    
+            <div style=""font-size:60px;"">+</div>
+        ","null","ITI","","","",""
+"","","","","","html-keyboard-response","4","360469","0.0-3.0-1.0","","","","null","
+        
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 1vw""> 
+                Current score : <font color=""green""> 0 points </font>
+            </div>
+        </div>
+    
+        <img class=""stim"" src=./stimuli//pack_easy/cat_2/ex_2_23.png></img>
+    ","null","stimulus","","","",""
+"","","","","","html-keyboard-response","5","361477","0.0-3.0-2.0","","","","null","
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 1vw""> 
+                Current score : <font color=""green""> 0 points </font>
+            </div>
+        </div>
+    ","null","","","","",""
+"","","","","","html-keyboard-response","6","362774","0.0-3.0-3.0","","","","1295","./stimuli//pack_easy/cat_2/ex_2_23.png","arrowright","response","ArrowRight","23","2","true"
+"","","","","","html-keyboard-response","7","364289","0.0-3.0-4.0","","","","null","<p> <font color=""green"" size=""4vw""> Correct category! </font> <br> <br> <font color=""green"" size=""7vw""> +10 points </font> </p>","null","feedback","","","",""
+"","","","","","html-keyboard-response","8","364644","0.0-3.0-0.1","","","","null","
+            
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 1vw""> 
+                Current score : <font color=""green""> 10 points </font>
+            </div>
+        </div>
+    
+            <div style=""font-size:60px;"">+</div>
+        ","null","ITI","","","",""
+"","","","","","html-keyboard-response","9","365650","0.0-3.0-1.1","","","","null","
+        
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 1vw""> 
+                Current score : <font color=""green""> 10 points </font>
+            </div>
+        </div>
+    
+        <img class=""stim"" src=./stimuli//pack_easy/cat_1/ex_1_86.png></img>
+    ","null","stimulus","","","",""
+"","","","","","html-keyboard-response","10","366655","0.0-3.0-2.1","","","","null","
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 1vw""> 
+                Current score : <font color=""green""> 10 points </font>
+            </div>
+        </div>
+    ","null","","","","",""
+"","","","","","html-keyboard-response","11","367125","0.0-3.0-3.1","","","","469","./stimuli//pack_easy/cat_1/ex_1_86.png","arrowleft","response","ArrowLeft","86","1","true"
+"","","","","","html-keyboard-response","12","368635","0.0-3.0-4.1","","","","null","<p> <font color=""green"" size=""4vw""> Correct category! </font> <br> <br> <font color=""green"" size=""7vw""> +10 points </font> </p>","null","feedback","","","",""
+"","","","","","html-keyboard-response","13","368991","0.0-3.0-0.2","","","","null","
+            
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 1vw""> 
+                Current score : <font color=""green""> 20 points </font>
+            </div>
+        </div>
+    
+            <div style=""font-size:60px;"">+</div>
+        ","null","ITI","","","",""
+"","","","","","html-keyboard-response","14","369995","0.0-3.0-1.2","","","","null","
+        
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 1vw""> 
+                Current score : <font color=""green""> 20 points </font>
+            </div>
+        </div>
+    
+        <img class=""stim"" src=./stimuli//pack_easy/cat_1/ex_1_79.png></img>
+    ","null","stimulus","","","",""
+"","","","","","html-keyboard-response","15","371000","0.0-3.0-2.2","","","","null","
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 1vw""> 
+                Current score : <font color=""green""> 20 points </font>
+            </div>
+        </div>
+    ","null","","","","",""
+"","","","","","html-keyboard-response","16","371542","0.0-3.0-3.2","","","","541","./stimuli//pack_easy/cat_1/ex_1_79.png","arrowleft","response","ArrowLeft","79","1","true"
+"","","","","","html-keyboard-response","17","373048","0.0-3.0-4.2","","","","null","<p> <font color=""green"" size=""4vw""> Correct category! </font> <br> <br> <font color=""green"" size=""7vw""> +10 points </font> </p>","null","feedback","","","",""
+"","","","","","html-keyboard-response","18","373401","0.0-3.0-0.3","","","","null","
+            
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 1vw""> 
+                Current score : <font color=""green""> 30 points </font>
+            </div>
+        </div>
+    
+            <div style=""font-size:60px;"">+</div>
+        ","null","ITI","","","",""
+"","","","","","html-keyboard-response","19","374408","0.0-3.0-1.3","","","","null","
+        
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 1vw""> 
+                Current score : <font color=""green""> 30 points </font>
+            </div>
+        </div>
+    
+        <img class=""stim"" src=./stimuli//pack_easy/cat_2/ex_2_94.png></img>
+    ","null","stimulus","","","",""
+"","","","","","html-keyboard-response","20","375412","0.0-3.0-2.3","","","","null","
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 1vw""> 
+                Current score : <font color=""green""> 30 points </font>
+            </div>
+        </div>
+    ","null","","","","",""
+"","","","","","html-keyboard-response","21","375891","0.0-3.0-3.3","","","","478","./stimuli//pack_easy/cat_2/ex_2_94.png","arrowright","response","ArrowRight","94","2","true"
+"","","","","","html-keyboard-response","22","377399","0.0-3.0-4.3","","","","null","<p> <font color=""green"" size=""4vw""> Correct category! </font> <br> <br> <font color=""green"" size=""7vw""> +10 points </font> </p>","null","feedback","","","",""
+"","","","","","html-keyboard-response","23","377756","0.0-3.0-0.4","","","","null","
+            
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 1vw""> 
+                Current score : <font color=""green""> 40 points </font>
+            </div>
+        </div>
+    
+            <div style=""font-size:60px;"">+</div>
+        ","null","ITI","","","",""
+"","","","","","html-keyboard-response","24","378762","0.0-3.0-1.4","","","","null","
+        
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 1vw""> 
+                Current score : <font color=""green""> 40 points </font>
+            </div>
+        </div>
+    
+        <img class=""stim"" src=./stimuli//pack_easy/cat_1/ex_1_51.png></img>
+    ","null","stimulus","","","",""
+"","","","","","html-keyboard-response","25","379768","0.0-3.0-2.4","","","","null","
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 1vw""> 
+                Current score : <font color=""green""> 40 points </font>
+            </div>
+        </div>
+    ","null","","","","",""
+"","","","","","html-keyboard-response","26","380050","0.0-3.0-3.4","","","","281","./stimuli//pack_easy/cat_1/ex_1_51.png","arrowleft","response","ArrowLeft","51","1","true"
+"","","","","","html-keyboard-response","27","381563","0.0-3.0-4.4","","","","null","<p> <font color=""green"" size=""4vw""> Correct category! </font> <br> <br> <font color=""green"" size=""7vw""> +10 points </font> </p>","null","feedback","","","",""
+"","","","","","html-keyboard-response","28","381918","0.0-3.0-0.5","","","","null","
+            
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 1vw""> 
+                Current score : <font color=""green""> 50 points </font>
+            </div>
+        </div>
+    
+            <div style=""font-size:60px;"">+</div>
+        ","null","ITI","","","",""
+"","","","","","html-keyboard-response","29","382924","0.0-3.0-1.5","","","","null","
+        
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 1vw""> 
+                Current score : <font color=""green""> 50 points </font>
+            </div>
+        </div>
+    
+        <img class=""stim"" src=./stimuli//pack_easy/cat_1/ex_1_45.png></img>
+    ","null","stimulus","","","",""
+"","","","","","html-keyboard-response","30","383927","0.0-3.0-2.5","","","","null","
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 1vw""> 
+                Current score : <font color=""green""> 50 points </font>
+            </div>
+        </div>
+    ","null","","","","",""
+"","","","","","html-keyboard-response","31","384429","0.0-3.0-3.5","","","","500","./stimuli//pack_easy/cat_1/ex_1_45.png","arrowleft","response","ArrowLeft","45","1","true"
+"","","","","","html-keyboard-response","32","385940","0.0-3.0-4.5","","","","null","<p> <font color=""green"" size=""4vw""> Correct category! </font> <br> <br> <font color=""green"" size=""7vw""> +10 points </font> </p>","null","feedback","","","",""
+"","","","","","html-keyboard-response","33","386295","0.0-3.0-0.6","","","","null","
+            
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 1vw""> 
+                Current score : <font color=""green""> 60 points </font>
+            </div>
+        </div>
+    
+            <div style=""font-size:60px;"">+</div>
+        ","null","ITI","","","",""
+"","","","","","html-keyboard-response","34","387302","0.0-3.0-1.6","","","","null","
+        
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 1vw""> 
+                Current score : <font color=""green""> 60 points </font>
+            </div>
+        </div>
+    
+        <img class=""stim"" src=./stimuli//pack_easy/cat_2/ex_2_68.png></img>
+    ","null","stimulus","","","",""
+"","","","","","html-keyboard-response","35","388309","0.0-3.0-2.6","","","","null","
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 1vw""> 
+                Current score : <font color=""green""> 60 points </font>
+            </div>
+        </div>
+    ","null","","","","",""
+"","","","","","html-keyboard-response","36","388732","0.0-3.0-3.6","","","","422","./stimuli//pack_easy/cat_2/ex_2_68.png","arrowleft","response","ArrowRight","68","2","false"
+"","","","","","html-keyboard-response","37","390240","0.0-3.0-4.6","","","","null","<p> <font color=""red"" size=""4vw""> Wrong category! </font> </p>","null","feedback","","","",""
+"","","","","","html-keyboard-response","38","390593","0.0-3.0-0.7","","","","null","
+            
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 1vw""> 
+                Current score : <font color=""green""> 60 points </font>
+            </div>
+        </div>
+    
+            <div style=""font-size:60px;"">+</div>
+        ","null","ITI","","","",""
+"","","","","","html-keyboard-response","39","391596","0.0-3.0-1.7","","","","null","
+        
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 1vw""> 
+                Current score : <font color=""green""> 60 points </font>
+            </div>
+        </div>
+    
+        <img class=""stim"" src=./stimuli//pack_easy/cat_1/ex_1_39.png></img>
+    ","null","stimulus","","","",""
+"","","","","","html-keyboard-response","40","392607","0.0-3.0-2.7","","","","null","
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 1vw""> 
+                Current score : <font color=""green""> 60 points </font>
+            </div>
+        </div>
+    ","null","","","","",""
+"","","","","","html-keyboard-response","41","393044","0.0-3.0-3.7","","","","436","./stimuli//pack_easy/cat_1/ex_1_39.png","arrowleft","response","ArrowLeft","39","1","true"
+"","","","","","html-keyboard-response","42","394547","0.0-3.0-4.7","","","","null","<p> <font color=""green"" size=""4vw""> Correct category! </font> <br> <br> <font color=""green"" size=""7vw""> +10 points </font> </p>","null","feedback","","","",""
+"","","","","","html-keyboard-response","43","394902","0.0-3.0-0.8","","","","null","
+            
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 1vw""> 
+                Current score : <font color=""green""> 70 points </font>
+            </div>
+        </div>
+    
+            <div style=""font-size:60px;"">+</div>
+        ","null","ITI","","","",""
+"","","","","","html-keyboard-response","44","395918","0.0-3.0-1.8","","","","null","
+        
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 1vw""> 
+                Current score : <font color=""green""> 70 points </font>
+            </div>
+        </div>
+    
+        <img class=""stim"" src=./stimuli//pack_easy/cat_1/ex_1_71.png></img>
+    ","null","stimulus","","","",""
+"","","","","","html-keyboard-response","45","396922","0.0-3.0-2.8","","","","null","
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 1vw""> 
+                Current score : <font color=""green""> 70 points </font>
+            </div>
+        </div>
+    ","null","","","","",""
+"","","","","","html-keyboard-response","46","397254","0.0-3.0-3.8","","","","331","./stimuli//pack_easy/cat_1/ex_1_71.png","arrowright","response","ArrowLeft","71","1","false"
+"","","","","","html-keyboard-response","47","398764","0.0-3.0-4.8","","","","null","<p> <font color=""red"" size=""4vw""> Wrong category! </font> </p>","null","feedback","","","",""
+"","","","","","html-keyboard-response","48","399121","0.0-3.0-0.9","","","","null","
+            
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 1vw""> 
+                Current score : <font color=""green""> 70 points </font>
+            </div>
+        </div>
+    
+            <div style=""font-size:60px;"">+</div>
+        ","null","ITI","","","",""
+"","","","","","html-keyboard-response","49","400127","0.0-3.0-1.9","","","","null","
+        
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 1vw""> 
+                Current score : <font color=""green""> 70 points </font>
+            </div>
+        </div>
+    
+        <img class=""stim"" src=./stimuli//pack_easy/cat_1/ex_1_13.png></img>
+    ","null","stimulus","","","",""
+"","","","","","html-keyboard-response","50","401140","0.0-3.0-2.9","","","","null","
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 1vw""> 
+                Current score : <font color=""green""> 70 points </font>
+            </div>
+        </div>
+    ","null","","","","",""
+"","","","","","html-keyboard-response","51","401586","0.0-3.0-3.9","","","","445","./stimuli//pack_easy/cat_1/ex_1_13.png","arrowleft","response","ArrowLeft","13","1","true"
+"","","","","","html-keyboard-response","52","403097","0.0-3.0-4.9","","","","null","<p> <font color=""green"" size=""4vw""> Correct category! </font> <br> <br> <font color=""green"" size=""7vw""> +10 points </font> </p>","null","feedback","","","",""
+"","","","","","html-keyboard-response","53","403455","0.0-3.0-0.10","","","","null","
+            
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 1vw""> 
+                Current score : <font color=""green""> 80 points </font>
+            </div>
+        </div>
+    
+            <div style=""font-size:60px;"">+</div>
+        ","null","ITI","","","",""
+"","","","","","html-keyboard-response","54","404460","0.0-3.0-1.10","","","","null","
+        
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 1vw""> 
+                Current score : <font color=""green""> 80 points </font>
+            </div>
+        </div>
+    
+        <img class=""stim"" src=./stimuli//pack_easy/cat_2/ex_2_87.png></img>
+    ","null","stimulus","","","",""
+"","","","","","html-keyboard-response","55","405468","0.0-3.0-2.10","","","","null","
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 1vw""> 
+                Current score : <font color=""green""> 80 points </font>
+            </div>
+        </div>
+    ","null","","","","",""
+"","","","","","html-keyboard-response","56","405856","0.0-3.0-3.10","","","","386","./stimuli//pack_easy/cat_2/ex_2_87.png","arrowright","response","ArrowRight","87","2","true"
+"","","","","","html-keyboard-response","57","407365","0.0-3.0-4.10","","","","null","<p> <font color=""green"" size=""4vw""> Correct category! </font> <br> <br> <font color=""green"" size=""7vw""> +10 points </font> </p>","null","feedback","","","",""
+"","","","","","html-keyboard-response","58","407721","0.0-3.0-0.11","","","","null","
+            
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 1vw""> 
+                Current score : <font color=""green""> 90 points </font>
+            </div>
+        </div>
+    
+            <div style=""font-size:60px;"">+</div>
+        ","null","ITI","","","",""
+"","","","","","html-keyboard-response","59","408735","0.0-3.0-1.11","","","","null","
+        
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 1vw""> 
+                Current score : <font color=""green""> 90 points </font>
+            </div>
+        </div>
+    
+        <img class=""stim"" src=./stimuli//pack_easy/cat_2/ex_2_12.png></img>
+    ","null","stimulus","","","",""
+"","","","","","html-keyboard-response","60","409744","0.0-3.0-2.11","","","","null","
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 1vw""> 
+                Current score : <font color=""green""> 90 points </font>
+            </div>
+        </div>
+    ","null","","","","",""
+"","","","","","html-keyboard-response","61","410105","0.0-3.0-3.11","","","","361","./stimuli//pack_easy/cat_2/ex_2_12.png","arrowright","response","ArrowRight","12","2","true"
+"","","","","","html-keyboard-response","62","411612","0.0-3.0-4.11","","","","null","<p> <font color=""green"" size=""4vw""> Correct category! </font> <br> <br> <font color=""green"" size=""7vw""> +10 points </font> </p>","null","feedback","","","",""
+"","","","","","html-keyboard-response","63","411969","0.0-3.0-0.12","","","","null","
+            
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 1vw""> 
+                Current score : <font color=""green""> 100 points </font>
+            </div>
+        </div>
+    
+            <div style=""font-size:60px;"">+</div>
+        ","null","ITI","","","",""
+"","","","","","html-keyboard-response","64","412972","0.0-3.0-1.12","","","","null","
+        
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 1vw""> 
+                Current score : <font color=""green""> 100 points </font>
+            </div>
+        </div>
+    
+        <img class=""stim"" src=./stimuli//pack_easy/cat_2/ex_2_51.png></img>
+    ","null","stimulus","","","",""
+"","","","","","html-keyboard-response","65","413980","0.0-3.0-2.12","","","","null","
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 1vw""> 
+                Current score : <font color=""green""> 100 points </font>
+            </div>
+        </div>
+    ","null","","","","",""
+"","","","","","html-keyboard-response","66","414622","0.0-3.0-3.12","","","","641","./stimuli//pack_easy/cat_2/ex_2_51.png","arrowright","response","ArrowRight","51","2","true"
+"","","","","","html-keyboard-response","67","416128","0.0-3.0-4.12","","","","null","<p> <font color=""green"" size=""4vw""> Correct category! </font> <br> <br> <font color=""green"" size=""7vw""> +10 points </font> </p>","null","feedback","","","",""
+"","","","","","html-keyboard-response","68","416484","0.0-3.0-0.13","","","","null","
+            
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 1vw""> 
+                Current score : <font color=""green""> 110 points </font>
+            </div>
+        </div>
+    
+            <div style=""font-size:60px;"">+</div>
+        ","null","ITI","","","",""
+"","","","","","html-keyboard-response","69","417493","0.0-3.0-1.13","","","","null","
+        
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 1vw""> 
+                Current score : <font color=""green""> 110 points </font>
+            </div>
+        </div>
+    
+        <img class=""stim"" src=./stimuli//pack_easy/cat_1/ex_1_87.png></img>
+    ","null","stimulus","","","",""
+"","","","","","html-keyboard-response","70","418501","0.0-3.0-2.13","","","","null","
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 1vw""> 
+                Current score : <font color=""green""> 110 points </font>
+            </div>
+        </div>
+    ","null","","","","",""
+"","","","","","html-keyboard-response","71","418918","0.0-3.0-3.13","","","","416","./stimuli//pack_easy/cat_1/ex_1_87.png","arrowleft","response","ArrowLeft","87","1","true"
+"","","","","","html-keyboard-response","72","420421","0.0-3.0-4.13","","","","null","<p> <font color=""green"" size=""4vw""> Correct category! </font> <br> <br> <font color=""green"" size=""7vw""> +10 points </font> </p>","null","feedback","","","",""
+"","","","","","html-keyboard-response","73","420779","0.0-3.0-0.14","","","","null","
+            
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 1vw""> 
+                Current score : <font color=""green""> 120 points </font>
+            </div>
+        </div>
+    
+            <div style=""font-size:60px;"">+</div>
+        ","null","ITI","","","",""
+"","","","","","html-keyboard-response","74","421785","0.0-3.0-1.14","","","","null","
+        
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 1vw""> 
+                Current score : <font color=""green""> 120 points </font>
+            </div>
+        </div>
+    
+        <img class=""stim"" src=./stimuli//pack_easy/cat_1/ex_1_18.png></img>
+    ","null","stimulus","","","",""
+"","","","","","html-keyboard-response","75","422793","0.0-3.0-2.14","","","","null","
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 1vw""> 
+                Current score : <font color=""green""> 120 points </font>
+            </div>
+        </div>
+    ","null","","","","",""
+"","","","","","html-keyboard-response","76","423208","0.0-3.0-3.14","","","","414","./stimuli//pack_easy/cat_1/ex_1_18.png","arrowleft","response","ArrowLeft","18","1","true"
+"","","","","","html-keyboard-response","77","424710","0.0-3.0-4.14","","","","null","<p> <font color=""green"" size=""4vw""> Correct category! </font> <br> <br> <font color=""green"" size=""7vw""> +10 points </font> </p>","null","feedback","","","",""
+"","","","","","html-keyboard-response","78","425063","0.0-3.0-0.15","","","","null","
+            
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 1vw""> 
+                Current score : <font color=""green""> 130 points </font>
+            </div>
+        </div>
+    
+            <div style=""font-size:60px;"">+</div>
+        ","null","ITI","","","",""
+"","","","","","html-keyboard-response","79","426067","0.0-3.0-1.15","","","","null","
+        
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 1vw""> 
+                Current score : <font color=""green""> 130 points </font>
+            </div>
+        </div>
+    
+        <img class=""stim"" src=./stimuli//pack_easy/cat_1/ex_1_59.png></img>
+    ","null","stimulus","","","",""
+"","","","","","html-keyboard-response","80","427074","0.0-3.0-2.15","","","","null","
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 1vw""> 
+                Current score : <font color=""green""> 130 points </font>
+            </div>
+        </div>
+    ","null","","","","",""
+"","","","","","html-keyboard-response","81","427561","0.0-3.0-3.15","","","","486","./stimuli//pack_easy/cat_1/ex_1_59.png","arrowleft","response","ArrowLeft","59","1","true"
+"","","","","","html-keyboard-response","82","429070","0.0-3.0-4.15","","","","null","<p> <font color=""green"" size=""4vw""> Correct category! </font> <br> <br> <font color=""green"" size=""7vw""> +10 points </font> </p>","null","feedback","","","",""
+"","","","","","html-keyboard-response","83","429426","0.0-3.0-0.16","","","","null","
+            
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 1vw""> 
+                Current score : <font color=""green""> 140 points </font>
+            </div>
+        </div>
+    
+            <div style=""font-size:60px;"">+</div>
+        ","null","ITI","","","",""
+"","","","","","html-keyboard-response","84","430429","0.0-3.0-1.16","","","","null","
+        
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 1vw""> 
+                Current score : <font color=""green""> 140 points </font>
+            </div>
+        </div>
+    
+        <img class=""stim"" src=./stimuli//pack_easy/cat_1/ex_1_73.png></img>
+    ","null","stimulus","","","",""
+"","","","","","html-keyboard-response","85","431433","0.0-3.0-2.16","","","","null","
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 1vw""> 
+                Current score : <font color=""green""> 140 points </font>
+            </div>
+        </div>
+    ","null","","","","",""
+"","","","","","html-keyboard-response","86","431891","0.0-3.0-3.16","","","","457","./stimuli//pack_easy/cat_1/ex_1_73.png","arrowleft","response","ArrowLeft","73","1","true"
+"","","","","","html-keyboard-response","87","433403","0.0-3.0-4.16","","","","null","<p> <font color=""green"" size=""4vw""> Correct category! </font> <br> <br> <font color=""green"" size=""7vw""> +10 points </font> </p>","null","feedback","","","",""
+"","","","","","html-keyboard-response","88","433760","0.0-3.0-0.17","","","","null","
+            
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 1vw""> 
+                Current score : <font color=""green""> 150 points </font>
+            </div>
+        </div>
+    
+            <div style=""font-size:60px;"">+</div>
+        ","null","ITI","","","",""
+"","","","","","html-keyboard-response","89","434771","0.0-3.0-1.17","","","","null","
+        
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 1vw""> 
+                Current score : <font color=""green""> 150 points </font>
+            </div>
+        </div>
+    
+        <img class=""stim"" src=./stimuli//pack_easy/cat_2/ex_2_81.png></img>
+    ","null","stimulus","","","",""
+"","","","","","html-keyboard-response","90","435779","0.0-3.0-2.17","","","","null","
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 1vw""> 
+                Current score : <font color=""green""> 150 points </font>
+            </div>
+        </div>
+    ","null","","","","",""
+"","","","","","html-keyboard-response","91","436435","0.0-3.0-3.17","","","","655","./stimuli//pack_easy/cat_2/ex_2_81.png","arrowright","response","ArrowRight","81","2","true"
+"","","","","","html-keyboard-response","92","437949","0.0-3.0-4.17","","","","null","<p> <font color=""green"" size=""4vw""> Correct category! </font> <br> <br> <font color=""green"" size=""7vw""> +10 points </font> </p>","null","feedback","","","",""
+"","","","","","html-keyboard-response","93","438304","0.0-3.0-0.18","","","","null","
+            
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 1vw""> 
+                Current score : <font color=""green""> 160 points </font>
+            </div>
+        </div>
+    
+            <div style=""font-size:60px;"">+</div>
+        ","null","ITI","","","",""
+"","","","","","html-keyboard-response","94","439309","0.0-3.0-1.18","","","","null","
+        
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 1vw""> 
+                Current score : <font color=""green""> 160 points </font>
+            </div>
+        </div>
+    
+        <img class=""stim"" src=./stimuli//pack_easy/cat_2/ex_2_31.png></img>
+    ","null","stimulus","","","",""
+"","","","","","html-keyboard-response","95","440316","0.0-3.0-2.18","","","","null","
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 1vw""> 
+                Current score : <font color=""green""> 160 points </font>
+            </div>
+        </div>
+    ","null","","","","",""
+"","","","","","html-keyboard-response","96","441079","0.0-3.0-3.18","","","","762","./stimuli//pack_easy/cat_2/ex_2_31.png","arrowleft","response","ArrowRight","31","2","false"
+"","","","","","html-keyboard-response","97","442587","0.0-3.0-4.18","","","","null","<p> <font color=""red"" size=""4vw""> Wrong category! </font> </p>","null","feedback","","","",""
+"","","","","","html-keyboard-response","98","442940","0.0-3.0-0.19","","","","null","
+            
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 1vw""> 
+                Current score : <font color=""green""> 160 points </font>
+            </div>
+        </div>
+    
+            <div style=""font-size:60px;"">+</div>
+        ","null","ITI","","","",""
+"","","","","","html-keyboard-response","99","443945","0.0-3.0-1.19","","","","null","
+        
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 1vw""> 
+                Current score : <font color=""green""> 160 points </font>
+            </div>
+        </div>
+    
+        <img class=""stim"" src=./stimuli//pack_easy/cat_1/ex_1_15.png></img>
+    ","null","stimulus","","","",""
+"","","","","","html-keyboard-response","100","444954","0.0-3.0-2.19","","","","null","
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 1vw""> 
+                Current score : <font color=""green""> 160 points </font>
+            </div>
+        </div>
+    ","null","","","","",""
+"","","","","","html-keyboard-response","101","445363","0.0-3.0-3.19","","","","408","./stimuli//pack_easy/cat_1/ex_1_15.png","arrowleft","response","ArrowLeft","15","1","true"
+"","","","","","html-keyboard-response","102","446877","0.0-3.0-4.19","","","","null","<p> <font color=""green"" size=""4vw""> Correct category! </font> <br> <br> <font color=""green"" size=""7vw""> +10 points </font> </p>","null","feedback","","","",""
+"","","","","","html-keyboard-response","103","447234","0.0-3.0-0.20","","","","null","
+            
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 1vw""> 
+                Current score : <font color=""green""> 170 points </font>
+            </div>
+        </div>
+    
+            <div style=""font-size:60px;"">+</div>
+        ","null","ITI","","","",""
+"","","","","","html-keyboard-response","104","448244","0.0-3.0-1.20","","","","null","
+        
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 1vw""> 
+                Current score : <font color=""green""> 170 points </font>
+            </div>
+        </div>
+    
+        <img class=""stim"" src=./stimuli//pack_easy/cat_1/ex_1_77.png></img>
+    ","null","stimulus","","","",""
+"","","","","","html-keyboard-response","105","449251","0.0-3.0-2.20","","","","null","
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 1vw""> 
+                Current score : <font color=""green""> 170 points </font>
+            </div>
+        </div>
+    ","null","","","","",""
+"","","","","","html-keyboard-response","106","449670","0.0-3.0-3.20","","","","419","./stimuli//pack_easy/cat_1/ex_1_77.png","arrowright","response","ArrowLeft","77","1","false"
+"","","","","","html-keyboard-response","107","451186","0.0-3.0-4.20","","","","null","<p> <font color=""red"" size=""4vw""> Wrong category! </font> </p>","null","feedback","","","",""
+"","","","","","html-keyboard-response","108","451543","0.0-3.0-0.21","","","","null","
+            
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 1vw""> 
+                Current score : <font color=""green""> 170 points </font>
+            </div>
+        </div>
+    
+            <div style=""font-size:60px;"">+</div>
+        ","null","ITI","","","",""
+"","","","","","html-keyboard-response","109","452554","0.0-3.0-1.21","","","","null","
+        
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 1vw""> 
+                Current score : <font color=""green""> 170 points </font>
+            </div>
+        </div>
+    
+        <img class=""stim"" src=./stimuli//pack_easy/cat_1/ex_1_89.png></img>
+    ","null","stimulus","","","",""
+"","","","","","html-keyboard-response","110","453559","0.0-3.0-2.21","","","","null","
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 1vw""> 
+                Current score : <font color=""green""> 170 points </font>
+            </div>
+        </div>
+    ","null","","","","",""
+"","","","","","html-keyboard-response","111","453961","0.0-3.0-3.21","","","","400","./stimuli//pack_easy/cat_1/ex_1_89.png","arrowleft","response","ArrowLeft","89","1","true"
+"","","","","","html-keyboard-response","112","455466","0.0-3.0-4.21","","","","null","<p> <font color=""green"" size=""4vw""> Correct category! </font> <br> <br> <font color=""green"" size=""7vw""> +10 points </font> </p>","null","feedback","","","",""
+"","","","","","html-keyboard-response","113","455823","0.0-3.0-0.22","","","","null","
+            
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 1vw""> 
+                Current score : <font color=""green""> 180 points </font>
+            </div>
+        </div>
+    
+            <div style=""font-size:60px;"">+</div>
+        ","null","ITI","","","",""
+"","","","","","html-keyboard-response","114","456828","0.0-3.0-1.22","","","","null","
+        
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 1vw""> 
+                Current score : <font color=""green""> 180 points </font>
+            </div>
+        </div>
+    
+        <img class=""stim"" src=./stimuli//pack_easy/cat_1/ex_1_43.png></img>
+    ","null","stimulus","","","",""
+"","","","","","html-keyboard-response","115","457834","0.0-3.0-2.22","","","","null","
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 1vw""> 
+                Current score : <font color=""green""> 180 points </font>
+            </div>
+        </div>
+    ","null","","","","",""
+"","","","","","html-keyboard-response","116","458271","0.0-3.0-3.22","","","","437","./stimuli//pack_easy/cat_1/ex_1_43.png","arrowleft","response","ArrowLeft","43","1","true"
+"","","","","","html-keyboard-response","117","459787","0.0-3.0-4.22","","","","null","<p> <font color=""green"" size=""4vw""> Correct category! </font> <br> <br> <font color=""green"" size=""7vw""> +10 points </font> </p>","null","feedback","","","",""
+"","","","","","html-keyboard-response","118","460144","0.0-3.0-0.23","","","","null","
+            
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 1vw""> 
+                Current score : <font color=""green""> 190 points </font>
+            </div>
+        </div>
+    
+            <div style=""font-size:60px;"">+</div>
+        ","null","ITI","","","",""
+"","","","","","html-keyboard-response","119","461154","0.0-3.0-1.23","","","","null","
+        
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 1vw""> 
+                Current score : <font color=""green""> 190 points </font>
+            </div>
+        </div>
+    
+        <img class=""stim"" src=./stimuli//pack_easy/cat_1/ex_1_92.png></img>
+    ","null","stimulus","","","",""
+"","","","","","html-keyboard-response","120","462158","0.0-3.0-2.23","","","","null","
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 1vw""> 
+                Current score : <font color=""green""> 190 points </font>
+            </div>
+        </div>
+    ","null","","","","",""
+"","","","","","html-keyboard-response","121","462554","0.0-3.0-3.23","","","","396","./stimuli//pack_easy/cat_1/ex_1_92.png","arrowleft","response","ArrowLeft","92","1","true"
+"","","","","","html-keyboard-response","122","464068","0.0-3.0-4.23","","","","null","<p> <font color=""green"" size=""4vw""> Correct category! </font> <br> <br> <font color=""green"" size=""7vw""> +10 points </font> </p>","null","feedback","","","",""
+"","","","","","html-keyboard-response","123","464423","0.0-3.0-0.24","","","","null","
+            
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 1vw""> 
+                Current score : <font color=""green""> 200 points </font>
+            </div>
+        </div>
+    
+            <div style=""font-size:60px;"">+</div>
+        ","null","ITI","","","",""
+"","","","","","html-keyboard-response","124","465429","0.0-3.0-1.24","","","","null","
+        
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 1vw""> 
+                Current score : <font color=""green""> 200 points </font>
+            </div>
+        </div>
+    
+        <img class=""stim"" src=./stimuli//pack_easy/cat_2/ex_2_74.png></img>
+    ","null","stimulus","","","",""
+"","","","","","html-keyboard-response","125","466434","0.0-3.0-2.24","","","","null","
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 1vw""> 
+                Current score : <font color=""green""> 200 points </font>
+            </div>
+        </div>
+    ","null","","","","",""
+"","","","","","html-keyboard-response","126","466756","0.0-3.0-3.24","","","","320","./stimuli//pack_easy/cat_2/ex_2_74.png","arrowright","response","ArrowRight","74","2","true"
+"","","","","","html-keyboard-response","127","468261","0.0-3.0-4.24","","","","null","<p> <font color=""green"" size=""4vw""> Correct category! </font> <br> <br> <font color=""green"" size=""7vw""> +10 points </font> </p>","null","feedback","","","",""
+"","","","","","html-keyboard-response","128","468616","0.0-3.0-0.25","","","","null","
+            
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 1vw""> 
+                Current score : <font color=""green""> 210 points </font>
+            </div>
+        </div>
+    
+            <div style=""font-size:60px;"">+</div>
+        ","null","ITI","","","",""
+"","","","","","html-keyboard-response","129","469623","0.0-3.0-1.25","","","","null","
+        
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 1vw""> 
+                Current score : <font color=""green""> 210 points </font>
+            </div>
+        </div>
+    
+        <img class=""stim"" src=./stimuli//pack_easy/cat_1/ex_1_5.png></img>
+    ","null","stimulus","","","",""
+"","","","","","html-keyboard-response","130","470630","0.0-3.0-2.25","","","","null","
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 1vw""> 
+                Current score : <font color=""green""> 210 points </font>
+            </div>
+        </div>
+    ","null","","","","",""
+"","","","","","html-keyboard-response","131","471058","0.0-3.0-3.25","","","","428","./stimuli//pack_easy/cat_1/ex_1_5.png","arrowleft","response","ArrowLeft","5","1","true"
+"","","","","","html-keyboard-response","132","472568","0.0-3.0-4.25","","","","null","<p> <font color=""green"" size=""4vw""> Correct category! </font> <br> <br> <font color=""green"" size=""7vw""> +10 points </font> </p>","null","feedback","","","",""
+"","","","","","html-keyboard-response","133","472924","0.0-3.0-0.26","","","","null","
+            
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 1vw""> 
+                Current score : <font color=""green""> 220 points </font>
+            </div>
+        </div>
+    
+            <div style=""font-size:60px;"">+</div>
+        ","null","ITI","","","",""
+"","","","","","html-keyboard-response","134","473928","0.0-3.0-1.26","","","","null","
+        
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 1vw""> 
+                Current score : <font color=""green""> 220 points </font>
+            </div>
+        </div>
+    
+        <img class=""stim"" src=./stimuli//pack_easy/cat_2/ex_2_33.png></img>
+    ","null","stimulus","","","",""
+"","","","","","html-keyboard-response","135","474934","0.0-3.0-2.26","","","","null","
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 1vw""> 
+                Current score : <font color=""green""> 220 points </font>
+            </div>
+        </div>
+    ","null","","","","",""
+"","","","","","html-keyboard-response","136","475343","0.0-3.0-3.26","","","","409","./stimuli//pack_easy/cat_2/ex_2_33.png","arrowright","response","ArrowRight","33","2","true"
+"","","","","","html-keyboard-response","137","476858","0.0-3.0-4.26","","","","null","<p> <font color=""green"" size=""4vw""> Correct category! </font> <br> <br> <font color=""green"" size=""7vw""> +10 points </font> </p>","null","feedback","","","",""
+"","","","","","html-keyboard-response","138","477213","0.0-3.0-0.27","","","","null","
+            
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 1vw""> 
+                Current score : <font color=""green""> 230 points </font>
+            </div>
+        </div>
+    
+            <div style=""font-size:60px;"">+</div>
+        ","null","ITI","","","",""
+"","","","","","html-keyboard-response","139","478217","0.0-3.0-1.27","","","","null","
+        
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 1vw""> 
+                Current score : <font color=""green""> 230 points </font>
+            </div>
+        </div>
+    
+        <img class=""stim"" src=./stimuli//pack_easy/cat_1/ex_1_60.png></img>
+    ","null","stimulus","","","",""
+"","","","","","html-keyboard-response","140","479225","0.0-3.0-2.27","","","","null","
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 1vw""> 
+                Current score : <font color=""green""> 230 points </font>
+            </div>
+        </div>
+    ","null","","","","",""
+"","","","","","html-keyboard-response","141","479527","0.0-3.0-3.27","","","","300","./stimuli//pack_easy/cat_1/ex_1_60.png","arrowleft","response","ArrowLeft","60","1","true"
+"","","","","","html-keyboard-response","142","481038","0.0-3.0-4.27","","","","null","<p> <font color=""green"" size=""4vw""> Correct category! </font> <br> <br> <font color=""green"" size=""7vw""> +10 points </font> </p>","null","feedback","","","",""
+"","","","","","html-keyboard-response","143","481394","0.0-3.0-0.28","","","","null","
+            
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 1vw""> 
+                Current score : <font color=""green""> 240 points </font>
+            </div>
+        </div>
+    
+            <div style=""font-size:60px;"">+</div>
+        ","null","ITI","","","",""
+"","","","","","html-keyboard-response","144","482403","0.0-3.0-1.28","","","","null","
+        
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 1vw""> 
+                Current score : <font color=""green""> 240 points </font>
+            </div>
+        </div>
+    
+        <img class=""stim"" src=./stimuli//pack_easy/cat_2/ex_2_38.png></img>
+    ","null","stimulus","","","",""
+"","","","","","html-keyboard-response","145","483407","0.0-3.0-2.28","","","","null","
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 1vw""> 
+                Current score : <font color=""green""> 240 points </font>
+            </div>
+        </div>
+    ","null","","","","",""
+"","","","","","html-keyboard-response","146","483752","0.0-3.0-3.28","","","","344","./stimuli//pack_easy/cat_2/ex_2_38.png","arrowright","response","ArrowRight","38","2","true"
+"","","","","","html-keyboard-response","147","485263","0.0-3.0-4.28","","","","null","<p> <font color=""green"" size=""4vw""> Correct category! </font> <br> <br> <font color=""green"" size=""7vw""> +10 points </font> </p>","null","feedback","","","",""
+"","","","","","html-keyboard-response","148","485621","0.0-3.0-0.29","","","","null","
+            
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 1vw""> 
+                Current score : <font color=""green""> 250 points </font>
+            </div>
+        </div>
+    
+            <div style=""font-size:60px;"">+</div>
+        ","null","ITI","","","",""
+"","","","","","html-keyboard-response","149","486627","0.0-3.0-1.29","","","","null","
+        
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 1vw""> 
+                Current score : <font color=""green""> 250 points </font>
+            </div>
+        </div>
+    
+        <img class=""stim"" src=./stimuli//pack_easy/cat_1/ex_1_78.png></img>
+    ","null","stimulus","","","",""
+"","","","","","html-keyboard-response","150","487632","0.0-3.0-2.29","","","","null","
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 1vw""> 
+                Current score : <font color=""green""> 250 points </font>
+            </div>
+        </div>
+    ","null","","","","",""
+"","","","","","html-keyboard-response","151","488014","0.0-3.0-3.29","","","","381","./stimuli//pack_easy/cat_1/ex_1_78.png","arrowleft","response","ArrowLeft","78","1","true"
+"","","","","","html-keyboard-response","152","489518","0.0-3.0-4.29","","","","null","<p> <font color=""green"" size=""4vw""> Correct category! </font> <br> <br> <font color=""green"" size=""7vw""> +10 points </font> </p>","null","feedback","","","",""
+"","","","","","html-keyboard-response","153","489875","0.0-3.0-0.30","","","","null","
+            
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 1vw""> 
+                Current score : <font color=""green""> 260 points </font>
+            </div>
+        </div>
+    
+            <div style=""font-size:60px;"">+</div>
+        ","null","ITI","","","",""
+"","","","","","html-keyboard-response","154","490891","0.0-3.0-1.30","","","","null","
+        
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 1vw""> 
+                Current score : <font color=""green""> 260 points </font>
+            </div>
+        </div>
+    
+        <img class=""stim"" src=./stimuli//pack_easy/cat_1/ex_1_23.png></img>
+    ","null","stimulus","","","",""
+"","","","","","html-keyboard-response","155","491899","0.0-3.0-2.30","","","","null","
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 1vw""> 
+                Current score : <font color=""green""> 260 points </font>
+            </div>
+        </div>
+    ","null","","","","",""
+"","","","","","html-keyboard-response","156","492302","0.0-3.0-3.30","","","","402","./stimuli//pack_easy/cat_1/ex_1_23.png","arrowright","response","ArrowLeft","23","1","false"
+"","","","","","html-keyboard-response","157","493805","0.0-3.0-4.30","","","","null","<p> <font color=""red"" size=""4vw""> Wrong category! </font> </p>","null","feedback","","","",""
+"","","","","","html-keyboard-response","158","494160","0.0-3.0-0.31","","","","null","
+            
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 1vw""> 
+                Current score : <font color=""green""> 260 points </font>
+            </div>
+        </div>
+    
+            <div style=""font-size:60px;"">+</div>
+        ","null","ITI","","","",""
+"","","","","","html-keyboard-response","159","495166","0.0-3.0-1.31","","","","null","
+        
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 1vw""> 
+                Current score : <font color=""green""> 260 points </font>
+            </div>
+        </div>
+    
+        <img class=""stim"" src=./stimuli//pack_easy/cat_1/ex_1_32.png></img>
+    ","null","stimulus","","","",""
+"","","","","","html-keyboard-response","160","496176","0.0-3.0-2.31","","","","null","
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 1vw""> 
+                Current score : <font color=""green""> 260 points </font>
+            </div>
+        </div>
+    ","null","","","","",""
+"","","","","","html-keyboard-response","161","496568","0.0-3.0-3.31","","","","392","./stimuli//pack_easy/cat_1/ex_1_32.png","arrowright","response","ArrowLeft","32","1","false"
+"","","","","","html-keyboard-response","162","498085","0.0-3.0-4.31","","","","null","<p> <font color=""red"" size=""4vw""> Wrong category! </font> </p>","null","feedback","","","",""
+"","","","","","html-keyboard-response","163","498439","0.0-3.0-0.32","","","","null","
+            
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 1vw""> 
+                Current score : <font color=""green""> 260 points </font>
+            </div>
+        </div>
+    
+            <div style=""font-size:60px;"">+</div>
+        ","null","ITI","","","",""
+"","","","","","html-keyboard-response","164","499445","0.0-3.0-1.32","","","","null","
+        
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 1vw""> 
+                Current score : <font color=""green""> 260 points </font>
+            </div>
+        </div>
+    
+        <img class=""stim"" src=./stimuli//pack_easy/cat_2/ex_2_93.png></img>
+    ","null","stimulus","","","",""
+"","","","","","html-keyboard-response","165","500451","0.0-3.0-2.32","","","","null","
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 1vw""> 
+                Current score : <font color=""green""> 260 points </font>
+            </div>
+        </div>
+    ","null","","","","",""
+"","","","","","html-keyboard-response","166","500812","0.0-3.0-3.32","","","","361","./stimuli//pack_easy/cat_2/ex_2_93.png","arrowright","response","ArrowRight","93","2","true"
+"","","","","","html-keyboard-response","167","502326","0.0-3.0-4.32","","","","null","<p> <font color=""green"" size=""4vw""> Correct category! </font> <br> <br> <font color=""green"" size=""7vw""> +10 points </font> </p>","null","feedback","","","",""
+"","","","","","html-keyboard-response","168","502680","0.0-3.0-0.33","","","","null","
+            
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 1vw""> 
+                Current score : <font color=""green""> 270 points </font>
+            </div>
+        </div>
+    
+            <div style=""font-size:60px;"">+</div>
+        ","null","ITI","","","",""
+"","","","","","html-keyboard-response","169","503686","0.0-3.0-1.33","","","","null","
+        
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 1vw""> 
+                Current score : <font color=""green""> 270 points </font>
+            </div>
+        </div>
+    
+        <img class=""stim"" src=./stimuli//pack_easy/cat_1/ex_1_34.png></img>
+    ","null","stimulus","","","",""
+"","","","","","html-keyboard-response","170","504694","0.0-3.0-2.33","","","","null","
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 1vw""> 
+                Current score : <font color=""green""> 270 points </font>
+            </div>
+        </div>
+    ","null","","","","",""
+"","","","","","html-keyboard-response","171","504975","0.0-3.0-3.33","","","","280","./stimuli//pack_easy/cat_1/ex_1_34.png","arrowleft","response","ArrowLeft","34","1","true"
+"","","","","","html-keyboard-response","172","506490","0.0-3.0-4.33","","","","null","<p> <font color=""green"" size=""4vw""> Correct category! </font> <br> <br> <font color=""green"" size=""7vw""> +10 points </font> </p>","null","feedback","","","",""
+"","","","","","html-keyboard-response","173","506847","0.0-3.0-0.34","","","","null","
+            
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 1vw""> 
+                Current score : <font color=""green""> 280 points </font>
+            </div>
+        </div>
+    
+            <div style=""font-size:60px;"">+</div>
+        ","null","ITI","","","",""
+"","","","","","html-keyboard-response","174","507854","0.0-3.0-1.34","","","","null","
+        
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 1vw""> 
+                Current score : <font color=""green""> 280 points </font>
+            </div>
+        </div>
+    
+        <img class=""stim"" src=./stimuli//pack_easy/cat_2/ex_2_25.png></img>
+    ","null","stimulus","","","",""
+"","","","","","html-keyboard-response","175","508861","0.0-3.0-2.34","","","","null","
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 1vw""> 
+                Current score : <font color=""green""> 280 points </font>
+            </div>
+        </div>
+    ","null","","","","",""
+"","","","","","html-keyboard-response","176","509337","0.0-3.0-3.34","","","","475","./stimuli//pack_easy/cat_2/ex_2_25.png","arrowleft","response","ArrowRight","25","2","false"
+"","","","","","html-keyboard-response","177","510850","0.0-3.0-4.34","","","","null","<p> <font color=""red"" size=""4vw""> Wrong category! </font> </p>","null","feedback","","","",""
+"","","","","","html-keyboard-response","178","511206","0.0-3.0-0.35","","","","null","
+            
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 1vw""> 
+                Current score : <font color=""green""> 280 points </font>
+            </div>
+        </div>
+    
+            <div style=""font-size:60px;"">+</div>
+        ","null","ITI","","","",""
+"","","","","","html-keyboard-response","179","512214","0.0-3.0-1.35","","","","null","
+        
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 1vw""> 
+                Current score : <font color=""green""> 280 points </font>
+            </div>
+        </div>
+    
+        <img class=""stim"" src=./stimuli//pack_easy/cat_1/ex_1_80.png></img>
+    ","null","stimulus","","","",""
+"","","","","","html-keyboard-response","180","513223","0.0-3.0-2.35","","","","null","
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 1vw""> 
+                Current score : <font color=""green""> 280 points </font>
+            </div>
+        </div>
+    ","null","","","","",""
+"","","","","","html-keyboard-response","181","513672","0.0-3.0-3.35","","","","448","./stimuli//pack_easy/cat_1/ex_1_80.png","arrowleft","response","ArrowLeft","80","1","true"
+"","","","","","html-keyboard-response","182","515175","0.0-3.0-4.35","","","","null","<p> <font color=""green"" size=""4vw""> Correct category! </font> <br> <br> <font color=""green"" size=""7vw""> +10 points </font> </p>","null","feedback","","","",""
+"","","","","","html-keyboard-response","183","515530","0.0-3.0-0.36","","","","null","
+            
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 1vw""> 
+                Current score : <font color=""green""> 290 points </font>
+            </div>
+        </div>
+    
+            <div style=""font-size:60px;"">+</div>
+        ","null","ITI","","","",""
+"","","","","","html-keyboard-response","184","516543","0.0-3.0-1.36","","","","null","
+        
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 1vw""> 
+                Current score : <font color=""green""> 290 points </font>
+            </div>
+        </div>
+    
+        <img class=""stim"" src=./stimuli//pack_easy/cat_1/ex_1_17.png></img>
+    ","null","stimulus","","","",""
+"","","","","","html-keyboard-response","185","517550","0.0-3.0-2.36","","","","null","
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 1vw""> 
+                Current score : <font color=""green""> 290 points </font>
+            </div>
+        </div>
+    ","null","","","","",""
+"","","","","","html-keyboard-response","186","517841","0.0-3.0-3.36","","","","289","./stimuli//pack_easy/cat_1/ex_1_17.png","arrowleft","response","ArrowLeft","17","1","true"
+"","","","","","html-keyboard-response","187","519351","0.0-3.0-4.36","","","","null","<p> <font color=""green"" size=""4vw""> Correct category! </font> <br> <br> <font color=""green"" size=""7vw""> +10 points </font> </p>","null","feedback","","","",""
+"","","","","","html-keyboard-response","188","519707","0.0-3.0-0.37","","","","null","
+            
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 1vw""> 
+                Current score : <font color=""green""> 300 points </font>
+            </div>
+        </div>
+    
+            <div style=""font-size:60px;"">+</div>
+        ","null","ITI","","","",""
+"","","","","","html-keyboard-response","189","520716","0.0-3.0-1.37","","","","null","
+        
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 1vw""> 
+                Current score : <font color=""green""> 300 points </font>
+            </div>
+        </div>
+    
+        <img class=""stim"" src=./stimuli//pack_easy/cat_2/ex_2_32.png></img>
+    ","null","stimulus","","","",""
+"","","","","","html-keyboard-response","190","521719","0.0-3.0-2.37","","","","null","
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 1vw""> 
+                Current score : <font color=""green""> 300 points </font>
+            </div>
+        </div>
+    ","null","","","","",""
+"","","","","","html-keyboard-response","191","522314","0.0-3.0-3.37","","","","594","./stimuli//pack_easy/cat_2/ex_2_32.png","arrowright","response","ArrowRight","32","2","true"
+"","","","","","html-keyboard-response","192","523828","0.0-3.0-4.37","","","","null","<p> <font color=""green"" size=""4vw""> Correct category! </font> <br> <br> <font color=""green"" size=""7vw""> +10 points </font> </p>","null","feedback","","","",""
+"","","","","","html-keyboard-response","193","524182","0.0-3.0-0.38","","","","null","
+            
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 1vw""> 
+                Current score : <font color=""green""> 310 points </font>
+            </div>
+        </div>
+    
+            <div style=""font-size:60px;"">+</div>
+        ","null","ITI","","","",""
+"","","","","","html-keyboard-response","194","525185","0.0-3.0-1.38","","","","null","
+        
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 1vw""> 
+                Current score : <font color=""green""> 310 points </font>
+            </div>
+        </div>
+    
+        <img class=""stim"" src=./stimuli//pack_easy/cat_1/ex_1_11.png></img>
+    ","null","stimulus","","","",""
+"","","","","","html-keyboard-response","195","526189","0.0-3.0-2.38","","","","null","
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 1vw""> 
+                Current score : <font color=""green""> 310 points </font>
+            </div>
+        </div>
+    ","null","","","","",""
+"","","","","","html-keyboard-response","196","526534","0.0-3.0-3.38","","","","344","./stimuli//pack_easy/cat_1/ex_1_11.png","arrowleft","response","ArrowLeft","11","1","true"
+"","","","","","html-keyboard-response","197","528048","0.0-3.0-4.38","","","","null","<p> <font color=""green"" size=""4vw""> Correct category! </font> <br> <br> <font color=""green"" size=""7vw""> +10 points </font> </p>","null","feedback","","","",""
+"","","","","","html-keyboard-response","198","528403","0.0-3.0-0.39","","","","null","
+            
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 1vw""> 
+                Current score : <font color=""green""> 320 points </font>
+            </div>
+        </div>
+    
+            <div style=""font-size:60px;"">+</div>
+        ","null","ITI","","","",""
+"","","","","","html-keyboard-response","199","529408","0.0-3.0-1.39","","","","null","
+        
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 1vw""> 
+                Current score : <font color=""green""> 320 points </font>
+            </div>
+        </div>
+    
+        <img class=""stim"" src=./stimuli//pack_easy/cat_2/ex_2_86.png></img>
+    ","null","stimulus","","","",""
+"","","","","","html-keyboard-response","200","530418","0.0-3.0-2.39","","","","null","
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 1vw""> 
+                Current score : <font color=""green""> 320 points </font>
+            </div>
+        </div>
+    ","null","","","","",""
+"","","","","","html-keyboard-response","201","530951","0.0-3.0-3.39","","","","532","./stimuli//pack_easy/cat_2/ex_2_86.png","arrowright","response","ArrowRight","86","2","true"
+"","","","","","html-keyboard-response","202","532456","0.0-3.0-4.39","","","","null","<p> <font color=""green"" size=""4vw""> Correct category! </font> <br> <br> <font color=""green"" size=""7vw""> +10 points </font> </p>","null","feedback","","","",""
+"","","","","","html-keyboard-response","203","532810","0.0-3.0-0.40","","","","null","
+            
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 1vw""> 
+                Current score : <font color=""green""> 330 points </font>
+            </div>
+        </div>
+    
+            <div style=""font-size:60px;"">+</div>
+        ","null","ITI","","","",""
+"","","","","","html-keyboard-response","204","533812","0.0-3.0-1.40","","","","null","
+        
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 1vw""> 
+                Current score : <font color=""green""> 330 points </font>
+            </div>
+        </div>
+    
+        <img class=""stim"" src=./stimuli//pack_easy/cat_2/ex_2_53.png></img>
+    ","null","stimulus","","","",""
+"","","","","","html-keyboard-response","205","534817","0.0-3.0-2.40","","","","null","
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 1vw""> 
+                Current score : <font color=""green""> 330 points </font>
+            </div>
+        </div>
+    ","null","","","","",""
+"","","","","","html-keyboard-response","206","535354","0.0-3.0-3.40","","","","536","./stimuli//pack_easy/cat_2/ex_2_53.png","arrowright","response","ArrowRight","53","2","true"
+"","","","","","html-keyboard-response","207","536855","0.0-3.0-4.40","","","","null","<p> <font color=""green"" size=""4vw""> Correct category! </font> <br> <br> <font color=""green"" size=""7vw""> +10 points </font> </p>","null","feedback","","","",""
+"","","","","","html-keyboard-response","208","537213","0.0-3.0-0.41","","","","null","
+            
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 1vw""> 
+                Current score : <font color=""green""> 340 points </font>
+            </div>
+        </div>
+    
+            <div style=""font-size:60px;"">+</div>
+        ","null","ITI","","","",""
+"","","","","","html-keyboard-response","209","538219","0.0-3.0-1.41","","","","null","
+        
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 1vw""> 
+                Current score : <font color=""green""> 340 points </font>
+            </div>
+        </div>
+    
+        <img class=""stim"" src=./stimuli//pack_easy/cat_1/ex_1_19.png></img>
+    ","null","stimulus","","","",""
+"","","","","","html-keyboard-response","210","539233","0.0-3.0-2.41","","","","null","
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 1vw""> 
+                Current score : <font color=""green""> 340 points </font>
+            </div>
+        </div>
+    ","null","","","","",""
+"","","","","","html-keyboard-response","211","539726","0.0-3.0-3.41","","","","492","./stimuli//pack_easy/cat_1/ex_1_19.png","arrowleft","response","ArrowLeft","19","1","true"
+"","","","","","html-keyboard-response","212","541232","0.0-3.0-4.41","","","","null","<p> <font color=""green"" size=""4vw""> Correct category! </font> <br> <br> <font color=""green"" size=""7vw""> +10 points </font> </p>","null","feedback","","","",""
+"","","","","","html-keyboard-response","213","541589","0.0-3.0-0.42","","","","null","
+            
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 1vw""> 
+                Current score : <font color=""green""> 350 points </font>
+            </div>
+        </div>
+    
+            <div style=""font-size:60px;"">+</div>
+        ","null","ITI","","","",""
+"","","","","","html-keyboard-response","214","542596","0.0-3.0-1.42","","","","null","
+        
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 1vw""> 
+                Current score : <font color=""green""> 350 points </font>
+            </div>
+        </div>
+    
+        <img class=""stim"" src=./stimuli//pack_easy/cat_1/ex_1_9.png></img>
+    ","null","stimulus","","","",""
+"","","","","","html-keyboard-response","215","543602","0.0-3.0-2.42","","","","null","
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 1vw""> 
+                Current score : <font color=""green""> 350 points </font>
+            </div>
+        </div>
+    ","null","","","","",""
+"","","","","","html-keyboard-response","216","543890","0.0-3.0-3.42","","","","286","./stimuli//pack_easy/cat_1/ex_1_9.png","arrowright","response","ArrowLeft","9","1","false"
+"","","","","","html-keyboard-response","217","545399","0.0-3.0-4.42","","","","null","<p> <font color=""red"" size=""4vw""> Wrong category! </font> </p>","null","feedback","","","",""
+"","","","","","html-keyboard-response","218","545757","0.0-3.0-0.43","","","","null","
+            
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 1vw""> 
+                Current score : <font color=""green""> 350 points </font>
+            </div>
+        </div>
+    
+            <div style=""font-size:60px;"">+</div>
+        ","null","ITI","","","",""
+"","","","","","html-keyboard-response","219","546764","0.0-3.0-1.43","","","","null","
+        
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 1vw""> 
+                Current score : <font color=""green""> 350 points </font>
+            </div>
+        </div>
+    
+        <img class=""stim"" src=./stimuli//pack_easy/cat_2/ex_2_4.png></img>
+    ","null","stimulus","","","",""
+"","","","","","html-keyboard-response","220","547768","0.0-3.0-2.43","","","","null","
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 1vw""> 
+                Current score : <font color=""green""> 350 points </font>
+            </div>
+        </div>
+    ","null","","","","",""
+"","","","","","html-keyboard-response","221","548159","0.0-3.0-3.43","","","","390","./stimuli//pack_easy/cat_2/ex_2_4.png","arrowright","response","ArrowRight","4","2","true"
+"","","","","","html-keyboard-response","222","549671","0.0-3.0-4.43","","","","null","<p> <font color=""green"" size=""4vw""> Correct category! </font> <br> <br> <font color=""green"" size=""7vw""> +10 points </font> </p>","null","feedback","","","",""
+"","","","","","html-keyboard-response","223","550027","0.0-3.0-0.44","","","","null","
+            
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 1vw""> 
+                Current score : <font color=""green""> 360 points </font>
+            </div>
+        </div>
+    
+            <div style=""font-size:60px;"">+</div>
+        ","null","ITI","","","",""
+"","","","","","html-keyboard-response","224","551034","0.0-3.0-1.44","","","","null","
+        
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 1vw""> 
+                Current score : <font color=""green""> 360 points </font>
+            </div>
+        </div>
+    
+        <img class=""stim"" src=./stimuli//pack_easy/cat_1/ex_1_14.png></img>
+    ","null","stimulus","","","",""
+"","","","","","html-keyboard-response","225","552040","0.0-3.0-2.44","","","","null","
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 1vw""> 
+                Current score : <font color=""green""> 360 points </font>
+            </div>
+        </div>
+    ","null","","","","",""
+"","","","","","html-keyboard-response","226","552400","0.0-3.0-3.44","","","","359","./stimuli//pack_easy/cat_1/ex_1_14.png","arrowright","response","ArrowLeft","14","1","false"
+"","","","","","html-keyboard-response","227","553916","0.0-3.0-4.44","","","","null","<p> <font color=""red"" size=""4vw""> Wrong category! </font> </p>","null","feedback","","","",""
+"","","","","","html-keyboard-response","228","554269","0.0-3.0-0.45","","","","null","
+            
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 1vw""> 
+                Current score : <font color=""green""> 360 points </font>
+            </div>
+        </div>
+    
+            <div style=""font-size:60px;"">+</div>
+        ","null","ITI","","","",""
+"","","","","","html-keyboard-response","229","555274","0.0-3.0-1.45","","","","null","
+        
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 1vw""> 
+                Current score : <font color=""green""> 360 points </font>
+            </div>
+        </div>
+    
+        <img class=""stim"" src=./stimuli//pack_easy/cat_1/ex_1_70.png></img>
+    ","null","stimulus","","","",""
+"","","","","","html-keyboard-response","230","556281","0.0-3.0-2.45","","","","null","
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 1vw""> 
+                Current score : <font color=""green""> 360 points </font>
+            </div>
+        </div>
+    ","null","","","","",""
+"","","","","","html-keyboard-response","231","556581","0.0-3.0-3.45","","","","299","./stimuli//pack_easy/cat_1/ex_1_70.png","arrowleft","response","ArrowLeft","70","1","true"
+"","","","","","html-keyboard-response","232","558091","0.0-3.0-4.45","","","","null","<p> <font color=""green"" size=""4vw""> Correct category! </font> <br> <br> <font color=""green"" size=""7vw""> +10 points </font> </p>","null","feedback","","","",""
+"","","","","","html-keyboard-response","233","558445","0.0-3.0-0.46","","","","null","
+            
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 1vw""> 
+                Current score : <font color=""green""> 370 points </font>
+            </div>
+        </div>
+    
+            <div style=""font-size:60px;"">+</div>
+        ","null","ITI","","","",""
+"","","","","","html-keyboard-response","234","559451","0.0-3.0-1.46","","","","null","
+        
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 1vw""> 
+                Current score : <font color=""green""> 370 points </font>
+            </div>
+        </div>
+    
+        <img class=""stim"" src=./stimuli//pack_easy/cat_1/ex_1_98.png></img>
+    ","null","stimulus","","","",""
+"","","","","","html-keyboard-response","235","560458","0.0-3.0-2.46","","","","null","
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 1vw""> 
+                Current score : <font color=""green""> 370 points </font>
+            </div>
+        </div>
+    ","null","","","","",""
+"","","","","","html-keyboard-response","236","560595","0.0-3.0-3.46","","","","137","./stimuli//pack_easy/cat_1/ex_1_98.png","arrowleft","response","ArrowLeft","98","1","true"
+"","","","","","html-keyboard-response","237","562110","0.0-3.0-4.46","","","","null","<p> <font color=""green"" size=""4vw""> Correct category! </font> <br> <br> <font color=""green"" size=""7vw""> +10 points </font> </p>","null","feedback","","","",""
+"","","","","","html-keyboard-response","238","562465","0.0-3.0-0.47","","","","null","
+            
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 1vw""> 
+                Current score : <font color=""green""> 380 points </font>
+            </div>
+        </div>
+    
+            <div style=""font-size:60px;"">+</div>
+        ","null","ITI","","","",""
+"","","","","","html-keyboard-response","239","563473","0.0-3.0-1.47","","","","null","
+        
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 1vw""> 
+                Current score : <font color=""green""> 380 points </font>
+            </div>
+        </div>
+    
+        <img class=""stim"" src=./stimuli//pack_easy/cat_2/ex_2_34.png></img>
+    ","null","stimulus","","","",""
+"","","","","","html-keyboard-response","240","564479","0.0-3.0-2.47","","","","null","
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 1vw""> 
+                Current score : <font color=""green""> 380 points </font>
+            </div>
+        </div>
+    ","null","","","","",""
+"","","","","","html-keyboard-response","241","564816","0.0-3.0-3.47","","","","336","./stimuli//pack_easy/cat_2/ex_2_34.png","arrowright","response","ArrowRight","34","2","true"
+"","","","","","html-keyboard-response","242","566331","0.0-3.0-4.47","","","","null","<p> <font color=""green"" size=""4vw""> Correct category! </font> <br> <br> <font color=""green"" size=""7vw""> +10 points </font> </p>","null","feedback","","","",""
+"","","","","","html-keyboard-response","243","566687","0.0-3.0-0.48","","","","null","
+            
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 1vw""> 
+                Current score : <font color=""green""> 390 points </font>
+            </div>
+        </div>
+    
+            <div style=""font-size:60px;"">+</div>
+        ","null","ITI","","","",""
+"","","","","","html-keyboard-response","244","567693","0.0-3.0-1.48","","","","null","
+        
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 1vw""> 
+                Current score : <font color=""green""> 390 points </font>
+            </div>
+        </div>
+    
+        <img class=""stim"" src=./stimuli//pack_easy/cat_2/ex_2_27.png></img>
+    ","null","stimulus","","","",""
+"","","","","","html-keyboard-response","245","568699","0.0-3.0-2.48","","","","null","
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 1vw""> 
+                Current score : <font color=""green""> 390 points </font>
+            </div>
+        </div>
+    ","null","","","","",""
+"","","","","","html-keyboard-response","246","569268","0.0-3.0-3.48","","","","568","./stimuli//pack_easy/cat_2/ex_2_27.png","arrowleft","response","ArrowRight","27","2","false"
+"","","","","","html-keyboard-response","247","570775","0.0-3.0-4.48","","","","null","<p> <font color=""red"" size=""4vw""> Wrong category! </font> </p>","null","feedback","","","",""
+"","","","","","html-keyboard-response","248","571133","0.0-3.0-0.49","","","","null","
+            
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 1vw""> 
+                Current score : <font color=""green""> 390 points </font>
+            </div>
+        </div>
+    
+            <div style=""font-size:60px;"">+</div>
+        ","null","ITI","","","",""
+"","","","","","html-keyboard-response","249","572140","0.0-3.0-1.49","","","","null","
+        
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 1vw""> 
+                Current score : <font color=""green""> 390 points </font>
+            </div>
+        </div>
+    
+        <img class=""stim"" src=./stimuli//pack_easy/cat_1/ex_1_63.png></img>
+    ","null","stimulus","","","",""
+"","","","","","html-keyboard-response","250","573145","0.0-3.0-2.49","","","","null","
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 1vw""> 
+                Current score : <font color=""green""> 390 points </font>
+            </div>
+        </div>
+    ","null","","","","",""
+"","","","","","html-keyboard-response","251","573393","0.0-3.0-3.49","","","","247","./stimuli//pack_easy/cat_1/ex_1_63.png","arrowleft","response","ArrowLeft","63","1","true"
+"","","","","","html-keyboard-response","252","574895","0.0-3.0-4.49","","","","null","<p> <font color=""green"" size=""4vw""> Correct category! </font> <br> <br> <font color=""green"" size=""7vw""> +10 points </font> </p>","null","feedback","","","",""
+"","","","","","html-keyboard-response","253","575250","0.0-3.0-0.50","","","","null","
+            
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 1vw""> 
+                Current score : <font color=""green""> 400 points </font>
+            </div>
+        </div>
+    
+            <div style=""font-size:60px;"">+</div>
+        ","null","ITI","","","",""
+"","","","","","html-keyboard-response","254","576253","0.0-3.0-1.50","","","","null","
+        
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 1vw""> 
+                Current score : <font color=""green""> 400 points </font>
+            </div>
+        </div>
+    
+        <img class=""stim"" src=./stimuli//pack_easy/cat_1/ex_1_38.png></img>
+    ","null","stimulus","","","",""
+"","","","","","html-keyboard-response","255","577254","0.0-3.0-2.50","","","","null","
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 1vw""> 
+                Current score : <font color=""green""> 400 points </font>
+            </div>
+        </div>
+    ","null","","","","",""
+"","","","","","html-keyboard-response","256","577833","0.0-3.0-3.50","","","","579","./stimuli//pack_easy/cat_1/ex_1_38.png","arrowleft","response","ArrowLeft","38","1","true"
+"","","","","","html-keyboard-response","257","579335","0.0-3.0-4.50","","","","null","<p> <font color=""green"" size=""4vw""> Correct category! </font> <br> <br> <font color=""green"" size=""7vw""> +10 points </font> </p>","null","feedback","","","",""
+"","","","","","html-keyboard-response","258","579694","0.0-3.0-0.51","","","","null","
+            
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 1vw""> 
+                Current score : <font color=""green""> 410 points </font>
+            </div>
+        </div>
+    
+            <div style=""font-size:60px;"">+</div>
+        ","null","ITI","","","",""
+"","","","","","html-keyboard-response","259","580702","0.0-3.0-1.51","","","","null","
+        
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 1vw""> 
+                Current score : <font color=""green""> 410 points </font>
+            </div>
+        </div>
+    
+        <img class=""stim"" src=./stimuli//pack_easy/cat_2/ex_2_28.png></img>
+    ","null","stimulus","","","",""
+"","","","","","html-keyboard-response","260","581710","0.0-3.0-2.51","","","","null","
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 1vw""> 
+                Current score : <font color=""green""> 410 points </font>
+            </div>
+        </div>
+    ","null","","","","",""
+"","","","","","html-keyboard-response","261","582045","0.0-3.0-3.51","","","","334","./stimuli//pack_easy/cat_2/ex_2_28.png","arrowright","response","ArrowRight","28","2","true"
+"","","","","","html-keyboard-response","262","583549","0.0-3.0-4.51","","","","null","<p> <font color=""green"" size=""4vw""> Correct category! </font> <br> <br> <font color=""green"" size=""7vw""> +10 points </font> </p>","null","feedback","","","",""
+"","","","","","html-keyboard-response","263","583904","0.0-3.0-0.52","","","","null","
+            
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 1vw""> 
+                Current score : <font color=""green""> 420 points </font>
+            </div>
+        </div>
+    
+            <div style=""font-size:60px;"">+</div>
+        ","null","ITI","","","",""
+"","","","","","html-keyboard-response","264","584909","0.0-3.0-1.52","","","","null","
+        
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 1vw""> 
+                Current score : <font color=""green""> 420 points </font>
+            </div>
+        </div>
+    
+        <img class=""stim"" src=./stimuli//pack_easy/cat_2/ex_2_91.png></img>
+    ","null","stimulus","","","",""
+"","","","","","html-keyboard-response","265","585918","0.0-3.0-2.52","","","","null","
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 1vw""> 
+                Current score : <font color=""green""> 420 points </font>
+            </div>
+        </div>
+    ","null","","","","",""
+"","","","","","html-keyboard-response","266","586315","0.0-3.0-3.52","","","","396","./stimuli//pack_easy/cat_2/ex_2_91.png","arrowright","response","ArrowRight","91","2","true"
+"","","","","","html-keyboard-response","267","587821","0.0-3.0-4.52","","","","null","<p> <font color=""green"" size=""4vw""> Correct category! </font> <br> <br> <font color=""green"" size=""7vw""> +10 points </font> </p>","null","feedback","","","",""
+"","","","","","html-keyboard-response","268","588175","0.0-3.0-0.53","","","","null","
+            
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 1vw""> 
+                Current score : <font color=""green""> 430 points </font>
+            </div>
+        </div>
+    
+            <div style=""font-size:60px;"">+</div>
+        ","null","ITI","","","",""
+"","","","","","html-keyboard-response","269","589182","0.0-3.0-1.53","","","","null","
+        
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 1vw""> 
+                Current score : <font color=""green""> 430 points </font>
+            </div>
+        </div>
+    
+        <img class=""stim"" src=./stimuli//pack_easy/cat_1/ex_1_56.png></img>
+    ","null","stimulus","","","",""
+"","","","","","html-keyboard-response","270","590191","0.0-3.0-2.53","","","","null","
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 1vw""> 
+                Current score : <font color=""green""> 430 points </font>
+            </div>
+        </div>
+    ","null","","","","",""
+"","","","","","html-keyboard-response","271","590753","0.0-3.0-3.53","","","","561","./stimuli//pack_easy/cat_1/ex_1_56.png","arrowleft","response","ArrowLeft","56","1","true"
+"","","","","","html-keyboard-response","272","592268","0.0-3.0-4.53","","","","null","<p> <font color=""green"" size=""4vw""> Correct category! </font> <br> <br> <font color=""green"" size=""7vw""> +10 points </font> </p>","null","feedback","","","",""
+"","","","","","html-keyboard-response","273","592625","0.0-3.0-0.54","","","","null","
+            
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 1vw""> 
+                Current score : <font color=""green""> 440 points </font>
+            </div>
+        </div>
+    
+            <div style=""font-size:60px;"">+</div>
+        ","null","ITI","","","",""
+"","","","","","html-keyboard-response","274","593634","0.0-3.0-1.54","","","","null","
+        
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 1vw""> 
+                Current score : <font color=""green""> 440 points </font>
+            </div>
+        </div>
+    
+        <img class=""stim"" src=./stimuli//pack_easy/cat_2/ex_2_39.png></img>
+    ","null","stimulus","","","",""
+"","","","","","html-keyboard-response","275","594640","0.0-3.0-2.54","","","","null","
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 1vw""> 
+                Current score : <font color=""green""> 440 points </font>
+            </div>
+        </div>
+    ","null","","","","",""
+"","","","","","html-keyboard-response","276","594919","0.0-3.0-3.54","","","","278","./stimuli//pack_easy/cat_2/ex_2_39.png","arrowright","response","ArrowRight","39","2","true"
+"","","","","","html-keyboard-response","277","596421","0.0-3.0-4.54","","","","null","<p> <font color=""green"" size=""4vw""> Correct category! </font> <br> <br> <font color=""green"" size=""7vw""> +10 points </font> </p>","null","feedback","","","",""
+"","","","","","html-keyboard-response","278","596776","0.0-3.0-0.55","","","","null","
+            
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 1vw""> 
+                Current score : <font color=""green""> 450 points </font>
+            </div>
+        </div>
+    
+            <div style=""font-size:60px;"">+</div>
+        ","null","ITI","","","",""
+"","","","","","html-keyboard-response","279","597785","0.0-3.0-1.55","","","","null","
+        
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 1vw""> 
+                Current score : <font color=""green""> 450 points </font>
+            </div>
+        </div>
+    
+        <img class=""stim"" src=./stimuli//pack_easy/cat_1/ex_1_10.png></img>
+    ","null","stimulus","","","",""
+"","","","","","html-keyboard-response","280","598795","0.0-3.0-2.55","","","","null","
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 1vw""> 
+                Current score : <font color=""green""> 450 points </font>
+            </div>
+        </div>
+    ","null","","","","",""
+"","","","","","html-keyboard-response","281","599062","0.0-3.0-3.55","","","","266","./stimuli//pack_easy/cat_1/ex_1_10.png","arrowleft","response","ArrowLeft","10","1","true"
+"","","","","","html-keyboard-response","282","599417","0.0-3.0-4.55","","","","","","","feedback","","","",""

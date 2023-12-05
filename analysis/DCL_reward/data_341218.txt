@@ -1,0 +1,1908 @@
+"success","timeout","failed_images","failed_audio","failed_video","trial_type","trial_index","time_elapsed","internal_node_id","subject_id","study_id","session_id","rt","stimulus","response","task","correct_response","exemplar_ID","category","correct","bonus"
+"true","false","[]","[]","[]","preload","0","2","0.0-0.0","5eecf91f87fdd30e01f700b8","6552129e68c08af5079f912e","6552136462b47178711e6977","","","","","","","","",""
+"","","","","","html-keyboard-response","1","151194","0.0-1.0","5eecf91f87fdd30e01f700b8","6552129e68c08af5079f912e","6552136462b47178711e6977","151192","Welcome to the Category Learning experiment! Press any key to continue."," ","welcome","","","","",""
+"","","","","","html-keyboard-response","2","166763","0.0-2.0","5eecf91f87fdd30e01f700b8","6552129e68c08af5079f912e","6552136462b47178711e6977","15569","
+            <p>You will be shown images of patterns of black dots.  Some are category A, some are category B.
+            <br>You will not know in advance which category a specific pattern belongs to.</p>
+            <p>After you see an image, you will be asked to guess its category <b>(left arrow for category A, right arrow for category B)</b></p>
+            <p>After you choose, the screen will show you whether you were correct or not.</p>
+            <p><b>You will receive a bonus payment of $0.05 for each correct answer!</b></p>
+            <p> So you can increase your bonus by guessing correctly, and by guessing as quickly as possible so you move on to the next image sooner.</p>
+            <p>Press any key to continue.</p>
+            "," ","introduction_1","","","","",""
+"","","","","","html-keyboard-response","3","175590","0.0-3.0","5eecf91f87fdd30e01f700b8","6552129e68c08af5079f912e","6552136462b47178711e6977","8826","
+            <p> <b>The first 10 trials are a practice round that will not count towards your bonus payment.</b></p>
+            <p> You will be notified when practice finishes and the test begins. </p>
+            <p> Press any key to begin the practice round.</p>
+            "," ","introduction_2","","","","",""
+"","","","","","html-keyboard-response","4","177335","0.0-4.0-0.0","5eecf91f87fdd30e01f700b8","6552129e68c08af5079f912e","6552136462b47178711e6977","1745","
+            
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 1vw""> 
+            <font color=""green""> Bonus : $0 </font>
+            </div>
+        </div>
+    
+            <div> Please press any button to continue to the next trial.</div>
+        "," ","ITI","","","","",""
+"","","","","","html-keyboard-response","5","177948","0.0-4.0-1.0","5eecf91f87fdd30e01f700b8","6552129e68c08af5079f912e","6552136462b47178711e6977","null","
+        
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 1vw""> 
+            <font color=""green""> Bonus : $0 </font>
+            </div>
+        </div>
+    
+        <img class=""stim"" src=./stimuli//pack_1/cat_2/ex_2_91.png></img>
+    ","null","stimulus","","","","",""
+"","","","","","html-keyboard-response","6","178962","0.0-4.0-2.0","5eecf91f87fdd30e01f700b8","6552129e68c08af5079f912e","6552136462b47178711e6977","null","
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 1vw""> 
+            <font color=""green""> Bonus : $0 </font>
+            </div>
+        </div>
+    ","null","","","","","",""
+"","","","","","html-keyboard-response","7","182340","0.0-4.0-3.0","5eecf91f87fdd30e01f700b8","6552129e68c08af5079f912e","6552136462b47178711e6977","3377","./stimuli//pack_1/cat_2/ex_2_91.png","arrowleft","response","ArrowRight","91","2","false",""
+"","","","","","html-keyboard-response","8","183855","0.0-4.0-4.0","5eecf91f87fdd30e01f700b8","6552129e68c08af5079f912e","6552136462b47178711e6977","null","<p> <font color=""red"" size=""4vw""> Wrong category! </font> </p>","null","feedback","","","","","0"
+"","","","","","html-keyboard-response","9","184790","0.0-4.0-0.1","5eecf91f87fdd30e01f700b8","6552129e68c08af5079f912e","6552136462b47178711e6977","934","
+            
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 1vw""> 
+            <font color=""green""> Bonus : $0 </font>
+            </div>
+        </div>
+    
+            <div> Please press any button to continue to the next trial.</div>
+        "," ","ITI","","","","",""
+"","","","","","html-keyboard-response","10","185395","0.0-4.0-1.1","5eecf91f87fdd30e01f700b8","6552129e68c08af5079f912e","6552136462b47178711e6977","null","
+        
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 1vw""> 
+            <font color=""green""> Bonus : $0 </font>
+            </div>
+        </div>
+    
+        <img class=""stim"" src=./stimuli//pack_1/cat_1/ex_1_36.png></img>
+    ","null","stimulus","","","","",""
+"","","","","","html-keyboard-response","11","186398","0.0-4.0-2.1","5eecf91f87fdd30e01f700b8","6552129e68c08af5079f912e","6552136462b47178711e6977","null","
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 1vw""> 
+            <font color=""green""> Bonus : $0 </font>
+            </div>
+        </div>
+    ","null","","","","","",""
+"","","","","","html-keyboard-response","12","186793","0.0-4.0-3.1","5eecf91f87fdd30e01f700b8","6552129e68c08af5079f912e","6552136462b47178711e6977","395","./stimuli//pack_1/cat_1/ex_1_36.png","arrowleft","response","ArrowLeft","36","1","true",""
+"","","","","","html-keyboard-response","13","188302","0.0-4.0-4.1","5eecf91f87fdd30e01f700b8","6552129e68c08af5079f912e","6552136462b47178711e6977","null","<p> <font color=""green"" size=""4vw""> Correct category! </font> </p>","null","feedback","","","","","0"
+"","","","","","html-keyboard-response","14","189640","0.0-4.0-0.2","5eecf91f87fdd30e01f700b8","6552129e68c08af5079f912e","6552136462b47178711e6977","1337","
+            
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 1vw""> 
+            <font color=""green""> Bonus : $0 </font>
+            </div>
+        </div>
+    
+            <div> Please press any button to continue to the next trial.</div>
+        "," ","ITI","","","","",""
+"","","","","","html-keyboard-response","15","190249","0.0-4.0-1.2","5eecf91f87fdd30e01f700b8","6552129e68c08af5079f912e","6552136462b47178711e6977","null","
+        
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 1vw""> 
+            <font color=""green""> Bonus : $0 </font>
+            </div>
+        </div>
+    
+        <img class=""stim"" src=./stimuli//pack_1/cat_1/ex_1_44.png></img>
+    ","null","stimulus","","","","",""
+"","","","","","html-keyboard-response","16","191265","0.0-4.0-2.2","5eecf91f87fdd30e01f700b8","6552129e68c08af5079f912e","6552136462b47178711e6977","null","
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 1vw""> 
+            <font color=""green""> Bonus : $0 </font>
+            </div>
+        </div>
+    ","null","","","","","",""
+"","","","","","html-keyboard-response","17","191485","0.0-4.0-3.2","5eecf91f87fdd30e01f700b8","6552129e68c08af5079f912e","6552136462b47178711e6977","219","./stimuli//pack_1/cat_1/ex_1_44.png","arrowleft","response","ArrowLeft","44","1","true",""
+"","","","","","html-keyboard-response","18","192997","0.0-4.0-4.2","5eecf91f87fdd30e01f700b8","6552129e68c08af5079f912e","6552136462b47178711e6977","null","<p> <font color=""green"" size=""4vw""> Correct category! </font> </p>","null","feedback","","","","","0"
+"","","","","","html-keyboard-response","19","193534","0.0-4.0-0.3","5eecf91f87fdd30e01f700b8","6552129e68c08af5079f912e","6552136462b47178711e6977","537","
+            
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 1vw""> 
+            <font color=""green""> Bonus : $0 </font>
+            </div>
+        </div>
+    
+            <div> Please press any button to continue to the next trial.</div>
+        "," ","ITI","","","","",""
+"","","","","","html-keyboard-response","20","194143","0.0-4.0-1.3","5eecf91f87fdd30e01f700b8","6552129e68c08af5079f912e","6552136462b47178711e6977","null","
+        
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 1vw""> 
+            <font color=""green""> Bonus : $0 </font>
+            </div>
+        </div>
+    
+        <img class=""stim"" src=./stimuli//pack_1/cat_1/ex_1_27.png></img>
+    ","null","stimulus","","","","",""
+"","","","","","html-keyboard-response","21","195158","0.0-4.0-2.3","5eecf91f87fdd30e01f700b8","6552129e68c08af5079f912e","6552136462b47178711e6977","null","
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 1vw""> 
+            <font color=""green""> Bonus : $0 </font>
+            </div>
+        </div>
+    ","null","","","","","",""
+"","","","","","html-keyboard-response","22","195352","0.0-4.0-3.3","5eecf91f87fdd30e01f700b8","6552129e68c08af5079f912e","6552136462b47178711e6977","193","./stimuli//pack_1/cat_1/ex_1_27.png","arrowleft","response","ArrowLeft","27","1","true",""
+"","","","","","html-keyboard-response","23","196854","0.0-4.0-4.3","5eecf91f87fdd30e01f700b8","6552129e68c08af5079f912e","6552136462b47178711e6977","null","<p> <font color=""green"" size=""4vw""> Correct category! </font> </p>","null","feedback","","","","","0"
+"","","","","","html-keyboard-response","24","197323","0.0-4.0-0.4","5eecf91f87fdd30e01f700b8","6552129e68c08af5079f912e","6552136462b47178711e6977","470","
+            
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 1vw""> 
+            <font color=""green""> Bonus : $0 </font>
+            </div>
+        </div>
+    
+            <div> Please press any button to continue to the next trial.</div>
+        "," ","ITI","","","","",""
+"","","","","","html-keyboard-response","25","197937","0.0-4.0-1.4","5eecf91f87fdd30e01f700b8","6552129e68c08af5079f912e","6552136462b47178711e6977","null","
+        
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 1vw""> 
+            <font color=""green""> Bonus : $0 </font>
+            </div>
+        </div>
+    
+        <img class=""stim"" src=./stimuli//pack_1/cat_1/ex_1_9.png></img>
+    ","null","stimulus","","","","",""
+"","","","","","html-keyboard-response","26","198947","0.0-4.0-2.4","5eecf91f87fdd30e01f700b8","6552129e68c08af5079f912e","6552136462b47178711e6977","null","
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 1vw""> 
+            <font color=""green""> Bonus : $0 </font>
+            </div>
+        </div>
+    ","null","","","","","",""
+"","","","","","html-keyboard-response","27","199282","0.0-4.0-3.4","5eecf91f87fdd30e01f700b8","6552129e68c08af5079f912e","6552136462b47178711e6977","334","./stimuli//pack_1/cat_1/ex_1_9.png","arrowleft","response","ArrowLeft","9","1","true",""
+"","","","","","html-keyboard-response","28","200790","0.0-4.0-4.4","5eecf91f87fdd30e01f700b8","6552129e68c08af5079f912e","6552136462b47178711e6977","null","<p> <font color=""green"" size=""4vw""> Correct category! </font> </p>","null","feedback","","","","","0"
+"","","","","","html-keyboard-response","29","201142","0.0-4.0-0.5","5eecf91f87fdd30e01f700b8","6552129e68c08af5079f912e","6552136462b47178711e6977","352","
+            
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 1vw""> 
+            <font color=""green""> Bonus : $0 </font>
+            </div>
+        </div>
+    
+            <div> Please press any button to continue to the next trial.</div>
+        "," ","ITI","","","","",""
+"","","","","","html-keyboard-response","30","201751","0.0-4.0-1.5","5eecf91f87fdd30e01f700b8","6552129e68c08af5079f912e","6552136462b47178711e6977","null","
+        
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 1vw""> 
+            <font color=""green""> Bonus : $0 </font>
+            </div>
+        </div>
+    
+        <img class=""stim"" src=./stimuli//pack_1/cat_2/ex_2_82.png></img>
+    ","null","stimulus","","","","",""
+"","","","","","html-keyboard-response","31","202764","0.0-4.0-2.5","5eecf91f87fdd30e01f700b8","6552129e68c08af5079f912e","6552136462b47178711e6977","null","
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 1vw""> 
+            <font color=""green""> Bonus : $0 </font>
+            </div>
+        </div>
+    ","null","","","","","",""
+"","","","","","html-keyboard-response","32","203030","0.0-4.0-3.5","5eecf91f87fdd30e01f700b8","6552129e68c08af5079f912e","6552136462b47178711e6977","265","./stimuli//pack_1/cat_2/ex_2_82.png","arrowright","response","ArrowRight","82","2","true",""
+"","","","","","html-keyboard-response","33","204534","0.0-4.0-4.5","5eecf91f87fdd30e01f700b8","6552129e68c08af5079f912e","6552136462b47178711e6977","null","<p> <font color=""green"" size=""4vw""> Correct category! </font> </p>","null","feedback","","","","","0"
+"","","","","","html-keyboard-response","34","205775","0.0-4.0-0.6","5eecf91f87fdd30e01f700b8","6552129e68c08af5079f912e","6552136462b47178711e6977","1241","
+            
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 1vw""> 
+            <font color=""green""> Bonus : $0 </font>
+            </div>
+        </div>
+    
+            <div> Please press any button to continue to the next trial.</div>
+        "," ","ITI","","","","",""
+"","","","","","html-keyboard-response","35","206390","0.0-4.0-1.6","5eecf91f87fdd30e01f700b8","6552129e68c08af5079f912e","6552136462b47178711e6977","null","
+        
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 1vw""> 
+            <font color=""green""> Bonus : $0 </font>
+            </div>
+        </div>
+    
+        <img class=""stim"" src=./stimuli//pack_1/cat_1/ex_1_25.png></img>
+    ","null","stimulus","","","","",""
+"","","","","","html-keyboard-response","36","207391","0.0-4.0-2.6","5eecf91f87fdd30e01f700b8","6552129e68c08af5079f912e","6552136462b47178711e6977","null","
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 1vw""> 
+            <font color=""green""> Bonus : $0 </font>
+            </div>
+        </div>
+    ","null","","","","","",""
+"","","","","","html-keyboard-response","37","207632","0.0-4.0-3.6","5eecf91f87fdd30e01f700b8","6552129e68c08af5079f912e","6552136462b47178711e6977","240","./stimuli//pack_1/cat_1/ex_1_25.png","arrowleft","response","ArrowLeft","25","1","true",""
+"","","","","","html-keyboard-response","38","209145","0.0-4.0-4.6","5eecf91f87fdd30e01f700b8","6552129e68c08af5079f912e","6552136462b47178711e6977","null","<p> <font color=""green"" size=""4vw""> Correct category! </font> </p>","null","feedback","","","","","0"
+"","","","","","html-keyboard-response","39","209987","0.0-4.0-0.7","5eecf91f87fdd30e01f700b8","6552129e68c08af5079f912e","6552136462b47178711e6977","841","
+            
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 1vw""> 
+            <font color=""green""> Bonus : $0 </font>
+            </div>
+        </div>
+    
+            <div> Please press any button to continue to the next trial.</div>
+        "," ","ITI","","","","",""
+"","","","","","html-keyboard-response","40","210594","0.0-4.0-1.7","5eecf91f87fdd30e01f700b8","6552129e68c08af5079f912e","6552136462b47178711e6977","null","
+        
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 1vw""> 
+            <font color=""green""> Bonus : $0 </font>
+            </div>
+        </div>
+    
+        <img class=""stim"" src=./stimuli//pack_1/cat_2/ex_2_4.png></img>
+    ","null","stimulus","","","","",""
+"","","","","","html-keyboard-response","41","211608","0.0-4.0-2.7","5eecf91f87fdd30e01f700b8","6552129e68c08af5079f912e","6552136462b47178711e6977","null","
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 1vw""> 
+            <font color=""green""> Bonus : $0 </font>
+            </div>
+        </div>
+    ","null","","","","","",""
+"","","","","","html-keyboard-response","42","211616","0.0-4.0-3.7","5eecf91f87fdd30e01f700b8","6552129e68c08af5079f912e","6552136462b47178711e6977","7","./stimuli//pack_1/cat_2/ex_2_4.png","arrowleft","response","ArrowRight","4","2","false",""
+"","","","","","html-keyboard-response","43","213120","0.0-4.0-4.7","5eecf91f87fdd30e01f700b8","6552129e68c08af5079f912e","6552136462b47178711e6977","null","<p> <font color=""red"" size=""4vw""> Wrong category! </font> </p>","null","feedback","","","","","0"
+"","","","","","html-keyboard-response","44","213600","0.0-4.0-0.8","5eecf91f87fdd30e01f700b8","6552129e68c08af5079f912e","6552136462b47178711e6977","480","
+            
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 1vw""> 
+            <font color=""green""> Bonus : $0 </font>
+            </div>
+        </div>
+    
+            <div> Please press any button to continue to the next trial.</div>
+        "," ","ITI","","","","",""
+"","","","","","html-keyboard-response","45","214209","0.0-4.0-1.8","5eecf91f87fdd30e01f700b8","6552129e68c08af5079f912e","6552136462b47178711e6977","null","
+        
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 1vw""> 
+            <font color=""green""> Bonus : $0 </font>
+            </div>
+        </div>
+    
+        <img class=""stim"" src=./stimuli//pack_1/cat_2/ex_2_98.png></img>
+    ","null","stimulus","","","","",""
+"","","","","","html-keyboard-response","46","215210","0.0-4.0-2.8","5eecf91f87fdd30e01f700b8","6552129e68c08af5079f912e","6552136462b47178711e6977","null","
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 1vw""> 
+            <font color=""green""> Bonus : $0 </font>
+            </div>
+        </div>
+    ","null","","","","","",""
+"","","","","","html-keyboard-response","47","215458","0.0-4.0-3.8","5eecf91f87fdd30e01f700b8","6552129e68c08af5079f912e","6552136462b47178711e6977","247","./stimuli//pack_1/cat_2/ex_2_98.png","arrowright","response","ArrowRight","98","2","true",""
+"","","","","","html-keyboard-response","48","216964","0.0-4.0-4.8","5eecf91f87fdd30e01f700b8","6552129e68c08af5079f912e","6552136462b47178711e6977","null","<p> <font color=""green"" size=""4vw""> Correct category! </font> </p>","null","feedback","","","","","0"
+"","","","","","html-keyboard-response","49","217402","0.0-4.0-0.9","5eecf91f87fdd30e01f700b8","6552129e68c08af5079f912e","6552136462b47178711e6977","438","
+            
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 1vw""> 
+            <font color=""green""> Bonus : $0 </font>
+            </div>
+        </div>
+    
+            <div> Please press any button to continue to the next trial.</div>
+        "," ","ITI","","","","",""
+"","","","","","html-keyboard-response","50","218016","0.0-4.0-1.9","5eecf91f87fdd30e01f700b8","6552129e68c08af5079f912e","6552136462b47178711e6977","null","
+        
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 1vw""> 
+            <font color=""green""> Bonus : $0 </font>
+            </div>
+        </div>
+    
+        <img class=""stim"" src=./stimuli//pack_1/cat_2/ex_2_76.png></img>
+    ","null","stimulus","","","","",""
+"","","","","","html-keyboard-response","51","219020","0.0-4.0-2.9","5eecf91f87fdd30e01f700b8","6552129e68c08af5079f912e","6552136462b47178711e6977","null","
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 1vw""> 
+            <font color=""green""> Bonus : $0 </font>
+            </div>
+        </div>
+    ","null","","","","","",""
+"","","","","","html-keyboard-response","52","219265","0.0-4.0-3.9","5eecf91f87fdd30e01f700b8","6552129e68c08af5079f912e","6552136462b47178711e6977","245","./stimuli//pack_1/cat_2/ex_2_76.png","arrowleft","response","ArrowRight","76","2","false",""
+"","","","","","html-keyboard-response","53","220782","0.0-4.0-4.9","5eecf91f87fdd30e01f700b8","6552129e68c08af5079f912e","6552136462b47178711e6977","null","<p> <font color=""red"" size=""4vw""> Wrong category! </font> </p>","null","feedback","","","","","0"
+"","","","","","html-keyboard-response","54","223499","0.0-5.0","5eecf91f87fdd30e01f700b8","6552129e68c08af5079f912e","6552136462b47178711e6977","2717","
+            <b> <p> The practice round has finished.</p>
+            <b> For the rest of the experiment you will receive a $0.05 bonus for each correct answer!</b>
+            <p> Press any key to begin the test. </p>
+            "," ","intermission","","","","",""
+"","","","","","html-keyboard-response","55","225467","0.0-6.0-0.0","5eecf91f87fdd30e01f700b8","6552129e68c08af5079f912e","6552136462b47178711e6977","1968","
+            
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 1vw""> 
+            <font color=""green""> Bonus : $0 </font>
+            </div>
+        </div>
+    
+            <div> Please press any button to continue to the next trial.</div>
+        "," ","ITI","","","","",""
+"","","","","","html-keyboard-response","56","226081","0.0-6.0-1.0","5eecf91f87fdd30e01f700b8","6552129e68c08af5079f912e","6552136462b47178711e6977","null","
+        
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 1vw""> 
+            <font color=""green""> Bonus : $0 </font>
+            </div>
+        </div>
+    
+        <img class=""stim"" src=./stimuli//pack_1/cat_2/ex_2_79.png></img>
+    ","null","stimulus","","","","",""
+"","","","","","html-keyboard-response","57","227086","0.0-6.0-2.0","5eecf91f87fdd30e01f700b8","6552129e68c08af5079f912e","6552136462b47178711e6977","null","
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 1vw""> 
+            <font color=""green""> Bonus : $0 </font>
+            </div>
+        </div>
+    ","null","","","","","",""
+"","","","","","html-keyboard-response","58","227382","0.0-6.0-3.0","5eecf91f87fdd30e01f700b8","6552129e68c08af5079f912e","6552136462b47178711e6977","296","./stimuli//pack_1/cat_2/ex_2_79.png","arrowleft","response","ArrowRight","79","2","false",""
+"","","","","","html-keyboard-response","59","228897","0.0-6.0-4.0","5eecf91f87fdd30e01f700b8","6552129e68c08af5079f912e","6552136462b47178711e6977","null","<p> <font color=""red"" size=""4vw""> Wrong category! </font> </p>","null","feedback","","","","","0"
+"","","","","","html-keyboard-response","60","229272","0.0-6.0-0.1","5eecf91f87fdd30e01f700b8","6552129e68c08af5079f912e","6552136462b47178711e6977","374","
+            
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 1vw""> 
+            <font color=""green""> Bonus : $0 </font>
+            </div>
+        </div>
+    
+            <div> Please press any button to continue to the next trial.</div>
+        "," ","ITI","","","","",""
+"","","","","","html-keyboard-response","61","229880","0.0-6.0-1.1","5eecf91f87fdd30e01f700b8","6552129e68c08af5079f912e","6552136462b47178711e6977","null","
+        
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 1vw""> 
+            <font color=""green""> Bonus : $0 </font>
+            </div>
+        </div>
+    
+        <img class=""stim"" src=./stimuli//pack_1/cat_2/ex_2_23.png></img>
+    ","null","stimulus","","","","",""
+"","","","","","html-keyboard-response","62","230883","0.0-6.0-2.1","5eecf91f87fdd30e01f700b8","6552129e68c08af5079f912e","6552136462b47178711e6977","null","
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 1vw""> 
+            <font color=""green""> Bonus : $0 </font>
+            </div>
+        </div>
+    ","null","","","","","",""
+"","","","","","html-keyboard-response","63","231170","0.0-6.0-3.1","5eecf91f87fdd30e01f700b8","6552129e68c08af5079f912e","6552136462b47178711e6977","286","./stimuli//pack_1/cat_2/ex_2_23.png","arrowleft","response","ArrowRight","23","2","false",""
+"","","","","","html-keyboard-response","64","232683","0.0-6.0-4.1","5eecf91f87fdd30e01f700b8","6552129e68c08af5079f912e","6552136462b47178711e6977","null","<p> <font color=""red"" size=""4vw""> Wrong category! </font> </p>","null","feedback","","","","","0"
+"","","","","","html-keyboard-response","65","233187","0.0-6.0-0.2","5eecf91f87fdd30e01f700b8","6552129e68c08af5079f912e","6552136462b47178711e6977","504","
+            
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 1vw""> 
+            <font color=""green""> Bonus : $0 </font>
+            </div>
+        </div>
+    
+            <div> Please press any button to continue to the next trial.</div>
+        "," ","ITI","","","","",""
+"","","","","","html-keyboard-response","66","233795","0.0-6.0-1.2","5eecf91f87fdd30e01f700b8","6552129e68c08af5079f912e","6552136462b47178711e6977","null","
+        
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 1vw""> 
+            <font color=""green""> Bonus : $0 </font>
+            </div>
+        </div>
+    
+        <img class=""stim"" src=./stimuli//pack_1/cat_2/ex_2_58.png></img>
+    ","null","stimulus","","","","",""
+"","","","","","html-keyboard-response","67","234799","0.0-6.0-2.2","5eecf91f87fdd30e01f700b8","6552129e68c08af5079f912e","6552136462b47178711e6977","null","
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 1vw""> 
+            <font color=""green""> Bonus : $0 </font>
+            </div>
+        </div>
+    ","null","","","","","",""
+"","","","","","html-keyboard-response","68","235066","0.0-6.0-3.2","5eecf91f87fdd30e01f700b8","6552129e68c08af5079f912e","6552136462b47178711e6977","267","./stimuli//pack_1/cat_2/ex_2_58.png","arrowright","response","ArrowRight","58","2","true",""
+"","","","","","html-keyboard-response","69","236568","0.0-6.0-4.2","5eecf91f87fdd30e01f700b8","6552129e68c08af5079f912e","6552136462b47178711e6977","null","<p> <font color=""green"" size=""4vw""> Correct category! </font> <br> <br> <font color=""green"" size=""7vw""> + $0.05 </font> </p>","null","feedback","","","","","0.05"
+"","","","","","html-keyboard-response","70","237058","0.0-6.0-0.3","5eecf91f87fdd30e01f700b8","6552129e68c08af5079f912e","6552136462b47178711e6977","489","
+            
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 1vw""> 
+            <font color=""green""> Bonus : $0.05 </font>
+            </div>
+        </div>
+    
+            <div> Please press any button to continue to the next trial.</div>
+        "," ","ITI","","","","",""
+"","","","","","html-keyboard-response","71","237661","0.0-6.0-1.3","5eecf91f87fdd30e01f700b8","6552129e68c08af5079f912e","6552136462b47178711e6977","null","
+        
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 1vw""> 
+            <font color=""green""> Bonus : $0.05 </font>
+            </div>
+        </div>
+    
+        <img class=""stim"" src=./stimuli//pack_1/cat_2/ex_2_85.png></img>
+    ","null","stimulus","","","","",""
+"","","","","","html-keyboard-response","72","238663","0.0-6.0-2.3","5eecf91f87fdd30e01f700b8","6552129e68c08af5079f912e","6552136462b47178711e6977","null","
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 1vw""> 
+            <font color=""green""> Bonus : $0.05 </font>
+            </div>
+        </div>
+    ","null","","","","","",""
+"","","","","","html-keyboard-response","73","238949","0.0-6.0-3.3","5eecf91f87fdd30e01f700b8","6552129e68c08af5079f912e","6552136462b47178711e6977","285","./stimuli//pack_1/cat_2/ex_2_85.png","arrowleft","response","ArrowRight","85","2","false",""
+"","","","","","html-keyboard-response","74","240464","0.0-6.0-4.3","5eecf91f87fdd30e01f700b8","6552129e68c08af5079f912e","6552136462b47178711e6977","null","<p> <font color=""red"" size=""4vw""> Wrong category! </font> </p>","null","feedback","","","","","0.05"
+"","","","","","html-keyboard-response","75","240767","0.0-6.0-0.4","5eecf91f87fdd30e01f700b8","6552129e68c08af5079f912e","6552136462b47178711e6977","302","
+            
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 1vw""> 
+            <font color=""green""> Bonus : $0.05 </font>
+            </div>
+        </div>
+    
+            <div> Please press any button to continue to the next trial.</div>
+        "," ","ITI","","","","",""
+"","","","","","html-keyboard-response","76","241377","0.0-6.0-1.4","5eecf91f87fdd30e01f700b8","6552129e68c08af5079f912e","6552136462b47178711e6977","null","
+        
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 1vw""> 
+            <font color=""green""> Bonus : $0.05 </font>
+            </div>
+        </div>
+    
+        <img class=""stim"" src=./stimuli//pack_1/cat_2/ex_2_11.png></img>
+    ","null","stimulus","","","","",""
+"","","","","","html-keyboard-response","77","242385","0.0-6.0-2.4","5eecf91f87fdd30e01f700b8","6552129e68c08af5079f912e","6552136462b47178711e6977","null","
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 1vw""> 
+            <font color=""green""> Bonus : $0.05 </font>
+            </div>
+        </div>
+    ","null","","","","","",""
+"","","","","","html-keyboard-response","78","242726","0.0-6.0-3.4","5eecf91f87fdd30e01f700b8","6552129e68c08af5079f912e","6552136462b47178711e6977","340","./stimuli//pack_1/cat_2/ex_2_11.png","arrowright","response","ArrowRight","11","2","true",""
+"","","","","","html-keyboard-response","79","244236","0.0-6.0-4.4","5eecf91f87fdd30e01f700b8","6552129e68c08af5079f912e","6552136462b47178711e6977","null","<p> <font color=""green"" size=""4vw""> Correct category! </font> <br> <br> <font color=""green"" size=""7vw""> + $0.05 </font> </p>","null","feedback","","","","","0.1"
+"","","","","","html-keyboard-response","80","244548","0.0-6.0-0.5","5eecf91f87fdd30e01f700b8","6552129e68c08af5079f912e","6552136462b47178711e6977","311","
+            
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 1vw""> 
+            <font color=""green""> Bonus : $0.1 </font>
+            </div>
+        </div>
+    
+            <div> Please press any button to continue to the next trial.</div>
+        "," ","ITI","","","","",""
+"","","","","","html-keyboard-response","81","245160","0.0-6.0-1.5","5eecf91f87fdd30e01f700b8","6552129e68c08af5079f912e","6552136462b47178711e6977","null","
+        
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 1vw""> 
+            <font color=""green""> Bonus : $0.1 </font>
+            </div>
+        </div>
+    
+        <img class=""stim"" src=./stimuli//pack_1/cat_2/ex_2_15.png></img>
+    ","null","stimulus","","","","",""
+"","","","","","html-keyboard-response","82","246176","0.0-6.0-2.5","5eecf91f87fdd30e01f700b8","6552129e68c08af5079f912e","6552136462b47178711e6977","null","
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 1vw""> 
+            <font color=""green""> Bonus : $0.1 </font>
+            </div>
+        </div>
+    ","null","","","","","",""
+"","","","","","html-keyboard-response","83","246403","0.0-6.0-3.5","5eecf91f87fdd30e01f700b8","6552129e68c08af5079f912e","6552136462b47178711e6977","226","./stimuli//pack_1/cat_2/ex_2_15.png","arrowright","response","ArrowRight","15","2","true",""
+"","","","","","html-keyboard-response","84","247913","0.0-6.0-4.5","5eecf91f87fdd30e01f700b8","6552129e68c08af5079f912e","6552136462b47178711e6977","null","<p> <font color=""green"" size=""4vw""> Correct category! </font> <br> <br> <font color=""green"" size=""7vw""> + $0.05 </font> </p>","null","feedback","","","","","0.15"
+"","","","","","html-keyboard-response","85","248217","0.0-6.0-0.6","5eecf91f87fdd30e01f700b8","6552129e68c08af5079f912e","6552136462b47178711e6977","303","
+            
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 1vw""> 
+            <font color=""green""> Bonus : $0.15 </font>
+            </div>
+        </div>
+    
+            <div> Please press any button to continue to the next trial.</div>
+        "," ","ITI","","","","",""
+"","","","","","html-keyboard-response","86","248833","0.0-6.0-1.6","5eecf91f87fdd30e01f700b8","6552129e68c08af5079f912e","6552136462b47178711e6977","null","
+        
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 1vw""> 
+            <font color=""green""> Bonus : $0.15 </font>
+            </div>
+        </div>
+    
+        <img class=""stim"" src=./stimuli//pack_1/cat_1/ex_1_63.png></img>
+    ","null","stimulus","","","","",""
+"","","","","","html-keyboard-response","87","249841","0.0-6.0-2.6","5eecf91f87fdd30e01f700b8","6552129e68c08af5079f912e","6552136462b47178711e6977","null","
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 1vw""> 
+            <font color=""green""> Bonus : $0.15 </font>
+            </div>
+        </div>
+    ","null","","","","","",""
+"","","","","","html-keyboard-response","88","250071","0.0-6.0-3.6","5eecf91f87fdd30e01f700b8","6552129e68c08af5079f912e","6552136462b47178711e6977","229","./stimuli//pack_1/cat_1/ex_1_63.png","arrowright","response","ArrowLeft","63","1","false",""
+"","","","","","html-keyboard-response","89","251580","0.0-6.0-4.6","5eecf91f87fdd30e01f700b8","6552129e68c08af5079f912e","6552136462b47178711e6977","null","<p> <font color=""red"" size=""4vw""> Wrong category! </font> </p>","null","feedback","","","","","0.15"
+"","","","","","html-keyboard-response","90","251909","0.0-6.0-0.7","5eecf91f87fdd30e01f700b8","6552129e68c08af5079f912e","6552136462b47178711e6977","329","
+            
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 1vw""> 
+            <font color=""green""> Bonus : $0.15 </font>
+            </div>
+        </div>
+    
+            <div> Please press any button to continue to the next trial.</div>
+        "," ","ITI","","","","",""
+"","","","","","html-keyboard-response","91","252519","0.0-6.0-1.7","5eecf91f87fdd30e01f700b8","6552129e68c08af5079f912e","6552136462b47178711e6977","null","
+        
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 1vw""> 
+            <font color=""green""> Bonus : $0.15 </font>
+            </div>
+        </div>
+    
+        <img class=""stim"" src=./stimuli//pack_1/cat_2/ex_2_78.png></img>
+    ","null","stimulus","","","","",""
+"","","","","","html-keyboard-response","92","253528","0.0-6.0-2.7","5eecf91f87fdd30e01f700b8","6552129e68c08af5079f912e","6552136462b47178711e6977","null","
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 1vw""> 
+            <font color=""green""> Bonus : $0.15 </font>
+            </div>
+        </div>
+    ","null","","","","","",""
+"","","","","","html-keyboard-response","93","253738","0.0-6.0-3.7","5eecf91f87fdd30e01f700b8","6552129e68c08af5079f912e","6552136462b47178711e6977","209","./stimuli//pack_1/cat_2/ex_2_78.png","arrowright","response","ArrowRight","78","2","true",""
+"","","","","","html-keyboard-response","94","255248","0.0-6.0-4.7","5eecf91f87fdd30e01f700b8","6552129e68c08af5079f912e","6552136462b47178711e6977","null","<p> <font color=""green"" size=""4vw""> Correct category! </font> <br> <br> <font color=""green"" size=""7vw""> + $0.05 </font> </p>","null","feedback","","","","","0.2"
+"","","","","","html-keyboard-response","95","255644","0.0-6.0-0.8","5eecf91f87fdd30e01f700b8","6552129e68c08af5079f912e","6552136462b47178711e6977","396","
+            
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 1vw""> 
+            <font color=""green""> Bonus : $0.2 </font>
+            </div>
+        </div>
+    
+            <div> Please press any button to continue to the next trial.</div>
+        "," ","ITI","","","","",""
+"","","","","","html-keyboard-response","96","256252","0.0-6.0-1.8","5eecf91f87fdd30e01f700b8","6552129e68c08af5079f912e","6552136462b47178711e6977","null","
+        
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 1vw""> 
+            <font color=""green""> Bonus : $0.2 </font>
+            </div>
+        </div>
+    
+        <img class=""stim"" src=./stimuli//pack_1/cat_1/ex_1_98.png></img>
+    ","null","stimulus","","","","",""
+"","","","","","html-keyboard-response","97","257255","0.0-6.0-2.8","5eecf91f87fdd30e01f700b8","6552129e68c08af5079f912e","6552136462b47178711e6977","null","
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 1vw""> 
+            <font color=""green""> Bonus : $0.2 </font>
+            </div>
+        </div>
+    ","null","","","","","",""
+"","","","","","html-keyboard-response","98","257524","0.0-6.0-3.8","5eecf91f87fdd30e01f700b8","6552129e68c08af5079f912e","6552136462b47178711e6977","269","./stimuli//pack_1/cat_1/ex_1_98.png","arrowright","response","ArrowLeft","98","1","false",""
+"","","","","","html-keyboard-response","99","259030","0.0-6.0-4.8","5eecf91f87fdd30e01f700b8","6552129e68c08af5079f912e","6552136462b47178711e6977","null","<p> <font color=""red"" size=""4vw""> Wrong category! </font> </p>","null","feedback","","","","","0.2"
+"","","","","","html-keyboard-response","100","259318","0.0-6.0-0.9","5eecf91f87fdd30e01f700b8","6552129e68c08af5079f912e","6552136462b47178711e6977","288","
+            
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 1vw""> 
+            <font color=""green""> Bonus : $0.2 </font>
+            </div>
+        </div>
+    
+            <div> Please press any button to continue to the next trial.</div>
+        "," ","ITI","","","","",""
+"","","","","","html-keyboard-response","101","259920","0.0-6.0-1.9","5eecf91f87fdd30e01f700b8","6552129e68c08af5079f912e","6552136462b47178711e6977","null","
+        
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 1vw""> 
+            <font color=""green""> Bonus : $0.2 </font>
+            </div>
+        </div>
+    
+        <img class=""stim"" src=./stimuli//pack_1/cat_1/ex_1_61.png></img>
+    ","null","stimulus","","","","",""
+"","","","","","html-keyboard-response","102","260921","0.0-6.0-2.9","5eecf91f87fdd30e01f700b8","6552129e68c08af5079f912e","6552136462b47178711e6977","null","
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 1vw""> 
+            <font color=""green""> Bonus : $0.2 </font>
+            </div>
+        </div>
+    ","null","","","","","",""
+"","","","","","html-keyboard-response","103","261197","0.0-6.0-3.9","5eecf91f87fdd30e01f700b8","6552129e68c08af5079f912e","6552136462b47178711e6977","275","./stimuli//pack_1/cat_1/ex_1_61.png","arrowleft","response","ArrowLeft","61","1","true",""
+"","","","","","html-keyboard-response","104","262708","0.0-6.0-4.9","5eecf91f87fdd30e01f700b8","6552129e68c08af5079f912e","6552136462b47178711e6977","null","<p> <font color=""green"" size=""4vw""> Correct category! </font> <br> <br> <font color=""green"" size=""7vw""> + $0.05 </font> </p>","null","feedback","","","","","0.25"
+"","","","","","html-keyboard-response","105","263078","0.0-6.0-0.10","5eecf91f87fdd30e01f700b8","6552129e68c08af5079f912e","6552136462b47178711e6977","370","
+            
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 1vw""> 
+            <font color=""green""> Bonus : $0.25 </font>
+            </div>
+        </div>
+    
+            <div> Please press any button to continue to the next trial.</div>
+        "," ","ITI","","","","",""
+"","","","","","html-keyboard-response","106","263681","0.0-6.0-1.10","5eecf91f87fdd30e01f700b8","6552129e68c08af5079f912e","6552136462b47178711e6977","null","
+        
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 1vw""> 
+            <font color=""green""> Bonus : $0.25 </font>
+            </div>
+        </div>
+    
+        <img class=""stim"" src=./stimuli//pack_1/cat_2/ex_2_97.png></img>
+    ","null","stimulus","","","","",""
+"","","","","","html-keyboard-response","107","264696","0.0-6.0-2.10","5eecf91f87fdd30e01f700b8","6552129e68c08af5079f912e","6552136462b47178711e6977","null","
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 1vw""> 
+            <font color=""green""> Bonus : $0.25 </font>
+            </div>
+        </div>
+    ","null","","","","","",""
+"","","","","","html-keyboard-response","108","264925","0.0-6.0-3.10","5eecf91f87fdd30e01f700b8","6552129e68c08af5079f912e","6552136462b47178711e6977","228","./stimuli//pack_1/cat_2/ex_2_97.png","arrowleft","response","ArrowRight","97","2","false",""
+"","","","","","html-keyboard-response","109","266438","0.0-6.0-4.10","5eecf91f87fdd30e01f700b8","6552129e68c08af5079f912e","6552136462b47178711e6977","null","<p> <font color=""red"" size=""4vw""> Wrong category! </font> </p>","null","feedback","","","","","0.25"
+"","","","","","html-keyboard-response","110","266854","0.0-6.0-0.11","5eecf91f87fdd30e01f700b8","6552129e68c08af5079f912e","6552136462b47178711e6977","416","
+            
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 1vw""> 
+            <font color=""green""> Bonus : $0.25 </font>
+            </div>
+        </div>
+    
+            <div> Please press any button to continue to the next trial.</div>
+        "," ","ITI","","","","",""
+"","","","","","html-keyboard-response","111","267464","0.0-6.0-1.11","5eecf91f87fdd30e01f700b8","6552129e68c08af5079f912e","6552136462b47178711e6977","null","
+        
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 1vw""> 
+            <font color=""green""> Bonus : $0.25 </font>
+            </div>
+        </div>
+    
+        <img class=""stim"" src=./stimuli//pack_1/cat_1/ex_1_64.png></img>
+    ","null","stimulus","","","","",""
+"","","","","","html-keyboard-response","112","268468","0.0-6.0-2.11","5eecf91f87fdd30e01f700b8","6552129e68c08af5079f912e","6552136462b47178711e6977","null","
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 1vw""> 
+            <font color=""green""> Bonus : $0.25 </font>
+            </div>
+        </div>
+    ","null","","","","","",""
+"","","","","","html-keyboard-response","113","268703","0.0-6.0-3.11","5eecf91f87fdd30e01f700b8","6552129e68c08af5079f912e","6552136462b47178711e6977","234","./stimuli//pack_1/cat_1/ex_1_64.png","arrowright","response","ArrowLeft","64","1","false",""
+"","","","","","html-keyboard-response","114","270219","0.0-6.0-4.11","5eecf91f87fdd30e01f700b8","6552129e68c08af5079f912e","6552136462b47178711e6977","null","<p> <font color=""red"" size=""4vw""> Wrong category! </font> </p>","null","feedback","","","","","0.25"
+"","","","","","html-keyboard-response","115","270563","0.0-6.0-0.12","5eecf91f87fdd30e01f700b8","6552129e68c08af5079f912e","6552136462b47178711e6977","343","
+            
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 1vw""> 
+            <font color=""green""> Bonus : $0.25 </font>
+            </div>
+        </div>
+    
+            <div> Please press any button to continue to the next trial.</div>
+        "," ","ITI","","","","",""
+"","","","","","html-keyboard-response","116","271176","0.0-6.0-1.12","5eecf91f87fdd30e01f700b8","6552129e68c08af5079f912e","6552136462b47178711e6977","null","
+        
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 1vw""> 
+            <font color=""green""> Bonus : $0.25 </font>
+            </div>
+        </div>
+    
+        <img class=""stim"" src=./stimuli//pack_1/cat_2/ex_2_84.png></img>
+    ","null","stimulus","","","","",""
+"","","","","","html-keyboard-response","117","272192","0.0-6.0-2.12","5eecf91f87fdd30e01f700b8","6552129e68c08af5079f912e","6552136462b47178711e6977","null","
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 1vw""> 
+            <font color=""green""> Bonus : $0.25 </font>
+            </div>
+        </div>
+    ","null","","","","","",""
+"","","","","","html-keyboard-response","118","272520","0.0-6.0-3.12","5eecf91f87fdd30e01f700b8","6552129e68c08af5079f912e","6552136462b47178711e6977","328","./stimuli//pack_1/cat_2/ex_2_84.png","arrowright","response","ArrowRight","84","2","true",""
+"","","","","","html-keyboard-response","119","274024","0.0-6.0-4.12","5eecf91f87fdd30e01f700b8","6552129e68c08af5079f912e","6552136462b47178711e6977","null","<p> <font color=""green"" size=""4vw""> Correct category! </font> <br> <br> <font color=""green"" size=""7vw""> + $0.05 </font> </p>","null","feedback","","","","","0.3"
+"","","","","","html-keyboard-response","120","274548","0.0-6.0-0.13","5eecf91f87fdd30e01f700b8","6552129e68c08af5079f912e","6552136462b47178711e6977","523","
+            
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 1vw""> 
+            <font color=""green""> Bonus : $0.3 </font>
+            </div>
+        </div>
+    
+            <div> Please press any button to continue to the next trial.</div>
+        "," ","ITI","","","","",""
+"","","","","","html-keyboard-response","121","275160","0.0-6.0-1.13","5eecf91f87fdd30e01f700b8","6552129e68c08af5079f912e","6552136462b47178711e6977","null","
+        
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 1vw""> 
+            <font color=""green""> Bonus : $0.3 </font>
+            </div>
+        </div>
+    
+        <img class=""stim"" src=./stimuli//pack_1/cat_2/ex_2_65.png></img>
+    ","null","stimulus","","","","",""
+"","","","","","html-keyboard-response","122","276171","0.0-6.0-2.13","5eecf91f87fdd30e01f700b8","6552129e68c08af5079f912e","6552136462b47178711e6977","null","
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 1vw""> 
+            <font color=""green""> Bonus : $0.3 </font>
+            </div>
+        </div>
+    ","null","","","","","",""
+"","","","","","html-keyboard-response","123","276405","0.0-6.0-3.13","5eecf91f87fdd30e01f700b8","6552129e68c08af5079f912e","6552136462b47178711e6977","233","./stimuli//pack_1/cat_2/ex_2_65.png","arrowright","response","ArrowRight","65","2","true",""
+"","","","","","html-keyboard-response","124","277916","0.0-6.0-4.13","5eecf91f87fdd30e01f700b8","6552129e68c08af5079f912e","6552136462b47178711e6977","null","<p> <font color=""green"" size=""4vw""> Correct category! </font> <br> <br> <font color=""green"" size=""7vw""> + $0.05 </font> </p>","null","feedback","","","","","0.35"
+"","","","","","html-keyboard-response","125","278373","0.0-6.0-0.14","5eecf91f87fdd30e01f700b8","6552129e68c08af5079f912e","6552136462b47178711e6977","457","
+            
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 1vw""> 
+            <font color=""green""> Bonus : $0.35 </font>
+            </div>
+        </div>
+    
+            <div> Please press any button to continue to the next trial.</div>
+        "," ","ITI","","","","",""
+"","","","","","html-keyboard-response","126","278979","0.0-6.0-1.14","5eecf91f87fdd30e01f700b8","6552129e68c08af5079f912e","6552136462b47178711e6977","null","
+        
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 1vw""> 
+            <font color=""green""> Bonus : $0.35 </font>
+            </div>
+        </div>
+    
+        <img class=""stim"" src=./stimuli//pack_1/cat_2/ex_2_42.png></img>
+    ","null","stimulus","","","","",""
+"","","","","","html-keyboard-response","127","279984","0.0-6.0-2.14","5eecf91f87fdd30e01f700b8","6552129e68c08af5079f912e","6552136462b47178711e6977","null","
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 1vw""> 
+            <font color=""green""> Bonus : $0.35 </font>
+            </div>
+        </div>
+    ","null","","","","","",""
+"","","","","","html-keyboard-response","128","280190","0.0-6.0-3.14","5eecf91f87fdd30e01f700b8","6552129e68c08af5079f912e","6552136462b47178711e6977","206","./stimuli//pack_1/cat_2/ex_2_42.png","arrowright","response","ArrowRight","42","2","true",""
+"","","","","","html-keyboard-response","129","281699","0.0-6.0-4.14","5eecf91f87fdd30e01f700b8","6552129e68c08af5079f912e","6552136462b47178711e6977","null","<p> <font color=""green"" size=""4vw""> Correct category! </font> <br> <br> <font color=""green"" size=""7vw""> + $0.05 </font> </p>","null","feedback","","","","","0.4"
+"","","","","","html-keyboard-response","130","282038","0.0-6.0-0.15","5eecf91f87fdd30e01f700b8","6552129e68c08af5079f912e","6552136462b47178711e6977","339","
+            
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 1vw""> 
+            <font color=""green""> Bonus : $0.4 </font>
+            </div>
+        </div>
+    
+            <div> Please press any button to continue to the next trial.</div>
+        "," ","ITI","","","","",""
+"","","","","","html-keyboard-response","131","282640","0.0-6.0-1.15","5eecf91f87fdd30e01f700b8","6552129e68c08af5079f912e","6552136462b47178711e6977","null","
+        
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 1vw""> 
+            <font color=""green""> Bonus : $0.4 </font>
+            </div>
+        </div>
+    
+        <img class=""stim"" src=./stimuli//pack_1/cat_2/ex_2_25.png></img>
+    ","null","stimulus","","","","",""
+"","","","","","html-keyboard-response","132","283654","0.0-6.0-2.15","5eecf91f87fdd30e01f700b8","6552129e68c08af5079f912e","6552136462b47178711e6977","null","
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 1vw""> 
+            <font color=""green""> Bonus : $0.4 </font>
+            </div>
+        </div>
+    ","null","","","","","",""
+"","","","","","html-keyboard-response","133","283909","0.0-6.0-3.15","5eecf91f87fdd30e01f700b8","6552129e68c08af5079f912e","6552136462b47178711e6977","254","./stimuli//pack_1/cat_2/ex_2_25.png","arrowleft","response","ArrowRight","25","2","false",""
+"","","","","","html-keyboard-response","134","285421","0.0-6.0-4.15","5eecf91f87fdd30e01f700b8","6552129e68c08af5079f912e","6552136462b47178711e6977","null","<p> <font color=""red"" size=""4vw""> Wrong category! </font> </p>","null","feedback","","","","","0.4"
+"","","","","","html-keyboard-response","135","285761","0.0-6.0-0.16","5eecf91f87fdd30e01f700b8","6552129e68c08af5079f912e","6552136462b47178711e6977","340","
+            
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 1vw""> 
+            <font color=""green""> Bonus : $0.4 </font>
+            </div>
+        </div>
+    
+            <div> Please press any button to continue to the next trial.</div>
+        "," ","ITI","","","","",""
+"","","","","","html-keyboard-response","136","286372","0.0-6.0-1.16","5eecf91f87fdd30e01f700b8","6552129e68c08af5079f912e","6552136462b47178711e6977","null","
+        
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 1vw""> 
+            <font color=""green""> Bonus : $0.4 </font>
+            </div>
+        </div>
+    
+        <img class=""stim"" src=./stimuli//pack_1/cat_2/ex_2_67.png></img>
+    ","null","stimulus","","","","",""
+"","","","","","html-keyboard-response","137","287379","0.0-6.0-2.16","5eecf91f87fdd30e01f700b8","6552129e68c08af5079f912e","6552136462b47178711e6977","null","
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 1vw""> 
+            <font color=""green""> Bonus : $0.4 </font>
+            </div>
+        </div>
+    ","null","","","","","",""
+"","","","","","html-keyboard-response","138","287580","0.0-6.0-3.16","5eecf91f87fdd30e01f700b8","6552129e68c08af5079f912e","6552136462b47178711e6977","200","./stimuli//pack_1/cat_2/ex_2_67.png","arrowright","response","ArrowRight","67","2","true",""
+"","","","","","html-keyboard-response","139","289095","0.0-6.0-4.16","5eecf91f87fdd30e01f700b8","6552129e68c08af5079f912e","6552136462b47178711e6977","null","<p> <font color=""green"" size=""4vw""> Correct category! </font> <br> <br> <font color=""green"" size=""7vw""> + $0.05 </font> </p>","null","feedback","","","","","0.45"
+"","","","","","html-keyboard-response","140","289425","0.0-6.0-0.17","5eecf91f87fdd30e01f700b8","6552129e68c08af5079f912e","6552136462b47178711e6977","331","
+            
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 1vw""> 
+            <font color=""green""> Bonus : $0.45 </font>
+            </div>
+        </div>
+    
+            <div> Please press any button to continue to the next trial.</div>
+        "," ","ITI","","","","",""
+"","","","","","html-keyboard-response","141","290035","0.0-6.0-1.17","5eecf91f87fdd30e01f700b8","6552129e68c08af5079f912e","6552136462b47178711e6977","null","
+        
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 1vw""> 
+            <font color=""green""> Bonus : $0.45 </font>
+            </div>
+        </div>
+    
+        <img class=""stim"" src=./stimuli//pack_1/cat_1/ex_1_17.png></img>
+    ","null","stimulus","","","","",""
+"","","","","","html-keyboard-response","142","291046","0.0-6.0-2.17","5eecf91f87fdd30e01f700b8","6552129e68c08af5079f912e","6552136462b47178711e6977","null","
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 1vw""> 
+            <font color=""green""> Bonus : $0.45 </font>
+            </div>
+        </div>
+    ","null","","","","","",""
+"","","","","","html-keyboard-response","143","291521","0.0-6.0-3.17","5eecf91f87fdd30e01f700b8","6552129e68c08af5079f912e","6552136462b47178711e6977","475","./stimuli//pack_1/cat_1/ex_1_17.png","arrowright","response","ArrowLeft","17","1","false",""
+"","","","","","html-keyboard-response","144","293025","0.0-6.0-4.17","5eecf91f87fdd30e01f700b8","6552129e68c08af5079f912e","6552136462b47178711e6977","null","<p> <font color=""red"" size=""4vw""> Wrong category! </font> </p>","null","feedback","","","","","0.45"
+"","","","","","html-keyboard-response","145","293829","0.0-6.0-0.18","5eecf91f87fdd30e01f700b8","6552129e68c08af5079f912e","6552136462b47178711e6977","804","
+            
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 1vw""> 
+            <font color=""green""> Bonus : $0.45 </font>
+            </div>
+        </div>
+    
+            <div> Please press any button to continue to the next trial.</div>
+        "," ","ITI","","","","",""
+"","","","","","html-keyboard-response","146","294432","0.0-6.0-1.18","5eecf91f87fdd30e01f700b8","6552129e68c08af5079f912e","6552136462b47178711e6977","null","
+        
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 1vw""> 
+            <font color=""green""> Bonus : $0.45 </font>
+            </div>
+        </div>
+    
+        <img class=""stim"" src=./stimuli//pack_1/cat_2/ex_2_56.png></img>
+    ","null","stimulus","","","","",""
+"","","","","","html-keyboard-response","147","295443","0.0-6.0-2.18","5eecf91f87fdd30e01f700b8","6552129e68c08af5079f912e","6552136462b47178711e6977","null","
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 1vw""> 
+            <font color=""green""> Bonus : $0.45 </font>
+            </div>
+        </div>
+    ","null","","","","","",""
+"","","","","","html-keyboard-response","148","295708","0.0-6.0-3.18","5eecf91f87fdd30e01f700b8","6552129e68c08af5079f912e","6552136462b47178711e6977","265","./stimuli//pack_1/cat_2/ex_2_56.png","arrowleft","response","ArrowRight","56","2","false",""
+"","","","","","html-keyboard-response","149","297221","0.0-6.0-4.18","5eecf91f87fdd30e01f700b8","6552129e68c08af5079f912e","6552136462b47178711e6977","null","<p> <font color=""red"" size=""4vw""> Wrong category! </font> </p>","null","feedback","","","","","0.45"
+"","","","","","html-keyboard-response","150","297633","0.0-6.0-0.19","5eecf91f87fdd30e01f700b8","6552129e68c08af5079f912e","6552136462b47178711e6977","413","
+            
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 1vw""> 
+            <font color=""green""> Bonus : $0.45 </font>
+            </div>
+        </div>
+    
+            <div> Please press any button to continue to the next trial.</div>
+        "," ","ITI","","","","",""
+"","","","","","html-keyboard-response","151","298248","0.0-6.0-1.19","5eecf91f87fdd30e01f700b8","6552129e68c08af5079f912e","6552136462b47178711e6977","null","
+        
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 1vw""> 
+            <font color=""green""> Bonus : $0.45 </font>
+            </div>
+        </div>
+    
+        <img class=""stim"" src=./stimuli//pack_1/cat_2/ex_2_94.png></img>
+    ","null","stimulus","","","","",""
+"","","","","","html-keyboard-response","152","299252","0.0-6.0-2.19","5eecf91f87fdd30e01f700b8","6552129e68c08af5079f912e","6552136462b47178711e6977","null","
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 1vw""> 
+            <font color=""green""> Bonus : $0.45 </font>
+            </div>
+        </div>
+    ","null","","","","","",""
+"","","","","","html-keyboard-response","153","300520","0.0-6.0-3.19","5eecf91f87fdd30e01f700b8","6552129e68c08af5079f912e","6552136462b47178711e6977","1271","./stimuli//pack_1/cat_2/ex_2_94.png","arrowright","response","ArrowRight","94","2","true",""
+"","","","","","html-keyboard-response","154","302026","0.0-6.0-4.19","5eecf91f87fdd30e01f700b8","6552129e68c08af5079f912e","6552136462b47178711e6977","null","<p> <font color=""green"" size=""4vw""> Correct category! </font> <br> <br> <font color=""green"" size=""7vw""> + $0.05 </font> </p>","null","feedback","","","","","0.5"
+"","","","","","html-keyboard-response","155","302388","0.0-6.0-0.20","5eecf91f87fdd30e01f700b8","6552129e68c08af5079f912e","6552136462b47178711e6977","361","
+            
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 1vw""> 
+            <font color=""green""> Bonus : $0.5 </font>
+            </div>
+        </div>
+    
+            <div> Please press any button to continue to the next trial.</div>
+        "," ","ITI","","","","",""
+"","","","","","html-keyboard-response","156","302997","0.0-6.0-1.20","5eecf91f87fdd30e01f700b8","6552129e68c08af5079f912e","6552136462b47178711e6977","null","
+        
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 1vw""> 
+            <font color=""green""> Bonus : $0.5 </font>
+            </div>
+        </div>
+    
+        <img class=""stim"" src=./stimuli//pack_1/cat_1/ex_1_32.png></img>
+    ","null","stimulus","","","","",""
+"","","","","","html-keyboard-response","157","304004","0.0-6.0-2.20","5eecf91f87fdd30e01f700b8","6552129e68c08af5079f912e","6552136462b47178711e6977","null","
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 1vw""> 
+            <font color=""green""> Bonus : $0.5 </font>
+            </div>
+        </div>
+    ","null","","","","","",""
+"","","","","","html-keyboard-response","158","304431","0.0-6.0-3.20","5eecf91f87fdd30e01f700b8","6552129e68c08af5079f912e","6552136462b47178711e6977","427","./stimuli//pack_1/cat_1/ex_1_32.png","arrowleft","response","ArrowLeft","32","1","true",""
+"","","","","","html-keyboard-response","159","305934","0.0-6.0-4.20","5eecf91f87fdd30e01f700b8","6552129e68c08af5079f912e","6552136462b47178711e6977","null","<p> <font color=""green"" size=""4vw""> Correct category! </font> <br> <br> <font color=""green"" size=""7vw""> + $0.05 </font> </p>","null","feedback","","","","","0.55"
+"","","","","","html-keyboard-response","160","306380","0.0-6.0-0.21","5eecf91f87fdd30e01f700b8","6552129e68c08af5079f912e","6552136462b47178711e6977","445","
+            
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 1vw""> 
+            <font color=""green""> Bonus : $0.55 </font>
+            </div>
+        </div>
+    
+            <div> Please press any button to continue to the next trial.</div>
+        "," ","ITI","","","","",""
+"","","","","","html-keyboard-response","161","306995","0.0-6.0-1.21","5eecf91f87fdd30e01f700b8","6552129e68c08af5079f912e","6552136462b47178711e6977","null","
+        
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 1vw""> 
+            <font color=""green""> Bonus : $0.55 </font>
+            </div>
+        </div>
+    
+        <img class=""stim"" src=./stimuli//pack_1/cat_1/ex_1_77.png></img>
+    ","null","stimulus","","","","",""
+"","","","","","html-keyboard-response","162","308003","0.0-6.0-2.21","5eecf91f87fdd30e01f700b8","6552129e68c08af5079f912e","6552136462b47178711e6977","null","
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 1vw""> 
+            <font color=""green""> Bonus : $0.55 </font>
+            </div>
+        </div>
+    ","null","","","","","",""
+"","","","","","html-keyboard-response","163","308250","0.0-6.0-3.21","5eecf91f87fdd30e01f700b8","6552129e68c08af5079f912e","6552136462b47178711e6977","246","./stimuli//pack_1/cat_1/ex_1_77.png","arrowright","response","ArrowLeft","77","1","false",""
+"","","","","","html-keyboard-response","164","309754","0.0-6.0-4.21","5eecf91f87fdd30e01f700b8","6552129e68c08af5079f912e","6552136462b47178711e6977","null","<p> <font color=""red"" size=""4vw""> Wrong category! </font> </p>","null","feedback","","","","","0.55"
+"","","","","","html-keyboard-response","165","310382","0.0-6.0-0.22","5eecf91f87fdd30e01f700b8","6552129e68c08af5079f912e","6552136462b47178711e6977","628","
+            
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 1vw""> 
+            <font color=""green""> Bonus : $0.55 </font>
+            </div>
+        </div>
+    
+            <div> Please press any button to continue to the next trial.</div>
+        "," ","ITI","","","","",""
+"","","","","","html-keyboard-response","166","310997","0.0-6.0-1.22","5eecf91f87fdd30e01f700b8","6552129e68c08af5079f912e","6552136462b47178711e6977","null","
+        
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 1vw""> 
+            <font color=""green""> Bonus : $0.55 </font>
+            </div>
+        </div>
+    
+        <img class=""stim"" src=./stimuli//pack_1/cat_1/ex_1_82.png></img>
+    ","null","stimulus","","","","",""
+"","","","","","html-keyboard-response","167","312000","0.0-6.0-2.22","5eecf91f87fdd30e01f700b8","6552129e68c08af5079f912e","6552136462b47178711e6977","null","
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 1vw""> 
+            <font color=""green""> Bonus : $0.55 </font>
+            </div>
+        </div>
+    ","null","","","","","",""
+"","","","","","html-keyboard-response","168","312210","0.0-6.0-3.22","5eecf91f87fdd30e01f700b8","6552129e68c08af5079f912e","6552136462b47178711e6977","210","./stimuli//pack_1/cat_1/ex_1_82.png","arrowleft","response","ArrowLeft","82","1","true",""
+"","","","","","html-keyboard-response","169","313715","0.0-6.0-4.22","5eecf91f87fdd30e01f700b8","6552129e68c08af5079f912e","6552136462b47178711e6977","null","<p> <font color=""green"" size=""4vw""> Correct category! </font> <br> <br> <font color=""green"" size=""7vw""> + $0.05 </font> </p>","null","feedback","","","","","0.6"
+"","","","","","html-keyboard-response","170","314117","0.0-6.0-0.23","5eecf91f87fdd30e01f700b8","6552129e68c08af5079f912e","6552136462b47178711e6977","401","
+            
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 1vw""> 
+            <font color=""green""> Bonus : $0.6 </font>
+            </div>
+        </div>
+    
+            <div> Please press any button to continue to the next trial.</div>
+        "," ","ITI","","","","",""
+"","","","","","html-keyboard-response","171","314722","0.0-6.0-1.23","5eecf91f87fdd30e01f700b8","6552129e68c08af5079f912e","6552136462b47178711e6977","null","
+        
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 1vw""> 
+            <font color=""green""> Bonus : $0.6 </font>
+            </div>
+        </div>
+    
+        <img class=""stim"" src=./stimuli//pack_1/cat_1/ex_1_73.png></img>
+    ","null","stimulus","","","","",""
+"","","","","","html-keyboard-response","172","315729","0.0-6.0-2.23","5eecf91f87fdd30e01f700b8","6552129e68c08af5079f912e","6552136462b47178711e6977","null","
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 1vw""> 
+            <font color=""green""> Bonus : $0.6 </font>
+            </div>
+        </div>
+    ","null","","","","","",""
+"","","","","","html-keyboard-response","173","315958","0.0-6.0-3.23","5eecf91f87fdd30e01f700b8","6552129e68c08af5079f912e","6552136462b47178711e6977","228","./stimuli//pack_1/cat_1/ex_1_73.png","arrowright","response","ArrowLeft","73","1","false",""
+"","","","","","html-keyboard-response","174","317464","0.0-6.0-4.23","5eecf91f87fdd30e01f700b8","6552129e68c08af5079f912e","6552136462b47178711e6977","null","<p> <font color=""red"" size=""4vw""> Wrong category! </font> </p>","null","feedback","","","","","0.6"
+"","","","","","html-keyboard-response","175","317786","0.0-6.0-0.24","5eecf91f87fdd30e01f700b8","6552129e68c08af5079f912e","6552136462b47178711e6977","321","
+            
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 1vw""> 
+            <font color=""green""> Bonus : $0.6 </font>
+            </div>
+        </div>
+    
+            <div> Please press any button to continue to the next trial.</div>
+        "," ","ITI","","","","",""
+"","","","","","html-keyboard-response","176","318401","0.0-6.0-1.24","5eecf91f87fdd30e01f700b8","6552129e68c08af5079f912e","6552136462b47178711e6977","null","
+        
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 1vw""> 
+            <font color=""green""> Bonus : $0.6 </font>
+            </div>
+        </div>
+    
+        <img class=""stim"" src=./stimuli//pack_1/cat_1/ex_1_6.png></img>
+    ","null","stimulus","","","","",""
+"","","","","","html-keyboard-response","177","319413","0.0-6.0-2.24","5eecf91f87fdd30e01f700b8","6552129e68c08af5079f912e","6552136462b47178711e6977","null","
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 1vw""> 
+            <font color=""green""> Bonus : $0.6 </font>
+            </div>
+        </div>
+    ","null","","","","","",""
+"","","","","","html-keyboard-response","178","319619","0.0-6.0-3.24","5eecf91f87fdd30e01f700b8","6552129e68c08af5079f912e","6552136462b47178711e6977","205","./stimuli//pack_1/cat_1/ex_1_6.png","arrowleft","response","ArrowLeft","6","1","true",""
+"","","","","","html-keyboard-response","179","321145","0.0-6.0-4.24","5eecf91f87fdd30e01f700b8","6552129e68c08af5079f912e","6552136462b47178711e6977","null","<p> <font color=""green"" size=""4vw""> Correct category! </font> <br> <br> <font color=""green"" size=""7vw""> + $0.05 </font> </p>","null","feedback","","","","","0.65"
+"","","","","","html-keyboard-response","180","321585","0.0-6.0-0.25","5eecf91f87fdd30e01f700b8","6552129e68c08af5079f912e","6552136462b47178711e6977","440","
+            
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 1vw""> 
+            <font color=""green""> Bonus : $0.65 </font>
+            </div>
+        </div>
+    
+            <div> Please press any button to continue to the next trial.</div>
+        "," ","ITI","","","","",""
+"","","","","","html-keyboard-response","181","322202","0.0-6.0-1.25","5eecf91f87fdd30e01f700b8","6552129e68c08af5079f912e","6552136462b47178711e6977","null","
+        
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 1vw""> 
+            <font color=""green""> Bonus : $0.65 </font>
+            </div>
+        </div>
+    
+        <img class=""stim"" src=./stimuli//pack_1/cat_1/ex_1_72.png></img>
+    ","null","stimulus","","","","",""
+"","","","","","html-keyboard-response","182","323207","0.0-6.0-2.25","5eecf91f87fdd30e01f700b8","6552129e68c08af5079f912e","6552136462b47178711e6977","null","
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 1vw""> 
+            <font color=""green""> Bonus : $0.65 </font>
+            </div>
+        </div>
+    ","null","","","","","",""
+"","","","","","html-keyboard-response","183","323419","0.0-6.0-3.25","5eecf91f87fdd30e01f700b8","6552129e68c08af5079f912e","6552136462b47178711e6977","211","./stimuli//pack_1/cat_1/ex_1_72.png","arrowright","response","ArrowLeft","72","1","false",""
+"","","","","","html-keyboard-response","184","324934","0.0-6.0-4.25","5eecf91f87fdd30e01f700b8","6552129e68c08af5079f912e","6552136462b47178711e6977","null","<p> <font color=""red"" size=""4vw""> Wrong category! </font> </p>","null","feedback","","","","","0.65"
+"","","","","","html-keyboard-response","185","325220","0.0-6.0-0.26","5eecf91f87fdd30e01f700b8","6552129e68c08af5079f912e","6552136462b47178711e6977","286","
+            
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 1vw""> 
+            <font color=""green""> Bonus : $0.65 </font>
+            </div>
+        </div>
+    
+            <div> Please press any button to continue to the next trial.</div>
+        "," ","ITI","","","","",""
+"","","","","","html-keyboard-response","186","325835","0.0-6.0-1.26","5eecf91f87fdd30e01f700b8","6552129e68c08af5079f912e","6552136462b47178711e6977","null","
+        
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 1vw""> 
+            <font color=""green""> Bonus : $0.65 </font>
+            </div>
+        </div>
+    
+        <img class=""stim"" src=./stimuli//pack_1/cat_1/ex_1_65.png></img>
+    ","null","stimulus","","","","",""
+"","","","","","html-keyboard-response","187","326851","0.0-6.0-2.26","5eecf91f87fdd30e01f700b8","6552129e68c08af5079f912e","6552136462b47178711e6977","null","
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 1vw""> 
+            <font color=""green""> Bonus : $0.65 </font>
+            </div>
+        </div>
+    ","null","","","","","",""
+"","","","","","html-keyboard-response","188","327076","0.0-6.0-3.26","5eecf91f87fdd30e01f700b8","6552129e68c08af5079f912e","6552136462b47178711e6977","224","./stimuli//pack_1/cat_1/ex_1_65.png","arrowleft","response","ArrowLeft","65","1","true",""
+"","","","","","html-keyboard-response","189","328578","0.0-6.0-4.26","5eecf91f87fdd30e01f700b8","6552129e68c08af5079f912e","6552136462b47178711e6977","null","<p> <font color=""green"" size=""4vw""> Correct category! </font> <br> <br> <font color=""green"" size=""7vw""> + $0.05 </font> </p>","null","feedback","","","","","0.7"
+"","","","","","html-keyboard-response","190","329346","0.0-6.0-0.27","5eecf91f87fdd30e01f700b8","6552129e68c08af5079f912e","6552136462b47178711e6977","767","
+            
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 1vw""> 
+            <font color=""green""> Bonus : $0.7 </font>
+            </div>
+        </div>
+    
+            <div> Please press any button to continue to the next trial.</div>
+        "," ","ITI","","","","",""
+"","","","","","html-keyboard-response","191","329949","0.0-6.0-1.27","5eecf91f87fdd30e01f700b8","6552129e68c08af5079f912e","6552136462b47178711e6977","null","
+        
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 1vw""> 
+            <font color=""green""> Bonus : $0.7 </font>
+            </div>
+        </div>
+    
+        <img class=""stim"" src=./stimuli//pack_1/cat_1/ex_1_60.png></img>
+    ","null","stimulus","","","","",""
+"","","","","","html-keyboard-response","192","330951","0.0-6.0-2.27","5eecf91f87fdd30e01f700b8","6552129e68c08af5079f912e","6552136462b47178711e6977","null","
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 1vw""> 
+            <font color=""green""> Bonus : $0.7 </font>
+            </div>
+        </div>
+    ","null","","","","","",""
+"","","","","","html-keyboard-response","193","331229","0.0-6.0-3.27","5eecf91f87fdd30e01f700b8","6552129e68c08af5079f912e","6552136462b47178711e6977","278","./stimuli//pack_1/cat_1/ex_1_60.png","arrowleft","response","ArrowLeft","60","1","true",""
+"","","","","","html-keyboard-response","194","332737","0.0-6.0-4.27","5eecf91f87fdd30e01f700b8","6552129e68c08af5079f912e","6552136462b47178711e6977","null","<p> <font color=""green"" size=""4vw""> Correct category! </font> <br> <br> <font color=""green"" size=""7vw""> + $0.05 </font> </p>","null","feedback","","","","","0.75"
+"","","","","","html-keyboard-response","195","333339","0.0-6.0-0.28","5eecf91f87fdd30e01f700b8","6552129e68c08af5079f912e","6552136462b47178711e6977","602","
+            
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 1vw""> 
+            <font color=""green""> Bonus : $0.75 </font>
+            </div>
+        </div>
+    
+            <div> Please press any button to continue to the next trial.</div>
+        "," ","ITI","","","","",""
+"","","","","","html-keyboard-response","196","333946","0.0-6.0-1.28","5eecf91f87fdd30e01f700b8","6552129e68c08af5079f912e","6552136462b47178711e6977","null","
+        
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 1vw""> 
+            <font color=""green""> Bonus : $0.75 </font>
+            </div>
+        </div>
+    
+        <img class=""stim"" src=./stimuli//pack_1/cat_2/ex_2_41.png></img>
+    ","null","stimulus","","","","",""
+"","","","","","html-keyboard-response","197","334953","0.0-6.0-2.28","5eecf91f87fdd30e01f700b8","6552129e68c08af5079f912e","6552136462b47178711e6977","null","
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 1vw""> 
+            <font color=""green""> Bonus : $0.75 </font>
+            </div>
+        </div>
+    ","null","","","","","",""
+"","","","","","html-keyboard-response","198","335364","0.0-6.0-3.28","5eecf91f87fdd30e01f700b8","6552129e68c08af5079f912e","6552136462b47178711e6977","410","./stimuli//pack_1/cat_2/ex_2_41.png","arrowleft","response","ArrowRight","41","2","false",""
+"","","","","","html-keyboard-response","199","336871","0.0-6.0-4.28","5eecf91f87fdd30e01f700b8","6552129e68c08af5079f912e","6552136462b47178711e6977","null","<p> <font color=""red"" size=""4vw""> Wrong category! </font> </p>","null","feedback","","","","","0.75"
+"","","","","","html-keyboard-response","200","337156","0.0-6.0-0.29","5eecf91f87fdd30e01f700b8","6552129e68c08af5079f912e","6552136462b47178711e6977","284","
+            
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 1vw""> 
+            <font color=""green""> Bonus : $0.75 </font>
+            </div>
+        </div>
+    
+            <div> Please press any button to continue to the next trial.</div>
+        "," ","ITI","","","","",""
+"","","","","","html-keyboard-response","201","337762","0.0-6.0-1.29","5eecf91f87fdd30e01f700b8","6552129e68c08af5079f912e","6552136462b47178711e6977","null","
+        
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 1vw""> 
+            <font color=""green""> Bonus : $0.75 </font>
+            </div>
+        </div>
+    
+        <img class=""stim"" src=./stimuli//pack_1/cat_1/ex_1_3.png></img>
+    ","null","stimulus","","","","",""
+"","","","","","html-keyboard-response","202","338777","0.0-6.0-2.29","5eecf91f87fdd30e01f700b8","6552129e68c08af5079f912e","6552136462b47178711e6977","null","
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 1vw""> 
+            <font color=""green""> Bonus : $0.75 </font>
+            </div>
+        </div>
+    ","null","","","","","",""
+"","","","","","html-keyboard-response","203","339035","0.0-6.0-3.29","5eecf91f87fdd30e01f700b8","6552129e68c08af5079f912e","6552136462b47178711e6977","257","./stimuli//pack_1/cat_1/ex_1_3.png","arrowright","response","ArrowLeft","3","1","false",""
+"","","","","","html-keyboard-response","204","340538","0.0-6.0-4.29","5eecf91f87fdd30e01f700b8","6552129e68c08af5079f912e","6552136462b47178711e6977","null","<p> <font color=""red"" size=""4vw""> Wrong category! </font> </p>","null","feedback","","","","","0.75"
+"","","","","","html-keyboard-response","205","340815","0.0-6.0-0.30","5eecf91f87fdd30e01f700b8","6552129e68c08af5079f912e","6552136462b47178711e6977","276","
+            
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 1vw""> 
+            <font color=""green""> Bonus : $0.75 </font>
+            </div>
+        </div>
+    
+            <div> Please press any button to continue to the next trial.</div>
+        "," ","ITI","","","","",""
+"","","","","","html-keyboard-response","206","341418","0.0-6.0-1.30","5eecf91f87fdd30e01f700b8","6552129e68c08af5079f912e","6552136462b47178711e6977","null","
+        
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 1vw""> 
+            <font color=""green""> Bonus : $0.75 </font>
+            </div>
+        </div>
+    
+        <img class=""stim"" src=./stimuli//pack_1/cat_2/ex_2_83.png></img>
+    ","null","stimulus","","","","",""
+"","","","","","html-keyboard-response","207","342430","0.0-6.0-2.30","5eecf91f87fdd30e01f700b8","6552129e68c08af5079f912e","6552136462b47178711e6977","null","
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 1vw""> 
+            <font color=""green""> Bonus : $0.75 </font>
+            </div>
+        </div>
+    ","null","","","","","",""
+"","","","","","html-keyboard-response","208","342514","0.0-6.0-3.30","5eecf91f87fdd30e01f700b8","6552129e68c08af5079f912e","6552136462b47178711e6977","84","./stimuli//pack_1/cat_2/ex_2_83.png","arrowleft","response","ArrowRight","83","2","false",""
+"","","","","","html-keyboard-response","209","344021","0.0-6.0-4.30","5eecf91f87fdd30e01f700b8","6552129e68c08af5079f912e","6552136462b47178711e6977","null","<p> <font color=""red"" size=""4vw""> Wrong category! </font> </p>","null","feedback","","","","","0.75"
+"","","","","","html-keyboard-response","210","344273","0.0-6.0-0.31","5eecf91f87fdd30e01f700b8","6552129e68c08af5079f912e","6552136462b47178711e6977","252","
+            
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 1vw""> 
+            <font color=""green""> Bonus : $0.75 </font>
+            </div>
+        </div>
+    
+            <div> Please press any button to continue to the next trial.</div>
+        "," ","ITI","","","","",""
+"","","","","","html-keyboard-response","211","344887","0.0-6.0-1.31","5eecf91f87fdd30e01f700b8","6552129e68c08af5079f912e","6552136462b47178711e6977","null","
+        
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 1vw""> 
+            <font color=""green""> Bonus : $0.75 </font>
+            </div>
+        </div>
+    
+        <img class=""stim"" src=./stimuli//pack_1/cat_2/ex_2_74.png></img>
+    ","null","stimulus","","","","",""
+"","","","","","html-keyboard-response","212","345903","0.0-6.0-2.31","5eecf91f87fdd30e01f700b8","6552129e68c08af5079f912e","6552136462b47178711e6977","null","
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 1vw""> 
+            <font color=""green""> Bonus : $0.75 </font>
+            </div>
+        </div>
+    ","null","","","","","",""
+"","","","","","html-keyboard-response","213","346160","0.0-6.0-3.31","5eecf91f87fdd30e01f700b8","6552129e68c08af5079f912e","6552136462b47178711e6977","257","./stimuli//pack_1/cat_2/ex_2_74.png","arrowright","response","ArrowRight","74","2","true",""
+"","","","","","html-keyboard-response","214","347675","0.0-6.0-4.31","5eecf91f87fdd30e01f700b8","6552129e68c08af5079f912e","6552136462b47178711e6977","null","<p> <font color=""green"" size=""4vw""> Correct category! </font> <br> <br> <font color=""green"" size=""7vw""> + $0.05 </font> </p>","null","feedback","","","","","0.8"
+"","","","","","html-keyboard-response","215","348164","0.0-6.0-0.32","5eecf91f87fdd30e01f700b8","6552129e68c08af5079f912e","6552136462b47178711e6977","488","
+            
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 1vw""> 
+            <font color=""green""> Bonus : $0.8 </font>
+            </div>
+        </div>
+    
+            <div> Please press any button to continue to the next trial.</div>
+        "," ","ITI","","","","",""
+"","","","","","html-keyboard-response","216","348772","0.0-6.0-1.32","5eecf91f87fdd30e01f700b8","6552129e68c08af5079f912e","6552136462b47178711e6977","null","
+        
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 1vw""> 
+            <font color=""green""> Bonus : $0.8 </font>
+            </div>
+        </div>
+    
+        <img class=""stim"" src=./stimuli//pack_1/cat_2/ex_2_57.png></img>
+    ","null","stimulus","","","","",""
+"","","","","","html-keyboard-response","217","349781","0.0-6.0-2.32","5eecf91f87fdd30e01f700b8","6552129e68c08af5079f912e","6552136462b47178711e6977","null","
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 1vw""> 
+            <font color=""green""> Bonus : $0.8 </font>
+            </div>
+        </div>
+    ","null","","","","","",""
+"","","","","","html-keyboard-response","218","350123","0.0-6.0-3.32","5eecf91f87fdd30e01f700b8","6552129e68c08af5079f912e","6552136462b47178711e6977","341","./stimuli//pack_1/cat_2/ex_2_57.png","arrowright","response","ArrowRight","57","2","true",""
+"","","","","","html-keyboard-response","219","351627","0.0-6.0-4.32","5eecf91f87fdd30e01f700b8","6552129e68c08af5079f912e","6552136462b47178711e6977","null","<p> <font color=""green"" size=""4vw""> Correct category! </font> <br> <br> <font color=""green"" size=""7vw""> + $0.05 </font> </p>","null","feedback","","","","","0.85"
+"","","","","","html-keyboard-response","220","352678","0.0-6.0-0.33","5eecf91f87fdd30e01f700b8","6552129e68c08af5079f912e","6552136462b47178711e6977","1051","
+            
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 1vw""> 
+            <font color=""green""> Bonus : $0.85 </font>
+            </div>
+        </div>
+    
+            <div> Please press any button to continue to the next trial.</div>
+        "," ","ITI","","","","",""
+"","","","","","html-keyboard-response","221","353288","0.0-6.0-1.33","5eecf91f87fdd30e01f700b8","6552129e68c08af5079f912e","6552136462b47178711e6977","null","
+        
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 1vw""> 
+            <font color=""green""> Bonus : $0.85 </font>
+            </div>
+        </div>
+    
+        <img class=""stim"" src=./stimuli//pack_1/cat_2/ex_2_16.png></img>
+    ","null","stimulus","","","","",""
+"","","","","","html-keyboard-response","222","354291","0.0-6.0-2.33","5eecf91f87fdd30e01f700b8","6552129e68c08af5079f912e","6552136462b47178711e6977","null","
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 1vw""> 
+            <font color=""green""> Bonus : $0.85 </font>
+            </div>
+        </div>
+    ","null","","","","","",""
+"","","","","","html-keyboard-response","223","354643","0.0-6.0-3.33","5eecf91f87fdd30e01f700b8","6552129e68c08af5079f912e","6552136462b47178711e6977","351","./stimuli//pack_1/cat_2/ex_2_16.png","arrowright","response","ArrowRight","16","2","true",""
+"","","","","","html-keyboard-response","224","356153","0.0-6.0-4.33","5eecf91f87fdd30e01f700b8","6552129e68c08af5079f912e","6552136462b47178711e6977","null","<p> <font color=""green"" size=""4vw""> Correct category! </font> <br> <br> <font color=""green"" size=""7vw""> + $0.05 </font> </p>","null","feedback","","","","","0.9"
+"","","","","","html-keyboard-response","225","356511","0.0-6.0-0.34","5eecf91f87fdd30e01f700b8","6552129e68c08af5079f912e","6552136462b47178711e6977","357","
+            
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 1vw""> 
+            <font color=""green""> Bonus : $0.9 </font>
+            </div>
+        </div>
+    
+            <div> Please press any button to continue to the next trial.</div>
+        "," ","ITI","","","","",""
+"","","","","","html-keyboard-response","226","357126","0.0-6.0-1.34","5eecf91f87fdd30e01f700b8","6552129e68c08af5079f912e","6552136462b47178711e6977","null","
+        
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 1vw""> 
+            <font color=""green""> Bonus : $0.9 </font>
+            </div>
+        </div>
+    
+        <img class=""stim"" src=./stimuli//pack_1/cat_2/ex_2_21.png></img>
+    ","null","stimulus","","","","",""
+"","","","","","html-keyboard-response","227","358140","0.0-6.0-2.34","5eecf91f87fdd30e01f700b8","6552129e68c08af5079f912e","6552136462b47178711e6977","null","
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 1vw""> 
+            <font color=""green""> Bonus : $0.9 </font>
+            </div>
+        </div>
+    ","null","","","","","",""
+"","","","","","html-keyboard-response","228","358431","0.0-6.0-3.34","5eecf91f87fdd30e01f700b8","6552129e68c08af5079f912e","6552136462b47178711e6977","291","./stimuli//pack_1/cat_2/ex_2_21.png","arrowright","response","ArrowRight","21","2","true",""
+"","","","","","html-keyboard-response","229","359935","0.0-6.0-4.34","5eecf91f87fdd30e01f700b8","6552129e68c08af5079f912e","6552136462b47178711e6977","null","<p> <font color=""green"" size=""4vw""> Correct category! </font> <br> <br> <font color=""green"" size=""7vw""> + $0.05 </font> </p>","null","feedback","","","","","0.95"
+"","","","","","html-keyboard-response","230","360317","0.0-6.0-0.35","5eecf91f87fdd30e01f700b8","6552129e68c08af5079f912e","6552136462b47178711e6977","382","
+            
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 1vw""> 
+            <font color=""green""> Bonus : $0.95 </font>
+            </div>
+        </div>
+    
+            <div> Please press any button to continue to the next trial.</div>
+        "," ","ITI","","","","",""
+"","","","","","html-keyboard-response","231","360924","0.0-6.0-1.35","5eecf91f87fdd30e01f700b8","6552129e68c08af5079f912e","6552136462b47178711e6977","null","
+        
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 1vw""> 
+            <font color=""green""> Bonus : $0.95 </font>
+            </div>
+        </div>
+    
+        <img class=""stim"" src=./stimuli//pack_1/cat_1/ex_1_67.png></img>
+    ","null","stimulus","","","","",""
+"","","","","","html-keyboard-response","232","361926","0.0-6.0-2.35","5eecf91f87fdd30e01f700b8","6552129e68c08af5079f912e","6552136462b47178711e6977","null","
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 1vw""> 
+            <font color=""green""> Bonus : $0.95 </font>
+            </div>
+        </div>
+    ","null","","","","","",""
+"","","","","","html-keyboard-response","233","362167","0.0-6.0-3.35","5eecf91f87fdd30e01f700b8","6552129e68c08af5079f912e","6552136462b47178711e6977","240","./stimuli//pack_1/cat_1/ex_1_67.png","arrowright","response","ArrowLeft","67","1","false",""
+"","","","","","html-keyboard-response","234","363682","0.0-6.0-4.35","5eecf91f87fdd30e01f700b8","6552129e68c08af5079f912e","6552136462b47178711e6977","null","<p> <font color=""red"" size=""4vw""> Wrong category! </font> </p>","null","feedback","","","","","0.95"
+"","","","","","html-keyboard-response","235","364033","0.0-6.0-0.36","5eecf91f87fdd30e01f700b8","6552129e68c08af5079f912e","6552136462b47178711e6977","351","
+            
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 1vw""> 
+            <font color=""green""> Bonus : $0.95 </font>
+            </div>
+        </div>
+    
+            <div> Please press any button to continue to the next trial.</div>
+        "," ","ITI","","","","",""
+"","","","","","html-keyboard-response","236","364644","0.0-6.0-1.36","5eecf91f87fdd30e01f700b8","6552129e68c08af5079f912e","6552136462b47178711e6977","null","
+        
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 1vw""> 
+            <font color=""green""> Bonus : $0.95 </font>
+            </div>
+        </div>
+    
+        <img class=""stim"" src=./stimuli//pack_1/cat_1/ex_1_88.png></img>
+    ","null","stimulus","","","","",""
+"","","","","","html-keyboard-response","237","365653","0.0-6.0-2.36","5eecf91f87fdd30e01f700b8","6552129e68c08af5079f912e","6552136462b47178711e6977","null","
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 1vw""> 
+            <font color=""green""> Bonus : $0.95 </font>
+            </div>
+        </div>
+    ","null","","","","","",""
+"","","","","","html-keyboard-response","238","366083","0.0-6.0-3.36","5eecf91f87fdd30e01f700b8","6552129e68c08af5079f912e","6552136462b47178711e6977","429","./stimuli//pack_1/cat_1/ex_1_88.png","arrowleft","response","ArrowLeft","88","1","true",""
+"","","","","","html-keyboard-response","239","367585","0.0-6.0-4.36","5eecf91f87fdd30e01f700b8","6552129e68c08af5079f912e","6552136462b47178711e6977","null","<p> <font color=""green"" size=""4vw""> Correct category! </font> <br> <br> <font color=""green"" size=""7vw""> + $0.05 </font> </p>","null","feedback","","","","","1"
+"","","","","","html-keyboard-response","240","367899","0.0-6.0-0.37","5eecf91f87fdd30e01f700b8","6552129e68c08af5079f912e","6552136462b47178711e6977","313","
+            
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 1vw""> 
+            <font color=""green""> Bonus : $1 </font>
+            </div>
+        </div>
+    
+            <div> Please press any button to continue to the next trial.</div>
+        "," ","ITI","","","","",""
+"","","","","","html-keyboard-response","241","368502","0.0-6.0-1.37","5eecf91f87fdd30e01f700b8","6552129e68c08af5079f912e","6552136462b47178711e6977","null","
+        
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 1vw""> 
+            <font color=""green""> Bonus : $1 </font>
+            </div>
+        </div>
+    
+        <img class=""stim"" src=./stimuli//pack_1/cat_1/ex_1_56.png></img>
+    ","null","stimulus","","","","",""
+"","","","","","html-keyboard-response","242","369516","0.0-6.0-2.37","5eecf91f87fdd30e01f700b8","6552129e68c08af5079f912e","6552136462b47178711e6977","null","
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 1vw""> 
+            <font color=""green""> Bonus : $1 </font>
+            </div>
+        </div>
+    ","null","","","","","",""
+"","","","","","html-keyboard-response","243","369802","0.0-6.0-3.37","5eecf91f87fdd30e01f700b8","6552129e68c08af5079f912e","6552136462b47178711e6977","286","./stimuli//pack_1/cat_1/ex_1_56.png","arrowright","response","ArrowLeft","56","1","false",""
+"","","","","","html-keyboard-response","244","371317","0.0-6.0-4.37","5eecf91f87fdd30e01f700b8","6552129e68c08af5079f912e","6552136462b47178711e6977","null","<p> <font color=""red"" size=""4vw""> Wrong category! </font> </p>","null","feedback","","","","","1"
+"","","","","","html-keyboard-response","245","371485","0.0-6.0-0.38","5eecf91f87fdd30e01f700b8","6552129e68c08af5079f912e","6552136462b47178711e6977","168","
+            
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 1vw""> 
+            <font color=""green""> Bonus : $1 </font>
+            </div>
+        </div>
+    
+            <div> Please press any button to continue to the next trial.</div>
+        ","arrowright","ITI","","","","",""
+"","","","","","html-keyboard-response","246","372100","0.0-6.0-1.38","5eecf91f87fdd30e01f700b8","6552129e68c08af5079f912e","6552136462b47178711e6977","null","
+        
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 1vw""> 
+            <font color=""green""> Bonus : $1 </font>
+            </div>
+        </div>
+    
+        <img class=""stim"" src=./stimuli//pack_1/cat_1/ex_1_68.png></img>
+    ","null","stimulus","","","","",""
+"","","","","","html-keyboard-response","247","373103","0.0-6.0-2.38","5eecf91f87fdd30e01f700b8","6552129e68c08af5079f912e","6552136462b47178711e6977","null","
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 1vw""> 
+            <font color=""green""> Bonus : $1 </font>
+            </div>
+        </div>
+    ","null","","","","","",""
+"","","","","","html-keyboard-response","248","373344","0.0-6.0-3.38","5eecf91f87fdd30e01f700b8","6552129e68c08af5079f912e","6552136462b47178711e6977","240","./stimuli//pack_1/cat_1/ex_1_68.png","arrowright","response","ArrowLeft","68","1","false",""
+"","","","","","html-keyboard-response","249","374847","0.0-6.0-4.38","5eecf91f87fdd30e01f700b8","6552129e68c08af5079f912e","6552136462b47178711e6977","null","<p> <font color=""red"" size=""4vw""> Wrong category! </font> </p>","null","feedback","","","","","1"
+"","","","","","html-keyboard-response","250","375198","0.0-6.0-0.39","5eecf91f87fdd30e01f700b8","6552129e68c08af5079f912e","6552136462b47178711e6977","350","
+            
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 1vw""> 
+            <font color=""green""> Bonus : $1 </font>
+            </div>
+        </div>
+    
+            <div> Please press any button to continue to the next trial.</div>
+        "," ","ITI","","","","",""
+"","","","","","html-keyboard-response","251","375800","0.0-6.0-1.39","5eecf91f87fdd30e01f700b8","6552129e68c08af5079f912e","6552136462b47178711e6977","null","
+        
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 1vw""> 
+            <font color=""green""> Bonus : $1 </font>
+            </div>
+        </div>
+    
+        <img class=""stim"" src=./stimuli//pack_1/cat_1/ex_1_4.png></img>
+    ","null","stimulus","","","","",""
+"","","","","","html-keyboard-response","252","376809","0.0-6.0-2.39","5eecf91f87fdd30e01f700b8","6552129e68c08af5079f912e","6552136462b47178711e6977","null","
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 1vw""> 
+            <font color=""green""> Bonus : $1 </font>
+            </div>
+        </div>
+    ","null","","","","","",""
+"","","","","","html-keyboard-response","253","377213","0.0-6.0-3.39","5eecf91f87fdd30e01f700b8","6552129e68c08af5079f912e","6552136462b47178711e6977","403","./stimuli//pack_1/cat_1/ex_1_4.png","arrowleft","response","ArrowLeft","4","1","true",""
+"","","","","","html-keyboard-response","254","378728","0.0-6.0-4.39","5eecf91f87fdd30e01f700b8","6552129e68c08af5079f912e","6552136462b47178711e6977","null","<p> <font color=""green"" size=""4vw""> Correct category! </font> <br> <br> <font color=""green"" size=""7vw""> + $0.05 </font> </p>","null","feedback","","","","","1.05"
+"","","","","","html-keyboard-response","255","379091","0.0-6.0-0.40","5eecf91f87fdd30e01f700b8","6552129e68c08af5079f912e","6552136462b47178711e6977","363","
+            
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 1vw""> 
+            <font color=""green""> Bonus : $1.05 </font>
+            </div>
+        </div>
+    
+            <div> Please press any button to continue to the next trial.</div>
+        "," ","ITI","","","","",""
+"","","","","","html-keyboard-response","256","379697","0.0-6.0-1.40","5eecf91f87fdd30e01f700b8","6552129e68c08af5079f912e","6552136462b47178711e6977","null","
+        
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 1vw""> 
+            <font color=""green""> Bonus : $1.05 </font>
+            </div>
+        </div>
+    
+        <img class=""stim"" src=./stimuli//pack_1/cat_1/ex_1_71.png></img>
+    ","null","stimulus","","","","",""
+"","","","","","html-keyboard-response","257","380704","0.0-6.0-2.40","5eecf91f87fdd30e01f700b8","6552129e68c08af5079f912e","6552136462b47178711e6977","null","
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 1vw""> 
+            <font color=""green""> Bonus : $1.05 </font>
+            </div>
+        </div>
+    ","null","","","","","",""
+"","","","","","html-keyboard-response","258","380951","0.0-6.0-3.40","5eecf91f87fdd30e01f700b8","6552129e68c08af5079f912e","6552136462b47178711e6977","245","./stimuli//pack_1/cat_1/ex_1_71.png","arrowleft","response","ArrowLeft","71","1","true",""
+"","","","","","html-keyboard-response","259","382457","0.0-6.0-4.40","5eecf91f87fdd30e01f700b8","6552129e68c08af5079f912e","6552136462b47178711e6977","null","<p> <font color=""green"" size=""4vw""> Correct category! </font> <br> <br> <font color=""green"" size=""7vw""> + $0.05 </font> </p>","null","feedback","","","","","1.1"
+"","","","","","html-keyboard-response","260","383265","0.0-6.0-0.41","5eecf91f87fdd30e01f700b8","6552129e68c08af5079f912e","6552136462b47178711e6977","807","
+            
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 1vw""> 
+            <font color=""green""> Bonus : $1.1 </font>
+            </div>
+        </div>
+    
+            <div> Please press any button to continue to the next trial.</div>
+        "," ","ITI","","","","",""
+"","","","","","html-keyboard-response","261","383875","0.0-6.0-1.41","5eecf91f87fdd30e01f700b8","6552129e68c08af5079f912e","6552136462b47178711e6977","null","
+        
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 1vw""> 
+            <font color=""green""> Bonus : $1.1 </font>
+            </div>
+        </div>
+    
+        <img class=""stim"" src=./stimuli//pack_1/cat_1/ex_1_26.png></img>
+    ","null","stimulus","","","","",""
+"","","","","","html-keyboard-response","262","384888","0.0-6.0-2.41","5eecf91f87fdd30e01f700b8","6552129e68c08af5079f912e","6552136462b47178711e6977","null","
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 1vw""> 
+            <font color=""green""> Bonus : $1.1 </font>
+            </div>
+        </div>
+    ","null","","","","","",""
+"","","","","","html-keyboard-response","263","385157","0.0-6.0-3.41","5eecf91f87fdd30e01f700b8","6552129e68c08af5079f912e","6552136462b47178711e6977","268","./stimuli//pack_1/cat_1/ex_1_26.png","arrowleft","response","ArrowLeft","26","1","true",""
+"","","","","","html-keyboard-response","264","386659","0.0-6.0-4.41","5eecf91f87fdd30e01f700b8","6552129e68c08af5079f912e","6552136462b47178711e6977","null","<p> <font color=""green"" size=""4vw""> Correct category! </font> <br> <br> <font color=""green"" size=""7vw""> + $0.05 </font> </p>","null","feedback","","","","","1.15"
+"","","","","","html-keyboard-response","265","387200","0.0-6.0-0.42","5eecf91f87fdd30e01f700b8","6552129e68c08af5079f912e","6552136462b47178711e6977","541","
+            
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 1vw""> 
+            <font color=""green""> Bonus : $1.15 </font>
+            </div>
+        </div>
+    
+            <div> Please press any button to continue to the next trial.</div>
+        "," ","ITI","","","","",""
+"","","","","","html-keyboard-response","266","387808","0.0-6.0-1.42","5eecf91f87fdd30e01f700b8","6552129e68c08af5079f912e","6552136462b47178711e6977","null","
+        
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 1vw""> 
+            <font color=""green""> Bonus : $1.15 </font>
+            </div>
+        </div>
+    
+        <img class=""stim"" src=./stimuli//pack_1/cat_1/ex_1_48.png></img>
+    ","null","stimulus","","","","",""
+"","","","","","html-keyboard-response","267","388816","0.0-6.0-2.42","5eecf91f87fdd30e01f700b8","6552129e68c08af5079f912e","6552136462b47178711e6977","null","
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 1vw""> 
+            <font color=""green""> Bonus : $1.15 </font>
+            </div>
+        </div>
+    ","null","","","","","",""
+"","","","","","html-keyboard-response","268","389040","0.0-6.0-3.42","5eecf91f87fdd30e01f700b8","6552129e68c08af5079f912e","6552136462b47178711e6977","223","./stimuli//pack_1/cat_1/ex_1_48.png","arrowleft","response","ArrowLeft","48","1","true",""
+"","","","","","html-keyboard-response","269","390553","0.0-6.0-4.42","5eecf91f87fdd30e01f700b8","6552129e68c08af5079f912e","6552136462b47178711e6977","null","<p> <font color=""green"" size=""4vw""> Correct category! </font> <br> <br> <font color=""green"" size=""7vw""> + $0.05 </font> </p>","null","feedback","","","","","1.2"
+"","","","","","html-keyboard-response","270","390868","0.0-6.0-0.43","5eecf91f87fdd30e01f700b8","6552129e68c08af5079f912e","6552136462b47178711e6977","315","
+            
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 1vw""> 
+            <font color=""green""> Bonus : $1.2 </font>
+            </div>
+        </div>
+    
+            <div> Please press any button to continue to the next trial.</div>
+        "," ","ITI","","","","",""
+"","","","","","html-keyboard-response","271","391476","0.0-6.0-1.43","5eecf91f87fdd30e01f700b8","6552129e68c08af5079f912e","6552136462b47178711e6977","null","
+        
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 1vw""> 
+            <font color=""green""> Bonus : $1.2 </font>
+            </div>
+        </div>
+    
+        <img class=""stim"" src=./stimuli//pack_1/cat_2/ex_2_69.png></img>
+    ","null","stimulus","","","","",""
+"","","","","","html-keyboard-response","272","392482","0.0-6.0-2.43","5eecf91f87fdd30e01f700b8","6552129e68c08af5079f912e","6552136462b47178711e6977","null","
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 1vw""> 
+            <font color=""green""> Bonus : $1.2 </font>
+            </div>
+        </div>
+    ","null","","","","","",""
+"","","","","","html-keyboard-response","273","392827","0.0-6.0-3.43","5eecf91f87fdd30e01f700b8","6552129e68c08af5079f912e","6552136462b47178711e6977","344","./stimuli//pack_1/cat_2/ex_2_69.png","arrowright","response","ArrowRight","69","2","true",""
+"","","","","","html-keyboard-response","274","394330","0.0-6.0-4.43","5eecf91f87fdd30e01f700b8","6552129e68c08af5079f912e","6552136462b47178711e6977","null","<p> <font color=""green"" size=""4vw""> Correct category! </font> <br> <br> <font color=""green"" size=""7vw""> + $0.05 </font> </p>","null","feedback","","","","","1.25"
+"","","","","","html-keyboard-response","275","395029","0.0-6.0-0.44","5eecf91f87fdd30e01f700b8","6552129e68c08af5079f912e","6552136462b47178711e6977","699","
+            
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 1vw""> 
+            <font color=""green""> Bonus : $1.25 </font>
+            </div>
+        </div>
+    
+            <div> Please press any button to continue to the next trial.</div>
+        "," ","ITI","","","","",""
+"","","","","","html-keyboard-response","276","395638","0.0-6.0-1.44","5eecf91f87fdd30e01f700b8","6552129e68c08af5079f912e","6552136462b47178711e6977","null","
+        
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 1vw""> 
+            <font color=""green""> Bonus : $1.25 </font>
+            </div>
+        </div>
+    
+        <img class=""stim"" src=./stimuli//pack_1/cat_1/ex_1_42.png></img>
+    ","null","stimulus","","","","",""
+"","","","","","html-keyboard-response","277","396648","0.0-6.0-2.44","5eecf91f87fdd30e01f700b8","6552129e68c08af5079f912e","6552136462b47178711e6977","null","
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 1vw""> 
+            <font color=""green""> Bonus : $1.25 </font>
+            </div>
+        </div>
+    ","null","","","","","",""
+"","","","","","html-keyboard-response","278","396896","0.0-6.0-3.44","5eecf91f87fdd30e01f700b8","6552129e68c08af5079f912e","6552136462b47178711e6977","248","./stimuli//pack_1/cat_1/ex_1_42.png","arrowleft","response","ArrowLeft","42","1","true",""
+"","","","","","html-keyboard-response","279","398410","0.0-6.0-4.44","5eecf91f87fdd30e01f700b8","6552129e68c08af5079f912e","6552136462b47178711e6977","null","<p> <font color=""green"" size=""4vw""> Correct category! </font> <br> <br> <font color=""green"" size=""7vw""> + $0.05 </font> </p>","null","feedback","","","","","1.3"
+"","","","","","html-keyboard-response","280","398879","0.0-6.0-0.45","5eecf91f87fdd30e01f700b8","6552129e68c08af5079f912e","6552136462b47178711e6977","469","
+            
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 1vw""> 
+            <font color=""green""> Bonus : $1.3 </font>
+            </div>
+        </div>
+    
+            <div> Please press any button to continue to the next trial.</div>
+        "," ","ITI","","","","",""
+"","","","","","html-keyboard-response","281","399489","0.0-6.0-1.45","5eecf91f87fdd30e01f700b8","6552129e68c08af5079f912e","6552136462b47178711e6977","null","
+        
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 1vw""> 
+            <font color=""green""> Bonus : $1.3 </font>
+            </div>
+        </div>
+    
+        <img class=""stim"" src=./stimuli//pack_1/cat_2/ex_2_49.png></img>
+    ","null","stimulus","","","","",""
+"","","","","","html-keyboard-response","282","400491","0.0-6.0-2.45","5eecf91f87fdd30e01f700b8","6552129e68c08af5079f912e","6552136462b47178711e6977","null","
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 1vw""> 
+            <font color=""green""> Bonus : $1.3 </font>
+            </div>
+        </div>
+    ","null","","","","","",""
+"","","","","","html-keyboard-response","283","400877","0.0-6.0-3.45","5eecf91f87fdd30e01f700b8","6552129e68c08af5079f912e","6552136462b47178711e6977","385","./stimuli//pack_1/cat_2/ex_2_49.png","arrowleft","response","ArrowRight","49","2","false",""
+"","","","","","html-keyboard-response","284","402381","0.0-6.0-4.45","5eecf91f87fdd30e01f700b8","6552129e68c08af5079f912e","6552136462b47178711e6977","null","<p> <font color=""red"" size=""4vw""> Wrong category! </font> </p>","null","feedback","","","","","1.3"
+"","","","","","html-keyboard-response","285","402690","0.0-6.0-0.46","5eecf91f87fdd30e01f700b8","6552129e68c08af5079f912e","6552136462b47178711e6977","309","
+            
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 1vw""> 
+            <font color=""green""> Bonus : $1.3 </font>
+            </div>
+        </div>
+    
+            <div> Please press any button to continue to the next trial.</div>
+        "," ","ITI","","","","",""
+"","","","","","html-keyboard-response","286","403302","0.0-6.0-1.46","5eecf91f87fdd30e01f700b8","6552129e68c08af5079f912e","6552136462b47178711e6977","null","
+        
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 1vw""> 
+            <font color=""green""> Bonus : $1.3 </font>
+            </div>
+        </div>
+    
+        <img class=""stim"" src=./stimuli//pack_1/cat_2/ex_2_24.png></img>
+    ","null","stimulus","","","","",""
+"","","","","","html-keyboard-response","287","404306","0.0-6.0-2.46","5eecf91f87fdd30e01f700b8","6552129e68c08af5079f912e","6552136462b47178711e6977","null","
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 1vw""> 
+            <font color=""green""> Bonus : $1.3 </font>
+            </div>
+        </div>
+    ","null","","","","","",""
+"","","","","","html-keyboard-response","288","404528","0.0-6.0-3.46","5eecf91f87fdd30e01f700b8","6552129e68c08af5079f912e","6552136462b47178711e6977","221","./stimuli//pack_1/cat_2/ex_2_24.png","arrowright","response","ArrowRight","24","2","true",""
+"","","","","","html-keyboard-response","289","406043","0.0-6.0-4.46","5eecf91f87fdd30e01f700b8","6552129e68c08af5079f912e","6552136462b47178711e6977","null","<p> <font color=""green"" size=""4vw""> Correct category! </font> <br> <br> <font color=""green"" size=""7vw""> + $0.05 </font> </p>","null","feedback","","","","","1.35"
+"","","","","","html-keyboard-response","290","406519","0.0-6.0-0.47","5eecf91f87fdd30e01f700b8","6552129e68c08af5079f912e","6552136462b47178711e6977","475","
+            
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 1vw""> 
+            <font color=""green""> Bonus : $1.35 </font>
+            </div>
+        </div>
+    
+            <div> Please press any button to continue to the next trial.</div>
+        "," ","ITI","","","","",""
+"","","","","","html-keyboard-response","291","407122","0.0-6.0-1.47","5eecf91f87fdd30e01f700b8","6552129e68c08af5079f912e","6552136462b47178711e6977","null","
+        
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 1vw""> 
+            <font color=""green""> Bonus : $1.35 </font>
+            </div>
+        </div>
+    
+        <img class=""stim"" src=./stimuli//pack_1/cat_1/ex_1_74.png></img>
+    ","null","stimulus","","","","",""
+"","","","","","html-keyboard-response","292","408126","0.0-6.0-2.47","5eecf91f87fdd30e01f700b8","6552129e68c08af5079f912e","6552136462b47178711e6977","null","
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 1vw""> 
+            <font color=""green""> Bonus : $1.35 </font>
+            </div>
+        </div>
+    ","null","","","","","",""
+"","","","","","html-keyboard-response","293","408444","0.0-6.0-3.47","5eecf91f87fdd30e01f700b8","6552129e68c08af5079f912e","6552136462b47178711e6977","318","./stimuli//pack_1/cat_1/ex_1_74.png","arrowleft","response","ArrowLeft","74","1","true",""
+"","","","","","html-keyboard-response","294","409946","0.0-6.0-4.47","5eecf91f87fdd30e01f700b8","6552129e68c08af5079f912e","6552136462b47178711e6977","null","<p> <font color=""green"" size=""4vw""> Correct category! </font> <br> <br> <font color=""green"" size=""7vw""> + $0.05 </font> </p>","null","feedback","","","","","1.4"
+"","","","","","html-keyboard-response","295","410320","0.0-6.0-0.48","5eecf91f87fdd30e01f700b8","6552129e68c08af5079f912e","6552136462b47178711e6977","374","
+            
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 1vw""> 
+            <font color=""green""> Bonus : $1.4 </font>
+            </div>
+        </div>
+    
+            <div> Please press any button to continue to the next trial.</div>
+        "," ","ITI","","","","",""
+"","","","","","html-keyboard-response","296","410934","0.0-6.0-1.48","5eecf91f87fdd30e01f700b8","6552129e68c08af5079f912e","6552136462b47178711e6977","null","
+        
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 1vw""> 
+            <font color=""green""> Bonus : $1.4 </font>
+            </div>
+        </div>
+    
+        <img class=""stim"" src=./stimuli//pack_1/cat_2/ex_2_55.png></img>
+    ","null","stimulus","","","","",""
+"","","","","","html-keyboard-response","297","411945","0.0-6.0-2.48","5eecf91f87fdd30e01f700b8","6552129e68c08af5079f912e","6552136462b47178711e6977","null","
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 1vw""> 
+            <font color=""green""> Bonus : $1.4 </font>
+            </div>
+        </div>
+    ","null","","","","","",""
+"","","","","","html-keyboard-response","298","412132","0.0-6.0-3.48","5eecf91f87fdd30e01f700b8","6552129e68c08af5079f912e","6552136462b47178711e6977","186","./stimuli//pack_1/cat_2/ex_2_55.png","arrowright","response","ArrowRight","55","2","true",""
+"","","","","","html-keyboard-response","299","413647","0.0-6.0-4.48","5eecf91f87fdd30e01f700b8","6552129e68c08af5079f912e","6552136462b47178711e6977","null","<p> <font color=""green"" size=""4vw""> Correct category! </font> <br> <br> <font color=""green"" size=""7vw""> + $0.05 </font> </p>","null","feedback","","","","","1.45"
+"","","","","","html-keyboard-response","300","414004","0.0-6.0-0.49","5eecf91f87fdd30e01f700b8","6552129e68c08af5079f912e","6552136462b47178711e6977","356","
+            
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 1vw""> 
+            <font color=""green""> Bonus : $1.45 </font>
+            </div>
+        </div>
+    
+            <div> Please press any button to continue to the next trial.</div>
+        "," ","ITI","","","","",""
+"","","","","","html-keyboard-response","301","414615","0.0-6.0-1.49","5eecf91f87fdd30e01f700b8","6552129e68c08af5079f912e","6552136462b47178711e6977","null","
+        
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 1vw""> 
+            <font color=""green""> Bonus : $1.45 </font>
+            </div>
+        </div>
+    
+        <img class=""stim"" src=./stimuli//pack_1/cat_1/ex_1_84.png></img>
+    ","null","stimulus","","","","",""
+"","","","","","html-keyboard-response","302","415624","0.0-6.0-2.49","5eecf91f87fdd30e01f700b8","6552129e68c08af5079f912e","6552136462b47178711e6977","null","
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 1vw""> 
+            <font color=""green""> Bonus : $1.45 </font>
+            </div>
+        </div>
+    ","null","","","","","",""
+"","","","","","html-keyboard-response","303","415864","0.0-6.0-3.49","5eecf91f87fdd30e01f700b8","6552129e68c08af5079f912e","6552136462b47178711e6977","240","./stimuli//pack_1/cat_1/ex_1_84.png","arrowleft","response","ArrowLeft","84","1","true",""
+"","","","","","html-keyboard-response","304","417376","0.0-6.0-4.49","5eecf91f87fdd30e01f700b8","6552129e68c08af5079f912e","6552136462b47178711e6977","null","<p> <font color=""green"" size=""4vw""> Correct category! </font> <br> <br> <font color=""green"" size=""7vw""> + $0.05 </font> </p>","null","feedback","","","","","1.5"
+"","","","","","html-keyboard-response","305","417783","0.0-6.0-0.50","5eecf91f87fdd30e01f700b8","6552129e68c08af5079f912e","6552136462b47178711e6977","406","
+            
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 1vw""> 
+            <font color=""green""> Bonus : $1.5 </font>
+            </div>
+        </div>
+    
+            <div> Please press any button to continue to the next trial.</div>
+        "," ","ITI","","","","",""
+"","","","","","html-keyboard-response","306","418395","0.0-6.0-1.50","5eecf91f87fdd30e01f700b8","6552129e68c08af5079f912e","6552136462b47178711e6977","null","
+        
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 1vw""> 
+            <font color=""green""> Bonus : $1.5 </font>
+            </div>
+        </div>
+    
+        <img class=""stim"" src=./stimuli//pack_1/cat_1/ex_1_30.png></img>
+    ","null","stimulus","","","","",""
+"","","","","","html-keyboard-response","307","419406","0.0-6.0-2.50","5eecf91f87fdd30e01f700b8","6552129e68c08af5079f912e","6552136462b47178711e6977","null","
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 1vw""> 
+            <font color=""green""> Bonus : $1.5 </font>
+            </div>
+        </div>
+    ","null","","","","","",""
+"","","","","","html-keyboard-response","308","419612","0.0-6.0-3.50","5eecf91f87fdd30e01f700b8","6552129e68c08af5079f912e","6552136462b47178711e6977","206","./stimuli//pack_1/cat_1/ex_1_30.png","arrowright","response","ArrowLeft","30","1","false",""
+"","","","","","html-keyboard-response","309","421118","0.0-6.0-4.50","5eecf91f87fdd30e01f700b8","6552129e68c08af5079f912e","6552136462b47178711e6977","null","<p> <font color=""red"" size=""4vw""> Wrong category! </font> </p>","null","feedback","","","","","1.5"
+"","","","","","html-keyboard-response","310","421547","0.0-6.0-0.51","5eecf91f87fdd30e01f700b8","6552129e68c08af5079f912e","6552136462b47178711e6977","429","
+            
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 1vw""> 
+            <font color=""green""> Bonus : $1.5 </font>
+            </div>
+        </div>
+    
+            <div> Please press any button to continue to the next trial.</div>
+        "," ","ITI","","","","",""
+"","","","","","html-keyboard-response","311","422159","0.0-6.0-1.51","5eecf91f87fdd30e01f700b8","6552129e68c08af5079f912e","6552136462b47178711e6977","null","
+        
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 1vw""> 
+            <font color=""green""> Bonus : $1.5 </font>
+            </div>
+        </div>
+    
+        <img class=""stim"" src=./stimuli//pack_1/cat_2/ex_2_10.png></img>
+    ","null","stimulus","","","","",""
+"","","","","","html-keyboard-response","312","423169","0.0-6.0-2.51","5eecf91f87fdd30e01f700b8","6552129e68c08af5079f912e","6552136462b47178711e6977","null","
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 1vw""> 
+            <font color=""green""> Bonus : $1.5 </font>
+            </div>
+        </div>
+    ","null","","","","","",""
+"","","","","","html-keyboard-response","313","423415","0.0-6.0-3.51","5eecf91f87fdd30e01f700b8","6552129e68c08af5079f912e","6552136462b47178711e6977","245","./stimuli//pack_1/cat_2/ex_2_10.png","arrowright","response","ArrowRight","10","2","true",""
+"","","","","","html-keyboard-response","314","424921","0.0-6.0-4.51","5eecf91f87fdd30e01f700b8","6552129e68c08af5079f912e","6552136462b47178711e6977","null","<p> <font color=""green"" size=""4vw""> Correct category! </font> <br> <br> <font color=""green"" size=""7vw""> + $0.05 </font> </p>","null","feedback","","","","","1.55"
+"","","","","","html-keyboard-response","315","425257","0.0-6.0-0.52","5eecf91f87fdd30e01f700b8","6552129e68c08af5079f912e","6552136462b47178711e6977","336","
+            
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 1vw""> 
+            <font color=""green""> Bonus : $1.55 </font>
+            </div>
+        </div>
+    
+            <div> Please press any button to continue to the next trial.</div>
+        "," ","ITI","","","","",""
+"","","","","","html-keyboard-response","316","425868","0.0-6.0-1.52","5eecf91f87fdd30e01f700b8","6552129e68c08af5079f912e","6552136462b47178711e6977","null","
+        
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 1vw""> 
+            <font color=""green""> Bonus : $1.55 </font>
+            </div>
+        </div>
+    
+        <img class=""stim"" src=./stimuli//pack_1/cat_2/ex_2_80.png></img>
+    ","null","stimulus","","","","",""
+"","","","","","html-keyboard-response","317","426878","0.0-6.0-2.52","5eecf91f87fdd30e01f700b8","6552129e68c08af5079f912e","6552136462b47178711e6977","null","
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 1vw""> 
+            <font color=""green""> Bonus : $1.55 </font>
+            </div>
+        </div>
+    ","null","","","","","",""
+"","","","","","html-keyboard-response","318","427227","0.0-6.0-3.52","5eecf91f87fdd30e01f700b8","6552129e68c08af5079f912e","6552136462b47178711e6977","348","./stimuli//pack_1/cat_2/ex_2_80.png","arrowright","response","ArrowRight","80","2","true",""
+"","","","","","html-keyboard-response","319","428733","0.0-6.0-4.52","5eecf91f87fdd30e01f700b8","6552129e68c08af5079f912e","6552136462b47178711e6977","null","<p> <font color=""green"" size=""4vw""> Correct category! </font> <br> <br> <font color=""green"" size=""7vw""> + $0.05 </font> </p>","null","feedback","","","","","1.6"
+"","","","","","html-keyboard-response","320","429233","0.0-6.0-0.53","5eecf91f87fdd30e01f700b8","6552129e68c08af5079f912e","6552136462b47178711e6977","500","
+            
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 1vw""> 
+            <font color=""green""> Bonus : $1.6 </font>
+            </div>
+        </div>
+    
+            <div> Please press any button to continue to the next trial.</div>
+        "," ","ITI","","","","",""
+"","","","","","html-keyboard-response","321","429841","0.0-6.0-1.53","5eecf91f87fdd30e01f700b8","6552129e68c08af5079f912e","6552136462b47178711e6977","null","
+        
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 1vw""> 
+            <font color=""green""> Bonus : $1.6 </font>
+            </div>
+        </div>
+    
+        <img class=""stim"" src=./stimuli//pack_1/cat_2/ex_2_51.png></img>
+    ","null","stimulus","","","","",""
+"","","","","","html-keyboard-response","322","430847","0.0-6.0-2.53","5eecf91f87fdd30e01f700b8","6552129e68c08af5079f912e","6552136462b47178711e6977","null","
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 1vw""> 
+            <font color=""green""> Bonus : $1.6 </font>
+            </div>
+        </div>
+    ","null","","","","","",""
+"","","","","","html-keyboard-response","323","431132","0.0-6.0-3.53","5eecf91f87fdd30e01f700b8","6552129e68c08af5079f912e","6552136462b47178711e6977","284","./stimuli//pack_1/cat_2/ex_2_51.png","arrowright","response","ArrowRight","51","2","true",""
+"","","","","","html-keyboard-response","324","432637","0.0-6.0-4.53","5eecf91f87fdd30e01f700b8","6552129e68c08af5079f912e","6552136462b47178711e6977","null","<p> <font color=""green"" size=""4vw""> Correct category! </font> <br> <br> <font color=""green"" size=""7vw""> + $0.05 </font> </p>","null","feedback","","","","","1.65"
+"","","","","","html-keyboard-response","325","433684","0.0-6.0-0.54","5eecf91f87fdd30e01f700b8","6552129e68c08af5079f912e","6552136462b47178711e6977","1047","
+            
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 1vw""> 
+            <font color=""green""> Bonus : $1.65 </font>
+            </div>
+        </div>
+    
+            <div> Please press any button to continue to the next trial.</div>
+        "," ","ITI","","","","",""
+"","","","","","html-keyboard-response","326","434297","0.0-6.0-1.54","5eecf91f87fdd30e01f700b8","6552129e68c08af5079f912e","6552136462b47178711e6977","null","
+        
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 1vw""> 
+            <font color=""green""> Bonus : $1.65 </font>
+            </div>
+        </div>
+    
+        <img class=""stim"" src=./stimuli//pack_1/cat_1/ex_1_54.png></img>
+    ","null","stimulus","","","","",""
+"","","","","","html-keyboard-response","327","435305","0.0-6.0-2.54","5eecf91f87fdd30e01f700b8","6552129e68c08af5079f912e","6552136462b47178711e6977","null","
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 1vw""> 
+            <font color=""green""> Bonus : $1.65 </font>
+            </div>
+        </div>
+    ","null","","","","","",""
+"","","","","","html-keyboard-response","328","435701","0.0-6.0-3.54","5eecf91f87fdd30e01f700b8","6552129e68c08af5079f912e","6552136462b47178711e6977","396","./stimuli//pack_1/cat_1/ex_1_54.png","arrowright","response","ArrowLeft","54","1","false",""
+"","","","","","html-keyboard-response","329","437216","0.0-6.0-4.54","5eecf91f87fdd30e01f700b8","6552129e68c08af5079f912e","6552136462b47178711e6977","null","<p> <font color=""red"" size=""4vw""> Wrong category! </font> </p>","null","feedback","","","","","1.65"
+"","","","","","html-keyboard-response","330","599370","0.0-6.0-0.55","5eecf91f87fdd30e01f700b8","6552129e68c08af5079f912e","6552136462b47178711e6977","","","","ITI","","","","",""
