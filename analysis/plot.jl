@@ -289,6 +289,7 @@ function plot_block_trials(df, N_blocks; name, save_plot=false)
         ylabel = "Number of block trials",
         xticks = (xs, vcat("Train", string.(1:N_blocks)))
     )
+    ylims!(ax, 0, 25)
 
     for i in eachindex(IDs)
         acc = N[i, :]

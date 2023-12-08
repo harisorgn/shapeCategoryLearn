@@ -1,11 +1,16 @@
 import shutil
 import os
+import functools
 
 import numpy as np
 from scipy.spatial import distance_matrix
 import imageio.v3 as iio
 import imageio.v2 as iiov2
 from pygifsicle import optimize
+
+import matplotlib.pyplot as plt
+from matplotlib.patches import Polygon
+import matplotlib.animation as animation
 
 def category_ranges(N_stim, N_categories):
     cat_bounds = np.linspace(0, N_stim, N_categories + 1, dtype='i') 
@@ -80,3 +85,81 @@ def write_shape_gif(shape_ID, prototype_ID, diff_level, category_ID, path_src, p
 
     iio.imwrite(filename, frames, duration=150)
     optimize(filename)
+
+def get_shape(S, ID):
+    return S[0, ID][0]
+
+def animate(frame, polygon):
+    polygon.set_xy(frame)
+
+    return polygon
+
+def shape_gif(S, shape_ID, prototype_ID, diff_level, category_ID, path_dest, duration=4, fps=15):
+    N_frames = np.ceil(duration * fps)
+
+    if np.abs(shape_ID - prototype_ID) >= N_frames :
+        sgn = np.sign(prototype_ID - shape_ID)
+
+        shapes = [get_shape(S, i) for i in range(shape_ID, prototype_ID + sgn, sgn)]
+        frames = shapes[::int(np.floor(len(shapes)/N_frames))]
+    else :
+        sgn = np.sign(prototype_ID - shape_ID)
+        shapes = [get_shape(S, i) for i in range(shape_ID, prototype_ID + sgn, sgn)]
+
+        N_interpolated = N_frames - len(shapes)
+        N_intervals = len(shapes) - 1
+        N_interpolated_per_interval = int(np.ceil(N_interpolated / N_intervals))
+
+        N_remaining = N_interpolated
+        frames = []
+        for i in range(len(shapes) - 1) :
+            shape = shapes[i]
+            next_shape = shapes[i + 1]
+
+            weights = np.linspace(0, 1, num = min(N_interpolated_per_interval, N_remaining) + 2)
+            weights = weights[1:-2]
+
+            frames.append(shape)
+            N_remaining -= 1
+            for w in weights : 
+                interp_shape = (1-w)*shape + w*next_shape
+                frames.append(interp_shape)
+                N_remaining -= 1
+        frames.append(shapes[-1])
+        N_remaining -= 1
+
+    fig, ax = plt.subplots(figsize=(8,8))
+    fig.subplots_adjust(left=0, bottom=0, right=1, top=1, wspace=None, hspace=None)
+    ax.set_facecolor('black')
+
+    p = Polygon(frames[0], color='white')
+    ax.add_patch(p)
+
+    ani = animation.FuncAnimation(
+        fig=fig, 
+        func=functools.partial(animate, polygon=p), 
+        frames=frames, 
+        interval=1/fps,
+        repeat=False,
+        blit=True
+    )
+
+    os.makedirs(path_dest, exist_ok=True)
+    c = len(os.listdir(path_dest))
+    filename = path_dest + f'ex_{category_ID}_{diff_level}_{c+1}.gif'
+
+    ani.save(filename=filename, writer="pillow", fps=fps)
+    optimize(filename)
+
+def plot_shape(shape):
+    fig, ax = plt.subplots(figsize=(8,8))
+
+    fig.subplots_adjust(left=0, bottom=0, right=1, top=1, wspace=None, hspace=None)
+
+    ax.set_facecolor('black')
+
+    p = Polygon(shape, color='white')
+    ax.add_patch(p)
+
+    plt.show()
+

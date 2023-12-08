@@ -1,5 +1,6 @@
 import numpy as np
 from scipy.spatial import distance_matrix
+import scipy.io as io
 
 from utils import *
 
@@ -18,6 +19,9 @@ path_dest = f'./stimuli/pack_morph_shapes_{shape_set}/'
 
 prototype_IDs = category_prototypes(D, cat_ranges)
 
+name_mat = 'shape_set360'
+SHAPES = io.loadmat(path_src + 'shapes.mat')[name_mat]
+
 for i, r in enumerate(cat_ranges):
     prototype = prototype_IDs[i]
     for ex in r[::2]:
@@ -29,4 +33,4 @@ for i, r in enumerate(cat_ranges):
         dir_dest = path_dest + f'cat_{category_ID}/' + f'diff_{diff_level}/'
 
         if shape_ID != prototype_ID :
-            write_shape_gif(shape_ID, prototype_ID, diff_level, category_ID, path_src, dir_dest)
+            shape_gif(SHAPES, shape_ID, prototype_ID, diff_level, category_ID, dir_dest)
