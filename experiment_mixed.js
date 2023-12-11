@@ -98,7 +98,7 @@ var intro_1 = {
             <p>After you see an image, you will be asked to guess its category <b>(left arrow for category A, right arrow for category B)</b></p>
             <p>After you choose, the screen will show you whether you were correct or not.</p>
             <p><b>You will receive a bonus payment of $0.05 for each correct answer!</b></p>
-            <p><b>You will lose $0.05 from your bonus payment for each incorrect answer! The bonus can not become less that $0.</b></p>
+            <p><b>You will lose $0.05 from your bonus payment for each incorrect answer! The bonus can not become less than $0.</b></p>
             <p>Press any key to continue.</p>
             `,
   data: {task: 'introduction_1'}
