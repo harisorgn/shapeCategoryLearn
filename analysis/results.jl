@@ -34,7 +34,7 @@ function read_data(files, cols)
         df_subj.rt_iti .= RT_ITI[1:nrow(df_subj)]
 
         df_subj.subject_id = string.(df_subj.subject_id)
-        if (omissions(df_subj) / nrow(df_subj) <= 0.1)
+        if (omissions(df_subj) / nrow(df_subj) <= 0.1) && (nrow(df_subj) >= 50)
             append!(df, df_subj)
         end
     end
@@ -67,15 +67,15 @@ cols = [
 
 global const N_training_trials = 10;
 
-task = "SCL_mixed_adaptive"
-dir = joinpath("./", task)
+task = "SCL_morph_adaptive"
+dir = joinpath("./analysis", task)
 
 files = joinpath.(dir, readdir(dir))
 filter!(f -> (last(split(f,'.')) == "csv") || (last(split(f,'.')) == "txt"), files)
 
 df = read_data(files, cols)
 
-XLSX.writetable(string(task, ".xlsx"), df)
+XLSX.writetable(string(dir, ".xlsx"), df)
 
 plot_accuracy(df, 8; save_plot=true, name=task)
 plot_difficulty(df, 8; save_plot=true, name=task)

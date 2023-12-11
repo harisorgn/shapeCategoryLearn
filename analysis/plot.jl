@@ -220,7 +220,7 @@ function plot_rt(df, N_blocks; name, save_plot=false)
         ylabel = "Average RT [sec]",
         xticks = (xs, vcat("Train", string.(1:N_blocks)))
     )
-    ylims!(ax, 0, 1.5)
+    ylims!(ax, 0, 2)
 
     for i in eachindex(IDs)
         acc = RT[i, :]
@@ -255,7 +255,7 @@ function plot_iti(df, N_blocks; name, save_plot=false)
         ylabel = "Average ITI response [sec]",
         xticks = (xs, vcat("Train", string.(1:N_blocks)))
     )
-    ylims!(ax, 0, 4.2)
+    ylims!(ax, 0, 5)
 
     for i in eachindex(IDs)
         acc = RT[i, :]
