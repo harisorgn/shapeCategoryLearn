@@ -66,25 +66,13 @@ def split_diff(SC, N_categories):
 
 def write_shape(shape_ID, diff_level, category_ID, path_src, path_dest):
     os.makedirs(path_dest, exist_ok=True)
-    c = len(os.listdir(path_dest))
+    files = os.listdir(path_dest)
+    c = sum([".png" in f for f in files])
 
     file_src = path_src + f'shape_{shape_ID}.png'
     file_dest =  path_dest + f'ex_{category_ID}_{diff_level}_{c+1}.png'
 
     shutil.copy(file_src, file_dest)
-
-def write_shape_gif(shape_ID, prototype_ID, diff_level, category_ID, path_src, path_dest):
-    s = np.sign(prototype_ID - shape_ID)
-    files_src = [path_src + f'shape_{i}.png' for i in range(shape_ID, prototype_ID + s, s)]
-
-    os.makedirs(path_dest, exist_ok=True)
-    c = len(os.listdir(path_dest))
-
-    frames = np.stack([iio.imread(f) for f in files_src], axis=0)
-    filename =  path_dest + f'ex_{category_ID}_{diff_level}_{c+1}.gif'
-
-    iio.imwrite(filename, frames, duration=150)
-    optimize(filename)
 
 def get_shape(S, ID):
     return S[0, ID][0]
@@ -94,14 +82,15 @@ def animate(frame, polygon):
 
     return polygon
 
-def shape_gif(S, shape_ID, prototype_ID, diff_level, category_ID, path_dest, duration=4, fps=15):
-    N_frames = np.ceil(duration * fps)
+def write_shape_gif(S, shape_ID, prototype_ID, diff_level, category_ID, path_dest, duration=4, fps=15):
+    N_frames = int(np.ceil(duration * fps))
 
     if np.abs(shape_ID - prototype_ID) >= N_frames :
         sgn = np.sign(prototype_ID - shape_ID)
 
-        shapes = [get_shape(S, i) for i in range(shape_ID, prototype_ID + sgn, sgn)]
-        frames = shapes[::int(np.floor(len(shapes)/N_frames))]
+        shapes = np.array([get_shape(S, i) for i in range(shape_ID, prototype_ID + sgn, sgn)])
+        idxs = np.round(np.linspace(0, shapes.shape[0] - 1, N_frames, dtype='int'))
+        frames = shapes[idxs]
     else :
         sgn = np.sign(prototype_ID - shape_ID)
         shapes = [get_shape(S, i) for i in range(shape_ID, prototype_ID + sgn, sgn)]
@@ -109,25 +98,22 @@ def shape_gif(S, shape_ID, prototype_ID, diff_level, category_ID, path_dest, dur
         N_interpolated = N_frames - len(shapes)
         N_intervals = len(shapes) - 1
         N_interpolated_per_interval = int(np.ceil(N_interpolated / N_intervals))
-
+       
         N_remaining = N_interpolated
         frames = []
-        for i in range(len(shapes) - 1) :
+        for i in range(N_intervals) :
             shape = shapes[i]
             next_shape = shapes[i + 1]
 
             weights = np.linspace(0, 1, num = min(N_interpolated_per_interval, N_remaining) + 2)
-            weights = weights[1:-2]
-
+            weights = weights[1:-1]
             frames.append(shape)
-            N_remaining -= 1
             for w in weights : 
                 interp_shape = (1-w)*shape + w*next_shape
                 frames.append(interp_shape)
                 N_remaining -= 1
         frames.append(shapes[-1])
-        N_remaining -= 1
-
+    
     fig, ax = plt.subplots(figsize=(8,8))
     fig.subplots_adjust(left=0, bottom=0, right=1, top=1, wspace=None, hspace=None)
     ax.set_facecolor('black')
@@ -140,15 +126,15 @@ def shape_gif(S, shape_ID, prototype_ID, diff_level, category_ID, path_dest, dur
         func=functools.partial(animate, polygon=p), 
         frames=frames, 
         interval=1/fps,
-        repeat=False,
-        blit=True
+        repeat=False
     )
 
     os.makedirs(path_dest, exist_ok=True)
-    c = len(os.listdir(path_dest))
+    files = os.listdir(path_dest)
+    c = sum([".gif" in f for f in files])
     filename = path_dest + f'ex_{category_ID}_{diff_level}_{c+1}.gif'
 
-    ani.save(filename=filename, writer="pillow", fps=fps)
+    ani.save(filename=filename, writer = "imagemagick", fps=fps, extra_args=["-loop","1"])
     optimize(filename)
 
 def plot_shape(shape):

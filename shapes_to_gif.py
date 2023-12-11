@@ -33,4 +33,4 @@ for i, r in enumerate(cat_ranges):
         dir_dest = path_dest + f'cat_{category_ID}/' + f'diff_{diff_level}/'
 
         if shape_ID != prototype_ID :
-            shape_gif(SHAPES, shape_ID, prototype_ID, diff_level, category_ID, dir_dest)
+            write_shape_gif(SHAPES, shape_ID, prototype_ID, diff_level, category_ID, dir_dest)

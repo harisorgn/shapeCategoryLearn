@@ -8,4 +8,4 @@ name_mat = 'shape_set360'
 
 S = io.loadmat(path_src + 'shapes.mat')
 
-shape_gif(S[name_mat], 190, 180, 1, 1, './')
+write_shape_gif(S[name_mat], 190, 120, 1, 1, './')
