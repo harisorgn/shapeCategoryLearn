@@ -207,7 +207,7 @@ for trial in trial_handler:
     #keys = kb.waitKeys(maxWait=T_choice, keyList=['left', 'right'])
     keys = kb.waitKeys(maxWait=T_choice, keyList=['1','2','3','4','5','6','7','8','9','0'])
 
-    correct = False 
+    correct = 0 
     if not keys:
         feedback.setText(timeout_fdbk_no_bonus)
         response = ""
@@ -220,7 +220,7 @@ for trial in trial_handler:
             print(f'keys[-1].name = {keys[-1].name}')
             print(f"trial['correct_response'] = {trial['correct_response']}")
             feedback.setText(correct_fdbk_no_bonus)
-            correct = True
+            correct = 1
         else:
             print(f'keys[-1].name = {keys[-1].name}')
             print(f"trial['correct_response'] = {trial['correct_response']}")
@@ -261,8 +261,7 @@ intermission.draw()
 win.flip()
 keys = kb.waitKeys()
 
-timer = core.Clock()
-timer.addTime(T_experiment * 60)
+timer = core.CountdownTimer(T_experiment * 60)
 #-------------------
 #----Test trials----
 #-------------------
@@ -304,7 +303,7 @@ while timer.getTime() > 0 :
 
     #keys = kb.waitKeys(maxWait=T_choice, keyList=['left', 'right'])
     keys = kb.waitKeys(maxWait=T_choice, keyList=['1','2','3','4','5','6','7','8','9','0'])
-    correct = False 
+    correct = 0 
     if not keys:
         response = ""
         rt = None
@@ -321,7 +320,7 @@ while timer.getTime() > 0 :
             print(f'keys[-1].name = {keys[-1].name}')
             print(f"trial['correct_response'] = {trial['correct_response']}")
             feedback.setText(correct_fdbk)
-            correct = True
+            correct = 1
             current_score += correct_bonus
         else:
             if current_score >= correct_bonus :
