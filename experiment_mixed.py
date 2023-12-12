@@ -4,12 +4,11 @@ from psychopy.tools.filetools import fromFile, toFile
 import numpy as np
 import random
 import time
-
 import os
 
 core.checkPygletDuringWait = False
 
-win = visual.Window(size=(800, 600), fullscr=True, color=(-1,-1,-1), allowGUI=True, monitor='testMonitor', units='height')
+win = visual.Window(size=(800,600), fullscr=True, color=(-1,-1,-1), allowGUI=True, monitor='testMonitor', units='height')
 
 msg_welcome = visual.TextBox2(
     win, 
@@ -22,12 +21,14 @@ msg_intro_1 = visual.TextBox2(
     win, 
     pos=[0, 0], 
     text="""
-        You will be shown images of white shapes. Some are category A, some are category B. \n
-        You will not know in advance which category a specific shape belongs to. \n
-        After you see an image, you will be asked to guess its category (left arrow for category A, right arrow for category B) \n
-        After you choose, the screen will show you whether you were correct or not. \n
-        You will receive a bonus payment of $0.05 for each correct answer! \n
-        You will lose $0.05 from your bonus payment for each incorrect answer! The bonus can not become less than $0. \n
+        You will be shown white shapes.\nSome belong to category A, some to category B.\n
+        You will not know in advance which category a specific shape belongs to.\n
+        After you see an image, you will be asked to guess its category\n
+        Press any left hand button for category A and any right hand button for category B.\n
+        After you choose, the screen will show you whether you were correct or not.\n
+        You will receive a bonus of $0.05 for each correct answer!\n
+        You will lose $0.05 from your bonus for each incorrect answer!\n
+        The bonus can not become less than $0.\n
         Press any key to continue.
         """,
     alignment='center'
@@ -62,7 +63,7 @@ choice_A = visual.TextBox2(win, pos=[-0.3, 0], text="A", alignment='center', let
 choice_B = visual.TextBox2(win, pos=[0.3, 0], text="B", alignment='center', letterHeight=0.2)
 
 current_score = 0.0
-score = visual.TextBox2(win, pos=[0, 0.4], text=f'Bonus : ${current_score}', alignment='center')
+score = visual.TextBox2(win, pos=[0, 0.4], text=f'Bonus : ${np.round(current_score,3)}', alignment='center')
 
 kb = keyboard.Keyboard()
 
@@ -73,9 +74,9 @@ T_feedback = 1
 correct_bonus = 0.05
 
 correct_fdbk = f'Correct category! + ${correct_bonus}'
-wrong_fdbk = "Wrong category! - $0.05"
+wrong_fdbk = f'Wrong category! - ${correct_bonus}'
 wrong_fdbk_no_bonus = "Wrong category!"
-timeout_fdbk = "Time out! \n - $0.05 \n Please try to respond as quickly as possible."
+timeout_fdbk = f'Time out! - ${correct_bonus}\nPlease try to respond as quickly as possible.'
 
 shape_set = 1
 pack_path = f'stimuli/pack_shapes_{shape_set}/'
@@ -100,7 +101,8 @@ for i in range(N_difficulty_levels) :
         shapes_test = [f for f in files if f not in shapes_train]
 
 
-        correct_response = 'right' if j == 1 else 'left'
+        #correct_response = 'right' if j == 1 else 'left'
+        correct_response = ['1','2','3','4','5'] if j == 1 else ['6','7','8','9','0']
         
         stim_test += [
             {
@@ -137,6 +139,7 @@ keys = kb.waitKeys()
 
 for trial in trial_handler:
     img = trial['stimulus']
+    print(f'trial = {trial}')
 
     ITI.draw()
     score.draw()
@@ -158,22 +161,34 @@ for trial in trial_handler:
     win.callOnFlip(kb.clock.reset)
     win.flip()
 
-    keys = kb.waitKeys(maxWait=T_choice, keyList=['left', 'right'])
+    #keys = kb.waitKeys(maxWait=T_choice, keyList=['left', 'right'])
+    keys = kb.waitKeys(maxWait=T_choice, keyList=['1','2','3','4','5','6','7','8','9','0'])
 
-    if not keys :
+    if not keys:
+        current_score -= correct_bonus
         feedback.setText(timeout_fdbk)
-    else :
-        if keys[-1].name == trial['correct_response']:
+    else:
+        #if keys[-1].name == trial['correct_response']:
+        if keys[-1].name in trial['correct_response']:
+            print(f'keys[-1].name = {keys[-1].name}')
+            print(f"trial['correct_response'] = {trial['correct_response']}")
+            print(correct_fdbk)
             current_score += correct_bonus
             feedback.setText(correct_fdbk)
         else:
             if current_score > 0.0 :
+                print(f'keys[-1].name = {keys[-1].name}')
+                print(f"trial['correct_response'] = {trial['correct_response']}")
+                print(wrong_fdbk)
                 current_score -= correct_bonus
                 feedback.setText(wrong_fdbk)
-            else : 
+            else:
+                print(f'keys[-1].name = {keys[-1].name}')
+                print(f"trial['correct_response'] = {trial['correct_response']}")
+                print(wrong_fdbk_no_bonus)
                 feedback.setText(wrong_fdbk_no_bonus)
 
-    score.setText(f'Bonus : ${current_score}')
+    score.setText(f'Bonus : ${np.round(current_score,3)}')
     feedback.draw()
     score.draw()
     win.flip()
