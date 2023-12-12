@@ -23,7 +23,14 @@ def update_difficulty(current_diff, max_diff, thrs_acc, past_data) :
 
 core.checkPygletDuringWait = False
 
-win = visual.Window(size=(800,600), fullscr=False, color=(-1,-1,-1), allowGUI=True, monitor='testMonitor', units='height')
+win = visual.Window(size=(800,600), fullscr=True, color=(-1,-1,-1), allowGUI=True, monitor='testMonitor', units='height')
+
+msg_wait = visual.TextBox2(
+    win, 
+    pos=[0, 0], 
+    text="Waiting for scanner...",
+    alignment='center'
+)
 
 msg_welcome = visual.TextBox2(
     win, 
@@ -84,7 +91,7 @@ score = visual.TextBox2(win, pos=[0, 0.4], text=f'Bonus : ${np.round(current_sco
 
 kb = keyboard.Keyboard()
 
-T_experiment = 10 # minutes
+T_experiment = 1 # minutes
 T_stim = 0.6 # seconds
 T_choice = 4 # seconds
 T_delay = 1 # seconds
@@ -107,6 +114,7 @@ pack_path = f'stimuli/pack_shapes_{shape_set}/'
 N_categories = 2
 N_difficulty_levels = 5
 N_trials_per_difficulty = 5
+#N_training_trials = 6
 N_training_trials = 6
 P_difficulty_training = [0.6, 0.4, 0.0, 0.0, 0.0]
 
@@ -265,6 +273,11 @@ timer = core.CountdownTimer(T_experiment * 60)
 #-------------------
 #----Test trials----
 #-------------------
+
+msg_wait.draw()
+win.flip()
+keys = kb.waitKeys(keyList=['=','1','+','equal'])
+
 current_difficulty = 1
 past_data = deque([], N_trials_per_difficulty)
 while timer.getTime() > 0 :
@@ -358,4 +371,3 @@ while timer.getTime() > 0 :
 
 win.close()
 core.quit()
-
