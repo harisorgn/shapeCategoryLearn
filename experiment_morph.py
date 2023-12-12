@@ -36,14 +36,11 @@ msg_intro_1 = visual.TextBox2(
     win, 
     pos=[0, 0], 
     text="""
-        You will be shown white shapes.\nSome belong to category A, some to category B.\n
-        You will not know in advance which category a specific shape belongs to.\n
-        After you see an image, you will be asked to guess its category\n
-        Press any left hand button for category A and any right hand button for category B.\n
-        After you choose, the screen will show you whether you were correct or not.\n
-        You will receive a bonus of $0.05 for each correct answer!\n
-        You will lose $0.05 from your bonus for each incorrect answer!\n
-        The bonus can not become less than $0.\n
+        You will be shown movies. Each movie contains a sequence of shapes changing form. \n
+        Some shapes are category A, some are category B. Within a single movie, all shapes belong to the same category. \n
+        You will not know in advance which category the shapes of each movie belong to. \n
+        While you watch a movie, you have to guess the category that its shapes belong to (left arrow for category A, right arrow for category B) \n
+        After you choose, the screen will show you whether you were correct or not. \n
         Press any key to continue.
         """,
     alignment='center'
@@ -53,8 +50,20 @@ msg_intro_2 = visual.TextBox2(
     win, 
     pos=[0, 0], 
     text="""
-        The first 10 trials are a practice round that will not count towards your bonus payment.\n
-        You will be notified when practice finishes and the test begins.\n
+        You will receive a bonus payment for each correct answer! The faster you answer the higher the bonus will be! \n
+        So you can increase your bonus by guessing as quickly and accurately as possible. \n
+        You will lose $0.05 from your bonus payment for each incorrect answer! The bonus can not become less that $0. \n
+        Press any key to continue.
+        """,
+    alignment='center'
+)
+
+msg_intro_3 = visual.TextBox2(
+    win, 
+    pos=[0, 0], 
+    text="""
+        The first 10 trials are a practice round that will not count towards your bonus payment. \n
+        You will be notified when practice finishes and the test begins. \n
         Press any key to begin the practice round.
         """,
     alignment='center'
@@ -92,7 +101,6 @@ T_feedback = 1 # seconds
 correct_bonus = 0.05
 thrs_acc = 0.75
 IS_DEBUG_MODE = True
-
 
 correct_fdbk = f'Correct category! + ${correct_bonus}'
 correct_fdbk_no_bonus = f'Correct category!'
@@ -169,6 +177,10 @@ win.flip()
 keys = kb.waitKeys()
 
 msg_intro_2.draw()
+win.flip()
+keys = kb.waitKeys()
+
+msg_intro_3.draw()
 win.flip()
 keys = kb.waitKeys()
 
