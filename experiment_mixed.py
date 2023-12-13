@@ -16,20 +16,20 @@ def update_difficulty(current_diff, max_diff, thrs_acc, past_data) :
 
         if (acc >= thrs_acc) and (current_diff < max_diff) : 
             current_diff += 1
-        elif (acc < thrs_acc) and (current_diff > 1) :
+        elif (acc < thrs_acc) and (current_diff > 1) :8
             current_diff -= 1
 
     return current_diff
     
 # Experimental settings
-T_experiment = 1 # minutes
+T_experiment = 12 # minutes
 T_stim = 0.6 # seconds
 T_choice = 4 # seconds
 T_delay = 1 # seconds
 T_feedback = 1 # seconds
 correct_bonus = 0.05
 thrs_acc = 0.75
-IS_DEBUG_MODE = True
+IS_DEBUG_MODE = False
 
 N_categories = 2
 N_difficulty_levels = 5
@@ -43,15 +43,22 @@ P_difficulty_training = [0.6, 0.4, 0.0, 0.0, 0.0]
 
 win = visual.Window(size=(800,600), fullscr=True, color=(-1,-1,-1), allowGUI=True, monitor='testMonitor', units='height')
 
+#boxsize = (1200,900)
+boxsize = [None,None]
+fontsize = 0.03
+
 msg_wait = visual.TextBox2(
     win, 
     pos=[0, 0], 
+    letterHeight = fontsize,
     text="Waiting for scanner...",
     alignment='center'
 )
 
 msg_welcome = visual.TextBox2(
     win, 
+    size = boxsize,
+    letterHeight = fontsize,
     pos=[0, 0], 
     text="Welcome to the Category Learning experiment! Press any key to continue.",
     alignment='center'
@@ -59,15 +66,17 @@ msg_welcome = visual.TextBox2(
 
 msg_intro_1 = visual.TextBox2(
     win, 
+    size = boxsize,
+    letterHeight = fontsize,
     pos=[0, 0], 
     text="""
         You will be shown white shapes.\nSome belong to category A, some to category B.\n
         You will not know in advance which category a specific shape belongs to.\n
         After you see an image, you will be asked to guess its category\n
-        Press any left hand button for category A and any right hand button for category B.\n
+        Press any left button for category A and the right  button for category B.\n
         After you choose, the screen will show you whether you were correct or not.\n
         You will receive a bonus of $0.05 for each correct answer!\n
-        You will lose $0.05 from your bonus for each incorrect answer!\n
+        You will lose $0.05 from your bonus for each incorrect answer!\n\
         The bonus can not become less than $0.\n
         Press any key to continue.
         """,
@@ -77,6 +86,7 @@ msg_intro_1 = visual.TextBox2(
 msg_intro_2 = visual.TextBox2(
     win, 
     pos=[0, 0], 
+    letterHeight = fontsize,
     text=f'The first {N_training_trials} trials are a practice round that will not count towards your bonus payment.\nYou will be notified when practice finishes and the test begins.\nPress any key to begin the practice round.',
     alignment='center'
 )
@@ -84,6 +94,7 @@ msg_intro_2 = visual.TextBox2(
 ITI = visual.TextBox2(
     win, 
     pos=[0, 0], 
+    letterHeight = fontsize,
     text="Please press any button to continue to the next trial.",
     alignment='center'
 )
@@ -91,6 +102,7 @@ ITI = visual.TextBox2(
 feedback = visual.TextBox2(
     win, 
     pos=[0, 0], 
+    letterHeight = 0.04,
     text="",
     alignment='center'
 )
@@ -101,7 +113,7 @@ choice_B = visual.TextBox2(win, pos=[0.3, 0], text="B", alignment='center', lett
 debug_msg = visual.TextBox2(win, pos=[0.0, -0.1], text="", alignment='center')
 
 current_score = 0.0
-score = visual.TextBox2(win, pos=[0, 0.4], text=f'Bonus : ${np.round(current_score,3)}', alignment='center')
+score = visual.TextBox2(win, pos=[0, 0.4], letterHeight = fontsize, text=f'Bonus : ${np.round(current_score,3)}', alignment='center')
 
 kb = keyboard.Keyboard()
 
@@ -130,7 +142,13 @@ for i in range(N_difficulty_levels) :
 
 
         #correct_response = 'right' if j == 1 else 'left'
-        correct_response = ['1','2','3','4','5'] if j == 1 else ['6','7','8','9','0']
+        #correct_response = ['1','2','3','4','5'] if j == 1 else ['6','7','8','9','0']
+        
+        # this one matches Bay 2 button boxes left and right
+        #correct_response = ['5','6','7','8','9'] if j == 1 else ['0','1','2','3','4']
+        
+        # this one matches using only one button box at Bay 2
+        correct_response = ['5','6','7','8'] if j == 1 else ['9']
         
         stim_test[i] += [
             {
@@ -254,6 +272,7 @@ for trial in trial_handler:
 intermission = visual.TextBox2(
     win, 
     pos=[0, 0], 
+    letterHeight = fontsize,
     text="""
         The practice round has finished. \n
         For the rest of the experiment you will receive a $0.05 bonus for each correct answer and lose $0.05 from your bonus for each incorrect answer! \n
@@ -266,11 +285,6 @@ intermission.draw()
 win.flip()
 keys = kb.waitKeys(keyList=['1','2','3','4','5','6','7','8','9','0'])
 
-timer = core.CountdownTimer(T_experiment * 60)
-#-------------------
-#----Test trials----
-#-------------------
-
 msg_wait.draw()
 win.flip()
 epi_kb = keyboard.Keyboard()
@@ -278,9 +292,10 @@ epi_keys = epi_kb.getKeys()
 keys = epi_kb.waitKeys(keyList=['equal'])
 epi_clock = core.Clock() 
 
-all_pressed = []
-all_tDown = []
-all_rt = []
+timer = core.CountdownTimer(T_experiment * 60)
+#-------------------
+#----Test trials----
+#-------------------
 
 current_difficulty = 1
 past_data = deque([], N_trials_per_difficulty)
