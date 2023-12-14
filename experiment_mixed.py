@@ -16,13 +16,13 @@ def update_difficulty(current_diff, max_diff, thrs_acc, past_data) :
 
         if (acc >= thrs_acc) and (current_diff < max_diff) : 
             current_diff += 1
-        elif (acc < thrs_acc) and (current_diff > 1) :8
+        elif (acc < thrs_acc) and (current_diff > 1) :
             current_diff -= 1
 
     return current_diff
     
 # Experimental settings
-T_experiment = 12 # minutes
+T_experiment = 11 # minutes
 T_stim = 0.6 # seconds
 T_choice = 4 # seconds
 T_delay = 1 # seconds
@@ -45,7 +45,7 @@ win = visual.Window(size=(800,600), fullscr=True, color=(-1,-1,-1), allowGUI=Tru
 
 #boxsize = (1200,900)
 boxsize = [None,None]
-fontsize = 0.03
+fontsize = 0.039
 
 msg_wait = visual.TextBox2(
     win, 
