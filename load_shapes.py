@@ -8,4 +8,6 @@ name_mat = 'shape_set360'
 
 S = io.loadmat(path_src + 'shapes.mat')
 
-write_shape_gif(S[name_mat], 190, 120, 1, 1, './')
+#plot_shape(get_shape(S[name_mat], 180))
+
+write_noise_shape_gif(S[name_mat], 50, 1, 1, './', fps=15, duration=5.5)

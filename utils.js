@@ -27,6 +27,14 @@ function wrap_stim_in_html(stimulus, score){
     return txt
 }
 
+function wrap_video_stim_in_html(stimulus, score){
+    txt = `
+        ${wrap_score_in_html(score)}
+        <video autoplay class="stim" src=${stimulus}></video>    
+    `;
+    return txt
+}
+
 function wrap_score_in_html(score){
     txt = `
         <div style="text-align: center; position: fixed; top: 5vh; left: 40vw;">
@@ -111,6 +119,6 @@ function sample_stimulus(stimuli, difficulty){
 
 function RT_to_reward(RT){
     max_reward = 0.1
-    decay = 0.5
+    decay = 0.2
     return max_reward * Math.exp(-decay * (RT/1000))
 }

@@ -1,6 +1,7 @@
 import shutil
 import os
 import functools
+import copy
 
 import numpy as np
 from scipy.spatial import distance_matrix
@@ -64,7 +65,7 @@ def split_diff(SC, N_categories):
 
     return diffs 
 
-def write_shape(shape_ID, diff_level, category_ID, path_src, path_dest):
+def copy_shape(shape_ID, diff_level, category_ID, path_src, path_dest):
     os.makedirs(path_dest, exist_ok=True)
     files = os.listdir(path_dest)
     c = sum([".png" in f for f in files])
@@ -137,15 +138,132 @@ def write_shape_gif(S, shape_ID, prototype_ID, diff_level, category_ID, path_des
     ani.save(filename=filename, writer = "imagemagick", fps=fps, extra_args=["-loop","1"])
     optimize(filename)
 
+def animate_noise(frame, noise):
+    noise.set_array(frame)
+
+    return noise
+
+def write_noise_shape_gif(S, shape_ID, diff_level, category_ID, path_dest, duration=4, fps=15):
+    N_frames = int(np.ceil(duration * fps))
+    
+    sz = (8,8)
+    fig, ax = plt.subplots(figsize=sz)
+    fig.subplots_adjust(left=0, bottom=0, right=1, top=1, wspace=None, hspace=None)
+    ax.set_facecolor('black')
+
+    shape = get_shape(S, shape_ID)
+    p = Polygon(shape, color='white', zorder=0)
+    ax.add_patch(p)
+
+    row, col = sz[0]*100, sz[1]*100
+    mean = 0
+    var = 0.1
+    sigma = var**0.5
+    gauss = np.random.normal(mean,sigma,(row,col))
+    gauss = gauss.reshape(row,col)  
+    
+    frames = [np.zeros((row, col)) for i in range(N_frames)]
+    thrs = np.linspace(-3*sigma, 1*sigma, N_frames)
+
+    for (i,t) in enumerate(thrs) :
+        D = np.copy(gauss)
+        D[D < t] = np.nan
+        frames[i] = D
+
+    transp_cmp = copy.copy(plt.cm.get_cmap('gray')) 
+    transp_cmp.set_bad(alpha=0)
+
+    im = ax.imshow(frames[0], extent=(0,1,0,1), cmap=transp_cmp, zorder=10)
+
+    ani = animation.FuncAnimation(
+        fig=fig, 
+        func=functools.partial(animate_noise, noise=im), 
+        frames=frames, 
+        interval=1/fps,
+        repeat=False
+    )
+
+    os.makedirs(path_dest, exist_ok=True)
+    files = os.listdir(path_dest)
+    c = sum([".mp4" in f for f in files])
+    filename = path_dest + f'ex_{category_ID}_{diff_level}_{c+1}.mp4'
+
+    ani.save(filename=filename, writer = "ffmpeg", fps=fps)#, fps=fps, extra_args=["-loop","1"])
+    plt.close()
+    #optimize(filename)
+
+def write_noise_gif(S, shape_ID, diff_level, category_ID, path_dest, duration=4, fps=15):
+    N_frames = int(np.ceil(duration * fps))
+    
+    sz = (8,8)
+    fig, ax = plt.subplots(figsize=sz)
+    fig.subplots_adjust(left=0, bottom=0, right=1, top=1, wspace=None, hspace=None)
+    ax.set_facecolor('black')
+
+    shape = get_shape(S, shape_ID)
+    p = Polygon(shape, color='white', zorder=0)
+    ax.add_patch(p)
+
+    row, col = sz[0]*100, sz[1]*100
+    mean = 0
+    var = 0.1
+    sigma = var**0.5
+    gauss = np.random.normal(mean,sigma,(row,col))
+    gauss = gauss.reshape(row,col)  
+    
+    frames = np.zeros((row, col) + (N_frames,))
+    thrs = np.linspace(-3*sigma, 0.5*sigma, N_frames)
+
+    for (i,t) in enumerate(thrs) :
+        D = np.copy(gauss)
+        D[D < t] = np.nan
+        frames[:,:,i] = D
+
+    transp_cmp = copy.copy(plt.cm.get_cmap('gray')) 
+    transp_cmp.set_bad(alpha=0)
+
+    im = ax.imshow(frames[:,:,0], extent=(0,1,0,1), cmap=transp_cmp, zorder=10)
+
+    ani = animation.FuncAnimation(
+        fig=fig, 
+        func=functools.partial(animate_noise, noise=im), 
+        frames=frames, 
+        interval=1/fps,
+        repeat=False
+    )
+
+    os.makedirs(path_dest, exist_ok=True)
+    files = os.listdir(path_dest)
+    c = sum([".gif" in f for f in files])
+    filename = path_dest + f'ex_{category_ID}_{diff_level}_{c+1}.gif'
+
+    ani.save(filename=filename, writer = "imagemagick", fps=fps, extra_args=["-loop","1"])
+    optimize(filename)
+
 def plot_shape(shape):
-    fig, ax = plt.subplots(figsize=(8,8))
+    sz = (8,8)
+    fig, ax = plt.subplots(figsize=sz)
 
     fig.subplots_adjust(left=0, bottom=0, right=1, top=1, wspace=None, hspace=None)
 
     ax.set_facecolor('black')
+    #ax.patch.set_alpha(0.0)
 
-    p = Polygon(shape, color='white')
+    p = Polygon(shape, color='white', zorder=0)
     ax.add_patch(p)
 
+    row, col = sz[0]*100, sz[1]*100
+    mean = 0
+    var = 0.1
+    sigma = var**0.5
+    gauss = np.random.normal(mean,sigma,(row,col))
+    gauss = gauss.reshape(row,col)  
+    
+    gauss[gauss < -0.7] = np.nan
+    my_cmap = copy.copy(plt.cm.get_cmap('gray')) # get a copy of the gray color map
+    my_cmap.set_bad(alpha=0)
+
+    plt.imshow(gauss, extent=(0,1,0,1), cmap=my_cmap, zorder=10)
+                   
     plt.show()
 

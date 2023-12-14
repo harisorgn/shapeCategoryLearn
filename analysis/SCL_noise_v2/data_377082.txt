@@ -1,0 +1,485 @@
+"success","timeout","failed_images","failed_audio","failed_video","trial_type","trial_index","time_elapsed","internal_node_id","subject_id","study_id","session_id","rt","stimulus","response","task","correct_response","exemplar_ID","category","difficulty","phase","correct","bonus","trial_bonus"
+"true","false","[]","[]","[]","preload","0","5","0.0-0.0","60ee913de67c56daf5e842a9","657afcd119a11bb15c4315fb","657b01b70c97fde86a6bcbd1","","","","","","","","","","","",""
+"","","","","","html-keyboard-response","1","49925","0.0-1.0","60ee913de67c56daf5e842a9","657afcd119a11bb15c4315fb","657b01b70c97fde86a6bcbd1","49916","Welcome to the Category Learning experiment! Press any key to continue.","control","welcome","","","","","","","",""
+"","","","","","html-keyboard-response","2","92861","0.0-2.0","60ee913de67c56daf5e842a9","657afcd119a11bb15c4315fb","657b01b70c97fde86a6bcbd1","42931","
+            <p>You will be shown movies. Each movie contains a shape that initially is hidden and is gradually revealed. 
+            <br> Some shapes are category A, some are category B.
+            <br> You will not know in advance which category each shape belongs to.</p>
+            <p> While you watch a movie, you have to guess the category that the shape you see belongs to <b>(left arrow for category A, right arrow for category B)</b></p>
+            <p> After you choose, the screen will show you whether you were correct or not.</p>
+            <p>Press any key to continue.</p>
+            ",".","introduction_1","","","","","","","",""
+"","","","","","html-keyboard-response","3","118097","0.0-3.0","60ee913de67c56daf5e842a9","657afcd119a11bb15c4315fb","657b01b70c97fde86a6bcbd1","25235","
+              <p><b>You will receive a bonus payment for each correct answer! The faster you answer the higher the bonus will be!</b></p>
+              <p> So you can increase your bonus by guessing as quickly and accurately as possible.</p>
+              <p><b>You will lose $0.05 from your bonus payment for each incorrect answer! The bonus can not become less than $0.</b> </p>
+              <p>Press any key to continue.</p>
+              ",",","introduction_2","","","","","","","",""
+"","","","","","html-keyboard-response","4","137311","0.0-4.0","60ee913de67c56daf5e842a9","657afcd119a11bb15c4315fb","657b01b70c97fde86a6bcbd1","19213","
+            <p> <b>The first 10 movies are a practice round that will not count towards your bonus payment.</b></p>
+            <p> You will be notified when practice finishes and the test begins. </p>
+            <p> Press any key to begin the practice round.</p>
+            ","p","introduction_3","","","","","","","",""
+"","","","","","html-keyboard-response","5","142598","0.0-5.0-0.0","60ee913de67c56daf5e842a9","657afcd119a11bb15c4315fb","657b01b70c97fde86a6bcbd1","5094","
+            
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $0 </font>
+            </div>
+        </div>
+    
+            <div> Please press any key to continue to the next movie.</div>
+        ","l","ITI","","","","","","","",""
+"","","","","","html-keyboard-response","6","148556","0.0-5.0-1.0","60ee913de67c56daf5e842a9","657afcd119a11bb15c4315fb","657b01b70c97fde86a6bcbd1","null","./stimuli//pack_morph_shapes_1/cat_1/diff_2/ex_1_2_6.mp4","null","response","ArrowLeft","6","1","2","train","false","",""
+"","","","","","html-keyboard-response","7","153573","0.0-5.0-2.0","60ee913de67c56daf5e842a9","657afcd119a11bb15c4315fb","657b01b70c97fde86a6bcbd1","null","<p> <font color=""red"" size=""5vw""> Time out! </font> <br> Please try to respond as quickly as possible. </p>","null","feedback","","","","","","","0","0"
+"","","","","","html-keyboard-response","8","156599","0.0-5.0-0.1","60ee913de67c56daf5e842a9","657afcd119a11bb15c4315fb","657b01b70c97fde86a6bcbd1","3025","
+            
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $0 </font>
+            </div>
+        </div>
+    
+            <div> Please press any key to continue to the next movie.</div>
+        ",";","ITI","","","","","","","",""
+"","","","","","html-keyboard-response","9","162124","0.0-5.0-1.1","60ee913de67c56daf5e842a9","657afcd119a11bb15c4315fb","657b01b70c97fde86a6bcbd1","null","./stimuli//pack_morph_shapes_1/cat_2/diff_2/ex_2_2_12.mp4","null","response","ArrowRight","12","2","2","train","false","",""
+"","","","","","html-keyboard-response","10","167139","0.0-5.0-2.1","60ee913de67c56daf5e842a9","657afcd119a11bb15c4315fb","657b01b70c97fde86a6bcbd1","null","<p> <font color=""red"" size=""5vw""> Time out! </font> <br> Please try to respond as quickly as possible. </p>","null","feedback","","","","","","","0","0"
+"","","","","","html-keyboard-response","11","168556","0.0-5.0-0.2","60ee913de67c56daf5e842a9","657afcd119a11bb15c4315fb","657b01b70c97fde86a6bcbd1","1416","
+            
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $0 </font>
+            </div>
+        </div>
+    
+            <div> Please press any key to continue to the next movie.</div>
+        ",";","ITI","","","","","","","",""
+"","","","","","html-keyboard-response","12","174074","0.0-5.0-1.2","60ee913de67c56daf5e842a9","657afcd119a11bb15c4315fb","657b01b70c97fde86a6bcbd1","null","./stimuli//pack_morph_shapes_1/cat_2/diff_1/ex_2_1_6.mp4","null","response","ArrowRight","6","2","1","train","false","",""
+"","","","","","html-keyboard-response","13","179089","0.0-5.0-2.2","60ee913de67c56daf5e842a9","657afcd119a11bb15c4315fb","657b01b70c97fde86a6bcbd1","null","<p> <font color=""red"" size=""5vw""> Time out! </font> <br> Please try to respond as quickly as possible. </p>","null","feedback","","","","","","","0","0"
+"","","","","","html-keyboard-response","14","179480","0.0-5.0-0.3","60ee913de67c56daf5e842a9","657afcd119a11bb15c4315fb","657b01b70c97fde86a6bcbd1","390","
+            
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $0 </font>
+            </div>
+        </div>
+    
+            <div> Please press any key to continue to the next movie.</div>
+        ",";","ITI","","","","","","","",""
+"","","","","","html-keyboard-response","15","184989","0.0-5.0-1.3","60ee913de67c56daf5e842a9","657afcd119a11bb15c4315fb","657b01b70c97fde86a6bcbd1","null","./stimuli//pack_morph_shapes_1/cat_1/diff_2/ex_1_2_14.mp4","null","response","ArrowLeft","14","1","2","train","false","",""
+"","","","","","html-keyboard-response","16","189991","0.0-5.0-2.3","60ee913de67c56daf5e842a9","657afcd119a11bb15c4315fb","657b01b70c97fde86a6bcbd1","null","<p> <font color=""red"" size=""5vw""> Time out! </font> <br> Please try to respond as quickly as possible. </p>","null","feedback","","","","","","","0","0"
+"","","","","","html-keyboard-response","17","191229","0.0-5.0-0.4","60ee913de67c56daf5e842a9","657afcd119a11bb15c4315fb","657b01b70c97fde86a6bcbd1","1237","
+            
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $0 </font>
+            </div>
+        </div>
+    
+            <div> Please press any key to continue to the next movie.</div>
+        ","l","ITI","","","","","","","",""
+"","","","","","html-keyboard-response","18","196739","0.0-5.0-1.4","60ee913de67c56daf5e842a9","657afcd119a11bb15c4315fb","657b01b70c97fde86a6bcbd1","null","./stimuli//pack_morph_shapes_1/cat_2/diff_2/ex_2_2_17.mp4","null","response","ArrowRight","17","2","2","train","false","",""
+"","","","","","html-keyboard-response","19","201757","0.0-5.0-2.4","60ee913de67c56daf5e842a9","657afcd119a11bb15c4315fb","657b01b70c97fde86a6bcbd1","null","<p> <font color=""red"" size=""5vw""> Time out! </font> <br> Please try to respond as quickly as possible. </p>","null","feedback","","","","","","","0","0"
+"","","","","","html-keyboard-response","20","202111","0.0-5.0-0.5","60ee913de67c56daf5e842a9","657afcd119a11bb15c4315fb","657b01b70c97fde86a6bcbd1","352","
+            
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $0 </font>
+            </div>
+        </div>
+    
+            <div> Please press any key to continue to the next movie.</div>
+        ","j","ITI","","","","","","","",""
+"","","","","","html-keyboard-response","21","207616","0.0-5.0-1.5","60ee913de67c56daf5e842a9","657afcd119a11bb15c4315fb","657b01b70c97fde86a6bcbd1","null","./stimuli//pack_morph_shapes_1/cat_1/diff_1/ex_1_1_15.mp4","null","response","ArrowLeft","15","1","1","train","false","",""
+"","","","","","html-keyboard-response","22","212632","0.0-5.0-2.5","60ee913de67c56daf5e842a9","657afcd119a11bb15c4315fb","657b01b70c97fde86a6bcbd1","null","<p> <font color=""red"" size=""5vw""> Time out! </font> <br> Please try to respond as quickly as possible. </p>","null","feedback","","","","","","","0","0"
+"","","","","","html-keyboard-response","23","213262","0.0-5.0-0.6","60ee913de67c56daf5e842a9","657afcd119a11bb15c4315fb","657b01b70c97fde86a6bcbd1","626","
+            
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $0 </font>
+            </div>
+        </div>
+    
+            <div> Please press any key to continue to the next movie.</div>
+        ","a","ITI","","","","","","","",""
+"","","","","","html-keyboard-response","24","218782","0.0-5.0-1.6","60ee913de67c56daf5e842a9","657afcd119a11bb15c4315fb","657b01b70c97fde86a6bcbd1","null","./stimuli//pack_morph_shapes_1/cat_1/diff_1/ex_1_1_7.mp4","null","response","ArrowLeft","7","1","1","train","false","",""
+"","","","","","html-keyboard-response","25","223789","0.0-5.0-2.6","60ee913de67c56daf5e842a9","657afcd119a11bb15c4315fb","657b01b70c97fde86a6bcbd1","null","<p> <font color=""red"" size=""5vw""> Time out! </font> <br> Please try to respond as quickly as possible. </p>","null","feedback","","","","","","","0","0"
+"","","","","","html-keyboard-response","26","224190","0.0-5.0-0.7","60ee913de67c56daf5e842a9","657afcd119a11bb15c4315fb","657b01b70c97fde86a6bcbd1","400","
+            
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $0 </font>
+            </div>
+        </div>
+    
+            <div> Please press any key to continue to the next movie.</div>
+        ","b","ITI","","","","","","","",""
+"","","","","","html-keyboard-response","27","229699","0.0-5.0-1.7","60ee913de67c56daf5e842a9","657afcd119a11bb15c4315fb","657b01b70c97fde86a6bcbd1","null","./stimuli//pack_morph_shapes_1/cat_2/diff_1/ex_2_1_15.mp4","null","response","ArrowRight","15","2","1","train","false","",""
+"","","","","","html-keyboard-response","28","234716","0.0-5.0-2.7","60ee913de67c56daf5e842a9","657afcd119a11bb15c4315fb","657b01b70c97fde86a6bcbd1","null","<p> <font color=""red"" size=""5vw""> Time out! </font> <br> Please try to respond as quickly as possible. </p>","null","feedback","","","","","","","0","0"
+"","","","","","html-keyboard-response","29","239910","0.0-5.0-0.8","60ee913de67c56daf5e842a9","657afcd119a11bb15c4315fb","657b01b70c97fde86a6bcbd1","5201","
+            
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $0 </font>
+            </div>
+        </div>
+    
+            <div> Please press any key to continue to the next movie.</div>
+        ","b","ITI","","","","","","","",""
+"","","","","","html-keyboard-response","30","245416","0.0-5.0-1.8","60ee913de67c56daf5e842a9","657afcd119a11bb15c4315fb","657b01b70c97fde86a6bcbd1","null","./stimuli//pack_morph_shapes_1/cat_1/diff_1/ex_1_1_8.mp4","null","response","ArrowLeft","8","1","1","train","false","",""
+"","","","","","html-keyboard-response","31","250433","0.0-5.0-2.8","60ee913de67c56daf5e842a9","657afcd119a11bb15c4315fb","657b01b70c97fde86a6bcbd1","null","<p> <font color=""red"" size=""5vw""> Time out! </font> <br> Please try to respond as quickly as possible. </p>","null","feedback","","","","","","","0","0"
+"","","","","","html-keyboard-response","32","251091","0.0-5.0-0.9","60ee913de67c56daf5e842a9","657afcd119a11bb15c4315fb","657b01b70c97fde86a6bcbd1","658","
+            
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $0 </font>
+            </div>
+        </div>
+    
+            <div> Please press any key to continue to the next movie.</div>
+        ","d","ITI","","","","","","","",""
+"","","","","","html-keyboard-response","33","256607","0.0-5.0-1.9","60ee913de67c56daf5e842a9","657afcd119a11bb15c4315fb","657b01b70c97fde86a6bcbd1","null","./stimuli//pack_morph_shapes_1/cat_2/diff_1/ex_2_1_10.mp4","null","response","ArrowRight","10","2","1","train","false","",""
+"","","","","","html-keyboard-response","34","261616","0.0-5.0-2.9","60ee913de67c56daf5e842a9","657afcd119a11bb15c4315fb","657b01b70c97fde86a6bcbd1","null","<p> <font color=""red"" size=""5vw""> Time out! </font> <br> Please try to respond as quickly as possible. </p>","null","feedback","","","","","","","0","0"
+"","","","","","html-keyboard-response","35","262228","0.0-6.0","60ee913de67c56daf5e842a9","657afcd119a11bb15c4315fb","657b01b70c97fde86a6bcbd1","611","
+            <b> <p> The practice round has finished.</p>
+            <b> <p> For the rest of the experiment you will receive a bonus payment for each correct answer, which will be higher the faster you answer!</b></p>
+            <b> <p> Also you will lose $0.05 from your bonus payment for each incorrect answer!</p>
+            <p> Press any key to begin the test. </p>
+            ","d","intermission","","","","","","","",""
+"","","","","","html-keyboard-response","36","265052","0.0-7.0-0.0","60ee913de67c56daf5e842a9","657afcd119a11bb15c4315fb","657b01b70c97fde86a6bcbd1","2823","
+            
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $0 </font>
+            </div>
+        </div>
+    
+            <div> Please press any key to continue to the next movie.</div>
+        ","d","ITI","","","","","","","",""
+"","","","","","html-keyboard-response","37","270563","0.0-7.0-1.0","60ee913de67c56daf5e842a9","657afcd119a11bb15c4315fb","657b01b70c97fde86a6bcbd1","null","./stimuli//pack_morph_shapes_1/cat_2/diff_1/ex_2_1_14.mp4","null","response","ArrowRight","14","2","1","test","false","",""
+"","","","","","html-keyboard-response","38","275582","0.0-7.0-2.0","60ee913de67c56daf5e842a9","657afcd119a11bb15c4315fb","657b01b70c97fde86a6bcbd1","null","<p> <font color=""red"" size=""5vw""> Time out! </font> <br> <br> Please try to respond as quickly as possible. </p>","null","feedback","","","","","","","0","0"
+"","","","","","html-keyboard-response","39","276393","0.0-7.1-0.1","60ee913de67c56daf5e842a9","657afcd119a11bb15c4315fb","657b01b70c97fde86a6bcbd1","810","
+            
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $0 </font>
+            </div>
+        </div>
+    
+            <div> Please press any key to continue to the next movie.</div>
+        ","d","ITI","","","","","","","",""
+"","","","","","html-keyboard-response","40","281907","0.0-7.1-1.1","60ee913de67c56daf5e842a9","657afcd119a11bb15c4315fb","657b01b70c97fde86a6bcbd1","null","./stimuli//pack_morph_shapes_1/cat_1/diff_1/ex_1_1_6.mp4","null","response","ArrowLeft","6","1","1","test","false","",""
+"","","","","","html-keyboard-response","41","286912","0.0-7.1-2.1","60ee913de67c56daf5e842a9","657afcd119a11bb15c4315fb","657b01b70c97fde86a6bcbd1","null","<p> <font color=""red"" size=""5vw""> Time out! </font> <br> <br> Please try to respond as quickly as possible. </p>","null","feedback","","","","","","","0","0"
+"","","","","","html-keyboard-response","42","288035","0.0-7.2-0.2","60ee913de67c56daf5e842a9","657afcd119a11bb15c4315fb","657b01b70c97fde86a6bcbd1","1121","
+            
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $0 </font>
+            </div>
+        </div>
+    
+            <div> Please press any key to continue to the next movie.</div>
+        ","capslock","ITI","","","","","","","",""
+"","","","","","html-keyboard-response","43","293547","0.0-7.2-1.2","60ee913de67c56daf5e842a9","657afcd119a11bb15c4315fb","657b01b70c97fde86a6bcbd1","null","./stimuli//pack_morph_shapes_1/cat_1/diff_1/ex_1_1_14.mp4","null","response","ArrowLeft","14","1","1","test","false","",""
+"","","","","","html-keyboard-response","44","298564","0.0-7.2-2.2","60ee913de67c56daf5e842a9","657afcd119a11bb15c4315fb","657b01b70c97fde86a6bcbd1","null","<p> <font color=""red"" size=""5vw""> Time out! </font> <br> <br> Please try to respond as quickly as possible. </p>","null","feedback","","","","","","","0","0"
+"","","","","","html-keyboard-response","45","299481","0.0-7.3-0.3","60ee913de67c56daf5e842a9","657afcd119a11bb15c4315fb","657b01b70c97fde86a6bcbd1","917","
+            
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $0 </font>
+            </div>
+        </div>
+    
+            <div> Please press any key to continue to the next movie.</div>
+        ","x","ITI","","","","","","","",""
+"","","","","","html-keyboard-response","46","305005","0.0-7.3-1.3","60ee913de67c56daf5e842a9","657afcd119a11bb15c4315fb","657b01b70c97fde86a6bcbd1","null","./stimuli//pack_morph_shapes_1/cat_2/diff_1/ex_2_1_8.mp4","null","response","ArrowRight","8","2","1","test","false","",""
+"","","","","","html-keyboard-response","47","310017","0.0-7.3-2.3","60ee913de67c56daf5e842a9","657afcd119a11bb15c4315fb","657b01b70c97fde86a6bcbd1","null","<p> <font color=""red"" size=""5vw""> Time out! </font> <br> <br> Please try to respond as quickly as possible. </p>","null","feedback","","","","","","","0","0"
+"","","","","","html-keyboard-response","48","310575","0.0-7.4-0.4","60ee913de67c56daf5e842a9","657afcd119a11bb15c4315fb","657b01b70c97fde86a6bcbd1","556","
+            
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $0 </font>
+            </div>
+        </div>
+    
+            <div> Please press any key to continue to the next movie.</div>
+        ","a","ITI","","","","","","","",""
+"","","","","","html-keyboard-response","49","316079","0.0-7.4-1.4","60ee913de67c56daf5e842a9","657afcd119a11bb15c4315fb","657b01b70c97fde86a6bcbd1","null","./stimuli//pack_morph_shapes_1/cat_2/diff_1/ex_2_1_3.mp4","null","response","ArrowRight","3","2","1","test","false","",""
+"","","","","","html-keyboard-response","50","321090","0.0-7.4-2.4","60ee913de67c56daf5e842a9","657afcd119a11bb15c4315fb","657b01b70c97fde86a6bcbd1","null","<p> <font color=""red"" size=""5vw""> Time out! </font> <br> <br> Please try to respond as quickly as possible. </p>","null","feedback","","","","","","","0","0"
+"","","","","","html-keyboard-response","51","322461","0.0-7.5-0.5","60ee913de67c56daf5e842a9","657afcd119a11bb15c4315fb","657b01b70c97fde86a6bcbd1","1369","
+            
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $0 </font>
+            </div>
+        </div>
+    
+            <div> Please press any key to continue to the next movie.</div>
+        ","a","ITI","","","","","","","",""
+"","","","","","html-keyboard-response","52","327974","0.0-7.5-1.5","60ee913de67c56daf5e842a9","657afcd119a11bb15c4315fb","657b01b70c97fde86a6bcbd1","null","./stimuli//pack_morph_shapes_1/cat_1/diff_1/ex_1_1_14.mp4","null","response","ArrowLeft","14","1","1","test","false","",""
+"","","","","","html-keyboard-response","53","332991","0.0-7.5-2.5","60ee913de67c56daf5e842a9","657afcd119a11bb15c4315fb","657b01b70c97fde86a6bcbd1","null","<p> <font color=""red"" size=""5vw""> Time out! </font> <br> <br> Please try to respond as quickly as possible. </p>","null","feedback","","","","","","","0","0"
+"","","","","","html-keyboard-response","54","333656","0.0-7.6-0.6","60ee913de67c56daf5e842a9","657afcd119a11bb15c4315fb","657b01b70c97fde86a6bcbd1","663","
+            
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $0 </font>
+            </div>
+        </div>
+    
+            <div> Please press any key to continue to the next movie.</div>
+        ","a","ITI","","","","","","","",""
+"","","","","","html-keyboard-response","55","339162","0.0-7.6-1.6","60ee913de67c56daf5e842a9","657afcd119a11bb15c4315fb","657b01b70c97fde86a6bcbd1","null","./stimuli//pack_morph_shapes_1/cat_1/diff_1/ex_1_1_4.mp4","null","response","ArrowLeft","4","1","1","test","false","",""
+"","","","","","html-keyboard-response","56","344179","0.0-7.6-2.6","60ee913de67c56daf5e842a9","657afcd119a11bb15c4315fb","657b01b70c97fde86a6bcbd1","null","<p> <font color=""red"" size=""5vw""> Time out! </font> <br> <br> Please try to respond as quickly as possible. </p>","null","feedback","","","","","","","0","0"
+"","","","","","html-keyboard-response","57","344809","0.0-7.7-0.7","60ee913de67c56daf5e842a9","657afcd119a11bb15c4315fb","657b01b70c97fde86a6bcbd1","629","
+            
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $0 </font>
+            </div>
+        </div>
+    
+            <div> Please press any key to continue to the next movie.</div>
+        ","b","ITI","","","","","","","",""
+"","","","","","html-keyboard-response","58","350322","0.0-7.7-1.7","60ee913de67c56daf5e842a9","657afcd119a11bb15c4315fb","657b01b70c97fde86a6bcbd1","null","./stimuli//pack_morph_shapes_1/cat_1/diff_1/ex_1_1_13.mp4","null","response","ArrowLeft","13","1","1","test","false","",""
+"","","","","","html-keyboard-response","59","355339","0.0-7.7-2.7","60ee913de67c56daf5e842a9","657afcd119a11bb15c4315fb","657b01b70c97fde86a6bcbd1","null","<p> <font color=""red"" size=""5vw""> Time out! </font> <br> <br> Please try to respond as quickly as possible. </p>","null","feedback","","","","","","","0","0"
+"","","","","","html-keyboard-response","60","355731","0.0-7.8-0.8","60ee913de67c56daf5e842a9","657afcd119a11bb15c4315fb","657b01b70c97fde86a6bcbd1","390","
+            
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $0 </font>
+            </div>
+        </div>
+    
+            <div> Please press any key to continue to the next movie.</div>
+        ","b","ITI","","","","","","","",""
+"","","","","","html-keyboard-response","61","361236","0.0-7.8-1.8","60ee913de67c56daf5e842a9","657afcd119a11bb15c4315fb","657b01b70c97fde86a6bcbd1","null","./stimuli//pack_morph_shapes_1/cat_1/diff_1/ex_1_1_14.mp4","null","response","ArrowLeft","14","1","1","test","false","",""
+"","","","","","html-keyboard-response","62","366240","0.0-7.8-2.8","60ee913de67c56daf5e842a9","657afcd119a11bb15c4315fb","657b01b70c97fde86a6bcbd1","null","<p> <font color=""red"" size=""5vw""> Time out! </font> <br> <br> Please try to respond as quickly as possible. </p>","null","feedback","","","","","","","0","0"
+"","","","","","html-keyboard-response","63","366596","0.0-7.9-0.9","60ee913de67c56daf5e842a9","657afcd119a11bb15c4315fb","657b01b70c97fde86a6bcbd1","355","
+            
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $0 </font>
+            </div>
+        </div>
+    
+            <div> Please press any key to continue to the next movie.</div>
+        ","a","ITI","","","","","","","",""
+"","","","","","html-keyboard-response","64","372106","0.0-7.9-1.9","60ee913de67c56daf5e842a9","657afcd119a11bb15c4315fb","657b01b70c97fde86a6bcbd1","null","./stimuli//pack_morph_shapes_1/cat_1/diff_1/ex_1_1_17.mp4","null","response","ArrowLeft","17","1","1","test","false","",""
+"","","","","","html-keyboard-response","65","377108","0.0-7.9-2.9","60ee913de67c56daf5e842a9","657afcd119a11bb15c4315fb","657b01b70c97fde86a6bcbd1","null","<p> <font color=""red"" size=""5vw""> Time out! </font> <br> <br> Please try to respond as quickly as possible. </p>","null","feedback","","","","","","","0","0"
+"","","","","","html-keyboard-response","66","377510","0.0-7.10-0.10","60ee913de67c56daf5e842a9","657afcd119a11bb15c4315fb","657b01b70c97fde86a6bcbd1","401","
+            
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $0 </font>
+            </div>
+        </div>
+    
+            <div> Please press any key to continue to the next movie.</div>
+        ","a","ITI","","","","","","","",""
+"","","","","","html-keyboard-response","67","383024","0.0-7.10-1.10","60ee913de67c56daf5e842a9","657afcd119a11bb15c4315fb","657b01b70c97fde86a6bcbd1","null","./stimuli//pack_morph_shapes_1/cat_1/diff_1/ex_1_1_11.mp4","null","response","ArrowLeft","11","1","1","test","false","",""
+"","","","","","html-keyboard-response","68","388030","0.0-7.10-2.10","60ee913de67c56daf5e842a9","657afcd119a11bb15c4315fb","657b01b70c97fde86a6bcbd1","null","<p> <font color=""red"" size=""5vw""> Time out! </font> <br> <br> Please try to respond as quickly as possible. </p>","null","feedback","","","","","","","0","0"
+"","","","","","html-keyboard-response","69","388524","0.0-7.11-0.11","60ee913de67c56daf5e842a9","657afcd119a11bb15c4315fb","657b01b70c97fde86a6bcbd1","493","
+            
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $0 </font>
+            </div>
+        </div>
+    
+            <div> Please press any key to continue to the next movie.</div>
+        ","b","ITI","","","","","","","",""
+"","","","","","html-keyboard-response","70","394037","0.0-7.11-1.11","60ee913de67c56daf5e842a9","657afcd119a11bb15c4315fb","657b01b70c97fde86a6bcbd1","null","./stimuli//pack_morph_shapes_1/cat_2/diff_1/ex_2_1_8.mp4","null","response","ArrowRight","8","2","1","test","false","",""
+"","","","","","html-keyboard-response","71","399056","0.0-7.11-2.11","60ee913de67c56daf5e842a9","657afcd119a11bb15c4315fb","657b01b70c97fde86a6bcbd1","null","<p> <font color=""red"" size=""5vw""> Time out! </font> <br> <br> Please try to respond as quickly as possible. </p>","null","feedback","","","","","","","0","0"
+"","","","","","html-keyboard-response","72","399331","0.0-7.12-0.12","60ee913de67c56daf5e842a9","657afcd119a11bb15c4315fb","657b01b70c97fde86a6bcbd1","274","
+            
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $0 </font>
+            </div>
+        </div>
+    
+            <div> Please press any key to continue to the next movie.</div>
+        ","a","ITI","","","","","","","",""
+"","","","","","html-keyboard-response","73","404838","0.0-7.12-1.12","60ee913de67c56daf5e842a9","657afcd119a11bb15c4315fb","657b01b70c97fde86a6bcbd1","null","./stimuli//pack_morph_shapes_1/cat_1/diff_1/ex_1_1_10.mp4","null","response","ArrowLeft","10","1","1","test","false","",""
+"","","","","","html-keyboard-response","74","409857","0.0-7.12-2.12","60ee913de67c56daf5e842a9","657afcd119a11bb15c4315fb","657b01b70c97fde86a6bcbd1","null","<p> <font color=""red"" size=""5vw""> Time out! </font> <br> <br> Please try to respond as quickly as possible. </p>","null","feedback","","","","","","","0","0"
+"","","","","","html-keyboard-response","75","410164","0.0-7.13-0.13","60ee913de67c56daf5e842a9","657afcd119a11bb15c4315fb","657b01b70c97fde86a6bcbd1","305","
+            
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $0 </font>
+            </div>
+        </div>
+    
+            <div> Please press any key to continue to the next movie.</div>
+        ","a","ITI","","","","","","","",""
+"","","","","","html-keyboard-response","76","415676","0.0-7.13-1.13","60ee913de67c56daf5e842a9","657afcd119a11bb15c4315fb","657b01b70c97fde86a6bcbd1","null","./stimuli//pack_morph_shapes_1/cat_1/diff_1/ex_1_1_13.mp4","null","response","ArrowLeft","13","1","1","test","false","",""
+"","","","","","html-keyboard-response","77","420692","0.0-7.13-2.13","60ee913de67c56daf5e842a9","657afcd119a11bb15c4315fb","657b01b70c97fde86a6bcbd1","null","<p> <font color=""red"" size=""5vw""> Time out! </font> <br> <br> Please try to respond as quickly as possible. </p>","null","feedback","","","","","","","0","0"
+"","","","","","html-keyboard-response","78","421007","0.0-7.14-0.14","60ee913de67c56daf5e842a9","657afcd119a11bb15c4315fb","657b01b70c97fde86a6bcbd1","314","
+            
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $0 </font>
+            </div>
+        </div>
+    
+            <div> Please press any key to continue to the next movie.</div>
+        ","a","ITI","","","","","","","",""
+"","","","","","html-keyboard-response","79","426522","0.0-7.14-1.14","60ee913de67c56daf5e842a9","657afcd119a11bb15c4315fb","657b01b70c97fde86a6bcbd1","null","./stimuli//pack_morph_shapes_1/cat_1/diff_1/ex_1_1_1.mp4","null","response","ArrowLeft","1","1","1","test","false","",""
+"","","","","","html-keyboard-response","80","431543","0.0-7.14-2.14","60ee913de67c56daf5e842a9","657afcd119a11bb15c4315fb","657b01b70c97fde86a6bcbd1","null","<p> <font color=""red"" size=""5vw""> Time out! </font> <br> <br> Please try to respond as quickly as possible. </p>","null","feedback","","","","","","","0","0"
+"","","","","","html-keyboard-response","81","431996","0.0-7.15-0.15","60ee913de67c56daf5e842a9","657afcd119a11bb15c4315fb","657b01b70c97fde86a6bcbd1","452","
+            
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $0 </font>
+            </div>
+        </div>
+    
+            <div> Please press any key to continue to the next movie.</div>
+        ","a","ITI","","","","","","","",""
+"","","","","","html-keyboard-response","82","437506","0.0-7.15-1.15","60ee913de67c56daf5e842a9","657afcd119a11bb15c4315fb","657b01b70c97fde86a6bcbd1","null","./stimuli//pack_morph_shapes_1/cat_1/diff_1/ex_1_1_4.mp4","null","response","ArrowLeft","4","1","1","test","false","",""
+"","","","","","html-keyboard-response","83","442517","0.0-7.15-2.15","60ee913de67c56daf5e842a9","657afcd119a11bb15c4315fb","657b01b70c97fde86a6bcbd1","null","<p> <font color=""red"" size=""5vw""> Time out! </font> <br> <br> Please try to respond as quickly as possible. </p>","null","feedback","","","","","","","0","0"
+"","","","","","html-keyboard-response","84","442801","0.0-7.16-0.16","60ee913de67c56daf5e842a9","657afcd119a11bb15c4315fb","657b01b70c97fde86a6bcbd1","281","
+            
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $0 </font>
+            </div>
+        </div>
+    
+            <div> Please press any key to continue to the next movie.</div>
+        ","b","ITI","","","","","","","",""
+"","","","","","html-keyboard-response","85","448327","0.0-7.16-1.16","60ee913de67c56daf5e842a9","657afcd119a11bb15c4315fb","657b01b70c97fde86a6bcbd1","null","./stimuli//pack_morph_shapes_1/cat_1/diff_1/ex_1_1_1.mp4","null","response","ArrowLeft","1","1","1","test","false","",""
+"","","","","","html-keyboard-response","86","453331","0.0-7.16-2.16","60ee913de67c56daf5e842a9","657afcd119a11bb15c4315fb","657b01b70c97fde86a6bcbd1","null","<p> <font color=""red"" size=""5vw""> Time out! </font> <br> <br> Please try to respond as quickly as possible. </p>","null","feedback","","","","","","","0","0"
+"","","","","","html-keyboard-response","87","460248","0.0-7.17-0.17","60ee913de67c56daf5e842a9","657afcd119a11bb15c4315fb","657b01b70c97fde86a6bcbd1","6916","
+            
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $0 </font>
+            </div>
+        </div>
+    
+            <div> Please press any key to continue to the next movie.</div>
+        ","c","ITI","","","","","","","",""
+"","","","","","html-keyboard-response","88","465756","0.0-7.17-1.17","60ee913de67c56daf5e842a9","657afcd119a11bb15c4315fb","657b01b70c97fde86a6bcbd1","null","./stimuli//pack_morph_shapes_1/cat_1/diff_1/ex_1_1_11.mp4","null","response","ArrowLeft","11","1","1","test","false","",""
+"","","","","","html-keyboard-response","89","470774","0.0-7.17-2.17","60ee913de67c56daf5e842a9","657afcd119a11bb15c4315fb","657b01b70c97fde86a6bcbd1","null","<p> <font color=""red"" size=""5vw""> Time out! </font> <br> <br> Please try to respond as quickly as possible. </p>","null","feedback","","","","","","","0","0"
+"","","","","","html-keyboard-response","90","471139","0.0-7.18-0.18","60ee913de67c56daf5e842a9","657afcd119a11bb15c4315fb","657b01b70c97fde86a6bcbd1","363","
+            
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $0 </font>
+            </div>
+        </div>
+    
+            <div> Please press any key to continue to the next movie.</div>
+        ","b","ITI","","","","","","","",""
+"","","","","","html-keyboard-response","91","476655","0.0-7.18-1.18","60ee913de67c56daf5e842a9","657afcd119a11bb15c4315fb","657b01b70c97fde86a6bcbd1","null","./stimuli//pack_morph_shapes_1/cat_1/diff_1/ex_1_1_13.mp4","null","response","ArrowLeft","13","1","1","test","false","",""
+"","","","","","html-keyboard-response","92","481690","0.0-7.18-2.18","60ee913de67c56daf5e842a9","657afcd119a11bb15c4315fb","657b01b70c97fde86a6bcbd1","null","<p> <font color=""red"" size=""5vw""> Time out! </font> <br> <br> Please try to respond as quickly as possible. </p>","null","feedback","","","","","","","0","0"
+"","","","","","html-keyboard-response","93","493107","0.0-7.19-0.19","60ee913de67c56daf5e842a9","657afcd119a11bb15c4315fb","657b01b70c97fde86a6bcbd1","11416","
+            
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $0 </font>
+            </div>
+        </div>
+    
+            <div> Please press any key to continue to the next movie.</div>
+        ","dead","ITI","","","","","","","",""
+"","","","","","html-keyboard-response","94","498617","0.0-7.19-1.19","60ee913de67c56daf5e842a9","657afcd119a11bb15c4315fb","657b01b70c97fde86a6bcbd1","null","./stimuli//pack_morph_shapes_1/cat_2/diff_1/ex_2_1_4.mp4","null","response","ArrowRight","4","2","1","test","false","",""
+"","","","","","html-keyboard-response","95","503641","0.0-7.19-2.19","60ee913de67c56daf5e842a9","657afcd119a11bb15c4315fb","657b01b70c97fde86a6bcbd1","null","<p> <font color=""red"" size=""5vw""> Time out! </font> <br> <br> Please try to respond as quickly as possible. </p>","null","feedback","","","","","","","0","0"
+"","","","","","html-keyboard-response","96","504190","0.0-7.20-0.20","60ee913de67c56daf5e842a9","657afcd119a11bb15c4315fb","657b01b70c97fde86a6bcbd1","549","
+            
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $0 </font>
+            </div>
+        </div>
+    
+            <div> Please press any key to continue to the next movie.</div>
+        ","dead","ITI","","","","","","","",""
+"","","","","","html-keyboard-response","97","509708","0.0-7.20-1.20","60ee913de67c56daf5e842a9","657afcd119a11bb15c4315fb","657b01b70c97fde86a6bcbd1","null","./stimuli//pack_morph_shapes_1/cat_2/diff_1/ex_2_1_4.mp4","null","response","ArrowRight","4","2","1","test","false","",""
+"","","","","","html-keyboard-response","98","514726","0.0-7.20-2.20","60ee913de67c56daf5e842a9","657afcd119a11bb15c4315fb","657b01b70c97fde86a6bcbd1","null","<p> <font color=""red"" size=""5vw""> Time out! </font> <br> <br> Please try to respond as quickly as possible. </p>","null","feedback","","","","","","","0","0"
+"","","","","","html-keyboard-response","99","515060","0.0-7.21-0.21","60ee913de67c56daf5e842a9","657afcd119a11bb15c4315fb","657b01b70c97fde86a6bcbd1","333","
+            
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $0 </font>
+            </div>
+        </div>
+    
+            <div> Please press any key to continue to the next movie.</div>
+        ","dead","ITI","","","","","","","",""
+"","","","","","html-keyboard-response","100","520564","0.0-7.21-1.21","60ee913de67c56daf5e842a9","657afcd119a11bb15c4315fb","657b01b70c97fde86a6bcbd1","null","./stimuli//pack_morph_shapes_1/cat_2/diff_1/ex_2_1_12.mp4","null","response","ArrowRight","12","2","1","test","false","",""
+"","","","","","html-keyboard-response","101","525577","0.0-7.21-2.21","60ee913de67c56daf5e842a9","657afcd119a11bb15c4315fb","657b01b70c97fde86a6bcbd1","null","<p> <font color=""red"" size=""5vw""> Time out! </font> <br> <br> Please try to respond as quickly as possible. </p>","null","feedback","","","","","","","0","0"
+"","","","","","html-keyboard-response","102","526110","0.0-7.22-0.22","60ee913de67c56daf5e842a9","657afcd119a11bb15c4315fb","657b01b70c97fde86a6bcbd1","531","
+            
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $0 </font>
+            </div>
+        </div>
+    
+            <div> Please press any key to continue to the next movie.</div>
+        ","dead","ITI","","","","","","","",""
+"","","","","","html-keyboard-response","103","531623","0.0-7.22-1.22","60ee913de67c56daf5e842a9","657afcd119a11bb15c4315fb","657b01b70c97fde86a6bcbd1","null","./stimuli//pack_morph_shapes_1/cat_1/diff_1/ex_1_1_12.mp4","null","response","ArrowLeft","12","1","1","test","false","",""
+"","","","","","html-keyboard-response","104","536642","0.0-7.22-2.22","60ee913de67c56daf5e842a9","657afcd119a11bb15c4315fb","657b01b70c97fde86a6bcbd1","null","<p> <font color=""red"" size=""5vw""> Time out! </font> <br> <br> Please try to respond as quickly as possible. </p>","null","feedback","","","","","","","0","0"
+"","","","","","html-keyboard-response","105","536962","0.0-7.23-0.23","60ee913de67c56daf5e842a9","657afcd119a11bb15c4315fb","657b01b70c97fde86a6bcbd1","319","
+            
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $0 </font>
+            </div>
+        </div>
+    
+            <div> Please press any key to continue to the next movie.</div>
+        ","dead","ITI","","","","","","","",""
+"","","","","","html-keyboard-response","106","542474","0.0-7.23-1.23","60ee913de67c56daf5e842a9","657afcd119a11bb15c4315fb","657b01b70c97fde86a6bcbd1","null","./stimuli//pack_morph_shapes_1/cat_1/diff_1/ex_1_1_12.mp4","null","response","ArrowLeft","12","1","1","test","false","",""
+"","","","","","html-keyboard-response","107","547480","0.0-7.23-2.23","60ee913de67c56daf5e842a9","657afcd119a11bb15c4315fb","657b01b70c97fde86a6bcbd1","null","<p> <font color=""red"" size=""5vw""> Time out! </font> <br> <br> Please try to respond as quickly as possible. </p>","null","feedback","","","","","","","0","0"
+"","","","","","html-keyboard-response","108","547756","0.0-7.24-0.24","60ee913de67c56daf5e842a9","657afcd119a11bb15c4315fb","657b01b70c97fde86a6bcbd1","274","
+            
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $0 </font>
+            </div>
+        </div>
+    
+            <div> Please press any key to continue to the next movie.</div>
+        ","dead","ITI","","","","","","","",""
+"","","","","","html-keyboard-response","109","553266","0.0-7.24-1.24","60ee913de67c56daf5e842a9","657afcd119a11bb15c4315fb","657b01b70c97fde86a6bcbd1","null","./stimuli//pack_morph_shapes_1/cat_1/diff_1/ex_1_1_11.mp4","null","response","ArrowLeft","11","1","1","test","false","",""
+"","","","","","html-keyboard-response","110","558271","0.0-7.24-2.24","60ee913de67c56daf5e842a9","657afcd119a11bb15c4315fb","657b01b70c97fde86a6bcbd1","null","<p> <font color=""red"" size=""5vw""> Time out! </font> <br> <br> Please try to respond as quickly as possible. </p>","null","feedback","","","","","","","0","0"
+"","","","","","html-keyboard-response","111","560196","0.0-7.25-0.25","60ee913de67c56daf5e842a9","657afcd119a11bb15c4315fb","657b01b70c97fde86a6bcbd1","1924","
+            
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $0 </font>
+            </div>
+        </div>
+    
+            <div> Please press any key to continue to the next movie.</div>
+        ","a","ITI","","","","","","","",""
+"","","","","","html-keyboard-response","112","565706","0.0-7.25-1.25","60ee913de67c56daf5e842a9","657afcd119a11bb15c4315fb","657b01b70c97fde86a6bcbd1","null","./stimuli//pack_morph_shapes_1/cat_2/diff_1/ex_2_1_13.mp4","null","response","ArrowRight","13","2","1","test","false","",""
+"","","","","","html-keyboard-response","113","570730","0.0-7.25-2.25","60ee913de67c56daf5e842a9","657afcd119a11bb15c4315fb","657b01b70c97fde86a6bcbd1","null","<p> <font color=""red"" size=""5vw""> Time out! </font> <br> <br> Please try to respond as quickly as possible. </p>","null","feedback","","","","","","","0","0"
+"","","","","","html-keyboard-response","114","571277","0.0-7.26-0.26","60ee913de67c56daf5e842a9","657afcd119a11bb15c4315fb","657b01b70c97fde86a6bcbd1","544","
+            
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $0 </font>
+            </div>
+        </div>
+    
+            <div> Please press any key to continue to the next movie.</div>
+        ","b","ITI","","","","","","","",""
+"","","","","","html-keyboard-response","115","576789","0.0-7.26-1.26","60ee913de67c56daf5e842a9","657afcd119a11bb15c4315fb","657b01b70c97fde86a6bcbd1","null","./stimuli//pack_morph_shapes_1/cat_1/diff_1/ex_1_1_14.mp4","null","response","ArrowLeft","14","1","1","test","false","",""
+"","","","","","html-keyboard-response","116","581798","0.0-7.26-2.26","60ee913de67c56daf5e842a9","657afcd119a11bb15c4315fb","657b01b70c97fde86a6bcbd1","null","<p> <font color=""red"" size=""5vw""> Time out! </font> <br> <br> Please try to respond as quickly as possible. </p>","null","feedback","","","","","","","0","0"
+"","","","","","html-keyboard-response","117","581894","0.0-7.27-0.27","60ee913de67c56daf5e842a9","657afcd119a11bb15c4315fb","657b01b70c97fde86a6bcbd1","94","
+            
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $0 </font>
+            </div>
+        </div>
+    
+            <div> Please press any key to continue to the next movie.</div>
+        ","a","ITI","","","","","","","",""
+"","","","","","html-keyboard-response","118","587399","0.0-7.27-1.27","60ee913de67c56daf5e842a9","657afcd119a11bb15c4315fb","657b01b70c97fde86a6bcbd1","null","./stimuli//pack_morph_shapes_1/cat_2/diff_1/ex_2_1_12.mp4","null","response","ArrowRight","12","2","1","test","false","",""
+"","","","","","html-keyboard-response","119","592406","0.0-7.27-2.27","60ee913de67c56daf5e842a9","657afcd119a11bb15c4315fb","657b01b70c97fde86a6bcbd1","null","<p> <font color=""red"" size=""5vw""> Time out! </font> <br> <br> Please try to respond as quickly as possible. </p>","null","feedback","","","","","","","0","0"
+"","","","","","html-keyboard-response","120","596679","0.0-7.28-0.28","60ee913de67c56daf5e842a9","657afcd119a11bb15c4315fb","657b01b70c97fde86a6bcbd1","","","","ITI","","","","","","","",""
