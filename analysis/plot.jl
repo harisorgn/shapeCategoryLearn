@@ -125,7 +125,7 @@ function plot_diff_accuracy(df, N_blocks; name, save_plot=false)
     hlines!(ax, [0.0], linestyle = :dash, linewidth = 1.5, color=:grey)
 
     if save_plot
-		save(string("diff_acc_", name, ".png"), f, pt_per_unit=1)
+		save(string("./figures/diff_acc_", name, ".png"), f, pt_per_unit=1)
 	end
 
     f
@@ -160,7 +160,7 @@ function plot_accuracy(df, N_blocks; name, save_plot=false)
     hlines!(ax, [0.75], linestyle = :dash, linewidth = 2, color=:black)
 
     if save_plot
-		save(string("acc_", name, ".png"), f, pt_per_unit=1)
+		save(string("./figures/acc_", name, ".png"), f, pt_per_unit=1)
 	end
 
     f
@@ -194,7 +194,7 @@ function plot_difficulty(df, N_blocks; name, save_plot=false)
     end
 
     if save_plot
-		save(string("diff_", name, ".png"), f, pt_per_unit=1)
+		save(string("./figures/diff_", name, ".png"), f, pt_per_unit=1)
 	end
 
     f
@@ -229,7 +229,7 @@ function plot_rt(df, N_blocks; name, save_plot=false)
     end
 
     if save_plot
-		save(string("rt_", name, ".png"), f, pt_per_unit=1)
+		save(string("./figures/rt_", name, ".png"), f, pt_per_unit=1)
 	end
 
     f
@@ -264,7 +264,7 @@ function plot_iti(df, N_blocks; name, save_plot=false)
     end
 
     if save_plot
-		save(string("rt_iti_", name, ".png"), f, pt_per_unit=1)
+		save(string("./figures/rt_iti_", name, ".png"), f, pt_per_unit=1)
 	end
 
     f
@@ -298,7 +298,7 @@ function plot_block_trials(df, N_blocks; name, save_plot=false)
     end
 
     if save_plot
-		save(string("N_block_trials_", name, ".png"), f, pt_per_unit=1)
+		save(string("./figures/N_block_trials_", name, ".png"), f, pt_per_unit=1)
 	end
 
     f

@@ -6,8 +6,9 @@ import numpy as np
 import random
 import time
 import os
+import math
 
-def update_difficulty(current_diff, max_diff, thrs_acc, past_data) :
+def update_difficulty(current_diff, max_diff, thrs_acc, past_data):
     N = len(past_data)
     if (N == past_data.maxlen) and (all(map(lambda d: d['difficulty'] == current_diff, past_data))) :
         N_corrects = sum([d['correct'] for d in past_data])
@@ -20,10 +21,15 @@ def update_difficulty(current_diff, max_diff, thrs_acc, past_data) :
 
     return current_diff
 
+def RT_to_reward(RT):
+    max_reward = 0.1
+    decay = 0.2
+
+    return max_reward * math.exp(-decay * RT)
+
 
 core.checkPygletDuringWait = False
-
-win = visual.Window(size=(800,600), fullscr=False, color=(-1,-1,-1), allowGUI=True, monitor='testMonitor', units='height')
+win = visual.Window(size=(800,600), fullscr=True, color=(-1,-1,-1), allowGUI=True, monitor='testMonitor', units='height')
 
 msg_welcome = visual.TextBox2(
     win, 
@@ -83,34 +89,36 @@ feedback = visual.TextBox2(
     alignment='center'
 )
 
-choice_A = visual.TextBox2(win, pos=[-0.3, 0], text="A", alignment='center', letterHeight=0.2)
-choice_B = visual.TextBox2(win, pos=[0.3, 0], text="B", alignment='center', letterHeight=0.2)
-
 debug_msg = visual.TextBox2(win, pos=[0.0, -0.1], text="", alignment='center')
 
 current_score = 0.0
-score = visual.TextBox2(win, pos=[0, 0.4], text=f'Bonus : ${np.round(current_score,3)}', alignment='center')
+score = visual.TextBox2(
+    win, 
+    pos=[0, 0.4], 
+    text=f'Bonus : ${np.round(current_score,3)}', 
+    letterHeight = 0.05,
+    alignment='center'
+)
 
 kb = keyboard.Keyboard()
 
 T_experiment = 10 # minutes
-T_stim = 4 # seconds
-T_choice = 4 # seconds
-T_delay = 1 # seconds
 T_feedback = 1 # seconds
-correct_bonus = 0.05
+T_correct_fbdk = 1.5 # seconds
+T_incorrect_fdbk = 5 # seconds
+T_bonus_1 = 3 # minutes
+T_bonus_2 = 6 # minutes
+
+incorrect_penalty = -0.05
 thrs_acc = 0.75
 IS_DEBUG_MODE = True
 
-correct_fdbk = f'Correct category! + ${correct_bonus}'
 correct_fdbk_no_bonus = f'Correct category!'
-wrong_fdbk = f'Wrong category! - ${correct_bonus}'
 wrong_fdbk_no_bonus = "Wrong category!"
-timeout_fdbk = f'Time out! - ${correct_bonus} \n Please try to respond as quickly as possible.'
 timeout_fdbk_no_bonus = f'Time out! \nPlease try to respond as quickly as possible.'
 
-shape_set = 1
-pack_path = f'stimuli/pack_morph_shapes_{shape_set}/'
+shape_set = 3
+pack_path = f'stimuli/pack_noise_shapes_{shape_set}/'
 
 N_categories = 2
 N_difficulty_levels = 5
@@ -137,7 +145,7 @@ for i in range(N_difficulty_levels) :
         
         stim_test[i] += [
             {
-                'stimulus' : visual.MovieStim(win, s), 
+                'stimulus' : visual.MovieStim(win, s, pos=[0, 0], size=(0.7,0.7), units='height'), 
                 'stimulus_ID' : int(s.split('_')[-1].split('.')[0]),
                 'correct_response' : correct_response, 
                 'difficulty' : i+1, 
@@ -148,7 +156,7 @@ for i in range(N_difficulty_levels) :
 
         stim_train += [
             {
-                'stimulus' : visual.MovieStim(win, s), 
+                'stimulus' : visual.MovieStim(win, s, pos=[0, 0], size=(0.7, 0.7), units='height'), 
                 'stimulus_ID' : int(s.split('_')[-1].split('.')[0]),
                 'correct_response' : correct_response, 
                 'difficulty' : i+1, 
@@ -167,8 +175,8 @@ info = {'participant':'', 'session':''}
 info['date'] = data.getDateStr()
 
 exp = data.ExperimentHandler(
-    name='SCL_mixed',
-    extraInfo = info, #the info we created earlier
+    name='SCL_noise',
+    extraInfo = info, 
     dataFileName = 'output', 
 )
 
@@ -193,36 +201,40 @@ for trial in trial_handler:
     ITI.draw()
     score.draw()
     win.flip()
-    keys = kb.waitKeys()
+    keys = kb.waitKeys(waitRelease=True)
 
     keys = None
     correct = 0 
     response = ""
     rt = None
     is_omission = True
+    T_feedback = 0
 
+    win.callOnFlip(kb.clock.reset)
     while not stim.isFinished :
         stim.draw()
         score.draw()
-        win.callOnFlip(kb.clock.reset)
         win.flip()
         keys = kb.getKeys(keyList=['1','2','3','4','5','6','7','8','9','0'])
         #keys = kb.getKeys(keyList=['left', 'right'])
 
         if keys :
+            is_omission = False
             response = keys[-1].name
             rt = keys[-1].rt
             #if response == trial['correct_response']:
             if response in trial['correct_response']:
                 feedback.setText(correct_fdbk_no_bonus)
                 correct = 1
+                T_feedback = T_correct_fbdk
             else:
                 feedback.setText(wrong_fdbk_no_bonus)
-            is_omission = False
+                T_feedback = T_incorrect_fdbk
             break
 
     if is_omission : 
         feedback.setText(timeout_fdbk_no_bonus)
+        T_feedback = T_incorrect_fdbk
 
     exp.addData('response', response)
     exp.addData('correct', correct)
@@ -260,6 +272,12 @@ win.flip()
 keys = kb.waitKeys()
 
 timer = core.CountdownTimer(T_experiment * 60)
+
+timer_bonus_1 = core.CountdownTimer(T_bonus_1 * 60)
+timer_bonus_2 = core.CountdownTimer(T_bonus_2 * 60)
+done_bonus_1 = False
+done_bonus_2 = False
+additional_bonus = 0.0
 #-------------------
 #----Test trials----
 #-------------------
@@ -275,56 +293,62 @@ while timer.getTime() > 0 :
     ITI.draw()
     score.draw()
     win.flip()
-    keys = kb.waitKeys()
+    keys = kb.waitKeys(waitRelease=True)
 
     keys = None
     correct = 0 
     response = ""
     rt = None
     is_omission = True
+    T_feedback = 0
+
+    trial_bonus = 0
+    win.callOnFlip(kb.clock.reset)
 
     while not stim.isFinished :
         stim.draw()
         score.draw()
-        win.callOnFlip(kb.clock.reset)
         win.flip()
         keys = kb.getKeys(keyList=['1','2','3','4','5','6','7','8','9','0'])
         #keys = kb.getKeys(keyList=['left', 'right'])
-        
-        """
-        if IS_DEBUG_MODE :
-            debug_msg.setText(f"cat : {trial['category']} \n diff : {trial['difficulty']} \n ID : {trial['stimulus_ID']}")
-            debug_msg.draw()
-        """  
     
         if keys :
+            is_omission = False
             response = keys[-1].name
             rt = keys[-1].rt
             #if response == trial['correct_response']:
             if response in trial['correct_response']:
+                trial_bonus = np.round(RT_to_reward(rt) + additional_bonus, 3)
+                correct_fdbk = f'Correct category! + ${trial_bonus}'
                 feedback.setText(correct_fdbk)
                 correct = 1
-                current_score += correct_bonus
+                T_feedback = T_correct_fbdk
             else:
-                if current_score >= correct_bonus :
+                T_feedback = T_incorrect_fdbk
+                if current_score >= abs(incorrect_penalty) :
+                    trial_bonus = incorrect_penalty
+                    wrong_fdbk = f'Wrong category! - ${abs(trial_bonus)}'
                     feedback.setText(wrong_fdbk)
-                    current_score -= correct_bonus
                 else:
                     feedback.setText(wrong_fdbk_no_bonus)
-            is_omission = False
             break
 
     if is_omission:
-        if current_score >= correct_bonus :
-            current_score -= correct_bonus
+        T_feedback = T_incorrect_fdbk
+        if current_score >= incorrect_penalty :
+            trial_bonus = incorrect_penalty
+            timeout_fdbk = f'Time out! - ${abs(trial_bonus)} \n Please try to respond as quickly as possible.'
             feedback.setText(timeout_fdbk)
         else :
             feedback.setText(timeout_fdbk_no_bonus)
+
+    current_score += trial_bonus
 
     exp.addData('response', response)
     exp.addData('correct', correct)
     exp.addData('correct_response', trial['correct_response'])
     exp.addData('response_time', rt)
+    exp.addData('bonus', trial_bonus)
     exp.addData('difficulty', trial['difficulty'])
     exp.addData('category', trial['category'])
     exp.addData('phase', trial['phase'])
@@ -342,6 +366,13 @@ while timer.getTime() > 0 :
         exp.saveAsWideText('output.csv')
         win.close()
         core.quit()
+    
+    if (not done_bonus_1) and (timer_bonus_1.getTime() <= 0) :
+        done_bonus_1 = True
+        additional_bonus += 0.05
+    elif (not done_bonus_2) and (timer_bonus_2.getTime() <= 0) :
+        done_bonus_2 = True
+        additional_bonus += 0.05
 
 win.close()
 core.quit()
