@@ -86,6 +86,7 @@ feedback = visual.TextBox2(
     win, 
     pos=[0, 0], 
     text="",
+    letterHeight = 0.05,
     alignment='center'
 )
 
@@ -111,7 +112,7 @@ T_bonus_2 = 6 # minutes
 
 incorrect_penalty = -0.05
 thrs_acc = 0.75
-IS_DEBUG_MODE = True
+IS_DEBUG_MODE = False
 
 correct_fdbk_no_bonus = f'Correct category!'
 wrong_fdbk_no_bonus = "Wrong category!"
@@ -123,7 +124,7 @@ pack_path = f'stimuli/pack_noise_shapes_{shape_set}/'
 N_categories = 2
 N_difficulty_levels = 5
 N_trials_per_difficulty = 5
-N_training_trials = 6
+N_training_trials = 10
 P_difficulty_training = [0.6, 0.4, 0.0, 0.0, 0.0]
 
 stim_train = []
