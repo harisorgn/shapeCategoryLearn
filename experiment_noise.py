@@ -241,6 +241,7 @@ for trial in trial_handler:
     exp.addData('correct', correct)
     exp.addData('correct_response', trial['correct_response'])
     exp.addData('response_time', rt)
+    exp.addData('bonus', 0.0)
     exp.addData('difficulty', trial['difficulty'])
     exp.addData('category', trial['category'])
     exp.addData('phase', trial['phase'])
