@@ -119,7 +119,7 @@ wrong_fdbk_no_bonus = "Wrong category!"
 timeout_fdbk_no_bonus = f'Time out! \nPlease try to respond as quickly as possible.'
 
 shape_set = 3
-pack_path = f'stimuli/pack_noise_shapes_{shape_set}/'
+pack_path = f'stimuli/pack_noise_gif_shapes_{shape_set}/'
 
 N_categories = 2
 N_difficulty_levels = 5
