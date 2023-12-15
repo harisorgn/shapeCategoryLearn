@@ -3,6 +3,7 @@ from psychopy.hardware import keyboard
 from psychopy.tools.filetools import fromFile, toFile
 from collections import deque
 import numpy as np
+import pandas as pd
 import random
 import time
 import os
@@ -19,14 +20,45 @@ def update_difficulty(current_diff, max_diff, thrs_acc, past_data) :
             current_diff -= 1
 
     return current_diff
+    
+# Experimental settings
+T_experiment = 11 # minutes
+T_stim = 0.6 # seconds
+T_choice = 4 # seconds
+T_delay = 1 # seconds
+T_feedback = 1 # seconds
+correct_bonus = 0.05
+thrs_acc = 0.75
+IS_DEBUG_MODE = False
 
+N_categories = 2
+N_difficulty_levels = 5
+N_trials_per_difficulty = 5
+N_training_trials = 10
+P_difficulty_training = [0.6, 0.4, 0.0, 0.0, 0.0]
 
-core.checkPygletDuringWait = False
+#quit_kb = keyboard.Keyboard
 
-win = visual.Window(size=(800,600), fullscr=False, color=(-1,-1,-1), allowGUI=True, monitor='testMonitor', units='height')
+#core.checkPygletDuringWait = False
+
+win = visual.Window(size=(800,600), fullscr=True, color=(-1,-1,-1), allowGUI=True, monitor='testMonitor', units='height')
+
+#boxsize = (1200,900)
+boxsize = [None,None]
+fontsize = 0.039
+
+msg_wait = visual.TextBox2(
+    win, 
+    pos=[0, 0], 
+    letterHeight = fontsize,
+    text="Waiting for scanner...",
+    alignment='center'
+)
 
 msg_welcome = visual.TextBox2(
     win, 
+    size = boxsize,
+    letterHeight = fontsize,
     pos=[0, 0], 
     text="Welcome to the Category Learning experiment! Press any key to continue.",
     alignment='center'
@@ -34,15 +66,17 @@ msg_welcome = visual.TextBox2(
 
 msg_intro_1 = visual.TextBox2(
     win, 
+    size = boxsize,
+    letterHeight = fontsize,
     pos=[0, 0], 
     text="""
         You will be shown white shapes.\nSome belong to category A, some to category B.\n
         You will not know in advance which category a specific shape belongs to.\n
         After you see an image, you will be asked to guess its category\n
-        Press any left hand button for category A and any right hand button for category B.\n
+        Press any left button for category A and the right  button for category B.\n
         After you choose, the screen will show you whether you were correct or not.\n
         You will receive a bonus of $0.05 for each correct answer!\n
-        You will lose $0.05 from your bonus for each incorrect answer!\n
+        You will lose $0.05 from your bonus for each incorrect answer!\n\
         The bonus can not become less than $0.\n
         Press any key to continue.
         """,
@@ -52,17 +86,15 @@ msg_intro_1 = visual.TextBox2(
 msg_intro_2 = visual.TextBox2(
     win, 
     pos=[0, 0], 
-    text="""
-        The first 10 trials are a practice round that will not count towards your bonus payment.\n
-        You will be notified when practice finishes and the test begins.\n
-        Press any key to begin the practice round.
-        """,
+    letterHeight = fontsize,
+    text=f'The first {N_training_trials} trials are a practice round that will not count towards your bonus payment.\nYou will be notified when practice finishes and the test begins.\nPress any key to begin the practice round.',
     alignment='center'
 )
 
 ITI = visual.TextBox2(
     win, 
     pos=[0, 0], 
+    letterHeight = fontsize,
     text="Please press any button to continue to the next trial.",
     alignment='center'
 )
@@ -70,6 +102,7 @@ ITI = visual.TextBox2(
 feedback = visual.TextBox2(
     win, 
     pos=[0, 0], 
+    letterHeight = 0.04,
     text="",
     alignment='center'
 )
@@ -80,19 +113,9 @@ choice_B = visual.TextBox2(win, pos=[0.3, 0], text="B", alignment='center', lett
 debug_msg = visual.TextBox2(win, pos=[0.0, -0.1], text="", alignment='center')
 
 current_score = 0.0
-score = visual.TextBox2(win, pos=[0, 0.4], text=f'Bonus : ${np.round(current_score,3)}', alignment='center')
+score = visual.TextBox2(win, pos=[0, 0.4], letterHeight = fontsize, text=f'Bonus : ${np.round(current_score,3)}', alignment='center')
 
 kb = keyboard.Keyboard()
-
-T_experiment = 10 # minutes
-T_stim = 0.6 # seconds
-T_choice = 4 # seconds
-T_delay = 1 # seconds
-T_feedback = 1 # seconds
-correct_bonus = 0.05
-thrs_acc = 0.75
-IS_DEBUG_MODE = True
-
 
 correct_fdbk = f'Correct category! + ${correct_bonus}'
 correct_fdbk_no_bonus = f'Correct category!'
@@ -103,12 +126,6 @@ timeout_fdbk_no_bonus = f'Time out! \nPlease try to respond as quickly as possib
 
 shape_set = 1
 pack_path = f'stimuli/pack_shapes_{shape_set}/'
-
-N_categories = 2
-N_difficulty_levels = 5
-N_trials_per_difficulty = 5
-N_training_trials = 6
-P_difficulty_training = [0.6, 0.4, 0.0, 0.0, 0.0]
 
 stim_train = []
 stim_test = [[] for i in range(N_difficulty_levels)]
@@ -125,7 +142,13 @@ for i in range(N_difficulty_levels) :
 
 
         #correct_response = 'right' if j == 1 else 'left'
-        correct_response = ['1','2','3','4','5'] if j == 1 else ['6','7','8','9','0']
+        #correct_response = ['1','2','3','4','5'] if j == 1 else ['6','7','8','9','0']
+        
+        # this one matches Bay 2 button boxes left and right
+        #correct_response = ['5','6','7','8','9'] if j == 1 else ['0','1','2','3','4']
+        
+        # this one matches using only one button box at Bay 2
+        correct_response = ['5','6','7','8'] if j == 1 else ['9']
         
         stim_test[i] += [
             {
@@ -166,11 +189,11 @@ exp = data.ExperimentHandler(
 
 msg_intro_1.draw()
 win.flip()
-keys = kb.waitKeys()
+keys = kb.waitKeys(keyList=['1','2','3','4','5','6','7','8','9','0'])
 
 msg_intro_2.draw()
 win.flip()
-keys = kb.waitKeys()
+keys = kb.waitKeys(keyList=['1','2','3','4','5','6','7','8','9','0'])
 
 #-------------------
 #--Training trials--
@@ -178,11 +201,6 @@ keys = kb.waitKeys()
 for trial in trial_handler:
     stim = trial['stimulus']
     print(f'trial = {trial}')
-
-    ITI.draw()
-    score.draw()
-    win.flip()
-    keys = kb.waitKeys()
 
     stim.draw()
     score.draw()
@@ -240,15 +258,21 @@ for trial in trial_handler:
     score.draw()
     win.flip()
     core.wait(T_feedback)
+    
+    ITI.draw()
+    score.draw()
+    win.flip()
+    keys = kb.waitKeys(keyList=['1','2','3','4','5','6','7','8','9','0'])
 
-    if 'escape' in event.waitKeys():
-        exp.saveAsWideText('output.csv')
-        win.close()
-        core.quit()
+    #if 'escape' in event.waitKeys():
+        #exp.saveAsWideText('output.csv')
+        #win.close()
+        #core.quit()
 
 intermission = visual.TextBox2(
     win, 
     pos=[0, 0], 
+    letterHeight = fontsize,
     text="""
         The practice round has finished. \n
         For the rest of the experiment you will receive a $0.05 bonus for each correct answer and lose $0.05 from your bonus for each incorrect answer! \n
@@ -259,35 +283,43 @@ intermission = visual.TextBox2(
 )
 intermission.draw()
 win.flip()
-keys = kb.waitKeys()
+keys = kb.waitKeys(keyList=['1','2','3','4','5','6','7','8','9','0'])
+
+msg_wait.draw()
+win.flip()
+epi_kb = keyboard.Keyboard()
+epi_keys = epi_kb.getKeys()
+keys = epi_kb.waitKeys(keyList=['equal'])
+epi_clock = core.Clock() 
 
 timer = core.CountdownTimer(T_experiment * 60)
 #-------------------
 #----Test trials----
 #-------------------
+
 current_difficulty = 1
 past_data = deque([], N_trials_per_difficulty)
 while timer.getTime() > 0 :
-
+    debug_clock = core.Clock() 
     current_difficulty = update_difficulty(current_difficulty, N_difficulty_levels, thrs_acc, past_data)
 
     trial = random.choice(stim_test[current_difficulty - 1])
 
     stim = trial['stimulus']
-    print(f'trial = {trial}')
-
-    ITI.draw()
-    score.draw()
-    win.flip()
-    keys = kb.waitKeys()
+    #print(f'trial = {trial}')
 
     stim.draw()
     score.draw()
     win.flip()
+    stim_time = epi_clock.getTime()
+    exp.addData('stimulus_ID', trial['stimulus_ID'])
+    exp.addData('stim presentation time', stim_time)
     core.wait(T_stim)
     
     score.draw()
     win.flip()
+    delay_time = epi_clock.getTime()
+    exp.addData('delay presentation time', delay_time)
     core.wait(T_delay)
 
     choice_A.draw()
@@ -300,6 +332,10 @@ while timer.getTime() > 0 :
 
     win.callOnFlip(kb.clock.reset)
     win.flip()
+    AB_time = epi_clock.getTime()
+    exp.addData('AB presentation time', AB_time)
+    
+    exp.addData('debugging_time',debug_clock.getTime())
 
     #keys = kb.waitKeys(maxWait=T_choice, keyList=['left', 'right'])
     keys = kb.waitKeys(maxWait=T_choice, keyList=['1','2','3','4','5','6','7','8','9','0'])
@@ -310,28 +346,28 @@ while timer.getTime() > 0 :
         if current_score >= correct_bonus :
             current_score -= correct_bonus
             feedback.setText(timeout_fdbk)
-        else :
+        else:
             feedback.setText(timeout_fdbk_no_bonus)
     else:
         response = keys[-1].name
         rt = keys[-1].rt
         #if response == trial['correct_response']:
         if response in trial['correct_response']:
-            print(f'keys[-1].name = {keys[-1].name}')
-            print(f"trial['correct_response'] = {trial['correct_response']}")
+            #print(f'keys[-1].name = {keys[-1].name}')
+            #print(f"trial['correct_response'] = {trial['correct_response']}")
             feedback.setText(correct_fdbk)
             correct = 1
             current_score += correct_bonus
         else:
             if current_score >= correct_bonus :
-                print(f'keys[-1].name = {keys[-1].name}')
-                print(f"trial['correct_response'] = {trial['correct_response']}")
+                #print(f'keys[-1].name = {keys[-1].name}')
+                #print(f"trial['correct_response'] = {trial['correct_response']}")
                 feedback.setText(wrong_fdbk)
                 current_score -= correct_bonus
             else:
-                print(f'keys[-1].name = {keys[-1].name}')
-                print(f"trial['correct_response'] = {trial['correct_response']}")
-                print(wrong_fdbk_no_bonus)
+                #print(f'keys[-1].name = {keys[-1].name}')
+                #print(f"trial['correct_response'] = {trial['correct_response']}")
+                #print(wrong_fdbk_no_bonus)
                 feedback.setText(wrong_fdbk_no_bonus)
 
     exp.addData('response', response)
@@ -341,7 +377,7 @@ while timer.getTime() > 0 :
     exp.addData('difficulty', trial['difficulty'])
     exp.addData('category', trial['category'])
     exp.addData('phase', trial['phase'])
-    exp.nextEntry()
+    #exp.nextEntry()
 
     past_data.appendleft({'correct' : correct, 'difficulty' : trial['difficulty']})
 
@@ -349,12 +385,37 @@ while timer.getTime() > 0 :
     feedback.draw()
     score.draw()
     win.flip()
+    feedback_time = epi_clock.getTime()
+    exp.addData('feedback presentation time', feedback_time)
     core.wait(T_feedback)
-
-    if 'escape' in event.waitKeys():
-        exp.saveAsWideText('output.csv')
-        win.close()
-        core.quit()
+    
+    ITI.draw()
+    score.draw()
+    win.callOnFlip(kb.clock.reset)
+    ITI_time = epi_clock.getTime()
+    exp.addData('ITI presentation time', ITI_time)
+    win.flip()
+    
+    iti_keys = kb.waitKeys(keyList=['1','2','3','4','5','6','7','8','9','0'])
+    if not iti_keys:
+        rt = None
+    else:
+        rt = iti_keys[-1].rt
+    #print(f'rt = {rt}')
+    exp.addData('ITI response time', rt)
+    exp.nextEntry()
+    
+    #print('in loop')
+    #epi_keys = epi_kb.getKeys()
+    #print('*** in loop',epi_keys)
+    #for key in epi_keys:
+        #all_pressed.append(key.name)
+        #all_tDown.append(key.tDown)
+        #all_rt.append(key.rt)
+        #print(key)
+        #if key.name == "equal":
+            #print(f'tDown = {key.tDown}')
+            #print(f'rt = {key.rt}')
 
 win.close()
 core.quit()
