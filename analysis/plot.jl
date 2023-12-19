@@ -43,14 +43,11 @@ function response_time(df, N_blocks)
     RT = Matrix{Float64}(undef, length(IDs), N_blocks + 1)
 
     for (i, ID) in enumerate(IDs)
-        rt = df[df.subject_id .== ID, :rt]
-        filter!(r -> !ismissing(r) && (r != "null") && (r != ""), rt)
-        rt = parse.(Int, rt)
-
-        rt_training = rt[1:N_training_trials]
+        rt_training = df[(df.subject_id .== ID) .& (df.phase .== "train"), :rt]
         RT[i, 1] = mean(rt_training)
 
-        rt_test = rt[(N_training_trials + 1):end]
+        rt_test = df[(df.subject_id .== ID) .& (df.phase .== "test"), :rt]
+
         sz_block = Int(ceil(length(rt_test) / N_blocks))
         rt_block = chunk(rt_test, sz_block)
         for (j, r) in enumerate(rt_block)
@@ -66,13 +63,11 @@ function ITI_response(df, N_blocks)
     RT = Matrix{Float64}(undef, length(IDs), N_blocks + 1)
 
     for (i, ID) in enumerate(IDs)
-        rt = df[df.subject_id .== ID, :rt_iti]
-        rt = parse.(Int, rt)
-
-        rt_training = rt[1:N_training_trials]
+        rt_training = df[(df.subject_id .== ID) .& (df.phase .== "train"), :rt_iti]
         RT[i, 1] = mean(rt_training)
 
-        rt_test = rt[(N_training_trials + 1):end]
+        rt_test = df[(df.subject_id .== ID) .& (df.phase .== "test"), :rt_iti]
+
         sz_block = Int(ceil(length(rt_test) / N_blocks))
         rt_block = chunk(rt_test, sz_block)
         for (j, r) in enumerate(rt_block)
@@ -130,7 +125,7 @@ function plot_diff_accuracy(df, N_blocks; name, save_plot=false)
     hlines!(ax, [0.0], linestyle = :dash, linewidth = 1.5, color=:grey)
 
     if save_plot
-		save(string("diff_acc_", name, ".png"), f, pt_per_unit=1)
+		save(string("./figures/diff_acc_", name, ".png"), f, pt_per_unit=1)
 	end
 
     f
@@ -165,7 +160,7 @@ function plot_accuracy(df, N_blocks; name, save_plot=false)
     hlines!(ax, [0.75], linestyle = :dash, linewidth = 2, color=:black)
 
     if save_plot
-		save(string("acc_", name, ".png"), f, pt_per_unit=1)
+		save(string("./figures/acc_", name, ".png"), f, pt_per_unit=1)
 	end
 
     f
@@ -199,7 +194,7 @@ function plot_difficulty(df, N_blocks; name, save_plot=false)
     end
 
     if save_plot
-		save(string("diff_", name, ".png"), f, pt_per_unit=1)
+		save(string("./figures/diff_", name, ".png"), f, pt_per_unit=1)
 	end
 
     f
@@ -220,7 +215,7 @@ function plot_rt(df, N_blocks; name, save_plot=false)
         ylabel = "Average RT [sec]",
         xticks = (xs, vcat("Train", string.(1:N_blocks)))
     )
-    ylims!(ax, 0, 2)
+    ylims!(ax, 0, 5)
 
     for i in eachindex(IDs)
         acc = RT[i, :]
@@ -234,7 +229,7 @@ function plot_rt(df, N_blocks; name, save_plot=false)
     end
 
     if save_plot
-		save(string("rt_", name, ".png"), f, pt_per_unit=1)
+		save(string("./figures/rt_", name, ".png"), f, pt_per_unit=1)
 	end
 
     f
@@ -269,7 +264,7 @@ function plot_iti(df, N_blocks; name, save_plot=false)
     end
 
     if save_plot
-		save(string("rt_iti_", name, ".png"), f, pt_per_unit=1)
+		save(string("./figures/rt_iti_", name, ".png"), f, pt_per_unit=1)
 	end
 
     f
@@ -303,7 +298,7 @@ function plot_block_trials(df, N_blocks; name, save_plot=false)
     end
 
     if save_plot
-		save(string("N_block_trials_", name, ".png"), f, pt_per_unit=1)
+		save(string("./figures/N_block_trials_", name, ".png"), f, pt_per_unit=1)
 	end
 
     f

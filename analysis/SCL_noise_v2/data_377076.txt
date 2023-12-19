@@ -1,0 +1,1179 @@
+"success","timeout","failed_images","failed_audio","failed_video","trial_type","trial_index","time_elapsed","internal_node_id","subject_id","study_id","session_id","rt","stimulus","response","task","correct_response","exemplar_ID","category","difficulty","phase","correct","bonus","trial_bonus"
+"true","false","[]","[]","[]","preload","0","2","0.0-0.0","60fc21ee8506f0f4a935a648","657afcd119a11bb15c4315fb","657b01270f834cfa496bcbbb","","","","","","","","","","","",""
+"","","","","","html-keyboard-response","1","18133","0.0-1.0","60fc21ee8506f0f4a935a648","657afcd119a11bb15c4315fb","657b01270f834cfa496bcbbb","18130","Welcome to the Category Learning experiment! Press any key to continue."," ","welcome","","","","","","","",""
+"","","","","","html-keyboard-response","2","55849","0.0-2.0","60fc21ee8506f0f4a935a648","657afcd119a11bb15c4315fb","657b01270f834cfa496bcbbb","37715","
+            <p>You will be shown movies. Each movie contains a shape that initially is hidden and is gradually revealed. 
+            <br> Some shapes are category A, some are category B.
+            <br> You will not know in advance which category each shape belongs to.</p>
+            <p> While you watch a movie, you have to guess the category that the shape you see belongs to <b>(left arrow for category A, right arrow for category B)</b></p>
+            <p> After you choose, the screen will show you whether you were correct or not.</p>
+            <p>Press any key to continue.</p>
+            "," ","introduction_1","","","","","","","",""
+"","","","","","html-keyboard-response","3","84584","0.0-3.0","60fc21ee8506f0f4a935a648","657afcd119a11bb15c4315fb","657b01270f834cfa496bcbbb","28735","
+              <p><b>You will receive a bonus payment for each correct answer! The faster you answer the higher the bonus will be!</b></p>
+              <p> So you can increase your bonus by guessing as quickly and accurately as possible.</p>
+              <p><b>You will lose $0.05 from your bonus payment for each incorrect answer! The bonus can not become less than $0.</b> </p>
+              <p>Press any key to continue.</p>
+              "," ","introduction_2","","","","","","","",""
+"","","","","","html-keyboard-response","4","95223","0.0-4.0","60fc21ee8506f0f4a935a648","657afcd119a11bb15c4315fb","657b01270f834cfa496bcbbb","10638","
+            <p> <b>The first 10 movies are a practice round that will not count towards your bonus payment.</b></p>
+            <p> You will be notified when practice finishes and the test begins. </p>
+            <p> Press any key to begin the practice round.</p>
+            "," ","introduction_3","","","","","","","",""
+"","","","","","html-keyboard-response","5","98000","0.0-5.0-0.0","60fc21ee8506f0f4a935a648","657afcd119a11bb15c4315fb","657b01270f834cfa496bcbbb","2774","
+            
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $0 </font>
+            </div>
+        </div>
+    
+            <div> Please press any key to continue to the next movie.</div>
+        "," ","ITI","","","","","","","",""
+"","","","","","html-keyboard-response","6","103513","0.0-5.0-1.0","60fc21ee8506f0f4a935a648","657afcd119a11bb15c4315fb","657b01270f834cfa496bcbbb","null","./stimuli//pack_morph_shapes_1/cat_1/diff_2/ex_1_2_5.mp4","null","response","ArrowLeft","5","1","2","train","false","",""
+"","","","","","html-keyboard-response","7","108525","0.0-5.0-2.0","60fc21ee8506f0f4a935a648","657afcd119a11bb15c4315fb","657b01270f834cfa496bcbbb","null","<p> <font color=""red"" size=""5vw""> Time out! </font> <br> Please try to respond as quickly as possible. </p>","null","feedback","","","","","","","0","0"
+"","","","","","html-keyboard-response","8","109536","0.0-5.0-0.1","60fc21ee8506f0f4a935a648","657afcd119a11bb15c4315fb","657b01270f834cfa496bcbbb","1008","
+            
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $0 </font>
+            </div>
+        </div>
+    
+            <div> Please press any key to continue to the next movie.</div>
+        ","arrowleft","ITI","","","","","","","",""
+"","","","","","html-keyboard-response","9","111275","0.0-5.0-1.1","60fc21ee8506f0f4a935a648","657afcd119a11bb15c4315fb","657b01270f834cfa496bcbbb","1735","./stimuli//pack_morph_shapes_1/cat_1/diff_1/ex_1_1_11.mp4","arrowright","response","ArrowLeft","11","1","1","train","false","",""
+"","","","","","html-keyboard-response","10","116277","0.0-5.0-2.1","60fc21ee8506f0f4a935a648","657afcd119a11bb15c4315fb","657b01270f834cfa496bcbbb","null","<p> <font color=""red"" size=""5vw""> Wrong category! </font> </p>","null","feedback","","","","","","","0","0"
+"","","","","","html-keyboard-response","11","117688","0.0-5.0-0.2","60fc21ee8506f0f4a935a648","657afcd119a11bb15c4315fb","657b01270f834cfa496bcbbb","1410","
+            
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $0 </font>
+            </div>
+        </div>
+    
+            <div> Please press any key to continue to the next movie.</div>
+        ","arrowright","ITI","","","","","","","",""
+"","","","","","html-keyboard-response","12","120902","0.0-5.0-1.2","60fc21ee8506f0f4a935a648","657afcd119a11bb15c4315fb","657b01270f834cfa496bcbbb","3212","./stimuli//pack_morph_shapes_1/cat_2/diff_2/ex_2_2_17.mp4","arrowright","response","ArrowRight","17","2","2","train","true","",""
+"","","","","","html-keyboard-response","13","122413","0.0-5.0-2.2","60fc21ee8506f0f4a935a648","657afcd119a11bb15c4315fb","657b01270f834cfa496bcbbb","null","<p> <font color=""green"" size=""5vw""> Correct category! </font> </p>","null","feedback","","","","","","","0","0"
+"","","","","","html-keyboard-response","14","123411","0.0-5.0-0.3","60fc21ee8506f0f4a935a648","657afcd119a11bb15c4315fb","657b01270f834cfa496bcbbb","997","
+            
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $0 </font>
+            </div>
+        </div>
+    
+            <div> Please press any key to continue to the next movie.</div>
+        "," ","ITI","","","","","","","",""
+"","","","","","html-keyboard-response","15","124728","0.0-5.0-1.3","60fc21ee8506f0f4a935a648","657afcd119a11bb15c4315fb","657b01270f834cfa496bcbbb","1313","./stimuli//pack_morph_shapes_1/cat_1/diff_2/ex_1_2_15.mp4","arrowleft","response","ArrowLeft","15","1","2","train","true","",""
+"","","","","","html-keyboard-response","16","126231","0.0-5.0-2.3","60fc21ee8506f0f4a935a648","657afcd119a11bb15c4315fb","657b01270f834cfa496bcbbb","null","<p> <font color=""green"" size=""5vw""> Correct category! </font> </p>","null","feedback","","","","","","","0","0"
+"","","","","","html-keyboard-response","17","127181","0.0-5.0-0.4","60fc21ee8506f0f4a935a648","657afcd119a11bb15c4315fb","657b01270f834cfa496bcbbb","950","
+            
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $0 </font>
+            </div>
+        </div>
+    
+            <div> Please press any key to continue to the next movie.</div>
+        "," ","ITI","","","","","","","",""
+"","","","","","html-keyboard-response","18","128151","0.0-5.0-1.4","60fc21ee8506f0f4a935a648","657afcd119a11bb15c4315fb","657b01270f834cfa496bcbbb","968","./stimuli//pack_morph_shapes_1/cat_1/diff_1/ex_1_1_12.mp4","arrowright","response","ArrowLeft","12","1","1","train","false","",""
+"","","","","","html-keyboard-response","19","133156","0.0-5.0-2.4","60fc21ee8506f0f4a935a648","657afcd119a11bb15c4315fb","657b01270f834cfa496bcbbb","null","<p> <font color=""red"" size=""5vw""> Wrong category! </font> </p>","null","feedback","","","","","","","0","0"
+"","","","","","html-keyboard-response","20","133804","0.0-5.0-0.5","60fc21ee8506f0f4a935a648","657afcd119a11bb15c4315fb","657b01270f834cfa496bcbbb","647","
+            
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $0 </font>
+            </div>
+        </div>
+    
+            <div> Please press any key to continue to the next movie.</div>
+        ","arrowleft","ITI","","","","","","","",""
+"","","","","","html-keyboard-response","21","136500","0.0-5.0-1.5","60fc21ee8506f0f4a935a648","657afcd119a11bb15c4315fb","657b01270f834cfa496bcbbb","2693","./stimuli//pack_morph_shapes_1/cat_2/diff_1/ex_2_1_9.mp4","arrowright","response","ArrowRight","9","2","1","train","true","",""
+"","","","","","html-keyboard-response","22","138009","0.0-5.0-2.5","60fc21ee8506f0f4a935a648","657afcd119a11bb15c4315fb","657b01270f834cfa496bcbbb","null","<p> <font color=""green"" size=""5vw""> Correct category! </font> </p>","null","feedback","","","","","","","0","0"
+"","","","","","html-keyboard-response","23","138975","0.0-5.0-0.6","60fc21ee8506f0f4a935a648","657afcd119a11bb15c4315fb","657b01270f834cfa496bcbbb","966","
+            
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $0 </font>
+            </div>
+        </div>
+    
+            <div> Please press any key to continue to the next movie.</div>
+        "," ","ITI","","","","","","","",""
+"","","","","","html-keyboard-response","24","139924","0.0-5.0-1.6","60fc21ee8506f0f4a935a648","657afcd119a11bb15c4315fb","657b01270f834cfa496bcbbb","944","./stimuli//pack_morph_shapes_1/cat_2/diff_2/ex_2_2_12.mp4","arrowright","response","ArrowRight","12","2","2","train","true","",""
+"","","","","","html-keyboard-response","25","141427","0.0-5.0-2.6","60fc21ee8506f0f4a935a648","657afcd119a11bb15c4315fb","657b01270f834cfa496bcbbb","null","<p> <font color=""green"" size=""5vw""> Correct category! </font> </p>","null","feedback","","","","","","","0","0"
+"","","","","","html-keyboard-response","26","142204","0.0-5.0-0.7","60fc21ee8506f0f4a935a648","657afcd119a11bb15c4315fb","657b01270f834cfa496bcbbb","775","
+            
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $0 </font>
+            </div>
+        </div>
+    
+            <div> Please press any key to continue to the next movie.</div>
+        "," ","ITI","","","","","","","",""
+"","","","","","html-keyboard-response","27","142598","0.0-5.0-1.7","60fc21ee8506f0f4a935a648","657afcd119a11bb15c4315fb","657b01270f834cfa496bcbbb","391","./stimuli//pack_morph_shapes_1/cat_1/diff_1/ex_1_1_6.mp4","arrowright","response","ArrowLeft","6","1","1","train","false","",""
+"","","","","","html-keyboard-response","28","147601","0.0-5.0-2.7","60fc21ee8506f0f4a935a648","657afcd119a11bb15c4315fb","657b01270f834cfa496bcbbb","null","<p> <font color=""red"" size=""5vw""> Wrong category! </font> </p>","null","feedback","","","","","","","0","0"
+"","","","","","html-keyboard-response","29","148708","0.0-5.0-0.8","60fc21ee8506f0f4a935a648","657afcd119a11bb15c4315fb","657b01270f834cfa496bcbbb","1107","
+            
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $0 </font>
+            </div>
+        </div>
+    
+            <div> Please press any key to continue to the next movie.</div>
+        ","arrowleft","ITI","","","","","","","",""
+"","","","","","html-keyboard-response","30","150079","0.0-5.0-1.8","60fc21ee8506f0f4a935a648","657afcd119a11bb15c4315fb","657b01270f834cfa496bcbbb","1367","./stimuli//pack_morph_shapes_1/cat_2/diff_1/ex_2_1_11.mp4","arrowleft","response","ArrowRight","11","2","1","train","false","",""
+"","","","","","html-keyboard-response","31","155082","0.0-5.0-2.8","60fc21ee8506f0f4a935a648","657afcd119a11bb15c4315fb","657b01270f834cfa496bcbbb","null","<p> <font color=""red"" size=""5vw""> Wrong category! </font> </p>","null","feedback","","","","","","","0","0"
+"","","","","","html-keyboard-response","32","155766","0.0-5.0-0.9","60fc21ee8506f0f4a935a648","657afcd119a11bb15c4315fb","657b01270f834cfa496bcbbb","682","
+            
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $0 </font>
+            </div>
+        </div>
+    
+            <div> Please press any key to continue to the next movie.</div>
+        ","arrowright","ITI","","","","","","","",""
+"","","","","","html-keyboard-response","33","160211","0.0-5.0-1.9","60fc21ee8506f0f4a935a648","657afcd119a11bb15c4315fb","657b01270f834cfa496bcbbb","4443","./stimuli//pack_morph_shapes_1/cat_2/diff_1/ex_2_1_15.mp4","arrowleft","response","ArrowRight","15","2","1","train","false","",""
+"","","","","","html-keyboard-response","34","165213","0.0-5.0-2.9","60fc21ee8506f0f4a935a648","657afcd119a11bb15c4315fb","657b01270f834cfa496bcbbb","null","<p> <font color=""red"" size=""5vw""> Wrong category! </font> </p>","null","feedback","","","","","","","0","0"
+"","","","","","html-keyboard-response","35","167910","0.0-6.0","60fc21ee8506f0f4a935a648","657afcd119a11bb15c4315fb","657b01270f834cfa496bcbbb","2696","
+            <b> <p> The practice round has finished.</p>
+            <b> <p> For the rest of the experiment you will receive a bonus payment for each correct answer, which will be higher the faster you answer!</b></p>
+            <b> <p> Also you will lose $0.05 from your bonus payment for each incorrect answer!</p>
+            <p> Press any key to begin the test. </p>
+            "," ","intermission","","","","","","","",""
+"","","","","","html-keyboard-response","36","169239","0.0-7.0-0.0","60fc21ee8506f0f4a935a648","657afcd119a11bb15c4315fb","657b01270f834cfa496bcbbb","1328","
+            
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $0 </font>
+            </div>
+        </div>
+    
+            <div> Please press any key to continue to the next movie.</div>
+        "," ","ITI","","","","","","","",""
+"","","","","","html-keyboard-response","37","169914","0.0-7.0-1.0","60fc21ee8506f0f4a935a648","657afcd119a11bb15c4315fb","657b01270f834cfa496bcbbb","674","./stimuli//pack_morph_shapes_1/cat_1/diff_1/ex_1_1_3.mp4","arrowleft","response","ArrowLeft","3","1","1","test","true","",""
+"","","","","","html-keyboard-response","38","171418","0.0-7.0-2.0","60fc21ee8506f0f4a935a648","657afcd119a11bb15c4315fb","657b01270f834cfa496bcbbb","null","<p> <font color=""green"" size=""5vw""> Correct category! </font> <br> <br> <font color=""green"" size=""8vw""> + $0.09 </font> </p>","null","feedback","","","","","","","0.09","0.09"
+"","","","","","html-keyboard-response","39","172911","0.0-7.1-0.1","60fc21ee8506f0f4a935a648","657afcd119a11bb15c4315fb","657b01270f834cfa496bcbbb","1491","
+            
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $0.09 </font>
+            </div>
+        </div>
+    
+            <div> Please press any key to continue to the next movie.</div>
+        ","arrowleft","ITI","","","","","","","",""
+"","","","","","html-keyboard-response","40","174883","0.0-7.1-1.1","60fc21ee8506f0f4a935a648","657afcd119a11bb15c4315fb","657b01270f834cfa496bcbbb","1971","./stimuli//pack_morph_shapes_1/cat_2/diff_1/ex_2_1_2.mp4","arrowleft","response","ArrowRight","2","2","1","test","false","",""
+"","","","","","html-keyboard-response","41","179883","0.0-7.1-2.1","60fc21ee8506f0f4a935a648","657afcd119a11bb15c4315fb","657b01270f834cfa496bcbbb","null","<p> <font color=""red"" size=""5vw""> Wrong category! </font> <br> <br> <font color=""red"" size=""8vw""> - $0.05 </font> </p>","null","feedback","","","","","","","0.04","-0.05"
+"","","","","","html-keyboard-response","42","180050","0.0-7.2-0.2","60fc21ee8506f0f4a935a648","657afcd119a11bb15c4315fb","657b01270f834cfa496bcbbb","165","
+            
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $0.04 </font>
+            </div>
+        </div>
+    
+            <div> Please press any key to continue to the next movie.</div>
+        ","arrowleft","ITI","","","","","","","",""
+"","","","","","html-keyboard-response","43","181393","0.0-7.2-1.2","60fc21ee8506f0f4a935a648","657afcd119a11bb15c4315fb","657b01270f834cfa496bcbbb","1339","./stimuli//pack_morph_shapes_1/cat_2/diff_1/ex_2_1_13.mp4","arrowleft","response","ArrowRight","13","2","1","test","false","",""
+"","","","","","html-keyboard-response","44","186401","0.0-7.2-2.2","60fc21ee8506f0f4a935a648","657afcd119a11bb15c4315fb","657b01270f834cfa496bcbbb","null","<p> <font color=""red"" size=""5vw""> Wrong category! </font> <br> <br> <font color=""red"" size=""8vw""> - $0.05 </font> </p>","null","feedback","","","","","","","-0.01","-0.05"
+"","","","","","html-keyboard-response","45","187314","0.0-7.3-0.3","60fc21ee8506f0f4a935a648","657afcd119a11bb15c4315fb","657b01270f834cfa496bcbbb","912","
+            
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $-0.01 </font>
+            </div>
+        </div>
+    
+            <div> Please press any key to continue to the next movie.</div>
+        "," ","ITI","","","","","","","",""
+"","","","","","html-keyboard-response","46","188347","0.0-7.3-1.3","60fc21ee8506f0f4a935a648","657afcd119a11bb15c4315fb","657b01270f834cfa496bcbbb","1029","./stimuli//pack_morph_shapes_1/cat_1/diff_1/ex_1_1_10.mp4","arrowleft","response","ArrowLeft","10","1","1","test","true","",""
+"","","","","","html-keyboard-response","47","189852","0.0-7.3-2.3","60fc21ee8506f0f4a935a648","657afcd119a11bb15c4315fb","657b01270f834cfa496bcbbb","null","<p> <font color=""green"" size=""5vw""> Correct category! </font> <br> <br> <font color=""green"" size=""8vw""> + $0.13 </font> </p>","null","feedback","","","","","","","0.12","0.13"
+"","","","","","html-keyboard-response","48","190984","0.0-7.4-0.4","60fc21ee8506f0f4a935a648","657afcd119a11bb15c4315fb","657b01270f834cfa496bcbbb","1130","
+            
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $0.12 </font>
+            </div>
+        </div>
+    
+            <div> Please press any key to continue to the next movie.</div>
+        ","arrowright","ITI","","","","","","","",""
+"","","","","","html-keyboard-response","49","192143","0.0-7.4-1.4","60fc21ee8506f0f4a935a648","657afcd119a11bb15c4315fb","657b01270f834cfa496bcbbb","1155","./stimuli//pack_morph_shapes_1/cat_2/diff_1/ex_2_1_7.mp4","arrowright","response","ArrowRight","7","2","1","test","true","",""
+"","","","","","html-keyboard-response","50","193647","0.0-7.4-2.4","60fc21ee8506f0f4a935a648","657afcd119a11bb15c4315fb","657b01270f834cfa496bcbbb","null","<p> <font color=""green"" size=""5vw""> Correct category! </font> <br> <br> <font color=""green"" size=""8vw""> + $0.13 </font> </p>","null","feedback","","","","","","","0.25","0.13"
+"","","","","","html-keyboard-response","51","194738","0.0-7.5-0.5","60fc21ee8506f0f4a935a648","657afcd119a11bb15c4315fb","657b01270f834cfa496bcbbb","1089","
+            
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $0.25 </font>
+            </div>
+        </div>
+    
+            <div> Please press any key to continue to the next movie.</div>
+        "," ","ITI","","","","","","","",""
+"","","","","","html-keyboard-response","52","195669","0.0-7.5-1.5","60fc21ee8506f0f4a935a648","657afcd119a11bb15c4315fb","657b01270f834cfa496bcbbb","930","./stimuli//pack_morph_shapes_1/cat_1/diff_1/ex_1_1_7.mp4","arrowright","response","ArrowLeft","7","1","1","test","false","",""
+"","","","","","html-keyboard-response","53","200670","0.0-7.5-2.5","60fc21ee8506f0f4a935a648","657afcd119a11bb15c4315fb","657b01270f834cfa496bcbbb","null","<p> <font color=""red"" size=""5vw""> Wrong category! </font> <br> <br> <font color=""red"" size=""8vw""> - $0.05 </font> </p>","null","feedback","","","","","","","0.2","-0.05"
+"","","","","","html-keyboard-response","54","201510","0.0-7.6-0.6","60fc21ee8506f0f4a935a648","657afcd119a11bb15c4315fb","657b01270f834cfa496bcbbb","839","
+            
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $0.2 </font>
+            </div>
+        </div>
+    
+            <div> Please press any key to continue to the next movie.</div>
+        ","arrowleft","ITI","","","","","","","",""
+"","","","","","html-keyboard-response","55","203390","0.0-7.6-1.6","60fc21ee8506f0f4a935a648","657afcd119a11bb15c4315fb","657b01270f834cfa496bcbbb","1877","./stimuli//pack_morph_shapes_1/cat_1/diff_1/ex_1_1_4.mp4","arrowleft","response","ArrowLeft","4","1","1","test","true","",""
+"","","","","","html-keyboard-response","56","204897","0.0-7.6-2.6","60fc21ee8506f0f4a935a648","657afcd119a11bb15c4315fb","657b01270f834cfa496bcbbb","null","<p> <font color=""green"" size=""5vw""> Correct category! </font> <br> <br> <font color=""green"" size=""8vw""> + $0.12 </font> </p>","null","feedback","","","","","","","0.32","0.12"
+"","","","","","html-keyboard-response","57","206504","0.0-7.7-0.7","60fc21ee8506f0f4a935a648","657afcd119a11bb15c4315fb","657b01270f834cfa496bcbbb","1606","
+            
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $0.32 </font>
+            </div>
+        </div>
+    
+            <div> Please press any key to continue to the next movie.</div>
+        "," ","ITI","","","","","","","",""
+"","","","","","html-keyboard-response","58","207389","0.0-7.7-1.7","60fc21ee8506f0f4a935a648","657afcd119a11bb15c4315fb","657b01270f834cfa496bcbbb","881","./stimuli//pack_morph_shapes_1/cat_1/diff_1/ex_1_1_13.mp4","arrowleft","response","ArrowLeft","13","1","1","test","true","",""
+"","","","","","html-keyboard-response","59","208900","0.0-7.7-2.7","60fc21ee8506f0f4a935a648","657afcd119a11bb15c4315fb","657b01270f834cfa496bcbbb","null","<p> <font color=""green"" size=""5vw""> Correct category! </font> <br> <br> <font color=""green"" size=""8vw""> + $0.13 </font> </p>","null","feedback","","","","","","","0.45","0.13"
+"","","","","","html-keyboard-response","60","208961","0.0-7.8-0.8","60fc21ee8506f0f4a935a648","657afcd119a11bb15c4315fb","657b01270f834cfa496bcbbb","60","
+            
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $0.45 </font>
+            </div>
+        </div>
+    
+            <div> Please press any key to continue to the next movie.</div>
+        "," ","ITI","","","","","","","",""
+"","","","","","html-keyboard-response","61","209930","0.0-7.8-1.8","60fc21ee8506f0f4a935a648","657afcd119a11bb15c4315fb","657b01270f834cfa496bcbbb","967","./stimuli//pack_morph_shapes_1/cat_2/diff_2/ex_2_2_16.mp4","arrowright","response","ArrowRight","16","2","2","test","true","",""
+"","","","","","html-keyboard-response","62","211435","0.0-7.8-2.8","60fc21ee8506f0f4a935a648","657afcd119a11bb15c4315fb","657b01270f834cfa496bcbbb","null","<p> <font color=""green"" size=""5vw""> Correct category! </font> <br> <br> <font color=""green"" size=""8vw""> + $0.13 </font> </p>","null","feedback","","","","","","","0.58","0.13"
+"","","","","","html-keyboard-response","63","212022","0.0-7.9-0.9","60fc21ee8506f0f4a935a648","657afcd119a11bb15c4315fb","657b01270f834cfa496bcbbb","585","
+            
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $0.58 </font>
+            </div>
+        </div>
+    
+            <div> Please press any key to continue to the next movie.</div>
+        "," ","ITI","","","","","","","",""
+"","","","","","html-keyboard-response","64","212779","0.0-7.9-1.9","60fc21ee8506f0f4a935a648","657afcd119a11bb15c4315fb","657b01270f834cfa496bcbbb","754","./stimuli//pack_morph_shapes_1/cat_2/diff_2/ex_2_2_1.mp4","arrowright","response","ArrowRight","1","2","2","test","true","",""
+"","","","","","html-keyboard-response","65","214281","0.0-7.9-2.9","60fc21ee8506f0f4a935a648","657afcd119a11bb15c4315fb","657b01270f834cfa496bcbbb","null","<p> <font color=""green"" size=""5vw""> Correct category! </font> <br> <br> <font color=""green"" size=""8vw""> + $0.14 </font> </p>","null","feedback","","","","","","","0.72","0.14"
+"","","","","","html-keyboard-response","66","215444","0.0-7.10-0.10","60fc21ee8506f0f4a935a648","657afcd119a11bb15c4315fb","657b01270f834cfa496bcbbb","1162","
+            
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $0.72 </font>
+            </div>
+        </div>
+    
+            <div> Please press any key to continue to the next movie.</div>
+        "," ","ITI","","","","","","","",""
+"","","","","","html-keyboard-response","67","216119","0.0-7.10-1.10","60fc21ee8506f0f4a935a648","657afcd119a11bb15c4315fb","657b01270f834cfa496bcbbb","672","./stimuli//pack_morph_shapes_1/cat_1/diff_2/ex_1_2_10.mp4","arrowleft","response","ArrowLeft","10","1","2","test","true","",""
+"","","","","","html-keyboard-response","68","217628","0.0-7.10-2.10","60fc21ee8506f0f4a935a648","657afcd119a11bb15c4315fb","657b01270f834cfa496bcbbb","null","<p> <font color=""green"" size=""5vw""> Correct category! </font> <br> <br> <font color=""green"" size=""8vw""> + $0.14 </font> </p>","null","feedback","","","","","","","0.86","0.14"
+"","","","","","html-keyboard-response","69","219318","0.0-7.11-0.11","60fc21ee8506f0f4a935a648","657afcd119a11bb15c4315fb","657b01270f834cfa496bcbbb","1689","
+            
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $0.86 </font>
+            </div>
+        </div>
+    
+            <div> Please press any key to continue to the next movie.</div>
+        "," ","ITI","","","","","","","",""
+"","","","","","html-keyboard-response","70","220341","0.0-7.11-1.11","60fc21ee8506f0f4a935a648","657afcd119a11bb15c4315fb","657b01270f834cfa496bcbbb","1020","./stimuli//pack_morph_shapes_1/cat_2/diff_2/ex_2_2_5.mp4","arrowleft","response","ArrowRight","5","2","2","test","false","",""
+"","","","","","html-keyboard-response","71","225351","0.0-7.11-2.11","60fc21ee8506f0f4a935a648","657afcd119a11bb15c4315fb","657b01270f834cfa496bcbbb","null","<p> <font color=""red"" size=""5vw""> Wrong category! </font> <br> <br> <font color=""red"" size=""8vw""> - $0.05 </font> </p>","null","feedback","","","","","","","0.81","-0.05"
+"","","","","","html-keyboard-response","72","225894","0.0-7.12-0.12","60fc21ee8506f0f4a935a648","657afcd119a11bb15c4315fb","657b01270f834cfa496bcbbb","542","
+            
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $0.81 </font>
+            </div>
+        </div>
+    
+            <div> Please press any key to continue to the next movie.</div>
+        ","arrowleft","ITI","","","","","","","",""
+"","","","","","html-keyboard-response","73","226821","0.0-7.12-1.12","60fc21ee8506f0f4a935a648","657afcd119a11bb15c4315fb","657b01270f834cfa496bcbbb","924","./stimuli//pack_morph_shapes_1/cat_2/diff_2/ex_2_2_4.mp4","arrowleft","response","ArrowRight","4","2","2","test","false","",""
+"","","","","","html-keyboard-response","74","231824","0.0-7.12-2.12","60fc21ee8506f0f4a935a648","657afcd119a11bb15c4315fb","657b01270f834cfa496bcbbb","null","<p> <font color=""red"" size=""5vw""> Wrong category! </font> <br> <br> <font color=""red"" size=""8vw""> - $0.05 </font> </p>","null","feedback","","","","","","","0.76","-0.05"
+"","","","","","html-keyboard-response","75","232478","0.0-7.13-0.13","60fc21ee8506f0f4a935a648","657afcd119a11bb15c4315fb","657b01270f834cfa496bcbbb","653","
+            
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $0.76 </font>
+            </div>
+        </div>
+    
+            <div> Please press any key to continue to the next movie.</div>
+        "," ","ITI","","","","","","","",""
+"","","","","","html-keyboard-response","76","233386","0.0-7.13-1.13","60fc21ee8506f0f4a935a648","657afcd119a11bb15c4315fb","657b01270f834cfa496bcbbb","904","./stimuli//pack_morph_shapes_1/cat_2/diff_1/ex_2_1_10.mp4","arrowleft","response","ArrowRight","10","2","1","test","false","",""
+"","","","","","html-keyboard-response","77","238412","0.0-7.13-2.13","60fc21ee8506f0f4a935a648","657afcd119a11bb15c4315fb","657b01270f834cfa496bcbbb","null","<p> <font color=""red"" size=""5vw""> Wrong category! </font> <br> <br> <font color=""red"" size=""8vw""> - $0.05 </font> </p>","null","feedback","","","","","","","0.71","-0.05"
+"","","","","","html-keyboard-response","78","239604","0.0-7.14-0.14","60fc21ee8506f0f4a935a648","657afcd119a11bb15c4315fb","657b01270f834cfa496bcbbb","1191","
+            
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $0.71 </font>
+            </div>
+        </div>
+    
+            <div> Please press any key to continue to the next movie.</div>
+        ","arrowright","ITI","","","","","","","",""
+"","","","","","html-keyboard-response","79","241617","0.0-7.14-1.14","60fc21ee8506f0f4a935a648","657afcd119a11bb15c4315fb","657b01270f834cfa496bcbbb","2012","./stimuli//pack_morph_shapes_1/cat_1/diff_1/ex_1_1_4.mp4","arrowright","response","ArrowLeft","4","1","1","test","false","",""
+"","","","","","html-keyboard-response","80","246634","0.0-7.14-2.14","60fc21ee8506f0f4a935a648","657afcd119a11bb15c4315fb","657b01270f834cfa496bcbbb","null","<p> <font color=""red"" size=""5vw""> Wrong category! </font> <br> <br> <font color=""red"" size=""8vw""> - $0.05 </font> </p>","null","feedback","","","","","","","0.66","-0.05"
+"","","","","","html-keyboard-response","81","247368","0.0-7.15-0.15","60fc21ee8506f0f4a935a648","657afcd119a11bb15c4315fb","657b01270f834cfa496bcbbb","733","
+            
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $0.66 </font>
+            </div>
+        </div>
+    
+            <div> Please press any key to continue to the next movie.</div>
+        "," ","ITI","","","","","","","",""
+"","","","","","html-keyboard-response","82","249812","0.0-7.15-1.15","60fc21ee8506f0f4a935a648","657afcd119a11bb15c4315fb","657b01270f834cfa496bcbbb","2442","./stimuli//pack_morph_shapes_1/cat_2/diff_1/ex_2_1_16.mp4","arrowleft","response","ArrowRight","16","2","1","test","false","",""
+"","","","","","html-keyboard-response","83","254828","0.0-7.15-2.15","60fc21ee8506f0f4a935a648","657afcd119a11bb15c4315fb","657b01270f834cfa496bcbbb","null","<p> <font color=""red"" size=""5vw""> Wrong category! </font> <br> <br> <font color=""red"" size=""8vw""> - $0.05 </font> </p>","null","feedback","","","","","","","0.61","-0.05"
+"","","","","","html-keyboard-response","84","255683","0.0-7.16-0.16","60fc21ee8506f0f4a935a648","657afcd119a11bb15c4315fb","657b01270f834cfa496bcbbb","854","
+            
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $0.61 </font>
+            </div>
+        </div>
+    
+            <div> Please press any key to continue to the next movie.</div>
+        "," ","ITI","","","","","","","",""
+"","","","","","html-keyboard-response","85","256256","0.0-7.16-1.16","60fc21ee8506f0f4a935a648","657afcd119a11bb15c4315fb","657b01270f834cfa496bcbbb","570","./stimuli//pack_morph_shapes_1/cat_2/diff_1/ex_2_1_4.mp4","arrowright","response","ArrowRight","4","2","1","test","true","",""
+"","","","","","html-keyboard-response","86","257764","0.0-7.16-2.16","60fc21ee8506f0f4a935a648","657afcd119a11bb15c4315fb","657b01270f834cfa496bcbbb","null","<p> <font color=""green"" size=""5vw""> Correct category! </font> <br> <br> <font color=""green"" size=""8vw""> + $0.14 </font> </p>","null","feedback","","","","","","","0.75","0.14"
+"","","","","","html-keyboard-response","87","259447","0.0-7.17-0.17","60fc21ee8506f0f4a935a648","657afcd119a11bb15c4315fb","657b01270f834cfa496bcbbb","1682","
+            
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $0.75 </font>
+            </div>
+        </div>
+    
+            <div> Please press any key to continue to the next movie.</div>
+        "," ","ITI","","","","","","","",""
+"","","","","","html-keyboard-response","88","261324","0.0-7.17-1.17","60fc21ee8506f0f4a935a648","657afcd119a11bb15c4315fb","657b01270f834cfa496bcbbb","1876","./stimuli//pack_morph_shapes_1/cat_2/diff_1/ex_2_1_12.mp4","arrowleft","response","ArrowRight","12","2","1","test","false","",""
+"","","","","","html-keyboard-response","89","266325","0.0-7.17-2.17","60fc21ee8506f0f4a935a648","657afcd119a11bb15c4315fb","657b01270f834cfa496bcbbb","null","<p> <font color=""red"" size=""5vw""> Wrong category! </font> <br> <br> <font color=""red"" size=""8vw""> - $0.05 </font> </p>","null","feedback","","","","","","","0.7","-0.05"
+"","","","","","html-keyboard-response","90","266797","0.0-7.18-0.18","60fc21ee8506f0f4a935a648","657afcd119a11bb15c4315fb","657b01270f834cfa496bcbbb","472","
+            
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $0.7 </font>
+            </div>
+        </div>
+    
+            <div> Please press any key to continue to the next movie.</div>
+        "," ","ITI","","","","","","","",""
+"","","","","","html-keyboard-response","91","267686","0.0-7.18-1.18","60fc21ee8506f0f4a935a648","657afcd119a11bb15c4315fb","657b01270f834cfa496bcbbb","887","./stimuli//pack_morph_shapes_1/cat_2/diff_1/ex_2_1_1.mp4","arrowleft","response","ArrowRight","1","2","1","test","false","",""
+"","","","","","html-keyboard-response","92","272702","0.0-7.18-2.18","60fc21ee8506f0f4a935a648","657afcd119a11bb15c4315fb","657b01270f834cfa496bcbbb","null","<p> <font color=""red"" size=""5vw""> Wrong category! </font> <br> <br> <font color=""red"" size=""8vw""> - $0.05 </font> </p>","null","feedback","","","","","","","0.65","-0.05"
+"","","","","","html-keyboard-response","93","272915","0.0-7.19-0.19","60fc21ee8506f0f4a935a648","657afcd119a11bb15c4315fb","657b01270f834cfa496bcbbb","212","
+            
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $0.65 </font>
+            </div>
+        </div>
+    
+            <div> Please press any key to continue to the next movie.</div>
+        "," ","ITI","","","","","","","",""
+"","","","","","html-keyboard-response","94","274098","0.0-7.19-1.19","60fc21ee8506f0f4a935a648","657afcd119a11bb15c4315fb","657b01270f834cfa496bcbbb","1179","./stimuli//pack_morph_shapes_1/cat_1/diff_1/ex_1_1_4.mp4","arrowright","response","ArrowLeft","4","1","1","test","false","",""
+"","","","","","html-keyboard-response","95","279102","0.0-7.19-2.19","60fc21ee8506f0f4a935a648","657afcd119a11bb15c4315fb","657b01270f834cfa496bcbbb","null","<p> <font color=""red"" size=""5vw""> Wrong category! </font> <br> <br> <font color=""red"" size=""8vw""> - $0.05 </font> </p>","null","feedback","","","","","","","0.6","-0.05"
+"","","","","","html-keyboard-response","96","281046","0.0-7.20-0.20","60fc21ee8506f0f4a935a648","657afcd119a11bb15c4315fb","657b01270f834cfa496bcbbb","1942","
+            
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $0.6 </font>
+            </div>
+        </div>
+    
+            <div> Please press any key to continue to the next movie.</div>
+        "," ","ITI","","","","","","","",""
+"","","","","","html-keyboard-response","97","282205","0.0-7.20-1.20","60fc21ee8506f0f4a935a648","657afcd119a11bb15c4315fb","657b01270f834cfa496bcbbb","1156","./stimuli//pack_morph_shapes_1/cat_1/diff_1/ex_1_1_4.mp4","arrowleft","response","ArrowLeft","4","1","1","test","true","",""
+"","","","","","html-keyboard-response","98","283706","0.0-7.20-2.20","60fc21ee8506f0f4a935a648","657afcd119a11bb15c4315fb","657b01270f834cfa496bcbbb","null","<p> <font color=""green"" size=""5vw""> Correct category! </font> <br> <br> <font color=""green"" size=""8vw""> + $0.13 </font> </p>","null","feedback","","","","","","","0.73","0.13"
+"","","","","","html-keyboard-response","99","283766","0.0-7.21-0.21","60fc21ee8506f0f4a935a648","657afcd119a11bb15c4315fb","657b01270f834cfa496bcbbb","58","
+            
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $0.73 </font>
+            </div>
+        </div>
+    
+            <div> Please press any key to continue to the next movie.</div>
+        "," ","ITI","","","","","","","",""
+"","","","","","html-keyboard-response","100","287544","0.0-7.21-1.21","60fc21ee8506f0f4a935a648","657afcd119a11bb15c4315fb","657b01270f834cfa496bcbbb","3775","./stimuli//pack_morph_shapes_1/cat_1/diff_1/ex_1_1_17.mp4","arrowright","response","ArrowLeft","17","1","1","test","false","",""
+"","","","","","html-keyboard-response","101","292551","0.0-7.21-2.21","60fc21ee8506f0f4a935a648","657afcd119a11bb15c4315fb","657b01270f834cfa496bcbbb","null","<p> <font color=""red"" size=""5vw""> Wrong category! </font> <br> <br> <font color=""red"" size=""8vw""> - $0.05 </font> </p>","null","feedback","","","","","","","0.68","-0.05"
+"","","","","","html-keyboard-response","102","293198","0.0-7.22-0.22","60fc21ee8506f0f4a935a648","657afcd119a11bb15c4315fb","657b01270f834cfa496bcbbb","646","
+            
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $0.68 </font>
+            </div>
+        </div>
+    
+            <div> Please press any key to continue to the next movie.</div>
+        "," ","ITI","","","","","","","",""
+"","","","","","html-keyboard-response","103","294230","0.0-7.22-1.22","60fc21ee8506f0f4a935a648","657afcd119a11bb15c4315fb","657b01270f834cfa496bcbbb","1028","./stimuli//pack_morph_shapes_1/cat_2/diff_1/ex_2_1_4.mp4","arrowright","response","ArrowRight","4","2","1","test","true","",""
+"","","","","","html-keyboard-response","104","295741","0.0-7.22-2.22","60fc21ee8506f0f4a935a648","657afcd119a11bb15c4315fb","657b01270f834cfa496bcbbb","null","<p> <font color=""green"" size=""5vw""> Correct category! </font> <br> <br> <font color=""green"" size=""8vw""> + $0.13 </font> </p>","null","feedback","","","","","","","0.81","0.13"
+"","","","","","html-keyboard-response","105","296837","0.0-7.23-0.23","60fc21ee8506f0f4a935a648","657afcd119a11bb15c4315fb","657b01270f834cfa496bcbbb","1096","
+            
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $0.81 </font>
+            </div>
+        </div>
+    
+            <div> Please press any key to continue to the next movie.</div>
+        "," ","ITI","","","","","","","",""
+"","","","","","html-keyboard-response","106","298056","0.0-7.23-1.23","60fc21ee8506f0f4a935a648","657afcd119a11bb15c4315fb","657b01270f834cfa496bcbbb","1224","./stimuli//pack_morph_shapes_1/cat_1/diff_1/ex_1_1_2.mp4","arrowleft","response","ArrowLeft","2","1","1","test","true","",""
+"","","","","","html-keyboard-response","107","299564","0.0-7.23-2.23","60fc21ee8506f0f4a935a648","657afcd119a11bb15c4315fb","657b01270f834cfa496bcbbb","null","<p> <font color=""green"" size=""5vw""> Correct category! </font> <br> <br> <font color=""green"" size=""8vw""> + $0.13 </font> </p>","null","feedback","","","","","","","0.94","0.13"
+"","","","","","html-keyboard-response","108","300708","0.0-7.24-0.24","60fc21ee8506f0f4a935a648","657afcd119a11bb15c4315fb","657b01270f834cfa496bcbbb","1144","
+            
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $0.94 </font>
+            </div>
+        </div>
+    
+            <div> Please press any key to continue to the next movie.</div>
+        "," ","ITI","","","","","","","",""
+"","","","","","html-keyboard-response","109","301989","0.0-7.24-1.24","60fc21ee8506f0f4a935a648","657afcd119a11bb15c4315fb","657b01270f834cfa496bcbbb","1277","./stimuli//pack_morph_shapes_1/cat_2/diff_1/ex_2_1_7.mp4","arrowleft","response","ArrowRight","7","2","1","test","false","",""
+"","","","","","html-keyboard-response","110","306992","0.0-7.24-2.24","60fc21ee8506f0f4a935a648","657afcd119a11bb15c4315fb","657b01270f834cfa496bcbbb","null","<p> <font color=""red"" size=""5vw""> Wrong category! </font> <br> <br> <font color=""red"" size=""8vw""> - $0.05 </font> </p>","null","feedback","","","","","","","0.89","-0.05"
+"","","","","","html-keyboard-response","111","307141","0.0-7.25-0.25","60fc21ee8506f0f4a935a648","657afcd119a11bb15c4315fb","657b01270f834cfa496bcbbb","147","
+            
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $0.89 </font>
+            </div>
+        </div>
+    
+            <div> Please press any key to continue to the next movie.</div>
+        "," ","ITI","","","","","","","",""
+"","","","","","html-keyboard-response","112","307836","0.0-7.25-1.25","60fc21ee8506f0f4a935a648","657afcd119a11bb15c4315fb","657b01270f834cfa496bcbbb","692","./stimuli//pack_morph_shapes_1/cat_2/diff_1/ex_2_1_17.mp4","arrowright","response","ArrowRight","17","2","1","test","true","",""
+"","","","","","html-keyboard-response","113","309346","0.0-7.25-2.25","60fc21ee8506f0f4a935a648","657afcd119a11bb15c4315fb","657b01270f834cfa496bcbbb","null","<p> <font color=""green"" size=""5vw""> Correct category! </font> <br> <br> <font color=""green"" size=""8vw""> + $0.14 </font> </p>","null","feedback","","","","","","","1.03","0.14"
+"","","","","","html-keyboard-response","114","310088","0.0-7.26-0.26","60fc21ee8506f0f4a935a648","657afcd119a11bb15c4315fb","657b01270f834cfa496bcbbb","740","
+            
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $1.03 </font>
+            </div>
+        </div>
+    
+            <div> Please press any key to continue to the next movie.</div>
+        "," ","ITI","","","","","","","",""
+"","","","","","html-keyboard-response","115","311316","0.0-7.26-1.26","60fc21ee8506f0f4a935a648","657afcd119a11bb15c4315fb","657b01270f834cfa496bcbbb","1225","./stimuli//pack_morph_shapes_1/cat_2/diff_1/ex_2_1_14.mp4","arrowleft","response","ArrowRight","14","2","1","test","false","",""
+"","","","","","html-keyboard-response","116","316319","0.0-7.26-2.26","60fc21ee8506f0f4a935a648","657afcd119a11bb15c4315fb","657b01270f834cfa496bcbbb","null","<p> <font color=""red"" size=""5vw""> Wrong category! </font> <br> <br> <font color=""red"" size=""8vw""> - $0.05 </font> </p>","null","feedback","","","","","","","0.98","-0.05"
+"","","","","","html-keyboard-response","117","317201","0.0-7.27-0.27","60fc21ee8506f0f4a935a648","657afcd119a11bb15c4315fb","657b01270f834cfa496bcbbb","881","
+            
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $0.98 </font>
+            </div>
+        </div>
+    
+            <div> Please press any key to continue to the next movie.</div>
+        "," ","ITI","","","","","","","",""
+"","","","","","html-keyboard-response","118","318325","0.0-7.27-1.27","60fc21ee8506f0f4a935a648","657afcd119a11bb15c4315fb","657b01270f834cfa496bcbbb","1121","./stimuli//pack_morph_shapes_1/cat_1/diff_1/ex_1_1_14.mp4","arrowleft","response","ArrowLeft","14","1","1","test","true","",""
+"","","","","","html-keyboard-response","119","319826","0.0-7.27-2.27","60fc21ee8506f0f4a935a648","657afcd119a11bb15c4315fb","657b01270f834cfa496bcbbb","null","<p> <font color=""green"" size=""5vw""> Correct category! </font> <br> <br> <font color=""green"" size=""8vw""> + $0.13 </font> </p>","null","feedback","","","","","","","1.11","0.13"
+"","","","","","html-keyboard-response","120","320655","0.0-7.28-0.28","60fc21ee8506f0f4a935a648","657afcd119a11bb15c4315fb","657b01270f834cfa496bcbbb","828","
+            
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $1.11 </font>
+            </div>
+        </div>
+    
+            <div> Please press any key to continue to the next movie.</div>
+        "," ","ITI","","","","","","","",""
+"","","","","","html-keyboard-response","121","322113","0.0-7.28-1.28","60fc21ee8506f0f4a935a648","657afcd119a11bb15c4315fb","657b01270f834cfa496bcbbb","1456","./stimuli//pack_morph_shapes_1/cat_2/diff_1/ex_2_1_16.mp4","arrowright","response","ArrowRight","16","2","1","test","true","",""
+"","","","","","html-keyboard-response","122","323623","0.0-7.28-2.28","60fc21ee8506f0f4a935a648","657afcd119a11bb15c4315fb","657b01270f834cfa496bcbbb","null","<p> <font color=""green"" size=""5vw""> Correct category! </font> <br> <br> <font color=""green"" size=""8vw""> + $0.12 </font> </p>","null","feedback","","","","","","","1.23","0.12"
+"","","","","","html-keyboard-response","123","324410","0.0-7.29-0.29","60fc21ee8506f0f4a935a648","657afcd119a11bb15c4315fb","657b01270f834cfa496bcbbb","786","
+            
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $1.23 </font>
+            </div>
+        </div>
+    
+            <div> Please press any key to continue to the next movie.</div>
+        "," ","ITI","","","","","","","",""
+"","","","","","html-keyboard-response","124","325597","0.0-7.29-1.29","60fc21ee8506f0f4a935a648","657afcd119a11bb15c4315fb","657b01270f834cfa496bcbbb","1184","./stimuli//pack_morph_shapes_1/cat_2/diff_1/ex_2_1_6.mp4","arrowleft","response","ArrowRight","6","2","1","test","false","",""
+"","","","","","html-keyboard-response","125","330610","0.0-7.29-2.29","60fc21ee8506f0f4a935a648","657afcd119a11bb15c4315fb","657b01270f834cfa496bcbbb","null","<p> <font color=""red"" size=""5vw""> Wrong category! </font> <br> <br> <font color=""red"" size=""8vw""> - $0.05 </font> </p>","null","feedback","","","","","","","1.18","-0.05"
+"","","","","","html-keyboard-response","126","331408","0.0-7.30-0.30","60fc21ee8506f0f4a935a648","657afcd119a11bb15c4315fb","657b01270f834cfa496bcbbb","796","
+            
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $1.18 </font>
+            </div>
+        </div>
+    
+            <div> Please press any key to continue to the next movie.</div>
+        "," ","ITI","","","","","","","",""
+"","","","","","html-keyboard-response","127","332614","0.0-7.30-1.30","60fc21ee8506f0f4a935a648","657afcd119a11bb15c4315fb","657b01270f834cfa496bcbbb","1204","./stimuli//pack_morph_shapes_1/cat_2/diff_1/ex_2_1_4.mp4","arrowright","response","ArrowRight","4","2","1","test","true","",""
+"","","","","","html-keyboard-response","128","334124","0.0-7.30-2.30","60fc21ee8506f0f4a935a648","657afcd119a11bb15c4315fb","657b01270f834cfa496bcbbb","null","<p> <font color=""green"" size=""5vw""> Correct category! </font> <br> <br> <font color=""green"" size=""8vw""> + $0.13 </font> </p>","null","feedback","","","","","","","1.31","0.13"
+"","","","","","html-keyboard-response","129","334644","0.0-7.31-0.31","60fc21ee8506f0f4a935a648","657afcd119a11bb15c4315fb","657b01270f834cfa496bcbbb","519","
+            
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $1.31 </font>
+            </div>
+        </div>
+    
+            <div> Please press any key to continue to the next movie.</div>
+        "," ","ITI","","","","","","","",""
+"","","","","","html-keyboard-response","130","340149","0.0-7.31-1.31","60fc21ee8506f0f4a935a648","657afcd119a11bb15c4315fb","657b01270f834cfa496bcbbb","null","./stimuli//pack_morph_shapes_1/cat_1/diff_1/ex_1_1_15.mp4","null","response","ArrowLeft","15","1","1","test","false","",""
+"","","","","","html-keyboard-response","131","345151","0.0-7.31-2.31","60fc21ee8506f0f4a935a648","657afcd119a11bb15c4315fb","657b01270f834cfa496bcbbb","null","<p> <font color=""red"" size=""5vw""> Time out! </font> <br> <br> <font color=""red"" size=""8vw""> - $0.05 </font> <br> <br> Please try to respond as quickly as possible. </p>","null","feedback","","","","","","","1.26","-0.05"
+"","","","","","html-keyboard-response","132","346497","0.0-7.32-0.32","60fc21ee8506f0f4a935a648","657afcd119a11bb15c4315fb","657b01270f834cfa496bcbbb","1345","
+            
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $1.26 </font>
+            </div>
+        </div>
+    
+            <div> Please press any key to continue to the next movie.</div>
+        "," ","ITI","","","","","","","",""
+"","","","","","html-keyboard-response","133","346882","0.0-7.32-1.32","60fc21ee8506f0f4a935a648","657afcd119a11bb15c4315fb","657b01270f834cfa496bcbbb","384","./stimuli//pack_morph_shapes_1/cat_1/diff_1/ex_1_1_16.mp4","arrowleft","response","ArrowLeft","16","1","1","test","true","",""
+"","","","","","html-keyboard-response","134","348384","0.0-7.32-2.32","60fc21ee8506f0f4a935a648","657afcd119a11bb15c4315fb","657b01270f834cfa496bcbbb","null","<p> <font color=""green"" size=""5vw""> Correct category! </font> <br> <br> <font color=""green"" size=""8vw""> + $0.14 </font> </p>","null","feedback","","","","","","","1.4","0.14"
+"","","","","","html-keyboard-response","135","348993","0.0-7.33-0.33","60fc21ee8506f0f4a935a648","657afcd119a11bb15c4315fb","657b01270f834cfa496bcbbb","608","
+            
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $1.4 </font>
+            </div>
+        </div>
+    
+            <div> Please press any key to continue to the next movie.</div>
+        ","arrowright","ITI","","","","","","","",""
+"","","","","","html-keyboard-response","136","350008","0.0-7.33-1.33","60fc21ee8506f0f4a935a648","657afcd119a11bb15c4315fb","657b01270f834cfa496bcbbb","1012","./stimuli//pack_morph_shapes_1/cat_2/diff_1/ex_2_1_7.mp4","arrowright","response","ArrowRight","7","2","1","test","true","",""
+"","","","","","html-keyboard-response","137","351520","0.0-7.33-2.33","60fc21ee8506f0f4a935a648","657afcd119a11bb15c4315fb","657b01270f834cfa496bcbbb","null","<p> <font color=""green"" size=""5vw""> Correct category! </font> <br> <br> <font color=""green"" size=""8vw""> + $0.13 </font> </p>","null","feedback","","","","","","","1.53","0.13"
+"","","","","","html-keyboard-response","138","352539","0.0-7.34-0.34","60fc21ee8506f0f4a935a648","657afcd119a11bb15c4315fb","657b01270f834cfa496bcbbb","1018","
+            
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $1.53 </font>
+            </div>
+        </div>
+    
+            <div> Please press any key to continue to the next movie.</div>
+        ","arrowleft","ITI","","","","","","","",""
+"","","","","","html-keyboard-response","139","353673","0.0-7.34-1.34","60fc21ee8506f0f4a935a648","657afcd119a11bb15c4315fb","657b01270f834cfa496bcbbb","1133","./stimuli//pack_morph_shapes_1/cat_2/diff_1/ex_2_1_13.mp4","arrowright","response","ArrowRight","13","2","1","test","true","",""
+"","","","","","html-keyboard-response","140","355179","0.0-7.34-2.34","60fc21ee8506f0f4a935a648","657afcd119a11bb15c4315fb","657b01270f834cfa496bcbbb","null","<p> <font color=""green"" size=""5vw""> Correct category! </font> <br> <br> <font color=""green"" size=""8vw""> + $0.13 </font> </p>","null","feedback","","","","","","","1.66","0.13"
+"","","","","","html-keyboard-response","141","355783","0.0-7.35-0.35","60fc21ee8506f0f4a935a648","657afcd119a11bb15c4315fb","657b01270f834cfa496bcbbb","604","
+            
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $1.66 </font>
+            </div>
+        </div>
+    
+            <div> Please press any key to continue to the next movie.</div>
+        ","arrowleft","ITI","","","","","","","",""
+"","","","","","html-keyboard-response","142","357006","0.0-7.35-1.35","60fc21ee8506f0f4a935a648","657afcd119a11bb15c4315fb","657b01270f834cfa496bcbbb","1222","./stimuli//pack_morph_shapes_1/cat_2/diff_2/ex_2_2_14.mp4","arrowleft","response","ArrowRight","14","2","2","test","false","",""
+"","","","","","html-keyboard-response","143","362024","0.0-7.35-2.35","60fc21ee8506f0f4a935a648","657afcd119a11bb15c4315fb","657b01270f834cfa496bcbbb","null","<p> <font color=""red"" size=""5vw""> Wrong category! </font> <br> <br> <font color=""red"" size=""8vw""> - $0.05 </font> </p>","null","feedback","","","","","","","1.61","-0.05"
+"","","","","","html-keyboard-response","144","362362","0.0-7.36-0.36","60fc21ee8506f0f4a935a648","657afcd119a11bb15c4315fb","657b01270f834cfa496bcbbb","337","
+            
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $1.61 </font>
+            </div>
+        </div>
+    
+            <div> Please press any key to continue to the next movie.</div>
+        "," ","ITI","","","","","","","",""
+"","","","","","html-keyboard-response","145","362735","0.0-7.36-1.36","60fc21ee8506f0f4a935a648","657afcd119a11bb15c4315fb","657b01270f834cfa496bcbbb","370","./stimuli//pack_morph_shapes_1/cat_1/diff_2/ex_1_2_2.mp4","arrowleft","response","ArrowLeft","2","1","2","test","true","",""
+"","","","","","html-keyboard-response","146","364243","0.0-7.36-2.36","60fc21ee8506f0f4a935a648","657afcd119a11bb15c4315fb","657b01270f834cfa496bcbbb","null","<p> <font color=""green"" size=""5vw""> Correct category! </font> <br> <br> <font color=""green"" size=""8vw""> + $0.19 </font> </p>","null","feedback","","","","","","","1.8","0.19"
+"","","","","","html-keyboard-response","147","364291","0.0-7.37-0.37","60fc21ee8506f0f4a935a648","657afcd119a11bb15c4315fb","657b01270f834cfa496bcbbb","46","
+            
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $1.8 </font>
+            </div>
+        </div>
+    
+            <div> Please press any key to continue to the next movie.</div>
+        "," ","ITI","","","","","","","",""
+"","","","","","html-keyboard-response","148","369800","0.0-7.37-1.37","60fc21ee8506f0f4a935a648","657afcd119a11bb15c4315fb","657b01270f834cfa496bcbbb","null","./stimuli//pack_morph_shapes_1/cat_1/diff_2/ex_1_2_9.mp4","null","response","ArrowLeft","9","1","2","test","false","",""
+"","","","","","html-keyboard-response","149","374813","0.0-7.37-2.37","60fc21ee8506f0f4a935a648","657afcd119a11bb15c4315fb","657b01270f834cfa496bcbbb","null","<p> <font color=""red"" size=""5vw""> Time out! </font> <br> <br> <font color=""red"" size=""8vw""> - $0.05 </font> <br> <br> Please try to respond as quickly as possible. </p>","null","feedback","","","","","","","1.75","-0.05"
+"","","","","","html-keyboard-response","150","375389","0.0-7.38-0.38","60fc21ee8506f0f4a935a648","657afcd119a11bb15c4315fb","657b01270f834cfa496bcbbb","576","
+            
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $1.75 </font>
+            </div>
+        </div>
+    
+            <div> Please press any key to continue to the next movie.</div>
+        ","arrowleft","ITI","","","","","","","",""
+"","","","","","html-keyboard-response","151","376140","0.0-7.38-1.38","60fc21ee8506f0f4a935a648","657afcd119a11bb15c4315fb","657b01270f834cfa496bcbbb","748","./stimuli//pack_morph_shapes_1/cat_1/diff_2/ex_1_2_14.mp4","arrowright","response","ArrowLeft","14","1","2","test","false","",""
+"","","","","","html-keyboard-response","152","381150","0.0-7.38-2.38","60fc21ee8506f0f4a935a648","657afcd119a11bb15c4315fb","657b01270f834cfa496bcbbb","null","<p> <font color=""red"" size=""5vw""> Wrong category! </font> <br> <br> <font color=""red"" size=""8vw""> - $0.05 </font> </p>","null","feedback","","","","","","","1.7","-0.05"
+"","","","","","html-keyboard-response","153","381753","0.0-7.39-0.39","60fc21ee8506f0f4a935a648","657afcd119a11bb15c4315fb","657b01270f834cfa496bcbbb","602","
+            
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $1.7 </font>
+            </div>
+        </div>
+    
+            <div> Please press any key to continue to the next movie.</div>
+        ","arrowright","ITI","","","","","","","",""
+"","","","","","html-keyboard-response","154","382103","0.0-7.39-1.39","60fc21ee8506f0f4a935a648","657afcd119a11bb15c4315fb","657b01270f834cfa496bcbbb","348","./stimuli//pack_morph_shapes_1/cat_2/diff_2/ex_2_2_6.mp4","arrowright","response","ArrowRight","6","2","2","test","true","",""
+"","","","","","html-keyboard-response","155","383605","0.0-7.39-2.39","60fc21ee8506f0f4a935a648","657afcd119a11bb15c4315fb","657b01270f834cfa496bcbbb","null","<p> <font color=""green"" size=""5vw""> Correct category! </font> <br> <br> <font color=""green"" size=""8vw""> + $0.19 </font> </p>","null","feedback","","","","","","","1.89","0.19"
+"","","","","","html-keyboard-response","156","384100","0.0-7.40-0.40","60fc21ee8506f0f4a935a648","657afcd119a11bb15c4315fb","657b01270f834cfa496bcbbb","495","
+            
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $1.89 </font>
+            </div>
+        </div>
+    
+            <div> Please press any key to continue to the next movie.</div>
+        ","arrowleft","ITI","","","","","","","",""
+"","","","","","html-keyboard-response","157","384405","0.0-7.40-1.40","60fc21ee8506f0f4a935a648","657afcd119a11bb15c4315fb","657b01270f834cfa496bcbbb","304","./stimuli//pack_morph_shapes_1/cat_2/diff_1/ex_2_1_10.mp4","arrowleft","response","ArrowRight","10","2","1","test","false","",""
+"","","","","","html-keyboard-response","158","389416","0.0-7.40-2.40","60fc21ee8506f0f4a935a648","657afcd119a11bb15c4315fb","657b01270f834cfa496bcbbb","null","<p> <font color=""red"" size=""5vw""> Wrong category! </font> <br> <br> <font color=""red"" size=""8vw""> - $0.05 </font> </p>","null","feedback","","","","","","","1.84","-0.05"
+"","","","","","html-keyboard-response","159","389470","0.0-7.41-0.41","60fc21ee8506f0f4a935a648","657afcd119a11bb15c4315fb","657b01270f834cfa496bcbbb","53","
+            
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $1.84 </font>
+            </div>
+        </div>
+    
+            <div> Please press any key to continue to the next movie.</div>
+        ","arrowleft","ITI","","","","","","","",""
+"","","","","","html-keyboard-response","160","390346","0.0-7.41-1.41","60fc21ee8506f0f4a935a648","657afcd119a11bb15c4315fb","657b01270f834cfa496bcbbb","873","./stimuli//pack_morph_shapes_1/cat_1/diff_1/ex_1_1_16.mp4","arrowleft","response","ArrowLeft","16","1","1","test","true","",""
+"","","","","","html-keyboard-response","161","391852","0.0-7.41-2.41","60fc21ee8506f0f4a935a648","657afcd119a11bb15c4315fb","657b01270f834cfa496bcbbb","null","<p> <font color=""green"" size=""5vw""> Correct category! </font> <br> <br> <font color=""green"" size=""8vw""> + $0.18 </font> </p>","null","feedback","","","","","","","2.02","0.18"
+"","","","","","html-keyboard-response","162","393178","0.0-7.42-0.42","60fc21ee8506f0f4a935a648","657afcd119a11bb15c4315fb","657b01270f834cfa496bcbbb","1325","
+            
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $2.02 </font>
+            </div>
+        </div>
+    
+            <div> Please press any key to continue to the next movie.</div>
+        ","arrowright","ITI","","","","","","","",""
+"","","","","","html-keyboard-response","163","394173","0.0-7.42-1.42","60fc21ee8506f0f4a935a648","657afcd119a11bb15c4315fb","657b01270f834cfa496bcbbb","993","./stimuli//pack_morph_shapes_1/cat_1/diff_1/ex_1_1_10.mp4","arrowright","response","ArrowLeft","10","1","1","test","false","",""
+"","","","","","html-keyboard-response","164","399183","0.0-7.42-2.42","60fc21ee8506f0f4a935a648","657afcd119a11bb15c4315fb","657b01270f834cfa496bcbbb","null","<p> <font color=""red"" size=""5vw""> Wrong category! </font> <br> <br> <font color=""red"" size=""8vw""> - $0.05 </font> </p>","null","feedback","","","","","","","1.97","-0.05"
+"","","","","","html-keyboard-response","165","399299","0.0-7.43-0.43","60fc21ee8506f0f4a935a648","657afcd119a11bb15c4315fb","657b01270f834cfa496bcbbb","115","
+            
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $1.97 </font>
+            </div>
+        </div>
+    
+            <div> Please press any key to continue to the next movie.</div>
+        ","arrowright","ITI","","","","","","","",""
+"","","","","","html-keyboard-response","166","400001","0.0-7.43-1.43","60fc21ee8506f0f4a935a648","657afcd119a11bb15c4315fb","657b01270f834cfa496bcbbb","698","./stimuli//pack_morph_shapes_1/cat_1/diff_1/ex_1_1_10.mp4","arrowright","response","ArrowLeft","10","1","1","test","false","",""
+"","","","","","html-keyboard-response","167","405007","0.0-7.43-2.43","60fc21ee8506f0f4a935a648","657afcd119a11bb15c4315fb","657b01270f834cfa496bcbbb","null","<p> <font color=""red"" size=""5vw""> Wrong category! </font> <br> <br> <font color=""red"" size=""8vw""> - $0.05 </font> </p>","null","feedback","","","","","","","1.92","-0.05"
+"","","","","","html-keyboard-response","168","406051","0.0-7.44-0.44","60fc21ee8506f0f4a935a648","657afcd119a11bb15c4315fb","657b01270f834cfa496bcbbb","1043","
+            
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $1.92 </font>
+            </div>
+        </div>
+    
+            <div> Please press any key to continue to the next movie.</div>
+        ","arrowleft","ITI","","","","","","","",""
+"","","","","","html-keyboard-response","169","406867","0.0-7.44-1.44","60fc21ee8506f0f4a935a648","657afcd119a11bb15c4315fb","657b01270f834cfa496bcbbb","813","./stimuli//pack_morph_shapes_1/cat_2/diff_1/ex_2_1_8.mp4","arrowleft","response","ArrowRight","8","2","1","test","false","",""
+"","","","","","html-keyboard-response","170","411870","0.0-7.44-2.44","60fc21ee8506f0f4a935a648","657afcd119a11bb15c4315fb","657b01270f834cfa496bcbbb","null","<p> <font color=""red"" size=""5vw""> Wrong category! </font> <br> <br> <font color=""red"" size=""8vw""> - $0.05 </font> </p>","null","feedback","","","","","","","1.87","-0.05"
+"","","","","","html-keyboard-response","171","412625","0.0-7.45-0.45","60fc21ee8506f0f4a935a648","657afcd119a11bb15c4315fb","657b01270f834cfa496bcbbb","754","
+            
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $1.87 </font>
+            </div>
+        </div>
+    
+            <div> Please press any key to continue to the next movie.</div>
+        ","arrowright","ITI","","","","","","","",""
+"","","","","","html-keyboard-response","172","413252","0.0-7.45-1.45","60fc21ee8506f0f4a935a648","657afcd119a11bb15c4315fb","657b01270f834cfa496bcbbb","625","./stimuli//pack_morph_shapes_1/cat_1/diff_1/ex_1_1_4.mp4","arrowright","response","ArrowLeft","4","1","1","test","false","",""
+"","","","","","html-keyboard-response","173","418552","0.0-7.45-2.45","60fc21ee8506f0f4a935a648","657afcd119a11bb15c4315fb","657b01270f834cfa496bcbbb","null","<p> <font color=""red"" size=""5vw""> Wrong category! </font> <br> <br> <font color=""red"" size=""8vw""> - $0.05 </font> </p>","null","feedback","","","","","","","1.82","-0.05"
+"","","","","","html-keyboard-response","174","420779","0.0-7.46-0.46","60fc21ee8506f0f4a935a648","657afcd119a11bb15c4315fb","657b01270f834cfa496bcbbb","2226","
+            
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $1.82 </font>
+            </div>
+        </div>
+    
+            <div> Please press any key to continue to the next movie.</div>
+        ","arrowright","ITI","","","","","","","",""
+"","","","","","html-keyboard-response","175","421741","0.0-7.46-1.46","60fc21ee8506f0f4a935a648","657afcd119a11bb15c4315fb","657b01270f834cfa496bcbbb","960","./stimuli//pack_morph_shapes_1/cat_2/diff_1/ex_2_1_13.mp4","arrowright","response","ArrowRight","13","2","1","test","true","",""
+"","","","","","html-keyboard-response","176","423246","0.0-7.46-2.46","60fc21ee8506f0f4a935a648","657afcd119a11bb15c4315fb","657b01270f834cfa496bcbbb","null","<p> <font color=""green"" size=""5vw""> Correct category! </font> <br> <br> <font color=""green"" size=""8vw""> + $0.18 </font> </p>","null","feedback","","","","","","","2","0.18"
+"","","","","","html-keyboard-response","177","424440","0.0-7.47-0.47","60fc21ee8506f0f4a935a648","657afcd119a11bb15c4315fb","657b01270f834cfa496bcbbb","1193","
+            
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $2 </font>
+            </div>
+        </div>
+    
+            <div> Please press any key to continue to the next movie.</div>
+        ","arrowright","ITI","","","","","","","",""
+"","","","","","html-keyboard-response","178","425047","0.0-7.47-1.47","60fc21ee8506f0f4a935a648","657afcd119a11bb15c4315fb","657b01270f834cfa496bcbbb","605","./stimuli//pack_morph_shapes_1/cat_2/diff_1/ex_2_1_4.mp4","arrowright","response","ArrowRight","4","2","1","test","true","",""
+"","","","","","html-keyboard-response","179","426552","0.0-7.47-2.47","60fc21ee8506f0f4a935a648","657afcd119a11bb15c4315fb","657b01270f834cfa496bcbbb","null","<p> <font color=""green"" size=""5vw""> Correct category! </font> <br> <br> <font color=""green"" size=""8vw""> + $0.19 </font> </p>","null","feedback","","","","","","","2.19","0.19"
+"","","","","","html-keyboard-response","180","427241","0.0-7.48-0.48","60fc21ee8506f0f4a935a648","657afcd119a11bb15c4315fb","657b01270f834cfa496bcbbb","688","
+            
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $2.19 </font>
+            </div>
+        </div>
+    
+            <div> Please press any key to continue to the next movie.</div>
+        ","arrowright","ITI","","","","","","","",""
+"","","","","","html-keyboard-response","181","427810","0.0-7.48-1.48","60fc21ee8506f0f4a935a648","657afcd119a11bb15c4315fb","657b01270f834cfa496bcbbb","564","./stimuli//pack_morph_shapes_1/cat_1/diff_1/ex_1_1_14.mp4","arrowright","response","ArrowLeft","14","1","1","test","false","",""
+"","","","","","html-keyboard-response","182","432815","0.0-7.48-2.48","60fc21ee8506f0f4a935a648","657afcd119a11bb15c4315fb","657b01270f834cfa496bcbbb","null","<p> <font color=""red"" size=""5vw""> Wrong category! </font> <br> <br> <font color=""red"" size=""8vw""> - $0.05 </font> </p>","null","feedback","","","","","","","2.14","-0.05"
+"","","","","","html-keyboard-response","183","433313","0.0-7.49-0.49","60fc21ee8506f0f4a935a648","657afcd119a11bb15c4315fb","657b01270f834cfa496bcbbb","496","
+            
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $2.14 </font>
+            </div>
+        </div>
+    
+            <div> Please press any key to continue to the next movie.</div>
+        ","arrowleft","ITI","","","","","","","",""
+"","","","","","html-keyboard-response","184","433847","0.0-7.49-1.49","60fc21ee8506f0f4a935a648","657afcd119a11bb15c4315fb","657b01270f834cfa496bcbbb","531","./stimuli//pack_morph_shapes_1/cat_1/diff_1/ex_1_1_14.mp4","arrowleft","response","ArrowLeft","14","1","1","test","true","",""
+"","","","","","html-keyboard-response","185","435349","0.0-7.49-2.49","60fc21ee8506f0f4a935a648","657afcd119a11bb15c4315fb","657b01270f834cfa496bcbbb","null","<p> <font color=""green"" size=""5vw""> Correct category! </font> <br> <br> <font color=""green"" size=""8vw""> + $0.19 </font> </p>","null","feedback","","","","","","","2.33","0.19"
+"","","","","","html-keyboard-response","186","436955","0.0-7.50-0.50","60fc21ee8506f0f4a935a648","657afcd119a11bb15c4315fb","657b01270f834cfa496bcbbb","1605","
+            
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $2.33 </font>
+            </div>
+        </div>
+    
+            <div> Please press any key to continue to the next movie.</div>
+        ","arrowleft","ITI","","","","","","","",""
+"","","","","","html-keyboard-response","187","437744","0.0-7.50-1.50","60fc21ee8506f0f4a935a648","657afcd119a11bb15c4315fb","657b01270f834cfa496bcbbb","786","./stimuli//pack_morph_shapes_1/cat_2/diff_1/ex_2_1_12.mp4","arrowleft","response","ArrowRight","12","2","1","test","false","",""
+"","","","","","html-keyboard-response","188","442749","0.0-7.50-2.50","60fc21ee8506f0f4a935a648","657afcd119a11bb15c4315fb","657b01270f834cfa496bcbbb","null","<p> <font color=""red"" size=""5vw""> Wrong category! </font> <br> <br> <font color=""red"" size=""8vw""> - $0.05 </font> </p>","null","feedback","","","","","","","2.28","-0.05"
+"","","","","","html-keyboard-response","189","443177","0.0-7.51-0.51","60fc21ee8506f0f4a935a648","657afcd119a11bb15c4315fb","657b01270f834cfa496bcbbb","426","
+            
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $2.28 </font>
+            </div>
+        </div>
+    
+            <div> Please press any key to continue to the next movie.</div>
+        ","arrowleft","ITI","","","","","","","",""
+"","","","","","html-keyboard-response","190","443518","0.0-7.51-1.51","60fc21ee8506f0f4a935a648","657afcd119a11bb15c4315fb","657b01270f834cfa496bcbbb","340","./stimuli//pack_morph_shapes_1/cat_2/diff_1/ex_2_1_10.mp4","arrowleft","response","ArrowRight","10","2","1","test","false","",""
+"","","","","","html-keyboard-response","191","448529","0.0-7.51-2.51","60fc21ee8506f0f4a935a648","657afcd119a11bb15c4315fb","657b01270f834cfa496bcbbb","null","<p> <font color=""red"" size=""5vw""> Wrong category! </font> <br> <br> <font color=""red"" size=""8vw""> - $0.05 </font> </p>","null","feedback","","","","","","","2.23","-0.05"
+"","","","","","html-keyboard-response","192","449295","0.0-7.52-0.52","60fc21ee8506f0f4a935a648","657afcd119a11bb15c4315fb","657b01270f834cfa496bcbbb","765","
+            
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $2.23 </font>
+            </div>
+        </div>
+    
+            <div> Please press any key to continue to the next movie.</div>
+        ","arrowright","ITI","","","","","","","",""
+"","","","","","html-keyboard-response","193","449473","0.0-7.52-1.52","60fc21ee8506f0f4a935a648","657afcd119a11bb15c4315fb","657b01270f834cfa496bcbbb","175","./stimuli//pack_morph_shapes_1/cat_1/diff_1/ex_1_1_13.mp4","arrowleft","response","ArrowLeft","13","1","1","test","true","",""
+"","","","","","html-keyboard-response","194","450976","0.0-7.52-2.52","60fc21ee8506f0f4a935a648","657afcd119a11bb15c4315fb","657b01270f834cfa496bcbbb","null","<p> <font color=""green"" size=""5vw""> Correct category! </font> <br> <br> <font color=""green"" size=""8vw""> + $0.2 </font> </p>","null","feedback","","","","","","","2.43","0.2"
+"","","","","","html-keyboard-response","195","452596","0.0-7.53-0.53","60fc21ee8506f0f4a935a648","657afcd119a11bb15c4315fb","657b01270f834cfa496bcbbb","1618","
+            
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $2.43 </font>
+            </div>
+        </div>
+    
+            <div> Please press any key to continue to the next movie.</div>
+        ","arrowleft","ITI","","","","","","","",""
+"","","","","","html-keyboard-response","196","453452","0.0-7.53-1.53","60fc21ee8506f0f4a935a648","657afcd119a11bb15c4315fb","657b01270f834cfa496bcbbb","852","./stimuli//pack_morph_shapes_1/cat_2/diff_1/ex_2_1_10.mp4","arrowright","response","ArrowRight","10","2","1","test","true","",""
+"","","","","","html-keyboard-response","197","454960","0.0-7.53-2.53","60fc21ee8506f0f4a935a648","657afcd119a11bb15c4315fb","657b01270f834cfa496bcbbb","null","<p> <font color=""green"" size=""5vw""> Correct category! </font> <br> <br> <font color=""green"" size=""8vw""> + $0.18 </font> </p>","null","feedback","","","","","","","2.61","0.18"
+"","","","","","html-keyboard-response","198","456023","0.0-7.54-0.54","60fc21ee8506f0f4a935a648","657afcd119a11bb15c4315fb","657b01270f834cfa496bcbbb","1062","
+            
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $2.61 </font>
+            </div>
+        </div>
+    
+            <div> Please press any key to continue to the next movie.</div>
+        ","arrowleft","ITI","","","","","","","",""
+"","","","","","html-keyboard-response","199","456412","0.0-7.54-1.54","60fc21ee8506f0f4a935a648","657afcd119a11bb15c4315fb","657b01270f834cfa496bcbbb","386","./stimuli//pack_morph_shapes_1/cat_2/diff_1/ex_2_1_16.mp4","arrowleft","response","ArrowRight","16","2","1","test","false","",""
+"","","","","","html-keyboard-response","200","461430","0.0-7.54-2.54","60fc21ee8506f0f4a935a648","657afcd119a11bb15c4315fb","657b01270f834cfa496bcbbb","null","<p> <font color=""red"" size=""5vw""> Wrong category! </font> <br> <br> <font color=""red"" size=""8vw""> - $0.05 </font> </p>","null","feedback","","","","","","","2.56","-0.05"
+"","","","","","html-keyboard-response","201","461950","0.0-7.55-0.55","60fc21ee8506f0f4a935a648","657afcd119a11bb15c4315fb","657b01270f834cfa496bcbbb","519","
+            
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $2.56 </font>
+            </div>
+        </div>
+    
+            <div> Please press any key to continue to the next movie.</div>
+        ","arrowleft","ITI","","","","","","","",""
+"","","","","","html-keyboard-response","202","462171","0.0-7.55-1.55","60fc21ee8506f0f4a935a648","657afcd119a11bb15c4315fb","657b01270f834cfa496bcbbb","220","./stimuli//pack_morph_shapes_1/cat_2/diff_1/ex_2_1_6.mp4","arrowleft","response","ArrowRight","6","2","1","test","false","",""
+"","","","","","html-keyboard-response","203","467174","0.0-7.55-2.55","60fc21ee8506f0f4a935a648","657afcd119a11bb15c4315fb","657b01270f834cfa496bcbbb","null","<p> <font color=""red"" size=""5vw""> Wrong category! </font> <br> <br> <font color=""red"" size=""8vw""> - $0.05 </font> </p>","null","feedback","","","","","","","2.51","-0.05"
+"","","","","","html-keyboard-response","204","467944","0.0-7.56-0.56","60fc21ee8506f0f4a935a648","657afcd119a11bb15c4315fb","657b01270f834cfa496bcbbb","768","
+            
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $2.51 </font>
+            </div>
+        </div>
+    
+            <div> Please press any key to continue to the next movie.</div>
+        ","arrowleft","ITI","","","","","","","",""
+"","","","","","html-keyboard-response","205","468255","0.0-7.56-1.56","60fc21ee8506f0f4a935a648","657afcd119a11bb15c4315fb","657b01270f834cfa496bcbbb","308","./stimuli//pack_morph_shapes_1/cat_2/diff_1/ex_2_1_16.mp4","arrowleft","response","ArrowRight","16","2","1","test","false","",""
+"","","","","","html-keyboard-response","206","473264","0.0-7.56-2.56","60fc21ee8506f0f4a935a648","657afcd119a11bb15c4315fb","657b01270f834cfa496bcbbb","null","<p> <font color=""red"" size=""5vw""> Wrong category! </font> <br> <br> <font color=""red"" size=""8vw""> - $0.05 </font> </p>","null","feedback","","","","","","","2.46","-0.05"
+"","","","","","html-keyboard-response","207","474014","0.0-7.57-0.57","60fc21ee8506f0f4a935a648","657afcd119a11bb15c4315fb","657b01270f834cfa496bcbbb","748","
+            
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $2.46 </font>
+            </div>
+        </div>
+    
+            <div> Please press any key to continue to the next movie.</div>
+        ","arrowright","ITI","","","","","","","",""
+"","","","","","html-keyboard-response","208","475153","0.0-7.57-1.57","60fc21ee8506f0f4a935a648","657afcd119a11bb15c4315fb","657b01270f834cfa496bcbbb","1138","./stimuli//pack_morph_shapes_1/cat_2/diff_1/ex_2_1_14.mp4","arrowleft","response","ArrowRight","14","2","1","test","false","",""
+"","","","","","html-keyboard-response","209","480155","0.0-7.57-2.57","60fc21ee8506f0f4a935a648","657afcd119a11bb15c4315fb","657b01270f834cfa496bcbbb","null","<p> <font color=""red"" size=""5vw""> Wrong category! </font> <br> <br> <font color=""red"" size=""8vw""> - $0.05 </font> </p>","null","feedback","","","","","","","2.41","-0.05"
+"","","","","","html-keyboard-response","210","480856","0.0-7.58-0.58","60fc21ee8506f0f4a935a648","657afcd119a11bb15c4315fb","657b01270f834cfa496bcbbb","700","
+            
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $2.41 </font>
+            </div>
+        </div>
+    
+            <div> Please press any key to continue to the next movie.</div>
+        ","arrowright","ITI","","","","","","","",""
+"","","","","","html-keyboard-response","211","481279","0.0-7.58-1.58","60fc21ee8506f0f4a935a648","657afcd119a11bb15c4315fb","657b01270f834cfa496bcbbb","419","./stimuli//pack_morph_shapes_1/cat_1/diff_1/ex_1_1_10.mp4","arrowright","response","ArrowLeft","10","1","1","test","false","",""
+"","","","","","html-keyboard-response","212","486281","0.0-7.58-2.58","60fc21ee8506f0f4a935a648","657afcd119a11bb15c4315fb","657b01270f834cfa496bcbbb","null","<p> <font color=""red"" size=""5vw""> Wrong category! </font> <br> <br> <font color=""red"" size=""8vw""> - $0.05 </font> </p>","null","feedback","","","","","","","2.36","-0.05"
+"","","","","","html-keyboard-response","213","486709","0.0-7.59-0.59","60fc21ee8506f0f4a935a648","657afcd119a11bb15c4315fb","657b01270f834cfa496bcbbb","427","
+            
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $2.36 </font>
+            </div>
+        </div>
+    
+            <div> Please press any key to continue to the next movie.</div>
+        ","arrowleft","ITI","","","","","","","",""
+"","","","","","html-keyboard-response","214","487231","0.0-7.59-1.59","60fc21ee8506f0f4a935a648","657afcd119a11bb15c4315fb","657b01270f834cfa496bcbbb","519","./stimuli//pack_morph_shapes_1/cat_1/diff_1/ex_1_1_17.mp4","arrowleft","response","ArrowLeft","17","1","1","test","true","",""
+"","","","","","html-keyboard-response","215","488745","0.0-7.59-2.59","60fc21ee8506f0f4a935a648","657afcd119a11bb15c4315fb","657b01270f834cfa496bcbbb","null","<p> <font color=""green"" size=""5vw""> Correct category! </font> <br> <br> <font color=""green"" size=""8vw""> + $0.19 </font> </p>","null","feedback","","","","","","","2.55","0.19"
+"","","","","","html-keyboard-response","216","489806","0.0-7.60-0.60","60fc21ee8506f0f4a935a648","657afcd119a11bb15c4315fb","657b01270f834cfa496bcbbb","1060","
+            
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $2.55 </font>
+            </div>
+        </div>
+    
+            <div> Please press any key to continue to the next movie.</div>
+        ","arrowleft","ITI","","","","","","","",""
+"","","","","","html-keyboard-response","217","490394","0.0-7.60-1.60","60fc21ee8506f0f4a935a648","657afcd119a11bb15c4315fb","657b01270f834cfa496bcbbb","585","./stimuli//pack_morph_shapes_1/cat_1/diff_1/ex_1_1_1.mp4","arrowleft","response","ArrowLeft","1","1","1","test","true","",""
+"","","","","","html-keyboard-response","218","491898","0.0-7.60-2.60","60fc21ee8506f0f4a935a648","657afcd119a11bb15c4315fb","657b01270f834cfa496bcbbb","null","<p> <font color=""green"" size=""5vw""> Correct category! </font> <br> <br> <font color=""green"" size=""8vw""> + $0.19 </font> </p>","null","feedback","","","","","","","2.74","0.19"
+"","","","","","html-keyboard-response","219","492350","0.0-7.61-0.61","60fc21ee8506f0f4a935a648","657afcd119a11bb15c4315fb","657b01270f834cfa496bcbbb","451","
+            
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $2.74 </font>
+            </div>
+        </div>
+    
+            <div> Please press any key to continue to the next movie.</div>
+        ","arrowleft","ITI","","","","","","","",""
+"","","","","","html-keyboard-response","220","492811","0.0-7.61-1.61","60fc21ee8506f0f4a935a648","657afcd119a11bb15c4315fb","657b01270f834cfa496bcbbb","458","./stimuli//pack_morph_shapes_1/cat_1/diff_1/ex_1_1_17.mp4","arrowleft","response","ArrowLeft","17","1","1","test","true","",""
+"","","","","","html-keyboard-response","221","494320","0.0-7.61-2.61","60fc21ee8506f0f4a935a648","657afcd119a11bb15c4315fb","657b01270f834cfa496bcbbb","null","<p> <font color=""green"" size=""5vw""> Correct category! </font> <br> <br> <font color=""green"" size=""8vw""> + $0.19 </font> </p>","null","feedback","","","","","","","2.93","0.19"
+"","","","","","html-keyboard-response","222","494819","0.0-7.62-0.62","60fc21ee8506f0f4a935a648","657afcd119a11bb15c4315fb","657b01270f834cfa496bcbbb","498","
+            
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $2.93 </font>
+            </div>
+        </div>
+    
+            <div> Please press any key to continue to the next movie.</div>
+        ","arrowleft","ITI","","","","","","","",""
+"","","","","","html-keyboard-response","223","494967","0.0-7.62-1.62","60fc21ee8506f0f4a935a648","657afcd119a11bb15c4315fb","657b01270f834cfa496bcbbb","146","./stimuli//pack_morph_shapes_1/cat_2/diff_1/ex_2_1_2.mp4","arrowleft","response","ArrowRight","2","2","1","test","false","",""
+"","","","","","html-keyboard-response","224","499970","0.0-7.62-2.62","60fc21ee8506f0f4a935a648","657afcd119a11bb15c4315fb","657b01270f834cfa496bcbbb","null","<p> <font color=""red"" size=""5vw""> Wrong category! </font> <br> <br> <font color=""red"" size=""8vw""> - $0.05 </font> </p>","null","feedback","","","","","","","2.88","-0.05"
+"","","","","","html-keyboard-response","225","500541","0.0-7.63-0.63","60fc21ee8506f0f4a935a648","657afcd119a11bb15c4315fb","657b01270f834cfa496bcbbb","570","
+            
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $2.88 </font>
+            </div>
+        </div>
+    
+            <div> Please press any key to continue to the next movie.</div>
+        ","arrowright","ITI","","","","","","","",""
+"","","","","","html-keyboard-response","226","500979","0.0-7.63-1.63","60fc21ee8506f0f4a935a648","657afcd119a11bb15c4315fb","657b01270f834cfa496bcbbb","435","./stimuli//pack_morph_shapes_1/cat_2/diff_1/ex_2_1_5.mp4","arrowright","response","ArrowRight","5","2","1","test","true","",""
+"","","","","","html-keyboard-response","227","502486","0.0-7.63-2.63","60fc21ee8506f0f4a935a648","657afcd119a11bb15c4315fb","657b01270f834cfa496bcbbb","null","<p> <font color=""green"" size=""5vw""> Correct category! </font> <br> <br> <font color=""green"" size=""8vw""> + $0.19 </font> </p>","null","feedback","","","","","","","3.07","0.19"
+"","","","","","html-keyboard-response","228","503110","0.0-7.64-0.64","60fc21ee8506f0f4a935a648","657afcd119a11bb15c4315fb","657b01270f834cfa496bcbbb","623","
+            
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $3.07 </font>
+            </div>
+        </div>
+    
+            <div> Please press any key to continue to the next movie.</div>
+        ","arrowright","ITI","","","","","","","",""
+"","","","","","html-keyboard-response","229","503312","0.0-7.64-1.64","60fc21ee8506f0f4a935a648","657afcd119a11bb15c4315fb","657b01270f834cfa496bcbbb","198","./stimuli//pack_morph_shapes_1/cat_2/diff_2/ex_2_2_10.mp4","arrowright","response","ArrowRight","10","2","2","test","true","",""
+"","","","","","html-keyboard-response","230","504828","0.0-7.64-2.64","60fc21ee8506f0f4a935a648","657afcd119a11bb15c4315fb","657b01270f834cfa496bcbbb","null","<p> <font color=""green"" size=""5vw""> Correct category! </font> <br> <br> <font color=""green"" size=""8vw""> + $0.2 </font> </p>","null","feedback","","","","","","","3.27","0.2"
+"","","","","","html-keyboard-response","231","505228","0.0-7.65-0.65","60fc21ee8506f0f4a935a648","657afcd119a11bb15c4315fb","657b01270f834cfa496bcbbb","398","
+            
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $3.27 </font>
+            </div>
+        </div>
+    
+            <div> Please press any key to continue to the next movie.</div>
+        ","arrowleft","ITI","","","","","","","",""
+"","","","","","html-keyboard-response","232","505412","0.0-7.65-1.65","60fc21ee8506f0f4a935a648","657afcd119a11bb15c4315fb","657b01270f834cfa496bcbbb","180","./stimuli//pack_morph_shapes_1/cat_2/diff_2/ex_2_2_16.mp4","arrowleft","response","ArrowRight","16","2","2","test","false","",""
+"","","","","","html-keyboard-response","233","510419","0.0-7.65-2.65","60fc21ee8506f0f4a935a648","657afcd119a11bb15c4315fb","657b01270f834cfa496bcbbb","null","<p> <font color=""red"" size=""5vw""> Wrong category! </font> <br> <br> <font color=""red"" size=""8vw""> - $0.05 </font> </p>","null","feedback","","","","","","","3.22","-0.05"
+"","","","","","html-keyboard-response","234","511109","0.0-7.66-0.66","60fc21ee8506f0f4a935a648","657afcd119a11bb15c4315fb","657b01270f834cfa496bcbbb","688","
+            
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $3.22 </font>
+            </div>
+        </div>
+    
+            <div> Please press any key to continue to the next movie.</div>
+        ","arrowright","ITI","","","","","","","",""
+"","","","","","html-keyboard-response","235","511298","0.0-7.66-1.66","60fc21ee8506f0f4a935a648","657afcd119a11bb15c4315fb","657b01270f834cfa496bcbbb","186","./stimuli//pack_morph_shapes_1/cat_1/diff_2/ex_1_2_1.mp4","arrowright","response","ArrowLeft","1","1","2","test","false","",""
+"","","","","","html-keyboard-response","236","516307","0.0-7.66-2.66","60fc21ee8506f0f4a935a648","657afcd119a11bb15c4315fb","657b01270f834cfa496bcbbb","null","<p> <font color=""red"" size=""5vw""> Wrong category! </font> <br> <br> <font color=""red"" size=""8vw""> - $0.05 </font> </p>","null","feedback","","","","","","","3.17","-0.05"
+"","","","","","html-keyboard-response","237","516825","0.0-7.67-0.67","60fc21ee8506f0f4a935a648","657afcd119a11bb15c4315fb","657b01270f834cfa496bcbbb","517","
+            
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $3.17 </font>
+            </div>
+        </div>
+    
+            <div> Please press any key to continue to the next movie.</div>
+        ","arrowleft","ITI","","","","","","","",""
+"","","","","","html-keyboard-response","238","516999","0.0-7.67-1.67","60fc21ee8506f0f4a935a648","657afcd119a11bb15c4315fb","657b01270f834cfa496bcbbb","171","./stimuli//pack_morph_shapes_1/cat_2/diff_2/ex_2_2_14.mp4","arrowleft","response","ArrowRight","14","2","2","test","false","",""
+"","","","","","html-keyboard-response","239","522005","0.0-7.67-2.67","60fc21ee8506f0f4a935a648","657afcd119a11bb15c4315fb","657b01270f834cfa496bcbbb","null","<p> <font color=""red"" size=""5vw""> Wrong category! </font> <br> <br> <font color=""red"" size=""8vw""> - $0.05 </font> </p>","null","feedback","","","","","","","3.12","-0.05"
+"","","","","","html-keyboard-response","240","522386","0.0-7.68-0.68","60fc21ee8506f0f4a935a648","657afcd119a11bb15c4315fb","657b01270f834cfa496bcbbb","379","
+            
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $3.12 </font>
+            </div>
+        </div>
+    
+            <div> Please press any key to continue to the next movie.</div>
+        ","arrowleft","ITI","","","","","","","",""
+"","","","","","html-keyboard-response","241","522801","0.0-7.68-1.68","60fc21ee8506f0f4a935a648","657afcd119a11bb15c4315fb","657b01270f834cfa496bcbbb","410","./stimuli//pack_morph_shapes_1/cat_2/diff_2/ex_2_2_15.mp4","arrowleft","response","ArrowRight","15","2","2","test","false","",""
+"","","","","","html-keyboard-response","242","527803","0.0-7.68-2.68","60fc21ee8506f0f4a935a648","657afcd119a11bb15c4315fb","657b01270f834cfa496bcbbb","null","<p> <font color=""red"" size=""5vw""> Wrong category! </font> <br> <br> <font color=""red"" size=""8vw""> - $0.05 </font> </p>","null","feedback","","","","","","","3.07","-0.05"
+"","","","","","html-keyboard-response","243","528273","0.0-7.69-0.69","60fc21ee8506f0f4a935a648","657afcd119a11bb15c4315fb","657b01270f834cfa496bcbbb","469","
+            
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $3.07 </font>
+            </div>
+        </div>
+    
+            <div> Please press any key to continue to the next movie.</div>
+        ","arrowright","ITI","","","","","","","",""
+"","","","","","html-keyboard-response","244","528558","0.0-7.69-1.69","60fc21ee8506f0f4a935a648","657afcd119a11bb15c4315fb","657b01270f834cfa496bcbbb","284","./stimuli//pack_morph_shapes_1/cat_2/diff_1/ex_2_1_14.mp4","arrowright","response","ArrowRight","14","2","1","test","true","",""
+"","","","","","html-keyboard-response","245","530065","0.0-7.69-2.69","60fc21ee8506f0f4a935a648","657afcd119a11bb15c4315fb","657b01270f834cfa496bcbbb","null","<p> <font color=""green"" size=""5vw""> Correct category! </font> <br> <br> <font color=""green"" size=""8vw""> + $0.19 </font> </p>","null","feedback","","","","","","","3.26","0.19"
+"","","","","","html-keyboard-response","246","530719","0.0-7.70-0.70","60fc21ee8506f0f4a935a648","657afcd119a11bb15c4315fb","657b01270f834cfa496bcbbb","652","
+            
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $3.26 </font>
+            </div>
+        </div>
+    
+            <div> Please press any key to continue to the next movie.</div>
+        ","arrowright","ITI","","","","","","","",""
+"","","","","","html-keyboard-response","247","531782","0.0-7.70-1.70","60fc21ee8506f0f4a935a648","657afcd119a11bb15c4315fb","657b01270f834cfa496bcbbb","1060","./stimuli//pack_morph_shapes_1/cat_2/diff_1/ex_2_1_10.mp4","arrowleft","response","ArrowRight","10","2","1","test","false","",""
+"","","","","","html-keyboard-response","248","536791","0.0-7.70-2.70","60fc21ee8506f0f4a935a648","657afcd119a11bb15c4315fb","657b01270f834cfa496bcbbb","null","<p> <font color=""red"" size=""5vw""> Wrong category! </font> <br> <br> <font color=""red"" size=""8vw""> - $0.05 </font> </p>","null","feedback","","","","","","","3.21","-0.05"
+"","","","","","html-keyboard-response","249","537163","0.0-7.71-0.71","60fc21ee8506f0f4a935a648","657afcd119a11bb15c4315fb","657b01270f834cfa496bcbbb","370","
+            
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $3.21 </font>
+            </div>
+        </div>
+    
+            <div> Please press any key to continue to the next movie.</div>
+        ","arrowleft","ITI","","","","","","","",""
+"","","","","","html-keyboard-response","250","537437","0.0-7.71-1.71","60fc21ee8506f0f4a935a648","657afcd119a11bb15c4315fb","657b01270f834cfa496bcbbb","271","./stimuli//pack_morph_shapes_1/cat_1/diff_1/ex_1_1_2.mp4","arrowleft","response","ArrowLeft","2","1","1","test","true","",""
+"","","","","","html-keyboard-response","251","538943","0.0-7.71-2.71","60fc21ee8506f0f4a935a648","657afcd119a11bb15c4315fb","657b01270f834cfa496bcbbb","null","<p> <font color=""green"" size=""5vw""> Correct category! </font> <br> <br> <font color=""green"" size=""8vw""> + $0.19 </font> </p>","null","feedback","","","","","","","3.4","0.19"
+"","","","","","html-keyboard-response","252","539389","0.0-7.72-0.72","60fc21ee8506f0f4a935a648","657afcd119a11bb15c4315fb","657b01270f834cfa496bcbbb","445","
+            
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $3.4 </font>
+            </div>
+        </div>
+    
+            <div> Please press any key to continue to the next movie.</div>
+        ","arrowleft","ITI","","","","","","","",""
+"","","","","","html-keyboard-response","253","539743","0.0-7.72-1.72","60fc21ee8506f0f4a935a648","657afcd119a11bb15c4315fb","657b01270f834cfa496bcbbb","351","./stimuli//pack_morph_shapes_1/cat_1/diff_1/ex_1_1_14.mp4","arrowleft","response","ArrowLeft","14","1","1","test","true","",""
+"","","","","","html-keyboard-response","254","541260","0.0-7.72-2.72","60fc21ee8506f0f4a935a648","657afcd119a11bb15c4315fb","657b01270f834cfa496bcbbb","null","<p> <font color=""green"" size=""5vw""> Correct category! </font> <br> <br> <font color=""green"" size=""8vw""> + $0.19 </font> </p>","null","feedback","","","","","","","3.59","0.19"
+"","","","","","html-keyboard-response","255","541871","0.0-7.73-0.73","60fc21ee8506f0f4a935a648","657afcd119a11bb15c4315fb","657b01270f834cfa496bcbbb","610","
+            
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $3.59 </font>
+            </div>
+        </div>
+    
+            <div> Please press any key to continue to the next movie.</div>
+        ","arrowleft","ITI","","","","","","","",""
+"","","","","","html-keyboard-response","256","542123","0.0-7.73-1.73","60fc21ee8506f0f4a935a648","657afcd119a11bb15c4315fb","657b01270f834cfa496bcbbb","249","./stimuli//pack_morph_shapes_1/cat_2/diff_1/ex_2_1_10.mp4","arrowleft","response","ArrowRight","10","2","1","test","false","",""
+"","","","","","html-keyboard-response","257","547131","0.0-7.73-2.73","60fc21ee8506f0f4a935a648","657afcd119a11bb15c4315fb","657b01270f834cfa496bcbbb","null","<p> <font color=""red"" size=""5vw""> Wrong category! </font> <br> <br> <font color=""red"" size=""8vw""> - $0.05 </font> </p>","null","feedback","","","","","","","3.54","-0.05"
+"","","","","","html-keyboard-response","258","547538","0.0-7.74-0.74","60fc21ee8506f0f4a935a648","657afcd119a11bb15c4315fb","657b01270f834cfa496bcbbb","406","
+            
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $3.54 </font>
+            </div>
+        </div>
+    
+            <div> Please press any key to continue to the next movie.</div>
+        ","arrowright","ITI","","","","","","","",""
+"","","","","","html-keyboard-response","259","547869","0.0-7.74-1.74","60fc21ee8506f0f4a935a648","657afcd119a11bb15c4315fb","657b01270f834cfa496bcbbb","326","./stimuli//pack_morph_shapes_1/cat_1/diff_1/ex_1_1_3.mp4","arrowright","response","ArrowLeft","3","1","1","test","false","",""
+"","","","","","html-keyboard-response","260","552875","0.0-7.74-2.74","60fc21ee8506f0f4a935a648","657afcd119a11bb15c4315fb","657b01270f834cfa496bcbbb","null","<p> <font color=""red"" size=""5vw""> Wrong category! </font> <br> <br> <font color=""red"" size=""8vw""> - $0.05 </font> </p>","null","feedback","","","","","","","3.49","-0.05"
+"","","","","","html-keyboard-response","261","553211","0.0-7.75-0.75","60fc21ee8506f0f4a935a648","657afcd119a11bb15c4315fb","657b01270f834cfa496bcbbb","335","
+            
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $3.49 </font>
+            </div>
+        </div>
+    
+            <div> Please press any key to continue to the next movie.</div>
+        ","arrowright","ITI","","","","","","","",""
+"","","","","","html-keyboard-response","262","553415","0.0-7.75-1.75","60fc21ee8506f0f4a935a648","657afcd119a11bb15c4315fb","657b01270f834cfa496bcbbb","200","./stimuli//pack_morph_shapes_1/cat_2/diff_1/ex_2_1_10.mp4","arrowright","response","ArrowRight","10","2","1","test","true","",""
+"","","","","","html-keyboard-response","263","554921","0.0-7.75-2.75","60fc21ee8506f0f4a935a648","657afcd119a11bb15c4315fb","657b01270f834cfa496bcbbb","null","<p> <font color=""green"" size=""5vw""> Correct category! </font> <br> <br> <font color=""green"" size=""8vw""> + $0.2 </font> </p>","null","feedback","","","","","","","3.69","0.2"
+"","","","","","html-keyboard-response","264","556151","0.0-7.76-0.76","60fc21ee8506f0f4a935a648","657afcd119a11bb15c4315fb","657b01270f834cfa496bcbbb","1229","
+            
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $3.69 </font>
+            </div>
+        </div>
+    
+            <div> Please press any key to continue to the next movie.</div>
+        ","arrowright","ITI","","","","","","","",""
+"","","","","","html-keyboard-response","265","556631","0.0-7.76-1.76","60fc21ee8506f0f4a935a648","657afcd119a11bb15c4315fb","657b01270f834cfa496bcbbb","476","./stimuli//pack_morph_shapes_1/cat_1/diff_1/ex_1_1_16.mp4","arrowleft","response","ArrowLeft","16","1","1","test","true","",""
+"","","","","","html-keyboard-response","266","558138","0.0-7.76-2.76","60fc21ee8506f0f4a935a648","657afcd119a11bb15c4315fb","657b01270f834cfa496bcbbb","null","<p> <font color=""green"" size=""5vw""> Correct category! </font> <br> <br> <font color=""green"" size=""8vw""> + $0.19 </font> </p>","null","feedback","","","","","","","3.88","0.19"
+"","","","","","html-keyboard-response","267","558668","0.0-7.77-0.77","60fc21ee8506f0f4a935a648","657afcd119a11bb15c4315fb","657b01270f834cfa496bcbbb","529","
+            
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $3.88 </font>
+            </div>
+        </div>
+    
+            <div> Please press any key to continue to the next movie.</div>
+        ","arrowright","ITI","","","","","","","",""
+"","","","","","html-keyboard-response","268","559719","0.0-7.77-1.77","60fc21ee8506f0f4a935a648","657afcd119a11bb15c4315fb","657b01270f834cfa496bcbbb","1048","./stimuli//pack_morph_shapes_1/cat_1/diff_1/ex_1_1_17.mp4","arrowleft","response","ArrowLeft","17","1","1","test","true","",""
+"","","","","","html-keyboard-response","269","561226","0.0-7.77-2.77","60fc21ee8506f0f4a935a648","657afcd119a11bb15c4315fb","657b01270f834cfa496bcbbb","null","<p> <font color=""green"" size=""5vw""> Correct category! </font> <br> <br> <font color=""green"" size=""8vw""> + $0.18 </font> </p>","null","feedback","","","","","","","4.06","0.18"
+"","","","","","html-keyboard-response","270","562011","0.0-7.78-0.78","60fc21ee8506f0f4a935a648","657afcd119a11bb15c4315fb","657b01270f834cfa496bcbbb","783","
+            
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $4.06 </font>
+            </div>
+        </div>
+    
+            <div> Please press any key to continue to the next movie.</div>
+        ","arrowright","ITI","","","","","","","",""
+"","","","","","html-keyboard-response","271","562599","0.0-7.78-1.78","60fc21ee8506f0f4a935a648","657afcd119a11bb15c4315fb","657b01270f834cfa496bcbbb","586","./stimuli//pack_morph_shapes_1/cat_1/diff_1/ex_1_1_13.mp4","arrowright","response","ArrowLeft","13","1","1","test","false","",""
+"","","","","","html-keyboard-response","272","567611","0.0-7.78-2.78","60fc21ee8506f0f4a935a648","657afcd119a11bb15c4315fb","657b01270f834cfa496bcbbb","null","<p> <font color=""red"" size=""5vw""> Wrong category! </font> <br> <br> <font color=""red"" size=""8vw""> - $0.05 </font> </p>","null","feedback","","","","","","","4.01","-0.05"
+"","","","","","html-keyboard-response","273","568617","0.0-7.79-0.79","60fc21ee8506f0f4a935a648","657afcd119a11bb15c4315fb","657b01270f834cfa496bcbbb","1005","
+            
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $4.01 </font>
+            </div>
+        </div>
+    
+            <div> Please press any key to continue to the next movie.</div>
+        ","arrowleft","ITI","","","","","","","",""
+"","","","","","html-keyboard-response","274","569167","0.0-7.79-1.79","60fc21ee8506f0f4a935a648","657afcd119a11bb15c4315fb","657b01270f834cfa496bcbbb","548","./stimuli//pack_morph_shapes_1/cat_2/diff_1/ex_2_1_10.mp4","arrowleft","response","ArrowRight","10","2","1","test","false","",""
+"","","","","","html-keyboard-response","275","574179","0.0-7.79-2.79","60fc21ee8506f0f4a935a648","657afcd119a11bb15c4315fb","657b01270f834cfa496bcbbb","null","<p> <font color=""red"" size=""5vw""> Wrong category! </font> <br> <br> <font color=""red"" size=""8vw""> - $0.05 </font> </p>","null","feedback","","","","","","","3.96","-0.05"
+"","","","","","html-keyboard-response","276","574762","0.0-7.80-0.80","60fc21ee8506f0f4a935a648","657afcd119a11bb15c4315fb","657b01270f834cfa496bcbbb","582","
+            
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $3.96 </font>
+            </div>
+        </div>
+    
+            <div> Please press any key to continue to the next movie.</div>
+        ","arrowright","ITI","","","","","","","",""
+"","","","","","html-keyboard-response","277","575525","0.0-7.80-1.80","60fc21ee8506f0f4a935a648","657afcd119a11bb15c4315fb","657b01270f834cfa496bcbbb","760","./stimuli//pack_morph_shapes_1/cat_2/diff_1/ex_2_1_1.mp4","arrowright","response","ArrowRight","1","2","1","test","true","",""
+"","","","","","html-keyboard-response","278","577029","0.0-7.80-2.80","60fc21ee8506f0f4a935a648","657afcd119a11bb15c4315fb","657b01270f834cfa496bcbbb","null","<p> <font color=""green"" size=""5vw""> Correct category! </font> <br> <br> <font color=""green"" size=""8vw""> + $0.19 </font> </p>","null","feedback","","","","","","","4.15","0.19"
+"","","","","","html-keyboard-response","279","577983","0.0-7.81-0.81","60fc21ee8506f0f4a935a648","657afcd119a11bb15c4315fb","657b01270f834cfa496bcbbb","953","
+            
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $4.15 </font>
+            </div>
+        </div>
+    
+            <div> Please press any key to continue to the next movie.</div>
+        ","arrowleft","ITI","","","","","","","",""
+"","","","","","html-keyboard-response","280","578932","0.0-7.81-1.81","60fc21ee8506f0f4a935a648","657afcd119a11bb15c4315fb","657b01270f834cfa496bcbbb","947","./stimuli//pack_morph_shapes_1/cat_1/diff_1/ex_1_1_10.mp4","arrowleft","response","ArrowLeft","10","1","1","test","true","",""
+"","","","","","html-keyboard-response","281","580440","0.0-7.81-2.81","60fc21ee8506f0f4a935a648","657afcd119a11bb15c4315fb","657b01270f834cfa496bcbbb","null","<p> <font color=""green"" size=""5vw""> Correct category! </font> <br> <br> <font color=""green"" size=""8vw""> + $0.18 </font> </p>","null","feedback","","","","","","","4.33","0.18"
+"","","","","","html-keyboard-response","282","581504","0.0-7.82-0.82","60fc21ee8506f0f4a935a648","657afcd119a11bb15c4315fb","657b01270f834cfa496bcbbb","1063","
+            
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $4.33 </font>
+            </div>
+        </div>
+    
+            <div> Please press any key to continue to the next movie.</div>
+        ","arrowleft","ITI","","","","","","","",""
+"","","","","","html-keyboard-response","283","581808","0.0-7.82-1.82","60fc21ee8506f0f4a935a648","657afcd119a11bb15c4315fb","657b01270f834cfa496bcbbb","302","./stimuli//pack_morph_shapes_1/cat_1/diff_1/ex_1_1_3.mp4","arrowright","response","ArrowLeft","3","1","1","test","false","",""
+"","","","","","html-keyboard-response","284","586824","0.0-7.82-2.82","60fc21ee8506f0f4a935a648","657afcd119a11bb15c4315fb","657b01270f834cfa496bcbbb","null","<p> <font color=""red"" size=""5vw""> Wrong category! </font> <br> <br> <font color=""red"" size=""8vw""> - $0.05 </font> </p>","null","feedback","","","","","","","4.28","-0.05"
+"","","","","","html-keyboard-response","285","587134","0.0-7.83-0.83","60fc21ee8506f0f4a935a648","657afcd119a11bb15c4315fb","657b01270f834cfa496bcbbb","308","
+            
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $4.28 </font>
+            </div>
+        </div>
+    
+            <div> Please press any key to continue to the next movie.</div>
+        ","arrowright","ITI","","","","","","","",""
+"","","","","","html-keyboard-response","286","587658","0.0-7.83-1.83","60fc21ee8506f0f4a935a648","657afcd119a11bb15c4315fb","657b01270f834cfa496bcbbb","520","./stimuli//pack_morph_shapes_1/cat_1/diff_1/ex_1_1_17.mp4","arrowright","response","ArrowLeft","17","1","1","test","false","",""
+"","","","","","html-keyboard-response","287","592662","0.0-7.83-2.83","60fc21ee8506f0f4a935a648","657afcd119a11bb15c4315fb","657b01270f834cfa496bcbbb","null","<p> <font color=""red"" size=""5vw""> Wrong category! </font> <br> <br> <font color=""red"" size=""8vw""> - $0.05 </font> </p>","null","feedback","","","","","","","4.23","-0.05"
+"","","","","","html-keyboard-response","288","593118","0.0-7.84-0.84","60fc21ee8506f0f4a935a648","657afcd119a11bb15c4315fb","657b01270f834cfa496bcbbb","454","
+            
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $4.23 </font>
+            </div>
+        </div>
+    
+            <div> Please press any key to continue to the next movie.</div>
+        ","arrowleft","ITI","","","","","","","",""
+"","","","","","html-keyboard-response","289","593628","0.0-7.84-1.84","60fc21ee8506f0f4a935a648","657afcd119a11bb15c4315fb","657b01270f834cfa496bcbbb","507","./stimuli//pack_morph_shapes_1/cat_1/diff_1/ex_1_1_17.mp4","arrowleft","response","ArrowLeft","17","1","1","test","true","",""
+"","","","","","html-keyboard-response","290","595140","0.0-7.84-2.84","60fc21ee8506f0f4a935a648","657afcd119a11bb15c4315fb","657b01270f834cfa496bcbbb","null","<p> <font color=""green"" size=""5vw""> Correct category! </font> <br> <br> <font color=""green"" size=""8vw""> + $0.19 </font> </p>","null","feedback","","","","","","","4.42","0.19"
+"","","","","","html-keyboard-response","291","596387","0.0-7.85-0.85","60fc21ee8506f0f4a935a648","657afcd119a11bb15c4315fb","657b01270f834cfa496bcbbb","1246","
+            
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $4.42 </font>
+            </div>
+        </div>
+    
+            <div> Please press any key to continue to the next movie.</div>
+        ","arrowleft","ITI","","","","","","","",""
+"","","","","","html-keyboard-response","292","596564","0.0-7.85-1.85","60fc21ee8506f0f4a935a648","657afcd119a11bb15c4315fb","657b01270f834cfa496bcbbb","","./stimuli//pack_morph_shapes_1/cat_1/diff_1/ex_1_1_13.mp4","","response","ArrowLeft","13","1","1","test","","",""

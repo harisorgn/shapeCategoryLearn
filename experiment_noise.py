@@ -7,7 +7,6 @@ import random
 import time
 import os
 import math
-#import ffmpeg
 
 def update_difficulty(current_diff, max_diff, thrs_acc, past_data):
     N = len(past_data)
@@ -30,7 +29,7 @@ def RT_to_reward(RT):
 
 
 core.checkPygletDuringWait = False
-win = visual.Window(size=(800,600), fullscr=False, color=(-1,-1,-1), allowGUI=True, monitor='testMonitor', units='height')
+win = visual.Window(size=(800,600), fullscr=True, color=(-1,-1,-1), allowGUI=True, monitor='testMonitor', units='height')
 
 msg_welcome = visual.TextBox2(
     win, 
@@ -104,8 +103,7 @@ score = visual.TextBox2(
 
 kb = keyboard.Keyboard()
 
-#T_experiment = 10 # minutes
-T_experiment = 1 # minutes
+T_experiment = 10 # minutes
 T_feedback = 1 # seconds
 T_correct_fbdk = 1.5 # seconds
 T_incorrect_fdbk = 5 # seconds
@@ -121,7 +119,7 @@ wrong_fdbk_no_bonus = "Wrong category!"
 timeout_fdbk_no_bonus = f'Time out! \nPlease try to respond as quickly as possible.'
 
 shape_set = 3
-pack_path = f'stimuli/pack_noise_shapes_{shape_set}/'
+pack_path = f'stimuli/pack_noise_gif_shapes_{shape_set}/'
 
 N_categories = 2
 N_difficulty_levels = 5
@@ -243,6 +241,7 @@ for trial in trial_handler:
     exp.addData('correct', correct)
     exp.addData('correct_response', trial['correct_response'])
     exp.addData('response_time', rt)
+    exp.addData('bonus', 0.0)
     exp.addData('difficulty', trial['difficulty'])
     exp.addData('category', trial['category'])
     exp.addData('phase', trial['phase'])

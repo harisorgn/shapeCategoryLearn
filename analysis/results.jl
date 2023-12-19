@@ -11,7 +11,7 @@ chunk(arr, n) = [arr[i:min(i + n - 1, end)] for i in 1:n:length(arr)]
 
 omissions(df) = count(df[!, :response] .== "null")
 
-function read_data(files, cols)
+function read_data(files, cols; filter_omissions=true)
     df = DataFrame()
     for f in files
         df_subj = CSV.read(f, DataFrame)
@@ -34,10 +34,15 @@ function read_data(files, cols)
         df_subj.rt_iti .= RT_ITI[1:nrow(df_subj)]
 
         df_subj.subject_id = string.(df_subj.subject_id)
-        if (omissions(df_subj) / nrow(df_subj) <= 0.1) && (nrow(df_subj) >= 50)
+
+        if filter_omissions
+            if (omissions(df_subj) / nrow(df_subj) <= 0.1) && (nrow(df_subj) >= 50)
+                append!(df, df_subj)
+            end
+        else
             append!(df, df_subj)
         end
-    end
+    end    
 
     return df
 end
@@ -53,6 +58,18 @@ function exemplar_incorrect_freq(df)
     df.stimulus[idxs]
 end
 
+function clean_RT!(df, θ_RT=200)
+    filter!(df) do row
+        RT = row.rt
+        !ismissing(RT) && (RT != "null") && (RT != "") && (parse(Int, RT) > θ_RT)
+    end
+
+    df.rt .= parse.(Int, df.rt)
+    df.rt_iti .= parse.(Int, df.rt_iti)
+
+    return df
+end
+
 cols = [
     :subject_id,
     :stimulus,
@@ -62,20 +79,23 @@ cols = [
     :correct_response,
     :rt,
     :bonus,
-    :difficulty
+    :difficulty,
+    :phase
 ]
 
 global const N_training_trials = 10;
 
-task = "SCL_morph_adaptive"
-dir = joinpath("./analysis", task)
+task = "SCL_noise_v2"
+dir = joinpath("./", task)
 
 files = joinpath.(dir, readdir(dir))
 filter!(f -> (last(split(f,'.')) == "csv") || (last(split(f,'.')) == "txt"), files)
 
-df = read_data(files, cols)
+df = read_data(files, cols; filter_omissions=false)
 
 XLSX.writetable(string(dir, ".xlsx"), df)
+
+clean_RT!(df)
 
 plot_accuracy(df, 8; save_plot=true, name=task)
 plot_difficulty(df, 8; save_plot=true, name=task)

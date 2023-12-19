@@ -21,5 +21,5 @@ for i, r in enumerate(cat_ranges):
 
         dir_dest = path_dest + f'cat_{category_ID}/' + f'diff_{diff_level}/'
 
-        write_shape(shape_ID, diff_level, category_ID, path_src, dir_dest)
+        copy_shape(shape_ID, diff_level, category_ID, path_src, dir_dest)
         

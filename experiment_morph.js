@@ -110,7 +110,7 @@ var intro_2 = {
     stimulus: `
               <p><b>You will receive a bonus payment for each correct answer! The faster you answer the higher the bonus will be!</b></p>
               <p> So you can increase your bonus by guessing as quickly and accurately as possible.</p>
-              <p><b>You will lose $0.05 from your bonus payment for each incorrect answer! The bonus can not become less that $0.</b> </p>
+              <p><b>You will lose $0.05 from your bonus payment for each incorrect answer! The bonus can not become less than $0.</b> </p>
               <p>Press any key to continue.</p>
               `,
     data: {task: 'introduction_2'}
