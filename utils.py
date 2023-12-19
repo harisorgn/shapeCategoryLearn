@@ -185,12 +185,12 @@ def write_noise_shape_gif(S, shape_ID, diff_level, category_ID, path_dest, durat
 
     os.makedirs(path_dest, exist_ok=True)
     files = os.listdir(path_dest)
-    c = sum([".mp4" in f for f in files])
-    filename = path_dest + f'ex_{category_ID}_{diff_level}_{c+1}.mp4'
+    c = sum([".gif" in f for f in files])
+    filename = path_dest + f'ex_{category_ID}_{diff_level}_{c+1}.gif'
 
-    ani.save(filename=filename, writer = "ffmpeg", fps=fps)#, fps=fps, extra_args=["-loop","1"])
+    ani.save(filename=filename, writer = "imagemagick", fps=fps, extra_args=["-loop","1"])
+    optimize(filename)
     plt.close()
-    #optimize(filename)
 
 def write_noise_gif(S, shape_ID, diff_level, category_ID, path_dest, duration=4, fps=15):
     N_frames = int(np.ceil(duration * fps))

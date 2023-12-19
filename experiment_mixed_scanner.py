@@ -1,7 +1,7 @@
 from psychopy import core, visual, gui, data, event, hardware
 from psychopy.hardware import keyboard
 from psychopy.tools.filetools import fromFile, toFile
-from collections import deque====
+from collections import deque
 import numpy as np
 import pandas as pd
 import random

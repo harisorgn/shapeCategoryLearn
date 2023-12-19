@@ -15,7 +15,7 @@ N_stim = SC.shape[0]
 diffs = split_diff(SC, N_categories)
 cat_ranges = category_ranges(N_stim, N_categories)
 
-path_dest = f'./stimuli/pack_noise_shapes_{shape_set}/'
+path_dest = f'./stimuli/pack_noise_gif_shapes_{shape_set}/'
 
 name_mat = 'shape_set360'
 SHAPES = io.loadmat(path_src + 'shapes.mat')[name_mat]
