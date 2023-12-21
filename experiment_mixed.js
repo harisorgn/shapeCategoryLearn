@@ -17,7 +17,7 @@ var current_stimulus = 0;
 
 var timeline = []; 
 
-var pack_ID = "shapes_1"
+var pack_name = "shapes_1"
 var stim_path = "./stimuli/" ;
 
 if (IS_ONLINE){
@@ -65,12 +65,12 @@ for (let d of range(1, N_difficulty_levels)){
     const idx_cat_1_test = exemplar_range_per_difficulty.filter(x => !idx_cat_1_training.includes(x));
     const idx_cat_2_test = exemplar_range_per_difficulty.filter(x => !idx_cat_2_training.includes(x));
 
-    const stimuli_cat_1_training = exemplar_stimuli(idx_cat_1_training, stim_path, pack_ID, 1, d, 'train');
-    const stimuli_cat_2_training = exemplar_stimuli(idx_cat_2_training, stim_path, pack_ID, 2, d, 'train');
+    const stimuli_cat_1_training = exemplar_stimuli(idx_cat_1_training, stim_path, pack_name, 1, d, 'train');
+    const stimuli_cat_2_training = exemplar_stimuli(idx_cat_2_training, stim_path, pack_name, 2, d, 'train');
     stimuli_training.push(stimuli_cat_1_training.concat(stimuli_cat_2_training));
 
-    const stimuli_cat_1_test = exemplar_stimuli(idx_cat_1_test, stim_path, pack_ID, 1, d, 'test');
-    const stimuli_cat_2_test = exemplar_stimuli(idx_cat_2_test, stim_path, pack_ID, 2, d, 'test');
+    const stimuli_cat_1_test = exemplar_stimuli(idx_cat_1_test, stim_path, pack_name, 1, d, 'test');
+    const stimuli_cat_2_test = exemplar_stimuli(idx_cat_2_test, stim_path, pack_name, 2, d, 'test');
     stimuli_test.push(stimuli_cat_1_test.concat(stimuli_cat_2_test));
 }
 
