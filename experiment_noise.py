@@ -35,7 +35,8 @@ msg_welcome = visual.TextBox2(
     win, 
     pos=[0, 0], 
     text="Welcome to the Category Learning experiment! Press any key to continue.",
-    alignment='center'
+    alignment='center',
+    letterHeight = 0.03
 )
 
 msg_intro_1 = visual.TextBox2(
@@ -49,7 +50,8 @@ msg_intro_1 = visual.TextBox2(
         After you choose, the screen will show you whether you were correct or not. \n
         Press any key to continue.
         """,
-    alignment='center'
+    alignment='center',
+    letterHeight = 0.03
 )
 
 msg_intro_2 = visual.TextBox2(
@@ -61,7 +63,8 @@ msg_intro_2 = visual.TextBox2(
         You will lose $0.05 from your bonus payment for each incorrect answer! The bonus can not become less that $0. \n
         Press any key to continue.
         """,
-    alignment='center'
+    alignment='center',
+    letterHeight = 0.03
 )
 
 msg_intro_3 = visual.TextBox2(
@@ -72,14 +75,16 @@ msg_intro_3 = visual.TextBox2(
         You will be notified when practice finishes and the test begins. \n
         Press any key to begin the practice round.
         """,
-    alignment='center'
+    alignment='center',
+    letterHeight = 0.03
 )
 
 ITI = visual.TextBox2(
     win, 
     pos=[0, 0], 
     text="Please press any button to continue to the next trial.",
-    alignment='center'
+    alignment='center',
+    letterHeight = 0.03
 )
 
 feedback = visual.TextBox2(

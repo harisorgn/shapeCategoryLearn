@@ -52,7 +52,8 @@ msg_wait = visual.TextBox2(
     pos=[0, 0], 
     letterHeight = fontsize,
     text="Waiting for scanner...",
-    alignment='center'
+    alignment='center',
+    letterHeight = 0.03
 )
 
 msg_welcome = visual.TextBox2(
@@ -61,7 +62,8 @@ msg_welcome = visual.TextBox2(
     letterHeight = fontsize,
     pos=[0, 0], 
     text="Welcome to the Category Learning experiment! Press any key to continue.",
-    alignment='center'
+    alignment='center',
+    letterHeight = 0.03
 )
 
 msg_intro_1 = visual.TextBox2(
@@ -80,7 +82,8 @@ msg_intro_1 = visual.TextBox2(
         The bonus can not become less than $0.\n
         Press any key to continue.
         """,
-    alignment='center'
+    alignment='center',
+    letterHeight = 0.03
 )
 
 msg_intro_2 = visual.TextBox2(
@@ -88,7 +91,8 @@ msg_intro_2 = visual.TextBox2(
     pos=[0, 0], 
     letterHeight = fontsize,
     text=f'The first {N_training_trials} trials are a practice round that will not count towards your bonus payment.\nYou will be notified when practice finishes and the test begins.\nPress any key to begin the practice round.',
-    alignment='center'
+    alignment='center',
+    letterHeight = 0.03
 )
 
 ITI = visual.TextBox2(
@@ -96,7 +100,8 @@ ITI = visual.TextBox2(
     pos=[0, 0], 
     letterHeight = fontsize,
     text="Please press any button to continue to the next trial.",
-    alignment='center'
+    alignment='center',
+    letterHeight = 0.03
 )
 
 feedback = visual.TextBox2(
