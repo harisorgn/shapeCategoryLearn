@@ -83,67 +83,12 @@ def animate(frame, polygon):
 
     return polygon
 
-def write_shape_gif(S, shape_ID, prototype_ID, diff_level, category_ID, path_dest, duration=4, fps=15):
-    N_frames = int(np.ceil(duration * fps))
-
-    if np.abs(shape_ID - prototype_ID) >= N_frames :
-        sgn = np.sign(prototype_ID - shape_ID)
-
-        shapes = np.array([get_shape(S, i) for i in range(shape_ID, prototype_ID + sgn, sgn)])
-        idxs = np.round(np.linspace(0, shapes.shape[0] - 1, N_frames, dtype='int'))
-        frames = shapes[idxs]
-    else :
-        sgn = np.sign(prototype_ID - shape_ID)
-        shapes = [get_shape(S, i) for i in range(shape_ID, prototype_ID + sgn, sgn)]
-
-        N_interpolated = N_frames - len(shapes)
-        N_intervals = len(shapes) - 1
-        N_interpolated_per_interval = int(np.ceil(N_interpolated / N_intervals))
-       
-        N_remaining = N_interpolated
-        frames = []
-        for i in range(N_intervals) :
-            shape = shapes[i]
-            next_shape = shapes[i + 1]
-
-            weights = np.linspace(0, 1, num = min(N_interpolated_per_interval, N_remaining) + 2)
-            weights = weights[1:-1]
-            frames.append(shape)
-            for w in weights : 
-                interp_shape = (1-w)*shape + w*next_shape
-                frames.append(interp_shape)
-                N_remaining -= 1
-        frames.append(shapes[-1])
-    
-    fig, ax = plt.subplots(figsize=(8,8))
-    fig.subplots_adjust(left=0, bottom=0, right=1, top=1, wspace=None, hspace=None)
-    ax.set_facecolor('black')
-
-    p = Polygon(frames[0], color='white')
-    ax.add_patch(p)
-
-    ani = animation.FuncAnimation(
-        fig=fig, 
-        func=functools.partial(animate, polygon=p), 
-        frames=frames, 
-        interval=1/fps,
-        repeat=False
-    )
-
-    os.makedirs(path_dest, exist_ok=True)
-    files = os.listdir(path_dest)
-    c = sum([".gif" in f for f in files])
-    filename = path_dest + f'ex_{category_ID}_{diff_level}_{c+1}.gif'
-
-    ani.save(filename=filename, writer = "imagemagick", fps=fps, extra_args=["-loop","1"])
-    optimize(filename)
-
 def animate_noise(frame, noise):
     noise.set_array(frame)
 
     return noise
 
-def write_noise_shape_gif(S, shape_ID, diff_level, category_ID, path_dest, duration=4, fps=15):
+def write_noise_movie(S, shape_ID, diff_level, category_ID, path_dest, format='mp4', duration=4, fps=15):
     N_frames = int(np.ceil(duration * fps))
     
     sz = (8,8)
@@ -185,60 +130,16 @@ def write_noise_shape_gif(S, shape_ID, diff_level, category_ID, path_dest, durat
 
     os.makedirs(path_dest, exist_ok=True)
     files = os.listdir(path_dest)
-    c = sum([".gif" in f for f in files])
-    filename = path_dest + f'ex_{category_ID}_{diff_level}_{c+1}.gif'
+    c = sum([f'.{format}' in f for f in files])
+    filename = path_dest + f'ex_{category_ID}_{diff_level}_{c+1}.' + format
 
-    ani.save(filename=filename, writer = "imagemagick", fps=fps, extra_args=["-loop","1"])
-    optimize(filename)
-    plt.close()
-
-def write_noise_gif(S, shape_ID, diff_level, category_ID, path_dest, duration=4, fps=15):
-    N_frames = int(np.ceil(duration * fps))
-    
-    sz = (8,8)
-    fig, ax = plt.subplots(figsize=sz)
-    fig.subplots_adjust(left=0, bottom=0, right=1, top=1, wspace=None, hspace=None)
-    ax.set_facecolor('black')
-
-    shape = get_shape(S, shape_ID)
-    p = Polygon(shape, color='white', zorder=0)
-    ax.add_patch(p)
-
-    row, col = sz[0]*100, sz[1]*100
-    mean = 0
-    var = 0.1
-    sigma = var**0.5
-    gauss = np.random.normal(mean,sigma,(row,col))
-    gauss = gauss.reshape(row,col)  
-    
-    frames = np.zeros((row, col) + (N_frames,))
-    thrs = np.linspace(-3*sigma, 0.5*sigma, N_frames)
-
-    for (i,t) in enumerate(thrs) :
-        D = np.copy(gauss)
-        D[D < t] = np.nan
-        frames[:,:,i] = D
-
-    transp_cmp = copy.copy(plt.cm.get_cmap('gray')) 
-    transp_cmp.set_bad(alpha=0)
-
-    im = ax.imshow(frames[:,:,0], extent=(0,1,0,1), cmap=transp_cmp, zorder=10)
-
-    ani = animation.FuncAnimation(
-        fig=fig, 
-        func=functools.partial(animate_noise, noise=im), 
-        frames=frames, 
-        interval=1/fps,
-        repeat=False
-    )
-
-    os.makedirs(path_dest, exist_ok=True)
-    files = os.listdir(path_dest)
-    c = sum([".gif" in f for f in files])
-    filename = path_dest + f'ex_{category_ID}_{diff_level}_{c+1}.gif'
-
-    ani.save(filename=filename, writer = "imagemagick", fps=fps, extra_args=["-loop","1"])
-    optimize(filename)
+    if format == 'gif' :
+        ani.save(filename=filename, writer = "imagemagick", fps=fps, extra_args=["-loop","1"])
+        optimize(filename)
+        plt.close()
+    else:
+        ani.save(filename=filename, writer = "ffmpeg", fps=fps, extra_args=["-quality", "100"])
+        plt.close()
 
 def plot_shape(shape):
     sz = (8,8)

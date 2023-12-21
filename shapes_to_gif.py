@@ -4,7 +4,7 @@ import scipy.io as io
 
 from utils import *
 
-shape_set = 3
+shape_set = 2
 path_src = f'./shapes_{shape_set}/'
 SC = np.loadtxt(path_src + 'SC.txt', dtype='f', delimiter=',')
 D = distance_matrix(SC, SC)
@@ -28,4 +28,4 @@ for i, r in enumerate(cat_ranges):
 
         dir_dest = path_dest + f'cat_{category_ID}/' + f'diff_{diff_level}/'
         
-        write_noise_shape_gif(SHAPES, shape_ID, diff_level, category_ID, dir_dest, fps=15, duration=5.5)
+        write_noise_movie(SHAPES, shape_ID, diff_level, category_ID, dir_dest, format='gif', fps=15, duration=5.5)
