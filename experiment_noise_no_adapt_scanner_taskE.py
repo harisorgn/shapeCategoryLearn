@@ -19,7 +19,7 @@ def set_positive_feedback(feedback, gain=None):
         correct_fdbk = f'Correct category!'
         feedback.setText(correct_fdbk)
     else:
-        correct_fdbk = f'Correct category! + ${gain}'
+        correct_fdbk = f'Correct category! +${gain}'
         feedback.setText(correct_fdbk)
 
 def set_negative_feedback(feedback, loss=None):
@@ -27,7 +27,7 @@ def set_negative_feedback(feedback, loss=None):
         wrong_fdbk = "Wrong category!"
         feedback.setText(wrong_fdbk)
     else:
-        wrong_fdbk = f'Wrong category! - ${abs(loss)}'
+        wrong_fdbk = f'Wrong category! -${abs(loss)}'
         feedback.setText(wrong_fdbk)
 
 def set_timeout_feedback(feedback, loss=None):
@@ -35,7 +35,7 @@ def set_timeout_feedback(feedback, loss=None):
         timeout_fdbk = f'Too slow!'
         feedback.setText(timeout_fdbk)
     else:
-        timeout_fdbk = f'Time out! - ${abs(loss)} \n Please try to respond as quickly as possible.'
+        timeout_fdbk = f'Too slow! -${abs(loss)} \n Please try to respond as quickly as possible.'
         feedback.setText(timeout_fdbk)
 
 def check_threshold(trials, N_thrs, acc_thrs):
@@ -130,8 +130,8 @@ def run_test(
         timer
 ):
     idx_trial = 0
-    N_before_thrs = 2
-    N_thrs = 3
+    N_before_thrs = 30
+    N_thrs = 10
     acc_thrs = 0.75
 
     epi_clock = core.Clock() 
@@ -168,15 +168,15 @@ def run_test(
                 rt = keys[-1].rt
                 
                 if response in trial['correct_response']:
-                    trial_bonus = np.round(RT_to_reward(rt) + score['bonus'], 3)
+                    trial_bonus = np.round(RT_to_reward(rt), 3)
                     set_positive_feedback(feedback, gain=trial_bonus)
 
                     correct = 1
                     T_feedback = T_correct_fbdk
                 else:
                     T_feedback = T_incorrect_fdbk
-                    if score['current_score'] >= abs(incorrect_penalty) :
-                        trial_bonus = incorrect_penalty
+                    if score['current_score'] >= abs(score['incorrect_penalty']) :
+                        trial_bonus = score['incorrect_penalty']
                         set_negative_feedback(feedback, loss=trial_bonus)
                     else:
                         set_negative_feedback(feedback)
@@ -184,8 +184,8 @@ def run_test(
 
         if is_omission:
             T_feedback = T_incorrect_fdbk
-            if score['current_score'] >= incorrect_penalty :
-                trial_bonus = incorrect_penalty
+            if score['current_score'] >= abs(score['incorrect_penalty']) :
+                trial_bonus = score['incorrect_penalty']
                 set_timeout_feedback(feedback, loss=trial_bonus)
             else :
                 set_timeout_feedback(feedback)
@@ -216,22 +216,13 @@ def run_test(
         feedback_time = epi_clock.getTime()
         exp.addData('feedback_presentation_time', feedback_time)
         core.wait(T_feedback)
-        
-        """
-        if (not score['done_1']) and (score['timer_1'].getTime() <= 0) :
-            score['done_1'] = True
-            score['bonus'] += 0.05
-        elif (not score['done_2']) and (score['timer_2'].getTime() <= 0) :
-            score['done_2'] = True
-            score['bonus'] += 0.05
-        """
 
         ITI.draw()
         score['text'].draw()
         win.flip()
         ITI_time = epi_clock.getTime()
         exp.addData('ITI_presentation_time', ITI_time)
-        keys = kb.waitKeys(keyList=keylist,waitRelease=True)
+        keys = kb.waitKeys(keyList=['left','right','up','down'],waitRelease=True)
         exp.addData('ITI_response_time', keys[-1].rt)
         exp.nextEntry()
 
@@ -242,14 +233,11 @@ def run_test(
 
 fontsize = 0.03
 keylist = ['left','right','up','down']
-T_experiment = 2 # minutes
+T_experiment = 11 # minutes
 T_feedback = 1 # seconds
 T_correct_fbdk = 1.5 # seconds
 T_incorrect_fdbk = 5 # seconds
-T_bonus_1 = 3 # minutes
-T_bonus_2 = 6 # minutes
 
-incorrect_penalty = -1 # USD
 IS_DEBUG_MODE = False
 
 N_categories = 2
@@ -343,11 +331,7 @@ debug_msg = visual.TextBox2(win, pos=[0.0, -0.1], text="", alignment='center')
 
 score = {
     'current_score' : 0.0,
-    'bonus' : 0.0,
-    'timer_1' : core.CountdownTimer(T_bonus_1 * 60),
-    'timer_2' : core.CountdownTimer(T_bonus_2 * 60),
-    'done_1' : False,
-    'done_2' : False,
+    'incorrect_penalty' : -1, # USD
     'text' : visual.TextBox2(
                             win, 
                             pos=[0, 0.4], 
