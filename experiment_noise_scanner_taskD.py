@@ -231,7 +231,6 @@ for trial in trial_handler:
         stim.draw()
         score.draw()
         win.flip()
-        #keys = kb.getKeys(keyList=['1','2','3','4','5','6','7','8','9','0'])
         keys = kb.getKeys(keyList=['left', 'right'])
 
         if keys :
@@ -336,7 +335,6 @@ while timer.getTime() > 0 :
         stim_time = epi_clock.getTime()
         exp.addData('stimulus_ID', trial['stimulus_ID'])
         exp.addData('stim presentation time', stim_time)
-        #keys = kb.getKeys(keyList=['1','2','3','4','5','6','7','8','9','0'])
         keys = kb.getKeys(keyList=['left', 'right'])
     
         if keys :
