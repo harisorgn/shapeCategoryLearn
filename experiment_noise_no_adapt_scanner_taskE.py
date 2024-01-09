@@ -243,7 +243,7 @@ IS_DEBUG_MODE = False
 N_categories = 2
 N_difficulty_levels = 5
 N_trials_per_difficulty = 5
-N_training_trials = 2
+N_training_trials = 10
 N_shape_sets = 3
 P_difficulty_training = [0.2, 0.2, 0.2, 0.2, 0.2]
 
