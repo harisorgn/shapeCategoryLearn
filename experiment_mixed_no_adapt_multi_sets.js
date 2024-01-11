@@ -5,7 +5,7 @@ const T_exp = time_experiment * 60 * 1000; // ms
 const N_training_trials = 10;
 
 const thrs_accuracy = 0.75;
-const difficulty_levels = [3, 4];
+const difficulty_levels = [1, 2, 3, 4, 5];
 const P_difficulty_training = [0.6, 0.4];
 const N_exemplars_per_difficulty = 17;
 const N_trials_per_difficulty = 5;
@@ -19,12 +19,12 @@ var trial_bonus = 0;
 var is_time_out = false;
 var score = 0;
 
-var current_difficulty = 1;
+var current_set = 1;
 var current_stimulus = 0;
 
 var timeline = []; 
 
-var pack_name = "pack_shapes_1"
+var set_name = "shapes_1"
 var stim_path = "./stimuli/" ;
 const stimulus_format = "png";
 

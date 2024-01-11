@@ -4,7 +4,7 @@ import scipy.io as io
 
 from utils import *
 
-shape_set = 2
+shape_set = 4
 path_src = f'./shapes_{shape_set}/'
 SC = np.loadtxt(path_src + 'SC.txt', dtype='f', delimiter=',')
 D = distance_matrix(SC, SC)

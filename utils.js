@@ -112,8 +112,8 @@ function rand_in_range(minVal,maxVal)
   return Math.round(randVal);
 }
 
-function sample_stimulus(stimuli, difficulty){
-    const stims = stimuli[difficulty-1];
+function sample_stimulus(stimuli, ID){
+    const stims = stimuli[ID-1];
     return jsPsych.randomization.sampleWithoutReplacement(stims, 1)[0];
 }
 
