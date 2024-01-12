@@ -1,30 +1,30 @@
 const IS_DEBUG = false
 const IS_ONLINE = true
 const time_experiment = 10; // minutes
-const T_exp = time_experiment * 60 * 1000; // ms 
-const N_training_trials = 10;
+const T_exp = time_experiment * 60 * 1000; // ms  
 
-const thrs_accuracy = 0.75;
 const difficulty_levels = [1, 2, 3, 4, 5];
-const P_difficulty_training = [0.6, 0.4];
+const P_difficulty_training = [0.2, 0.2, 0.2, 0.2, 0.2];
 const N_exemplars_per_difficulty = 17;
-const N_trials_per_difficulty = 5;
 const exemplar_range_per_difficulty = range(1, N_exemplars_per_difficulty)
 
 const correct_bonus = 0.05;
 const incorrect_penalty = -0.05;
 
+const N_training_trials = 10;
+const N_before_thrs = 30;
+const N_thrs = 10;
+const thrs_accuracy = 0.75;
+const stim_sets = [1, 2, 3, 5];
+
 var trial_bonus = 0;
-
-var is_time_out = false;
+var is_finished_all_sets = false;
 var score = 0;
-
-var current_set = 1;
+var current_set_idx = 0;
 var current_stimulus = 0;
 
 var timeline = []; 
 
-var set_name = "shapes_1"
 var stim_path = "./stimuli/" ;
 const stimulus_format = "png";
 
@@ -64,22 +64,44 @@ setTimeout(
 
 var stimuli_training = [];
 var stimuli_test = [];
+var set_stimuli_training = [];
+var set_stimuli_test = [];
+var s = stim_sets[current_set_idx];
+var set_name = `shapes_${s}`
 var c = 0;
+
 for (let d of difficulty_levels){
     const idx_cat_1_training = jsPsych.randomization.sampleWithoutReplacement(exemplar_range_per_difficulty, Math.floor(P_difficulty_training[c]*(N_training_trials/2)));
     const idx_cat_2_training = jsPsych.randomization.sampleWithoutReplacement(exemplar_range_per_difficulty, Math.floor(P_difficulty_training[c]*(N_training_trials/2)));
     const idx_cat_1_test = exemplar_range_per_difficulty.filter(x => !idx_cat_1_training.includes(x));
     const idx_cat_2_test = exemplar_range_per_difficulty.filter(x => !idx_cat_2_training.includes(x));
 
-    const stimuli_cat_1_training = exemplar_stimuli(idx_cat_1_training, stim_path, pack_name, 1, d, 'train', stimulus_format);
-    const stimuli_cat_2_training = exemplar_stimuli(idx_cat_2_training, stim_path, pack_name, 2, d, 'train', stimulus_format);
-    stimuli_training.push(stimuli_cat_1_training.concat(stimuli_cat_2_training));
+    const stimuli_cat_1_training = exemplar_stimuli(idx_cat_1_training, stim_path, set_name, 1, d, s, 'train', stimulus_format);
+    const stimuli_cat_2_training = exemplar_stimuli(idx_cat_2_training, stim_path, set_name, 2, d, s, 'train', stimulus_format);
+    set_stimuli_training.push(stimuli_cat_1_training.concat(stimuli_cat_2_training));
 
-    const stimuli_cat_1_test = exemplar_stimuli(idx_cat_1_test, stim_path, pack_name, 1, d, 'test', stimulus_format);
-    const stimuli_cat_2_test = exemplar_stimuli(idx_cat_2_test, stim_path, pack_name, 2, d, 'test', stimulus_format);
-    stimuli_test.push(stimuli_cat_1_test.concat(stimuli_cat_2_test));
+    const stimuli_cat_1_test = exemplar_stimuli(idx_cat_1_test, stim_path, set_name, 1, d, s, 'test', stimulus_format);
+    const stimuli_cat_2_test = exemplar_stimuli(idx_cat_2_test, stim_path, set_name, 2, d, s, 'test', stimulus_format);
+    set_stimuli_test.push(stimuli_cat_1_test.concat(stimuli_cat_2_test));
 
     c += 1;
+}
+stimuli_training.push(set_stimuli_training.flat());
+stimuli_test.push(set_stimuli_test.flat());
+
+for (let s of stim_sets.slice(1)){
+    var set_stimuli_training = [];
+    var set_stimuli_test = [];
+    var set_name = `shapes_${s}`
+
+    for (let d of difficulty_levels){
+        const stimuli_cat_1_test = exemplar_stimuli(exemplar_range_per_difficulty, stim_path, set_name, 1, d, s, 'test', stimulus_format);
+        const stimuli_cat_2_test = exemplar_stimuli(exemplar_range_per_difficulty, stim_path, set_name, 2, d, s, 'test', stimulus_format);
+        set_stimuli_test.push(stimuli_cat_1_test.concat(stimuli_cat_2_test));
+
+        c += 1;
+    }
+    stimuli_test.push(set_stimuli_test.flat());
 }
 
 var preload = {
@@ -127,18 +149,49 @@ timeline.push(intro_2)
 var ITI = {
     type: jsPsychHtmlKeyboardResponse,
     stimulus: function (){
+        const responses = jsPsych.data.get().filter({task: 'response', phase: 'test', set: stim_sets[current_set_idx]}).last(N_before_thrs + N_thrs).values();
+        const N = responses.length;
+
+        if (N == (N_before_thrs + N_thrs)){
+            const responses_thrs = responses.slice(-N_thrs);
+            const N_corrects = responses_thrs.reduce((acc, x) => acc + x.correct, 0);
+            const accuracy = N_corrects / N_thrs;
+
+            if (accuracy >= thrs_accuracy){
+                current_set_idx += 1;
+                if (current_set_idx > (stim_sets.length-1)){
+                    is_finished_all_sets = true;
+                }
+            }
+        }
         return `
             ${wrap_score_in_html(score)}
             <div> Please press any key to continue to the next image.</div>
         `
     },
-    data: {task: 'ITI'}
+    data: {task: 'ITI'},
+    on_finish: function(data){
+        if(is_finished_all_sets){
+            jsPsych.endExperiment(`<p> The experiment has concluded. <br> Thank you for participating! <br> <font color="green"> You have won a $${score} bonus! </font></p>`);
+        }
+      }
 };
 
-var stim = {
+var stim_train = {
     type: jsPsychHtmlKeyboardResponse,
     stimulus: function (){
         return wrap_stim_in_html(jsPsych.timelineVariable('stimulus'), score)
+    },
+    choices: "NO_KEYS",
+    trial_duration: 600,
+    data: {task : 'stimulus'}
+};
+
+var stim_test = {
+    type: jsPsychHtmlKeyboardResponse,
+    stimulus: function (){
+        current_stimulus = sample_stimulus(stimuli_test, current_set_idx);
+        return wrap_stim_in_html(current_stimulus.stimulus, score)
     },
     choices: "NO_KEYS",
     trial_duration: 600,
@@ -154,11 +207,11 @@ var blank = {
     trial_duration: 1000,
 };
 
-var choices = {
+var choices_train = {
     type: jsPsychHtmlKeyboardResponse,
     stimulus: function (){
         return IS_DEBUG ? 
-        wrap_choices_debug_in_html(jsPsych.timelineVariable('category'), jsPsych.timelineVariable('exemplar_ID'), jsPsych.timelineVariable('difficulty'), score) :
+        wrap_choices_debug_in_html(jsPsych.timelineVariable('category'), jsPsych.timelineVariable('exemplar_ID'), jsPsych.timelineVariable('set'), score) :
         wrap_choices_in_html(score)
     },
     choices: ['ArrowLeft', 'ArrowRight'],
@@ -170,7 +223,34 @@ var choices = {
             exemplar_ID: jsPsych.timelineVariable('exemplar_ID'),
             category: jsPsych.timelineVariable('category'),
             difficulty: jsPsych.timelineVariable('difficulty'),
+            set: jsPsych.timelineVariable('set'),
             phase: jsPsych.timelineVariable('phase')
+        }
+    },
+    trial_duration: 4000,
+    on_finish: function(data){
+        data.correct = jsPsych.pluginAPI.compareKeys(data.response, data.correct_response);
+    }
+};
+
+var choices_test = {
+    type: jsPsychHtmlKeyboardResponse,
+    stimulus: function (){
+        return IS_DEBUG ? 
+        wrap_choices_debug_in_html(current_stimulus.category, current_stimulus.exemplar_ID, current_stimulus.set, score) :
+        wrap_choices_in_html(score)
+    },
+    choices: ['ArrowLeft', 'ArrowRight'],
+    data: function(){
+        return {
+            task: 'response',
+            stimulus: current_stimulus.stimulus,
+            correct_response: current_stimulus.correct_response,
+            exemplar_ID: current_stimulus.exemplar_ID,
+            category: current_stimulus.category,
+            difficulty: current_stimulus.difficulty,
+            set: current_stimulus.set,
+            phase: current_stimulus.phase
         }
     },
     trial_duration: 4000,
@@ -181,7 +261,14 @@ var choices = {
 
 var feedback_test = {
     type: jsPsychHtmlKeyboardResponse,
-    trial_duration: 1500,
+    trial_duration: function(){
+        const last_trial = jsPsych.data.get().filter({task: 'response'}).last(1).values()[0];
+        if(last_trial.correct){
+            return 1500
+        }else{
+            return 5000
+        }
+    },
     stimulus: function(){
         const last_trial = jsPsych.data.get().filter({task: 'response'}).last(1).values()[0];
         const is_score_zero = !(score >= Math.abs(incorrect_penalty));
@@ -222,7 +309,14 @@ var feedback_test = {
 
 var feedback_train = {
     type: jsPsychHtmlKeyboardResponse,
-    trial_duration: 1500,
+    trial_duration: function(){
+        const last_trial = jsPsych.data.get().filter({task: 'response'}).last(1).values()[0];
+        if(last_trial.correct){
+            return 1500
+        }else{
+            return 5000
+        }
+    },
     stimulus: function(){
         const last_trial = jsPsych.data.get().filter({task: 'response'}).last(1).values()[0];
         if (last_trial.response) {
@@ -242,7 +336,7 @@ var feedback_train = {
 };
 
 var trials_training = {
-    timeline : [ITI, stim, blank, choices, feedback_train],
+    timeline : [stim_train, blank, choices_train, feedback_train, ITI],
     timeline_variables : stimuli_training.flat(),
     randomize_order : true
 };
@@ -261,11 +355,9 @@ var intermission = {
 timeline.push(intermission)
 
 var trials = {
-    timeline : [ITI, stim, blank, choices, feedback_test],
-    timeline_variables : stimuli_test.flat(),
-    randomize_order : true,
+    timeline : [stim_test, blank, choices_test, feedback_test, ITI],
     loop_function: function(data){
-        return true;
+        return is_finished_all_sets ? false : true
     }
 };
 timeline.push(trials)
