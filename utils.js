@@ -1,10 +1,10 @@
-function wrap_choices_debug_in_html(category, exemplar, difficulty, score){
+function wrap_choices_debug_in_html(category, exemplar, set, score){
     txt = `
         ${wrap_score_in_html(score)}
         <div class="left_choice">A</div>
         <div class="right_choice">B</div>
         <p>
-            cat: ${category} <br> ex: ${exemplar} <br> diff: ${difficulty}
+            cat: ${category} <br> ex: ${exemplar} <br> set: ${set}
         </p>
     `;
     return txt
@@ -88,21 +88,22 @@ function range(start, end) {
     return Array.from(range_iter(start, end))
 }
 
-function exemplar_stimulus(idx, stim_path, pack_name, category, difficulty, phase, format){
+function exemplar_stimulus(idx, stim_path, pack_name, category, difficulty, set, phase, format){
     return {
         stimulus: `${stim_path}/${pack_name}/cat_${category}/diff_${difficulty}/ex_${category}_${difficulty}_${idx}.${format}`, 
         correct_response: (category == 1) ? `ArrowLeft` : `ArrowRight`,
         exemplar_ID: idx,
         category: category,
         difficulty: difficulty,
+        set: set,
         phase: phase
     };
 }
 
-function exemplar_stimuli(indices, stim_path, pack_name, category, difficulty, phase, format){
+function exemplar_stimuli(indices, stim_path, pack_name, category, difficulty, set, phase, format){
     return Array.from(
         indices, 
-        (idx) => (exemplar_stimulus(idx, stim_path, pack_name, category, difficulty, phase, format))
+        (idx) => (exemplar_stimulus(idx, stim_path, pack_name, category, difficulty, set, phase, format))
     );
 }
 
@@ -112,8 +113,8 @@ function rand_in_range(minVal,maxVal)
   return Math.round(randVal);
 }
 
-function sample_stimulus(stimuli, ID){
-    const stims = stimuli[ID-1];
+function sample_stimulus(stimuli, idx){
+    const stims = stimuli[idx];
     return jsPsych.randomization.sampleWithoutReplacement(stims, 1)[0];
 }
 
